@@ -1,0 +1,40 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/IowaStatewideFiberMap.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/PERS/PERS-1', dump_bdd=False)
+Running 5IowaStatewideFiberMap.gml
+Policy: (((((((((((((((((((((((WP(131-191) | WP(12-191)) | WP(147-191)) | WP(148-191)) | WP(26-191)) | WP(159-191)) | WP(32-191)) | WP(164-191)) | WP(43-191)) | WP(48-191)) | WP(177-191)) | WP(180-191)) | WP(61-191)) | WP(191-191)) | WP(65-191)) | WP(197-191)) | WP(75-191)) | WP(81-191)) | WP(95-191)) | WP(98-191)) | WP(110-191)) | WP(114-191)) | WP(117-191)) & (Reach 191))
+Initial path of nodes: [15, 16, 18, 30, 31, 32, 7, 9, 10, 26, 48, 49, 51, 63, 64, 65, 40, 42, 43, 59, 81, 82, 84, 96, 97, 98, 73, 75, 76, 92, 114, 115, 117, 129, 130, 131, 106, 108, 109, 125, 147, 148, 150, 162, 163, 164, 139, 141, 142, 158, 180, 181, 183, 195, 196, 197, 172, 174, 175, 191]
+Final path of nodes: [15, 16, 18, 29, 28, 12, 27, 11, 9, 10, 26, 48, 49, 51, 62, 61, 45, 60, 44, 42, 43, 59, 81, 82, 84, 95, 94, 78, 93, 77, 75, 76, 92, 114, 115, 117, 128, 127, 111, 126, 110, 108, 109, 125, 147, 148, 150, 161, 160, 144, 159, 143, 141, 142, 158, 180, 181, 183, 194, 193, 177, 192, 176, 174, 175, 191]
+Persimmon problem:  {"Initial_routing":[[15, 16], [16, 18], [18, 30], [30, 31], [31, 32], [32, 7], [7, 9], [9, 10], [10, 26], [26, 48], [48, 49], [49, 51], [51, 63], [63, 64], [64, 65], [65, 40], [40, 42], [42, 43], [43, 59], [59, 81], [81, 82], [82, 84], [84, 96], [96, 97], [97, 98], [98, 73], [73, 75], [75, 76], [76, 92], [92, 114], [114, 115], [115, 117], [117, 129], [129, 130], [130, 131], [131, 106], [106, 108], [108, 109], [109, 125], [125, 147], [147, 148], [148, 150], [150, 162], [162, 163], [163, 164], [164, 139], [139, 141], [141, 142], [142, 158], [158, 180], [180, 181], [181, 183], [183, 195], [195, 196], [196, 197], [197, 172], [172, 174], [174, 175], [175, 191]],"Final_routing":[[15, 16], [16, 18], [18, 29], [29, 28], [28, 12], [12, 27], [27, 11], [11, 9], [9, 10], [10, 26], [26, 48], [48, 49], [49, 51], [51, 62], [62, 61], [61, 45], [45, 60], [60, 44], [44, 42], [42, 43], [43, 59], [59, 81], [81, 82], [82, 84], [84, 95], [95, 94], [94, 78], [78, 93], [93, 77], [77, 75], [75, 76], [76, 92], [92, 114], [114, 115], [115, 117], [117, 128], [128, 127], [127, 111], [111, 126], [126, 110], [110, 108], [108, 109], [109, 125], [125, 147], [147, 148], [148, 150], [150, 161], [161, 160], [160, 144], [144, 159], [159, 143], [143, 141], [141, 142], [142, 158], [158, 180], [180, 181], [181, 183], [183, 194], [194, 193], [193, 177], [177, 192], [192, 176], [176, 174], [174, 175], [175, 191]],"Properties":{"MultiAlternativeWaypoint": {"waypoint": [131,12,147,148,26,159,32,164,43,48,177,180,61,191,65,197,75,81,95,98,110,114,117]},"Reachability":{"startNode":15,"finalNode":191}}}
+Persimmon stdout:  Chain equivalence reduction: 90 -> 60
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+<=== Starting iteration 2 ===>
+Solution: Some([[62, 159, 12, 161, 160, 144, 27, 11, 29, 28, 128, 127, 111, 126, 177, 194, 193, 110, 94, 78, 93, 77, 45, 60, 44, 192, 176, 143, 61, 95], [150, 51, 84, 183, 18, 117], [164, 7, 98, 129, 130, 106, 32, 172, 73, 63, 64, 40, 65, 162, 163, 197, 139, 30, 31, 96, 97, 195, 196, 131]])
+Time elapsed: 4.48ms
+Time elapsed(s): 0.004480s
+
+Persimmon stderr:  
+Time: 0.00448
+Solution: [[62, 159, 12, 161, 160, 144, 27, 11, 29, 28, 128, 127, 111, 126, 177, 194, 193, 110, 94, 78, 93, 77, 45, 60, 44, 192, 176, 143, 61, 95], [150, 51, 84, 183, 18, 117], [164, 7, 98, 129, 130, 106, 32, 172, 73, 63, 64, 40, 65, 162, 163, 197, 139, 30, 31, 96, 97, 195, 196, 131]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/IowaStatewideFiberMap.gml 5 --dir topzoo_res/SeparateWPk/PERS/PERS-1 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 0.78
+	System time (seconds): 1.24
+	Percent of CPU this job got: 479%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71740
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13269
+	Voluntary context switches: 32
+	Involuntary context switches: 86
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

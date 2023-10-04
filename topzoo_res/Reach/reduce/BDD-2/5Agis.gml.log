@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Agis.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/reduce/BDD-2', dump_bdd=False)
+Running 5Agis.gml
+Policy: (Reach 143)
+Initial path of nodes: [16, 15, 3, 6, 7, 19, 17, 18, 41, 40, 28, 31, 32, 44, 42, 43, 66, 65, 53, 56, 57, 69, 67, 68, 91, 90, 78, 81, 82, 94, 92, 93, 116, 115, 103, 106, 107, 119, 117, 118, 141, 140, 128, 131, 132, 144, 142, 143]
+Final path of nodes: [16, 15, 23, 22, 21, 19, 17, 18, 41, 40, 48, 47, 46, 44, 42, 43, 66, 65, 73, 72, 71, 69, 67, 68, 91, 90, 98, 97, 96, 94, 92, 93, 116, 115, 123, 122, 121, 119, 117, 118, 141, 140, 148, 147, 146, 144, 142, 143]
+Time: 0.00646209716796875
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Agis.gml 5 --dir topzoo_res/Reach/reduce/BDD-2 --e-prop Reach --repeat 1 --reduce"
+	User time (seconds): 0.71
+	System time (seconds): 1.32
+	Percent of CPU this job got: 475%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 88524
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14075
+	Voluntary context switches: 24
+	Involuntary context switches: 26
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,47 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Gambia.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/kaki/kaki-2', dump_bdd=False)
+Running 5Gambia.gml
+Policy: ((((((((((((((((((((((WP(3-159) | WP(133-159)) | WP(143-159)) | WP(19-159)) | WP(25-159)) | WP(154-159)) | WP(159-159)) | WP(165-159)) | WP(43-159)) | WP(46-159)) | WP(49-159)) | WP(54-159)) | WP(72-159)) | WP(74-159)) | WP(76-159)) | WP(82-159)) | WP(100-159)) | WP(103-159)) | WP(104-159)) | WP(111-159)) | WP(114-159)) | WP(127-159)) & (Reach 159))
+Initial path of nodes: [14, 15, 16, 20, 21, 25, 26, 18, 19, 42, 43, 44, 48, 49, 53, 54, 46, 47, 70, 71, 72, 76, 77, 81, 82, 74, 75, 98, 99, 100, 104, 105, 109, 110, 102, 103, 126, 127, 128, 132, 133, 137, 138, 130, 131, 154, 155, 156, 160, 161, 165, 166, 158, 159]
+Final path of nodes: [14, 15, 16, 20, 21, 3, 2, 27, 26, 18, 19, 42, 43, 44, 48, 49, 31, 30, 55, 54, 46, 47, 70, 71, 72, 76, 77, 59, 58, 83, 82, 74, 75, 98, 99, 100, 104, 105, 87, 86, 111, 110, 102, 103, 126, 127, 128, 132, 133, 115, 114, 139, 138, 130, 131, 154, 155, 156, 160, 161, 143, 142, 167, 166, 158, 159]
+{"Initial_routing":[[14, 15], [15, 16], [16, 20], [20, 21], [21, 25], [25, 26], [26, 18], [18, 19], [19, 42], [42, 43], [43, 44], [44, 48], [48, 49], [49, 53], [53, 54], [54, 46], [46, 47], [47, 70], [70, 71], [71, 72], [72, 76], [76, 77], [77, 81], [81, 82], [82, 74], [74, 75], [75, 98], [98, 99], [99, 100], [100, 104], [104, 105], [105, 109], [109, 110], [110, 102], [102, 103], [103, 126], [126, 127], [127, 128], [128, 132], [132, 133], [133, 137], [137, 138], [138, 130], [130, 131], [131, 154], [154, 155], [155, 156], [156, 160], [160, 161], [161, 165], [165, 166], [166, 158], [158, 159]],"Final_routing":[[14, 15], [15, 16], [16, 20], [20, 21], [21, 3], [3, 2], [2, 27], [27, 26], [26, 18], [18, 19], [19, 42], [42, 43], [43, 44], [44, 48], [48, 49], [49, 31], [31, 30], [30, 55], [55, 54], [54, 46], [46, 47], [47, 70], [70, 71], [71, 72], [72, 76], [76, 77], [77, 59], [59, 58], [58, 83], [83, 82], [82, 74], [74, 75], [75, 98], [98, 99], [99, 100], [100, 104], [104, 105], [105, 87], [87, 86], [86, 111], [111, 110], [110, 102], [102, 103], [103, 126], [126, 127], [127, 128], [128, 132], [132, 133], [133, 115], [115, 114], [114, 139], [139, 138], [138, 130], [130, 131], [131, 154], [154, 155], [155, 156], [156, 160], [160, 161], [161, 143], [143, 142], [142, 167], [167, 166], [166, 158], [158, 159]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [127,114,111,104,103,100,82,76,74,72,54,49,46,43,165,159,154,25,19,143,3,133], "edges": [{"from": 0, "to": 127, "label": 127},{"from": 0, "to": 114, "label": 114},{"from": 0, "to": 111, "label": 111},{"from": 0, "to": 104, "label": 104},{"from": 0, "to": 103, "label": 103},{"from": 0, "to": 100, "label": 100},{"from": 0, "to": 82, "label": 82},{"from": 0, "to": 76, "label": 76},{"from": 0, "to": 74, "label": 74},{"from": 0, "to": 72, "label": 72},{"from": 0, "to": 54, "label": 54},{"from": 0, "to": 49, "label": 49},{"from": 0, "to": 46, "label": 46},{"from": 0, "to": 43, "label": 43},{"from": 0, "to": 165, "label": 165},{"from": 0, "to": 159, "label": 159},{"from": 0, "to": 154, "label": 154},{"from": 0, "to": 25, "label": 25},{"from": 0, "to": 19, "label": 19},{"from": 0, "to": 143, "label": 143},{"from": 0, "to": 3, "label": 3},{"from": 0, "to": 133, "label": 133}]},"Reachability":{"startNode":14,"finalNode":159}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmp7_v5_p8c
+DFA generation time: 0.034 seconds 
+DFA states: 56 
+DFA transitions: 2573
+Problem file: /tmp/tmp7_v5_p8c
+Switches to update: 30
+
+Decomposed topology into 1 subproblems
+Topological decomposition took 0.036 seconds
+Subproblem verification time: 8.535 seconds
+Minimum batches required: 3
+[[3, 31, 59, 87, 115, 143, 2, 27, 30, 55, 58, 83, 86, 111, 114, 139, 142, 167], [161, 133, 105, 77, 49, 21], [25, 53, 81, 109, 137, 165]]
+Total program runtime: 9.637 seconds
+
+Kaki stderr:  
+Time: 9.637
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Gambia.gml 5 --dir topzoo_res/SeparateWPk/kaki/kaki-2 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 13.15
+	System time (seconds): 1.49
+	Percent of CPU this job got: 140%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:10.43
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 469412
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 63046
+	Voluntary context switches: 5479
+	Involuntary context switches: 5906
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

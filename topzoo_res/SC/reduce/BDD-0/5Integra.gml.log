@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Integra.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-0', dump_bdd=False)
+Running 5Integra.gml
+Policy: (Service([28, 79, 91, 120]-147) & (Reach 147))
+Initial path of nodes: [1, 20, 0, 3, 26, 25, 10, 12, 28, 47, 27, 30, 53, 52, 37, 39, 55, 74, 54, 57, 80, 79, 64, 66, 82, 101, 81, 84, 107, 106, 91, 93, 109, 128, 108, 111, 134, 133, 118, 120, 136, 155, 135, 138, 161, 160, 145, 147]
+Final path of nodes: [1, 20, 21, 23, 24, 25, 10, 12, 28, 34, 31, 32, 35, 52, 37, 39, 55, 61, 58, 59, 62, 79, 64, 66, 82, 88, 85, 86, 89, 106, 91, 93, 109, 115, 112, 113, 116, 133, 118, 120, 136, 142, 139, 140, 143, 160, 145, 147]
+Time: 0.014627933502197266
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Integra.gml 5 --dir topzoo_res/SC/reduce/BDD-0 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 0.83
+	System time (seconds): 1.29
+	Percent of CPU this job got: 347%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 88256
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14145
+	Voluntary context switches: 24
+	Involuntary context switches: 99
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

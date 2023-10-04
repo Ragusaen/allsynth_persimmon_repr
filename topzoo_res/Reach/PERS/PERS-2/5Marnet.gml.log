@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Marnet.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/PERS/PERS-2', dump_bdd=False)
+Running 5Marnet.gml
+Policy: (Reach 119)
+Initial path of nodes: [8, 17, 2, 19, 20, 22, 37, 28, 48, 57, 42, 59, 68, 77, 62, 79, 88, 97, 82, 99, 108, 117, 102, 119]
+Final path of nodes: [8, 17, 4, 19, 20, 22, 37, 28, 48, 57, 44, 59, 68, 77, 64, 79, 88, 97, 84, 99, 108, 117, 104, 119]
+Persimmon problem:  {"Initial_routing":[[8, 17], [17, 2], [2, 19], [19, 20], [20, 22], [22, 37], [37, 28], [28, 48], [48, 57], [57, 42], [42, 59], [59, 68], [68, 77], [77, 62], [62, 79], [79, 88], [88, 97], [97, 82], [82, 99], [99, 108], [108, 117], [117, 102], [102, 119]],"Final_routing":[[8, 17], [17, 4], [4, 19], [19, 20], [20, 22], [22, 37], [37, 28], [28, 48], [48, 57], [57, 44], [44, 59], [59, 68], [68, 77], [77, 64], [64, 79], [79, 88], [88, 97], [97, 84], [84, 99], [99, 108], [108, 117], [117, 104], [104, 119]],"Properties":{"Reachability":{"startNode":8,"finalNode":119}}}
+Persimmon stdout:  Chain equivalence reduction: 29 -> 21
+Constructing all update BDD
+Solution: Some([[84, 64, 104, 4, 44], [57, 117, 97, 17, 77], [102, 42, 62, 2, 82]])
+Time elapsed: 970.13µs
+Time elapsed(s): 0.000970s
+
+Persimmon stderr:  
+Time: 0.00097
+Solution: [[84, 64, 104, 4, 44], [57, 117, 97, 17, 77], [102, 42, 62, 2, 82]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Marnet.gml 5 --dir topzoo_res/Reach/PERS/PERS-2 --e-prop Reach --repeat 1"
+	User time (seconds): 0.93
+	System time (seconds): 1.26
+	Percent of CPU this job got: 364%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 70724
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13070
+	Voluntary context switches: 28
+	Involuntary context switches: 237
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

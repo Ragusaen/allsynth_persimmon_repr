@@ -1,0 +1,54 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/CrlNetworkServices.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/kaki/kaki-1', dump_bdd=False)
+Running 5CrlNetworkServices.gml
+Policy: (Reach 195)
+Initial path of nodes: [16, 15, 22, 21, 20, 19, 13, 10, 11, 32, 30, 35, 36, 33, 34, 39, 41, 42, 51, 50, 49, 48, 82, 81, 88, 87, 86, 85, 79, 76, 77, 98, 96, 115, 114, 121, 120, 119, 118, 112, 109, 110, 131, 129, 148, 147, 154, 153, 152, 151, 145, 142, 143, 164, 162, 181, 180, 187, 186, 185, 184, 178, 175, 176, 197, 195]
+Final path of nodes: [16, 17, 18, 9, 8, 6, 1, 0, 3, 2, 24, 23, 32, 30, 35, 57, 56, 65, 44, 43, 46, 52, 53, 54, 55, 48, 82, 83, 84, 75, 74, 72, 67, 66, 69, 68, 90, 89, 98, 96, 115, 116, 117, 113, 120, 119, 118, 124, 125, 126, 127, 128, 129, 148, 149, 150, 141, 140, 138, 133, 132, 135, 134, 156, 155, 164, 162, 181, 182, 183, 179, 186, 185, 184, 190, 191, 192, 193, 194, 195]
+{"Initial_routing":[[16, 15], [15, 22], [22, 21], [21, 20], [20, 19], [19, 13], [13, 10], [10, 11], [11, 32], [32, 30], [30, 35], [35, 36], [36, 33], [33, 34], [34, 39], [39, 41], [41, 42], [42, 51], [51, 50], [50, 49], [49, 48], [48, 82], [82, 81], [81, 88], [88, 87], [87, 86], [86, 85], [85, 79], [79, 76], [76, 77], [77, 98], [98, 96], [96, 115], [115, 114], [114, 121], [121, 120], [120, 119], [119, 118], [118, 112], [112, 109], [109, 110], [110, 131], [131, 129], [129, 148], [148, 147], [147, 154], [154, 153], [153, 152], [152, 151], [151, 145], [145, 142], [142, 143], [143, 164], [164, 162], [162, 181], [181, 180], [180, 187], [187, 186], [186, 185], [185, 184], [184, 178], [178, 175], [175, 176], [176, 197], [197, 195]],"Final_routing":[[16, 17], [17, 18], [18, 9], [9, 8], [8, 6], [6, 1], [1, 0], [0, 3], [3, 2], [2, 24], [24, 23], [23, 32], [32, 30], [30, 35], [35, 57], [57, 56], [56, 65], [65, 44], [44, 43], [43, 46], [46, 52], [52, 53], [53, 54], [54, 55], [55, 48], [48, 82], [82, 83], [83, 84], [84, 75], [75, 74], [74, 72], [72, 67], [67, 66], [66, 69], [69, 68], [68, 90], [90, 89], [89, 98], [98, 96], [96, 115], [115, 116], [116, 117], [117, 113], [113, 120], [120, 119], [119, 118], [118, 124], [124, 125], [125, 126], [126, 127], [127, 128], [128, 129], [129, 148], [148, 149], [149, 150], [150, 141], [141, 140], [140, 138], [138, 133], [133, 132], [132, 135], [135, 134], [134, 156], [156, 155], [155, 164], [164, 162], [162, 181], [181, 182], [182, 183], [183, 179], [179, 186], [186, 185], [185, 184], [184, 190], [190, 191], [191, 192], [192, 193], [193, 194], [194, 195]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"Reachability":{"startNode":16,"finalNode":195}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmph0s3s3u3
+DFA generation time: 0.011 seconds 
+DFA states: 3 
+DFA transitions: 126
+Problem file: /tmp/tmph0s3s3u3
+Switches to update: 112
+
+Decomposed topology into 8 subproblems
+Topological decomposition took 0.008 seconds
+Subproblem verification time: 0.03 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.01 seconds
+Minimum batches required: 3
+[[17, 18, 9, 8, 6, 1, 0, 3, 2, 24, 23, 57, 56, 65, 44, 43, 46, 52, 53, 54, 55, 83, 84, 75, 74, 72, 67, 66, 69, 68, 90, 89, 116, 117, 113, 124, 125, 126, 127, 128, 149, 150, 141, 140, 138, 133, 132, 135, 134, 156, 155, 182, 183, 179, 190, 191, 192, 193, 194], [16, 35, 82, 115, 118, 148, 181, 184], [15, 22, 21, 20, 19, 13, 10, 11, 36, 33, 34, 39, 41, 42, 51, 50, 49, 81, 88, 87, 86, 85, 79, 76, 77, 114, 121, 112, 109, 110, 131, 147, 154, 153, 152, 151, 145, 142, 143, 180, 187, 178, 175, 176, 197]]
+Total program runtime: 0.234 seconds
+
+Kaki stderr:  
+Time: 0.234
+Solution: None
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/CrlNetworkServices.gml 5 --dir topzoo_res/Reach/kaki/kaki-1 --e-prop Reach --repeat 1"
+	User time (seconds): 1.73
+	System time (seconds): 1.38
+	Percent of CPU this job got: 407%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 106064
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 43411
+	Voluntary context switches: 4859
+	Involuntary context switches: 144
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

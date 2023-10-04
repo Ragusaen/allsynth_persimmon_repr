@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Uunet.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/reduce/BDD-0', dump_bdd=False)
+Running 5Uunet.gml
+Policy: (Reach 285)
+Initial path of nodes: [17, 15, 14, 9, 6, 7, 20, 39, 40, 51, 88, 52, 49, 53, 62, 82, 67, 68, 115, 113, 112, 107, 104, 105, 118, 137, 138, 164, 162, 161, 156, 153, 154, 167, 186, 187, 213, 211, 210, 205, 202, 203, 216, 235, 236, 262, 260, 259, 254, 251, 252, 265, 284, 285]
+Final path of nodes: [17, 15, 14, 13, 4, 0, 3, 39, 40, 51, 88, 69, 56, 55, 58, 82, 67, 68, 115, 114, 131, 111, 102, 98, 101, 137, 138, 164, 163, 180, 156, 170, 168, 167, 186, 187, 213, 212, 229, 209, 200, 196, 199, 235, 236, 262, 261, 278, 254, 268, 266, 265, 284, 285]
+Time: 0.01563715934753418
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Uunet.gml 5 --dir topzoo_res/Reach/reduce/BDD-0 --e-prop Reach --repeat 1 --reduce"
+	User time (seconds): 0.80
+	System time (seconds): 1.30
+	Percent of CPU this job got: 424%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.49
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 89876
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14447
+	Voluntary context switches: 23
+	Involuntary context switches: 49
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

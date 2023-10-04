@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Noel.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/PERS/PERS-0', dump_bdd=False)
+Running 5Noel.gml
+Policy: ((((((((((((((((WP(37-112) | WP(102-112)) | WP(103-112)) | WP(72-112)) | WP(8-112)) | WP(75-112)) | WP(44-112)) | WP(76-112)) | WP(111-112)) | WP(16-112)) | WP(47-112)) | WP(79-112)) | WP(22-112)) | WP(55-112)) | WP(26-112)) | WP(63-112)) & (Reach 112))
+Initial path of nodes: [7, 6, 0, 2, 15, 16, 17, 23, 27, 28, 22, 19, 25, 26, 45, 44, 38, 40, 53, 54, 55, 64, 63, 57, 59, 72, 73, 74, 83, 82, 76, 78, 91, 92, 93, 102, 101, 95, 97, 110, 111, 112]
+Final path of nodes: [7, 6, 0, 3, 9, 8, 18, 17, 23, 27, 37, 34, 21, 19, 25, 26, 45, 44, 38, 41, 47, 46, 56, 55, 64, 63, 57, 60, 66, 65, 75, 74, 83, 82, 76, 79, 85, 84, 94, 93, 102, 101, 95, 98, 104, 103, 113, 112]
+Persimmon problem:  {"Initial_routing":[[7, 6], [6, 0], [0, 2], [2, 15], [15, 16], [16, 17], [17, 23], [23, 27], [27, 28], [28, 22], [22, 19], [19, 25], [25, 26], [26, 45], [45, 44], [44, 38], [38, 40], [40, 53], [53, 54], [54, 55], [55, 64], [64, 63], [63, 57], [57, 59], [59, 72], [72, 73], [73, 74], [74, 83], [83, 82], [82, 76], [76, 78], [78, 91], [91, 92], [92, 93], [93, 102], [102, 101], [101, 95], [95, 97], [97, 110], [110, 111], [111, 112]],"Final_routing":[[7, 6], [6, 0], [0, 3], [3, 9], [9, 8], [8, 18], [18, 17], [17, 23], [23, 27], [27, 37], [37, 34], [34, 21], [21, 19], [19, 25], [25, 26], [26, 45], [45, 44], [44, 38], [38, 41], [41, 47], [47, 46], [46, 56], [56, 55], [55, 64], [64, 63], [63, 57], [57, 60], [60, 66], [66, 65], [65, 75], [75, 74], [74, 83], [83, 82], [82, 76], [76, 79], [79, 85], [85, 84], [84, 94], [94, 93], [93, 102], [102, 101], [101, 95], [95, 98], [98, 104], [104, 103], [103, 113], [113, 112]],"Properties":{"MultiAlternativeWaypoint": {"waypoint": [37,102,103,72,8,75,44,76,111,16,47,79,22,55,26,63]},"Reachability":{"startNode":7,"finalNode":112}}}
+Persimmon stdout:  Chain equivalence reduction: 65 -> 46
+Constructing all update BDD
+Solution: Some([[41, 18, 37, 75, 60, 66, 65, 46, 56, 34, 21, 98, 104, 3, 9, 47, 79, 8, 103, 85, 84, 94, 113], [27, 0, 57, 76, 95, 38], [40, 53, 54, 2, 15, 28, 22, 111, 16, 72, 73, 59, 78, 91, 92, 97, 110]])
+Time elapsed: 3.05ms
+Time elapsed(s): 0.003052s
+
+Persimmon stderr:  
+Time: 0.003052
+Solution: [[41, 18, 37, 75, 60, 66, 65, 46, 56, 34, 21, 98, 104, 3, 9, 47, 79, 8, 103, 85, 84, 94, 113], [27, 0, 57, 76, 95, 38], [40, 53, 54, 2, 15, 28, 22, 111, 16, 72, 73, 59, 78, 91, 92, 97, 110]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Noel.gml 5 --dir topzoo_res/SeparateWPk/PERS/PERS-0 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 0.89
+	System time (seconds): 1.29
+	Percent of CPU this job got: 371%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 70972
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13082
+	Voluntary context switches: 28
+	Involuntary context switches: 127
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

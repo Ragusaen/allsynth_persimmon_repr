@@ -1,0 +1,47 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Garr201010.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/kaki/kaki-1', dump_bdd=False)
+Running 5Garr201010.gml
+Policy: (((((((((((((((((((WP(128-333) | WP(12-333)) | WP(32-333)) | WP(162-333)) | WP(290-333)) | WP(165-333)) | WP(298-333)) | WP(181-333)) | WP(310-333)) | WP(312-333)) | WP(186-333)) | WP(66-333)) | WP(68-333)) | WP(74-333)) | WP(212-333)) | WP(86-333)) | WP(232-333)) | WP(234-333)) | WP(236-333)) & (Reach 333))
+Initial path of nodes: [10, 18, 19, 8, 50, 32, 13, 53, 56, 86, 68, 97, 64, 75, 74, 66, 122, 130, 131, 120, 162, 144, 125, 165, 178, 186, 187, 176, 218, 200, 181, 221, 234, 242, 243, 232, 274, 256, 237, 277, 290, 298, 299, 288, 330, 312, 293, 333]
+Final path of nodes: [10, 18, 19, 16, 44, 12, 30, 13, 53, 56, 86, 68, 100, 72, 75, 74, 66, 122, 130, 131, 128, 156, 124, 142, 125, 165, 178, 186, 187, 184, 212, 180, 198, 181, 221, 234, 242, 243, 240, 268, 236, 254, 237, 277, 290, 298, 299, 296, 324, 292, 310, 293, 333]
+{"Initial_routing":[[10, 18], [18, 19], [19, 8], [8, 50], [50, 32], [32, 13], [13, 53], [53, 56], [56, 86], [86, 68], [68, 97], [97, 64], [64, 75], [75, 74], [74, 66], [66, 122], [122, 130], [130, 131], [131, 120], [120, 162], [162, 144], [144, 125], [125, 165], [165, 178], [178, 186], [186, 187], [187, 176], [176, 218], [218, 200], [200, 181], [181, 221], [221, 234], [234, 242], [242, 243], [243, 232], [232, 274], [274, 256], [256, 237], [237, 277], [277, 290], [290, 298], [298, 299], [299, 288], [288, 330], [330, 312], [312, 293], [293, 333]],"Final_routing":[[10, 18], [18, 19], [19, 16], [16, 44], [44, 12], [12, 30], [30, 13], [13, 53], [53, 56], [56, 86], [86, 68], [68, 100], [100, 72], [72, 75], [75, 74], [74, 66], [66, 122], [122, 130], [130, 131], [131, 128], [128, 156], [156, 124], [124, 142], [142, 125], [125, 165], [165, 178], [178, 186], [186, 187], [187, 184], [184, 212], [212, 180], [180, 198], [198, 181], [181, 221], [221, 234], [234, 242], [242, 243], [243, 240], [240, 268], [268, 236], [236, 254], [254, 237], [237, 277], [277, 290], [290, 298], [298, 299], [299, 296], [296, 324], [324, 292], [292, 310], [310, 293], [293, 333]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [236,234,232,86,212,74,68,66,186,312,310,181,298,165,290,162,32,128,12], "edges": [{"from": 0, "to": 236, "label": 236},{"from": 0, "to": 234, "label": 234},{"from": 0, "to": 232, "label": 232},{"from": 0, "to": 86, "label": 86},{"from": 0, "to": 212, "label": 212},{"from": 0, "to": 74, "label": 74},{"from": 0, "to": 68, "label": 68},{"from": 0, "to": 66, "label": 66},{"from": 0, "to": 186, "label": 186},{"from": 0, "to": 312, "label": 312},{"from": 0, "to": 310, "label": 310},{"from": 0, "to": 181, "label": 181},{"from": 0, "to": 298, "label": 298},{"from": 0, "to": 165, "label": 165},{"from": 0, "to": 290, "label": 290},{"from": 0, "to": 162, "label": 162},{"from": 0, "to": 32, "label": 32},{"from": 0, "to": 128, "label": 128},{"from": 0, "to": 12, "label": 12}]},"Reachability":{"startNode":10,"finalNode":333}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmp16hu1kz7
+DFA generation time: 0.025 seconds 
+DFA states: 44 
+DFA transitions: 2361
+Problem file: /tmp/tmp16hu1kz7
+Switches to update: 45
+
+Decomposed topology into 1 subproblems
+Topological decomposition took 0.029 seconds
+Subproblem verification time: 5.644 seconds
+Minimum batches required: 3
+[[16, 100, 128, 184, 240, 296, 44, 12, 30, 72, 156, 124, 142, 212, 180, 198, 268, 236, 254, 324, 292, 310], [299, 243, 187, 131, 68, 19], [8, 50, 32, 97, 64, 120, 162, 144, 176, 218, 200, 232, 274, 256, 288, 330, 312]]
+Total program runtime: 6.616 seconds
+
+Kaki stderr:  
+Time: 6.616
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Garr201010.gml 5 --dir topzoo_res/SeparateWPk/kaki/kaki-1 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 9.49
+	System time (seconds): 1.80
+	Percent of CPU this job got: 153%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 479212
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 59503
+	Voluntary context switches: 4258
+	Involuntary context switches: 1145
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

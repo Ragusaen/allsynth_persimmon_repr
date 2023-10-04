@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Claranet.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/PERS/PERS-1', dump_bdd=False)
+Running 5Claranet.gml
+Policy: (((((((((((WP(34-88) | WP(75-88)) | WP(45-88)) | WP(13-88)) | WP(15-88)) | WP(46-88)) | WP(88-88)) | WP(27-88)) | WP(60-88)) | WP(30-88)) | WP(63-88)) & (Reach 88))
+Initial path of nodes: [0, 3, 14, 12, 13, 15, 18, 29, 27, 28, 30, 33, 44, 42, 43, 45, 48, 59, 57, 58, 60, 63, 74, 72, 73, 75, 78, 89, 87, 88]
+Final path of nodes: [0, 3, 1, 4, 12, 13, 15, 18, 16, 19, 27, 28, 30, 33, 31, 34, 42, 43, 45, 48, 46, 49, 57, 58, 60, 63, 61, 64, 72, 73, 75, 78, 76, 79, 87, 88]
+Persimmon problem:  {"Initial_routing":[[0, 3], [3, 14], [14, 12], [12, 13], [13, 15], [15, 18], [18, 29], [29, 27], [27, 28], [28, 30], [30, 33], [33, 44], [44, 42], [42, 43], [43, 45], [45, 48], [48, 59], [59, 57], [57, 58], [58, 60], [60, 63], [63, 74], [74, 72], [72, 73], [73, 75], [75, 78], [78, 89], [89, 87], [87, 88]],"Final_routing":[[0, 3], [3, 1], [1, 4], [4, 12], [12, 13], [13, 15], [15, 18], [18, 16], [16, 19], [19, 27], [27, 28], [28, 30], [30, 33], [33, 31], [31, 34], [34, 42], [42, 43], [43, 45], [45, 48], [48, 46], [46, 49], [49, 57], [57, 58], [58, 60], [60, 63], [63, 61], [61, 64], [64, 72], [72, 73], [73, 75], [75, 78], [78, 76], [76, 79], [79, 87], [87, 88]],"Properties":{"MultiAlternativeWaypoint": {"waypoint": [34,75,45,13,15,46,88,27,60,30,63]},"Reachability":{"startNode":0,"finalNode":88}}}
+Persimmon stdout:  Chain equivalence reduction: 42 -> 34
+Constructing all update BDD
+Solution: Some([[46, 76, 79, 49, 1, 4, 16, 19, 34, 31, 61, 64], [33, 78, 18, 63, 48, 3], [44, 59, 74, 14, 29, 89]])
+Time elapsed: 2.02ms
+Time elapsed(s): 0.002023s
+
+Persimmon stderr:  
+Time: 0.002023
+Solution: [[46, 76, 79, 49, 1, 4, 16, 19, 34, 31, 61, 64], [33, 78, 18, 63, 48, 3], [44, 59, 74, 14, 29, 89]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Claranet.gml 5 --dir topzoo_res/SeparateWPk/PERS/PERS-1 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 0.90
+	System time (seconds): 1.29
+	Percent of CPU this job got: 371%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 70716
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13004
+	Voluntary context switches: 29
+	Involuntary context switches: 79
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,62 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/PionierL1.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/kaki/kaki-2', dump_bdd=False)
+Running 5PionierL1.gml
+Policy: ((((((((((((((((((((((((((((((WP(4-205) | WP(142-205)) | WP(17-205)) | WP(18-205)) | WP(147-205)) | WP(146-205)) | WP(152-205)) | WP(161-205)) | WP(34-205)) | WP(36-205)) | WP(38-205)) | WP(178-205)) | WP(53-205)) | WP(182-205)) | WP(56-205)) | WP(184-205)) | WP(197-205)) | WP(198-205)) | WP(70-205)) | WP(74-205)) | WP(77-205)) | WP(214-205)) | WP(89-205)) | WP(97-205)) | WP(99-205)) | WP(106-205)) | WP(110-205)) | WP(114-205)) | WP(125-205)) | WP(127-205)) & (Reach 205))
+Initial path of nodes: [2, 27, 3, 0, 6, 4, 5, 8, 20, 19, 18, 25, 38, 63, 39, 36, 42, 40, 41, 44, 56, 55, 54, 61, 74, 99, 75, 72, 78, 76, 77, 80, 92, 91, 90, 97, 110, 135, 111, 108, 114, 112, 113, 116, 128, 127, 126, 133, 146, 171, 147, 144, 150, 148, 149, 152, 164, 163, 162, 169, 182, 207, 183, 180, 186, 184, 185, 188, 200, 199, 198, 205]
+Final path of nodes: [2, 27, 28, 26, 35, 34, 9, 21, 11, 12, 17, 22, 24, 18, 25, 38, 63, 64, 62, 71, 70, 45, 57, 47, 48, 53, 58, 60, 54, 61, 74, 99, 100, 98, 107, 106, 81, 93, 83, 84, 89, 94, 96, 90, 97, 110, 135, 136, 134, 143, 142, 117, 129, 119, 120, 125, 130, 132, 126, 133, 146, 171, 172, 170, 179, 178, 153, 165, 155, 156, 161, 166, 168, 162, 169, 182, 207, 208, 206, 215, 214, 189, 201, 191, 192, 197, 202, 204, 198, 205]
+{"Initial_routing":[[2, 27], [27, 3], [3, 0], [0, 6], [6, 4], [4, 5], [5, 8], [8, 20], [20, 19], [19, 18], [18, 25], [25, 38], [38, 63], [63, 39], [39, 36], [36, 42], [42, 40], [40, 41], [41, 44], [44, 56], [56, 55], [55, 54], [54, 61], [61, 74], [74, 99], [99, 75], [75, 72], [72, 78], [78, 76], [76, 77], [77, 80], [80, 92], [92, 91], [91, 90], [90, 97], [97, 110], [110, 135], [135, 111], [111, 108], [108, 114], [114, 112], [112, 113], [113, 116], [116, 128], [128, 127], [127, 126], [126, 133], [133, 146], [146, 171], [171, 147], [147, 144], [144, 150], [150, 148], [148, 149], [149, 152], [152, 164], [164, 163], [163, 162], [162, 169], [169, 182], [182, 207], [207, 183], [183, 180], [180, 186], [186, 184], [184, 185], [185, 188], [188, 200], [200, 199], [199, 198], [198, 205]],"Final_routing":[[2, 27], [27, 28], [28, 26], [26, 35], [35, 34], [34, 9], [9, 21], [21, 11], [11, 12], [12, 17], [17, 22], [22, 24], [24, 18], [18, 25], [25, 38], [38, 63], [63, 64], [64, 62], [62, 71], [71, 70], [70, 45], [45, 57], [57, 47], [47, 48], [48, 53], [53, 58], [58, 60], [60, 54], [54, 61], [61, 74], [74, 99], [99, 100], [100, 98], [98, 107], [107, 106], [106, 81], [81, 93], [93, 83], [83, 84], [84, 89], [89, 94], [94, 96], [96, 90], [90, 97], [97, 110], [110, 135], [135, 136], [136, 134], [134, 143], [143, 142], [142, 117], [117, 129], [129, 119], [119, 120], [120, 125], [125, 130], [130, 132], [132, 126], [126, 133], [133, 146], [146, 171], [171, 172], [172, 170], [170, 179], [179, 178], [178, 153], [153, 165], [165, 155], [155, 156], [156, 161], [161, 166], [166, 168], [168, 162], [162, 169], [169, 182], [182, 207], [207, 208], [208, 206], [206, 215], [215, 214], [214, 189], [189, 201], [201, 191], [191, 192], [192, 197], [197, 202], [202, 204], [204, 198], [198, 205]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [127,125,114,110,106,99,97,89,214,77,74,70,198,197,184,56,182,53,178,38,36,34,161,152,146,147,18,17,4,142], "edges": [{"from": 0, "to": 127, "label": 127},{"from": 0, "to": 125, "label": 125},{"from": 0, "to": 114, "label": 114},{"from": 0, "to": 110, "label": 110},{"from": 0, "to": 106, "label": 106},{"from": 0, "to": 99, "label": 99},{"from": 0, "to": 97, "label": 97},{"from": 0, "to": 89, "label": 89},{"from": 0, "to": 214, "label": 214},{"from": 0, "to": 77, "label": 77},{"from": 0, "to": 74, "label": 74},{"from": 0, "to": 70, "label": 70},{"from": 0, "to": 198, "label": 198},{"from": 0, "to": 197, "label": 197},{"from": 0, "to": 184, "label": 184},{"from": 0, "to": 56, "label": 56},{"from": 0, "to": 182, "label": 182},{"from": 0, "to": 53, "label": 53},{"from": 0, "to": 178, "label": 178},{"from": 0, "to": 38, "label": 38},{"from": 0, "to": 36, "label": 36},{"from": 0, "to": 34, "label": 34},{"from": 0, "to": 161, "label": 161},{"from": 0, "to": 152, "label": 152},{"from": 0, "to": 146, "label": 146},{"from": 0, "to": 147, "label": 147},{"from": 0, "to": 18, "label": 18},{"from": 0, "to": 17, "label": 17},{"from": 0, "to": 4, "label": 4},{"from": 0, "to": 142, "label": 142}]},"Reachability":{"startNode":2,"finalNode":205}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmp7h4xkim_
+DFA generation time: 0.062 seconds 
+DFA states: 67 
+DFA transitions: 8091
+Problem file: /tmp/tmp7h4xkim_
+Switches to update: 120
+
+Decomposed topology into 1 subproblems
+Topological decomposition took 0.082 seconds
+
+Kaki stderr:  corrupted size vs. prev_size while consolidating
+
+Exception in thread "main" verification.VerifyPNError: corrupted size vs. prev_size while consolidating
+
+	at verification.Verifier.verifyQuery(verifier.kt:43)
+	at verification.VerifierKt.bisectionSearch(verifier.kt:64)
+	at MainKt.runProblem(main.kt:180)
+	at MainKt.main(main.kt:325)
+
+Traceback (most recent call last):
+  File "/home/rasmus/Documents/dat7/AllSynth/allsynth/run.py", line 168, in <module>
+    run_all_GML(savedir, config, suffix, G, p1, p2, dump=dump_bdd, num_copies=num_copies, op_req=op_req_ltl)
+  File "/home/rasmus/Documents/dat7/AllSynth/allsynth/experiments.py", line 244, in run_all_GML
+    exp_runner.runAll(config.repeat, foldername)
+  File "/home/rasmus/Documents/dat7/AllSynth/allsynth/experiments.py", line 186, in runAll
+    t, sol = e.run(repeat)
+  File "/home/rasmus/Documents/dat7/AllSynth/allsynth/experiments.py", line 132, in run
+    t, seq = spec.execute(repeat)
+  File "/home/rasmus/Documents/dat7/AllSynth/allsynth/kaki.py", line 34, in execute
+    time += float(re.search(r"Total program runtime: (\d+\.?\d*) seconds", res)[1])
+TypeError: 'NoneType' object is not subscriptable
+Command exited with non-zero status 1
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/PionierL1.gml 5 --dir topzoo_res/SeparateWPk/kaki/kaki-2 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 10.37
+	System time (seconds): 2.17
+	Percent of CPU this job got: 208%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 735964
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 67596
+	Voluntary context switches: 7556
+	Involuntary context switches: 1394
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1

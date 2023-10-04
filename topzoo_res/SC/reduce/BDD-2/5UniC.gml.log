@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/UniC.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-2', dump_bdd=False)
+Running 5UniC.gml
+Policy: (Service([2, 30, 42, 50, 88, 93, 101, 134, 127]-142) & (Reach 142))
+Initial path of nodes: [9, 13, 5, 4, 6, 1, 0, 2, 22, 20, 18, 17, 34, 38, 30, 29, 31, 26, 25, 27, 47, 45, 43, 42, 59, 63, 55, 54, 56, 51, 50, 52, 72, 70, 68, 67, 84, 88, 80, 79, 81, 76, 75, 77, 97, 95, 93, 92, 109, 113, 105, 104, 106, 101, 100, 102, 122, 120, 118, 117, 134, 138, 130, 129, 131, 126, 125, 127, 147, 145, 143, 142]
+Final path of nodes: [9, 13, 5, 8, 7, 1, 0, 3, 2, 16, 21, 19, 18, 17, 34, 38, 30, 33, 32, 26, 25, 28, 27, 41, 46, 44, 43, 42, 59, 63, 55, 58, 57, 51, 50, 53, 52, 66, 71, 69, 68, 67, 84, 88, 80, 83, 82, 76, 75, 78, 77, 91, 96, 94, 93, 92, 109, 113, 105, 108, 107, 101, 100, 103, 102, 116, 121, 119, 118, 117, 134, 138, 130, 133, 132, 126, 125, 128, 127, 141, 146, 144, 143, 142]
+Time: 0.1397538185119629
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/UniC.gml 5 --dir topzoo_res/SC/reduce/BDD-2 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 1.01
+	System time (seconds): 1.30
+	Percent of CPU this job got: 326%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 89944
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14355
+	Voluntary context switches: 32
+	Involuntary context switches: 65
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

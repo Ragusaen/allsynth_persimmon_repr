@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/RoedunetFibre.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/kaki/kaki-0', dump_bdd=False)
+Running 5RoedunetFibre.gml
+Policy: (Service([27, 78, 89, 129, 181, 148, 223, 260, 267]-281) & (Reach 281))
+Initial path of nodes: [20, 37, 30, 31, 33, 27, 4, 0, 2, 47, 45, 44, 40, 41, 68, 85, 78, 79, 81, 75, 52, 48, 50, 95, 93, 92, 88, 89, 116, 133, 126, 127, 129, 123, 100, 96, 98, 143, 141, 140, 136, 137, 164, 181, 174, 175, 177, 171, 148, 144, 146, 191, 189, 188, 184, 185, 212, 229, 222, 223, 225, 219, 196, 192, 194, 239, 237, 236, 232, 233, 260, 277, 270, 271, 273, 267, 244, 240, 242, 287, 285, 284, 280, 281]
+Final path of nodes: [20, 37, 30, 31, 33, 27, 4, 16, 13, 24, 25, 42, 22, 41, 68, 85, 78, 79, 81, 75, 52, 64, 61, 72, 73, 90, 70, 89, 116, 133, 126, 127, 129, 123, 100, 112, 109, 120, 121, 138, 118, 137, 164, 181, 174, 175, 177, 171, 148, 160, 157, 168, 169, 186, 166, 185, 212, 229, 222, 223, 225, 219, 196, 208, 205, 216, 217, 234, 214, 233, 260, 277, 270, 271, 273, 267, 244, 256, 253, 264, 265, 282, 262, 281]
+{"Initial_routing":[[20, 37], [37, 30], [30, 31], [31, 33], [33, 27], [27, 4], [4, 0], [0, 2], [2, 47], [47, 45], [45, 44], [44, 40], [40, 41], [41, 68], [68, 85], [85, 78], [78, 79], [79, 81], [81, 75], [75, 52], [52, 48], [48, 50], [50, 95], [95, 93], [93, 92], [92, 88], [88, 89], [89, 116], [116, 133], [133, 126], [126, 127], [127, 129], [129, 123], [123, 100], [100, 96], [96, 98], [98, 143], [143, 141], [141, 140], [140, 136], [136, 137], [137, 164], [164, 181], [181, 174], [174, 175], [175, 177], [177, 171], [171, 148], [148, 144], [144, 146], [146, 191], [191, 189], [189, 188], [188, 184], [184, 185], [185, 212], [212, 229], [229, 222], [222, 223], [223, 225], [225, 219], [219, 196], [196, 192], [192, 194], [194, 239], [239, 237], [237, 236], [236, 232], [232, 233], [233, 260], [260, 277], [277, 270], [270, 271], [271, 273], [273, 267], [267, 244], [244, 240], [240, 242], [242, 287], [287, 285], [285, 284], [284, 280], [280, 281]],"Final_routing":[[20, 37], [37, 30], [30, 31], [31, 33], [33, 27], [27, 4], [4, 16], [16, 13], [13, 24], [24, 25], [25, 42], [42, 22], [22, 41], [41, 68], [68, 85], [85, 78], [78, 79], [79, 81], [81, 75], [75, 52], [52, 64], [64, 61], [61, 72], [72, 73], [73, 90], [90, 70], [70, 89], [89, 116], [116, 133], [133, 126], [126, 127], [127, 129], [129, 123], [123, 100], [100, 112], [112, 109], [109, 120], [120, 121], [121, 138], [138, 118], [118, 137], [137, 164], [164, 181], [181, 174], [174, 175], [175, 177], [177, 171], [171, 148], [148, 160], [160, 157], [157, 168], [168, 169], [169, 186], [186, 166], [166, 185], [185, 212], [212, 229], [229, 222], [222, 223], [223, 225], [225, 219], [219, 196], [196, 208], [208, 205], [205, 216], [216, 217], [217, 234], [234, 214], [214, 233], [233, 260], [260, 277], [277, 270], [270, 271], [271, 273], [273, 267], [267, 244], [244, 256], [256, 253], [253, 264], [264, 265], [265, 282], [282, 262], [262, 281]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [9], "edges": [{"from": 0, "to": 1, "label": 27},{"from": 1, "to": 2, "label": 78},{"from": 2, "to": 3, "label": 89},{"from": 3, "to": 4, "label": 129},{"from": 4, "to": 5, "label": 181},{"from": 5, "to": 6, "label": 148},{"from": 6, "to": 7, "label": 223},{"from": 7, "to": 8, "label": 260},{"from": 8, "to": 9, "label": 267}]},"Reachability":{"startNode":20,"finalNode":281}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpnbmdl74j
+DFA generation time: 0.016 seconds 
+DFA states: 24 
+DFA transitions: 683
+Problem file: /tmp/tmpnbmdl74j
+Switches to update: 78
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.015 seconds
+Subproblem verification time: 0.028 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.01 seconds
+Minimum batches required: 3
+[[16, 13, 24, 25, 42, 22, 64, 61, 72, 73, 90, 70, 112, 109, 120, 121, 138, 118, 160, 157, 168, 169, 186, 166, 208, 205, 216, 217, 234, 214, 256, 253, 264, 265, 282, 262], [4, 52, 100, 148, 196, 244], [0, 2, 47, 45, 44, 40, 48, 50, 95, 93, 92, 88, 96, 98, 143, 141, 140, 136, 144, 146, 191, 189, 188, 184, 192, 194, 239, 237, 236, 232, 240, 242, 287, 285, 284, 280]]
+Total program runtime: 0.219 seconds
+
+Kaki stderr:  
+Time: 0.219
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/RoedunetFibre.gml 5 --dir topzoo_res/SC/kaki/kaki-0 --e-prop SC --repeat 1"
+	User time (seconds): 1.68
+	System time (seconds): 1.40
+	Percent of CPU this job got: 411%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 105956
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 41489
+	Voluntary context switches: 5113
+	Involuntary context switches: 218
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,40 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Canerie.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/PERS/PERS-0', dump_bdd=False)
+Running 5Canerie.gml
+Policy: (Reach 190)
+Initial path of nodes: [14, 16, 17, 15, 7, 3, 1, 31, 30, 42, 63, 33, 35, 39, 47, 49, 48, 46, 78, 80, 81, 79, 71, 67, 65, 95, 94, 110, 112, 113, 111, 103, 99, 97, 127, 126, 142, 144, 145, 143, 135, 131, 129, 159, 158, 174, 176, 177, 175, 167, 163, 161, 191, 190]
+Final path of nodes: [14, 16, 17, 5, 4, 7, 0, 3, 22, 27, 29, 30, 42, 63, 61, 59, 54, 33, 38, 39, 36, 37, 49, 48, 46, 78, 80, 81, 69, 68, 71, 64, 67, 86, 91, 93, 94, 110, 112, 113, 101, 100, 103, 99, 118, 123, 125, 126, 142, 144, 145, 133, 132, 135, 128, 131, 150, 155, 157, 158, 174, 176, 177, 165, 164, 167, 163, 182, 187, 189, 190]
+Persimmon problem:  {"Initial_routing":[[14, 16], [16, 17], [17, 15], [15, 7], [7, 3], [3, 1], [1, 31], [31, 30], [30, 42], [42, 63], [63, 33], [33, 35], [35, 39], [39, 47], [47, 49], [49, 48], [48, 46], [46, 78], [78, 80], [80, 81], [81, 79], [79, 71], [71, 67], [67, 65], [65, 95], [95, 94], [94, 110], [110, 112], [112, 113], [113, 111], [111, 103], [103, 99], [99, 97], [97, 127], [127, 126], [126, 142], [142, 144], [144, 145], [145, 143], [143, 135], [135, 131], [131, 129], [129, 159], [159, 158], [158, 174], [174, 176], [176, 177], [177, 175], [175, 167], [167, 163], [163, 161], [161, 191], [191, 190]],"Final_routing":[[14, 16], [16, 17], [17, 5], [5, 4], [4, 7], [7, 0], [0, 3], [3, 22], [22, 27], [27, 29], [29, 30], [30, 42], [42, 63], [63, 61], [61, 59], [59, 54], [54, 33], [33, 38], [38, 39], [39, 36], [36, 37], [37, 49], [49, 48], [48, 46], [46, 78], [78, 80], [80, 81], [81, 69], [69, 68], [68, 71], [71, 64], [64, 67], [67, 86], [86, 91], [91, 93], [93, 94], [94, 110], [110, 112], [112, 113], [113, 101], [101, 100], [100, 103], [103, 99], [99, 118], [118, 123], [123, 125], [125, 126], [126, 142], [142, 144], [144, 145], [145, 133], [133, 132], [132, 135], [135, 128], [128, 131], [131, 150], [150, 155], [155, 157], [157, 158], [158, 174], [174, 176], [176, 177], [177, 165], [165, 164], [164, 167], [167, 163], [163, 182], [182, 187], [187, 189], [189, 190]],"Properties":{"Reachability":{"startNode":14,"finalNode":190}}}
+Persimmon stdout:  Chain equivalence reduction: 88 -> 53
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+<=== Starting iteration 2 ===>
+Solution: Some([[0, 165, 164, 133, 132, 86, 91, 93, 150, 155, 157, 22, 27, 29, 38, 61, 59, 54, 64, 128, 5, 4, 36, 37, 101, 100, 118, 123, 125, 69, 68, 182, 187, 189], [145, 39, 67, 3, 81, 113, 177, 163, 17, 99, 131, 33], [35, 15, 71, 79, 65, 95, 97, 127, 143, 135, 7, 129, 159, 161, 191, 175, 47, 63, 1, 31, 111]])
+Time elapsed: 3.31ms
+Time elapsed(s): 0.003308s
+
+Persimmon stderr:  
+Time: 0.003308
+Solution: [[0, 165, 164, 133, 132, 86, 91, 93, 150, 155, 157, 22, 27, 29, 38, 61, 59, 54, 64, 128, 5, 4, 36, 37, 101, 100, 118, 123, 125, 69, 68, 182, 187, 189], [145, 39, 67, 3, 81, 113, 177, 163, 17, 99, 131, 33], [35, 15, 71, 79, 65, 95, 97, 127, 143, 135, 7, 129, 159, 161, 191, 175, 47, 63, 1, 31, 111]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Canerie.gml 5 --dir topzoo_res/Reach/PERS/PERS-0 --e-prop Reach --repeat 1"
+	User time (seconds): 0.68
+	System time (seconds): 1.28
+	Percent of CPU this job got: 541%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71480
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13250
+	Voluntary context switches: 30
+	Involuntary context switches: 83
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

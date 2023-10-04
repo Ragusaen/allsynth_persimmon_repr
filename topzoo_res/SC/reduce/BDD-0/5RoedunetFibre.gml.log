@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/RoedunetFibre.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-0', dump_bdd=False)
+Running 5RoedunetFibre.gml
+Policy: (Service([27, 78, 89, 129, 181, 148, 223, 260, 267]-281) & (Reach 281))
+Initial path of nodes: [20, 37, 30, 31, 33, 27, 4, 0, 2, 47, 45, 44, 40, 41, 68, 85, 78, 79, 81, 75, 52, 48, 50, 95, 93, 92, 88, 89, 116, 133, 126, 127, 129, 123, 100, 96, 98, 143, 141, 140, 136, 137, 164, 181, 174, 175, 177, 171, 148, 144, 146, 191, 189, 188, 184, 185, 212, 229, 222, 223, 225, 219, 196, 192, 194, 239, 237, 236, 232, 233, 260, 277, 270, 271, 273, 267, 244, 240, 242, 287, 285, 284, 280, 281]
+Final path of nodes: [20, 37, 30, 31, 33, 27, 4, 16, 13, 24, 25, 42, 22, 41, 68, 85, 78, 79, 81, 75, 52, 64, 61, 72, 73, 90, 70, 89, 116, 133, 126, 127, 129, 123, 100, 112, 109, 120, 121, 138, 118, 137, 164, 181, 174, 175, 177, 171, 148, 160, 157, 168, 169, 186, 166, 185, 212, 229, 222, 223, 225, 219, 196, 208, 205, 216, 217, 234, 214, 233, 260, 277, 270, 271, 273, 267, 244, 256, 253, 264, 265, 282, 262, 281]
+Time: 0.034712791442871094
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/RoedunetFibre.gml 5 --dir topzoo_res/SC/reduce/BDD-0 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 1.01
+	System time (seconds): 1.26
+	Percent of CPU this job got: 338%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 88956
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14399
+	Voluntary context switches: 22
+	Involuntary context switches: 33
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

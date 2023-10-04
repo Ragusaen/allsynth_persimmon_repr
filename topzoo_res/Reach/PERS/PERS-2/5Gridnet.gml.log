@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Gridnet.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/PERS/PERS-2', dump_bdd=False)
+Running 5Gridnet.gml
+Policy: (Reach 53)
+Initial path of nodes: [1, 2, 8, 9, 17, 15, 19, 20, 26, 28, 29, 35, 37, 38, 44, 46, 47, 53]
+Final path of nodes: [1, 2, 8, 9, 16, 15, 19, 24, 26, 28, 33, 35, 37, 42, 44, 46, 51, 53]
+Persimmon problem:  {"Initial_routing":[[1, 2], [2, 8], [8, 9], [9, 17], [17, 15], [15, 19], [19, 20], [20, 26], [26, 28], [28, 29], [29, 35], [35, 37], [37, 38], [38, 44], [44, 46], [46, 47], [47, 53]],"Final_routing":[[1, 2], [2, 8], [8, 9], [9, 16], [16, 15], [15, 19], [19, 24], [24, 26], [26, 28], [28, 33], [33, 35], [35, 37], [37, 42], [42, 44], [44, 46], [46, 51], [51, 53]],"Properties":{"Reachability":{"startNode":1,"finalNode":53}}}
+Persimmon stdout:  Chain equivalence reduction: 23 -> 21
+Constructing all update BDD
+Solution: Some([[42, 33, 16, 51, 24], [19, 9, 37, 46, 28], [17, 29, 47, 20, 38]])
+Time elapsed: 910.90µs
+Time elapsed(s): 0.000911s
+
+Persimmon stderr:  
+Time: 0.000911
+Solution: [[42, 33, 16, 51, 24], [19, 9, 37, 46, 28], [17, 29, 47, 20, 38]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Gridnet.gml 5 --dir topzoo_res/Reach/PERS/PERS-2 --e-prop Reach --repeat 1"
+	User time (seconds): 0.86
+	System time (seconds): 1.24
+	Percent of CPU this job got: 364%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 70592
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12948
+	Voluntary context switches: 28
+	Involuntary context switches: 44219
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

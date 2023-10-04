@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/SwitchL3.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/reduce/BDD-1', dump_bdd=False)
+Running 5SwitchL3.gml
+Policy: (((((((((((((((((WP(226-250) | WP(100-250)) | WP(133-250)) | WP(166-250)) | WP(39-250)) | WP(7-250)) | WP(197-250)) | WP(233-250)) | WP(173-250)) | WP(46-250)) | WP(77-250)) | WP(214-250)) | WP(88-250)) | WP(249-250)) | WP(91-250)) | WP(124-250)) | WP(157-250)) & (Reach 250))
+Initial path of nodes: [16, 4, 5, 41, 7, 39, 40, 52, 76, 73, 46, 47, 50, 69, 100, 88, 89, 125, 91, 123, 124, 142, 130, 131, 167, 133, 165, 166, 184, 172, 173, 209, 175, 207, 208, 226, 214, 215, 251, 217, 249, 250]
+Final path of nodes: [16, 4, 5, 28, 29, 7, 23, 40, 52, 76, 77, 49, 71, 51, 69, 100, 88, 89, 112, 113, 91, 107, 124, 142, 130, 157, 159, 127, 133, 149, 166, 184, 172, 173, 196, 197, 175, 191, 208, 226, 214, 241, 243, 211, 217, 233, 250]
+Time: 0.07425236701965332
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/SwitchL3.gml 5 --dir topzoo_res/SeparateWPk/reduce/BDD-1 --e-prop SeparateWPk --repeat 1 --reduce"
+	User time (seconds): 1.02
+	System time (seconds): 1.26
+	Percent of CPU this job got: 335%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 90708
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14378
+	Voluntary context switches: 38
+	Involuntary context switches: 62
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

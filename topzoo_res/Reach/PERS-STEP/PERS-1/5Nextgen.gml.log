@@ -1,0 +1,40 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Nextgen.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/PERS/PERS-1', dump_bdd=False)
+Running 5Nextgen.gml
+Policy: (Reach 100)
+Initial path of nodes: [14, 1, 0, 3, 2, 8, 11, 7, 10, 9, 15, 31, 18, 17, 20, 19, 25, 28, 24, 27, 26, 32, 48, 35, 34, 37, 36, 42, 45, 41, 44, 43, 49, 65, 52, 51, 54, 53, 59, 62, 58, 61, 60, 66, 82, 69, 68, 71, 70, 76, 79, 75, 78, 77, 83, 99, 86, 85, 88, 87, 93, 96, 92, 95, 94, 100]
+Final path of nodes: [14, 6, 5, 12, 13, 4, 11, 7, 10, 16, 15, 31, 23, 22, 29, 30, 21, 28, 24, 27, 33, 32, 48, 40, 39, 46, 47, 38, 45, 41, 44, 50, 49, 65, 57, 56, 63, 64, 55, 62, 58, 61, 67, 66, 82, 74, 73, 80, 81, 72, 79, 75, 78, 84, 83, 99, 91, 90, 97, 98, 89, 96, 92, 95, 101, 100]
+Persimmon problem:  {"Initial_routing":[[14, 1], [1, 0], [0, 3], [3, 2], [2, 8], [8, 11], [11, 7], [7, 10], [10, 9], [9, 15], [15, 31], [31, 18], [18, 17], [17, 20], [20, 19], [19, 25], [25, 28], [28, 24], [24, 27], [27, 26], [26, 32], [32, 48], [48, 35], [35, 34], [34, 37], [37, 36], [36, 42], [42, 45], [45, 41], [41, 44], [44, 43], [43, 49], [49, 65], [65, 52], [52, 51], [51, 54], [54, 53], [53, 59], [59, 62], [62, 58], [58, 61], [61, 60], [60, 66], [66, 82], [82, 69], [69, 68], [68, 71], [71, 70], [70, 76], [76, 79], [79, 75], [75, 78], [78, 77], [77, 83], [83, 99], [99, 86], [86, 85], [85, 88], [88, 87], [87, 93], [93, 96], [96, 92], [92, 95], [95, 94], [94, 100]],"Final_routing":[[14, 6], [6, 5], [5, 12], [12, 13], [13, 4], [4, 11], [11, 7], [7, 10], [10, 16], [16, 15], [15, 31], [31, 23], [23, 22], [22, 29], [29, 30], [30, 21], [21, 28], [28, 24], [24, 27], [27, 33], [33, 32], [32, 48], [48, 40], [40, 39], [39, 46], [46, 47], [47, 38], [38, 45], [45, 41], [41, 44], [44, 50], [50, 49], [49, 65], [65, 57], [57, 56], [56, 63], [63, 64], [64, 55], [55, 62], [62, 58], [58, 61], [61, 67], [67, 66], [66, 82], [82, 74], [74, 73], [73, 80], [80, 81], [81, 72], [72, 79], [79, 75], [75, 78], [78, 84], [84, 83], [83, 99], [99, 91], [91, 90], [90, 97], [97, 98], [98, 89], [89, 96], [96, 92], [92, 95], [95, 101], [101, 100]],"Properties":{"Reachability":{"startNode":14,"finalNode":100}}}
+Persimmon stdout:  Chain equivalence reduction: 102 -> 48
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+<=== Starting iteration 2 ===>
+Solution: Some([[16, 33, 67, 50, 101, 91, 90, 97, 98, 89, 84, 57, 56, 63, 64, 55, 74, 73, 80, 81, 72, 23, 22, 29, 30, 21, 6, 5, 12, 13, 4, 40, 39, 46, 47, 38], [31, 82, 78, 27, 61, 95, 14, 44, 48, 99, 10, 65], [18, 17, 20, 19, 25, 9, 69, 68, 71, 70, 76, 26, 1, 0, 3, 2, 8, 35, 34, 37, 36, 42, 43, 52, 51, 54, 53, 59, 94, 77, 60, 86, 85, 88, 87, 93]])
+Time elapsed: 3.17ms
+Time elapsed(s): 0.003175s
+
+Persimmon stderr:  
+Time: 0.003175
+Solution: [[16, 33, 67, 50, 101, 91, 90, 97, 98, 89, 84, 57, 56, 63, 64, 55, 74, 73, 80, 81, 72, 23, 22, 29, 30, 21, 6, 5, 12, 13, 4, 40, 39, 46, 47, 38], [31, 82, 78, 27, 61, 95, 14, 44, 48, 99, 10, 65], [18, 17, 20, 19, 25, 9, 69, 68, 71, 70, 76, 26, 1, 0, 3, 2, 8, 35, 34, 37, 36, 42, 43, 52, 51, 54, 53, 59, 94, 77, 60, 86, 85, 88, 87, 93]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Nextgen.gml 5 --dir topzoo_res/Reach/PERS/PERS-1 --e-prop Reach --repeat 1"
+	User time (seconds): 0.72
+	System time (seconds): 1.28
+	Percent of CPU this job got: 496%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 70840
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13055
+	Voluntary context switches: 31
+	Involuntary context switches: 156
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

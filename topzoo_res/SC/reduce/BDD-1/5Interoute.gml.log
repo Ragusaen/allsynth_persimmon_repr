@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Interoute.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-1', dump_bdd=False)
+Running 5Interoute.gml
+Policy: (Service([50, 163, 218, 271, 374, 424, 456, 564, 600]-658) & (Reach 658))
+Initial path of nodes: [14, 44, 53, 36, 39, 9, 8, 7, 18, 27, 16, 89, 51, 50, 95, 86, 94, 108, 124, 154, 163, 146, 149, 119, 118, 117, 128, 137, 126, 199, 161, 160, 205, 196, 204, 218, 234, 264, 273, 256, 259, 229, 228, 227, 238, 247, 236, 309, 271, 270, 315, 306, 314, 328, 344, 374, 383, 366, 369, 339, 338, 337, 348, 357, 346, 419, 381, 380, 425, 416, 424, 438, 454, 484, 493, 476, 479, 449, 448, 447, 458, 467, 456, 529, 491, 490, 535, 526, 534, 548, 564, 594, 603, 586, 589, 559, 558, 557, 568, 577, 566, 639, 601, 600, 645, 636, 644, 658]
+Final path of nodes: [14, 44, 53, 35, 0, 103, 102, 34, 46, 21, 11, 72, 16, 56, 57, 50, 93, 51, 88, 76, 87, 94, 108, 124, 125, 154, 163, 145, 110, 213, 212, 144, 156, 131, 121, 182, 126, 166, 167, 160, 203, 161, 198, 186, 197, 204, 218, 234, 235, 264, 273, 255, 220, 323, 322, 254, 266, 241, 231, 292, 236, 276, 277, 270, 313, 271, 308, 296, 307, 314, 328, 344, 345, 374, 383, 365, 330, 433, 432, 364, 376, 351, 341, 402, 346, 386, 387, 380, 423, 381, 418, 406, 417, 424, 438, 454, 455, 484, 493, 475, 440, 543, 542, 474, 486, 461, 451, 512, 456, 496, 497, 490, 533, 491, 528, 516, 527, 534, 548, 564, 565, 594, 603, 585, 550, 653, 652, 584, 596, 571, 561, 622, 566, 606, 607, 600, 643, 601, 638, 626, 637, 644, 658]
+Time: 1.5942459106445312
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Interoute.gml 5 --dir topzoo_res/SC/reduce/BDD-1 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 2.85
+	System time (seconds): 1.30
+	Percent of CPU this job got: 163%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 91092
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 15846
+	Voluntary context switches: 24
+	Involuntary context switches: 65
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

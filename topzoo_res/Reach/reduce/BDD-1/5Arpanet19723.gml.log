@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Arpanet19723.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/reduce/BDD-1', dump_bdd=False)
+Running 5Arpanet19723.gml
+Policy: (Reach 145)
+Initial path of nodes: [2, 1, 4, 7, 16, 15, 8, 21, 14, 12, 20, 26, 27, 28, 35, 48, 49, 25, 47, 36, 42, 43, 52, 51, 54, 57, 66, 65, 58, 71, 64, 62, 70, 77, 76, 79, 82, 91, 90, 83, 96, 89, 87, 95, 102, 101, 104, 107, 116, 115, 108, 121, 114, 112, 120, 127, 126, 129, 132, 141, 140, 133, 146, 139, 137, 145]
+Final path of nodes: [2, 3, 10, 23, 24, 0, 22, 11, 17, 9, 13, 20, 26, 29, 32, 41, 40, 33, 46, 39, 37, 44, 43, 52, 53, 60, 73, 74, 50, 72, 61, 67, 59, 63, 70, 77, 78, 85, 98, 99, 75, 97, 86, 92, 84, 88, 95, 102, 103, 110, 123, 124, 100, 122, 111, 117, 109, 113, 120, 127, 128, 135, 148, 149, 125, 147, 136, 142, 134, 138, 145]
+Time: 0.008133888244628906
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Arpanet19723.gml 5 --dir topzoo_res/Reach/reduce/BDD-1 --e-prop Reach --repeat 1 --reduce"
+	User time (seconds): 0.73
+	System time (seconds): 1.31
+	Percent of CPU this job got: 464%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 88556
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14110
+	Voluntary context switches: 25
+	Involuntary context switches: 77
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

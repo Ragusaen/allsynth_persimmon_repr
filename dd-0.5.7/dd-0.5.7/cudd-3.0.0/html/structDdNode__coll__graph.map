@@ -1,0 +1,7 @@
+<map id="DdNode" name="DdNode">
+<area shape="rect" id="Node000001" title="Decision diagram node." alt="" coords="15,5,89,33"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="105,8,112,12,115,20,107,29,90,32,89,27,105,25,110,19,108,16,103,13"/>
+<area shape="rect" id="Node000002" href="$structDdChildren.html" title="The two children of a non&#45;terminal node." alt="" coords="5,115,99,143"/>
+<area shape="poly" id="edge3_Node000002_Node000001" title=" " alt="" coords="40,47,37,58,35,74,37,90,47,114,42,115,32,92,30,74,32,56,35,46"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="49,100,49,34,55,34,55,100"/>
+</map>

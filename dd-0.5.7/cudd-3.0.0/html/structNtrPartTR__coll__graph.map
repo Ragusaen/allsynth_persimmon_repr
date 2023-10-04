@@ -1,0 +1,13 @@
+<map id="NtrPartTR" name="NtrPartTR">
+<area shape="rect" id="Node000001" title="Data structure for partitioned transition relation." alt="" coords="153,327,237,354"/>
+<area shape="rect" id="Node000002" href="$structDdNode.html" title="Decision diagram node." alt="" coords="34,98,107,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,135,106,148,116,171,121,191,124,227,128,262,135,281,146,301,171,324,168,328,142,304,130,283,123,264,119,228,116,192,111,172,102,151,93,138"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="124,103,134,112,126,121,108,123,108,118,123,116,129,112,121,107"/>
+<area shape="rect" id="Node000003" href="$structDdChildren.html" title="The two children of a non&#45;terminal node." alt="" coords="5,327,99,354"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="48,138,41,151,30,191,28,225,41,302,49,326,43,327,36,303,23,225,24,191,36,149,43,136"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="52,312,67,126,72,126,57,312"/>
+<area shape="rect" id="Node000004" href="$structNtrHeap.html" title="Heap&#45;based priority queue." alt="" coords="189,98,264,126"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="225,141,199,327,194,326,220,140"/>
+<area shape="rect" id="Node000005" href="$structNtrHeapSlot.html" title="Entry of NtrHeap." alt="" coords="177,5,277,33"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="229,48,229,98,224,98,224,48"/>
+</map>

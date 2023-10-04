@@ -1,0 +1,31 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Bandcon.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/reduce/BDD-1', dump_bdd=False)
+Traceback (most recent call last):
+  File "/home/rasmus/Documents/dat7/AllSynth/allsynth/run.py", line 162, in <module>
+    (G, p1, p2) = gen_init_final(gml_path, num_copies=num_copies)
+  File "/home/rasmus/Documents/dat7/AllSynth/allsynth/topology.py", line 146, in gen_init_final
+    raise DisconnectedError("Graph {} must be connected".format(gml_path))
+topology.DisconnectedError: Graph topologies/topzoo/Bandcon.gml must be connected
+Command exited with non-zero status 1
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Bandcon.gml 5 --dir topzoo_res/Reach/reduce/BDD-1 --e-prop Reach --repeat 1 --reduce"
+	User time (seconds): 0.75
+	System time (seconds): 1.27
+	Percent of CPU this job got: 487%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 70576
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12731
+	Voluntary context switches: 27
+	Involuntary context switches: 39
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1

@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Latnet.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/reduce/BDD-0', dump_bdd=False)
+Running 5Latnet.gml
+Policy: (Reach 413)
+Initial path of nodes: [60, 41, 12, 13, 28, 37, 29, 38, 39, 30, 26, 66, 68, 70, 75, 111, 99, 108, 107, 98, 106, 97, 82, 81, 110, 129, 198, 179, 150, 151, 166, 175, 167, 176, 177, 168, 164, 204, 206, 267, 248, 219, 220, 235, 244, 236, 245, 246, 237, 233, 273, 275, 336, 317, 288, 289, 304, 313, 305, 314, 315, 306, 302, 342, 344, 405, 386, 357, 358, 373, 382, 374, 383, 384, 375, 371, 411, 413]
+Final path of nodes: [60, 41, 12, 13, 28, 37, 29, 38, 39, 30, 26, 66, 68, 70, 75, 111, 99, 108, 107, 98, 106, 97, 82, 81, 110, 129, 198, 179, 150, 151, 166, 175, 167, 176, 177, 168, 164, 204, 206, 267, 248, 219, 220, 235, 244, 236, 245, 246, 237, 238, 233, 273, 275, 336, 317, 288, 289, 304, 313, 305, 314, 315, 306, 302, 342, 344, 405, 386, 357, 358, 373, 382, 374, 383, 384, 375, 376, 371, 411, 413]
+Time: 0.006072044372558594
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Latnet.gml 5 --dir topzoo_res/Reach/reduce/BDD-0 --e-prop Reach --repeat 1 --reduce"
+	User time (seconds): 0.84
+	System time (seconds): 1.28
+	Percent of CPU this job got: 411%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.51
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 90520
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14500
+	Voluntary context switches: 27
+	Involuntary context switches: 24
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

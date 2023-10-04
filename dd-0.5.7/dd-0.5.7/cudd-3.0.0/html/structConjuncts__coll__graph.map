@@ -1,0 +1,9 @@
+<map id="Conjuncts" name="Conjuncts">
+<area shape="rect" id="Node000001" title="Type of a pair of conjoined BDDs." alt="" coords="5,115,91,143"/>
+<area shape="rect" id="Node000002" href="$structDdNode.html" title="Decision diagram node." alt="" coords="82,5,155,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,47,59,116,54,113,100,44"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="172,8,179,12,182,20,174,29,156,32,156,27,171,25,177,19,175,16,169,13"/>
+<area shape="rect" id="Node000003" href="$structDdChildren.html" title="The two children of a non&#45;terminal node." alt="" coords="115,115,208,143"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="117,47,117,69,122,90,131,102,142,112,138,116,127,106,118,92,112,70,112,48"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="149,103,121,35,126,33,153,101"/>
+</map>

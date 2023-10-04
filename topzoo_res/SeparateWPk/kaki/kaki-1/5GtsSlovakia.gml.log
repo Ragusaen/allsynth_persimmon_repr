@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/GtsSlovakia.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/kaki/kaki-1', dump_bdd=False)
+Running 5GtsSlovakia.gml
+Policy: ((((((((((WP(131-206) | WP(101-206)) | WP(134-206)) | WP(167-206)) | WP(41-206)) | WP(74-206)) | WP(205-206)) | WP(183-206)) | WP(30-206)) | WP(63-206)) & (Reach 206))
+Initial path of nodes: [8, 4, 27, 6, 26, 30, 31, 43, 39, 62, 41, 61, 65, 66, 78, 74, 97, 76, 96, 100, 101, 113, 109, 132, 111, 131, 135, 136, 148, 144, 167, 146, 166, 170, 171, 183, 179, 202, 181, 201, 205, 206]
+Final path of nodes: [8, 4, 27, 28, 29, 30, 31, 43, 39, 62, 63, 64, 65, 66, 78, 74, 97, 98, 99, 100, 101, 113, 109, 132, 133, 134, 135, 136, 148, 144, 167, 168, 169, 170, 171, 183, 179, 202, 203, 204, 205, 206]
+{"Initial_routing":[[8, 4], [4, 27], [27, 6], [6, 26], [26, 30], [30, 31], [31, 43], [43, 39], [39, 62], [62, 41], [41, 61], [61, 65], [65, 66], [66, 78], [78, 74], [74, 97], [97, 76], [76, 96], [96, 100], [100, 101], [101, 113], [113, 109], [109, 132], [132, 111], [111, 131], [131, 135], [135, 136], [136, 148], [148, 144], [144, 167], [167, 146], [146, 166], [166, 170], [170, 171], [171, 183], [183, 179], [179, 202], [202, 181], [181, 201], [201, 205], [205, 206]],"Final_routing":[[8, 4], [4, 27], [27, 28], [28, 29], [29, 30], [30, 31], [31, 43], [43, 39], [39, 62], [62, 63], [63, 64], [64, 65], [65, 66], [66, 78], [78, 74], [74, 97], [97, 98], [98, 99], [99, 100], [100, 101], [101, 113], [113, 109], [109, 132], [132, 133], [133, 134], [134, 135], [135, 136], [136, 148], [148, 144], [144, 167], [167, 168], [168, 169], [169, 170], [170, 171], [171, 183], [183, 179], [179, 202], [202, 203], [203, 204], [204, 205], [205, 206]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [63,30,183,205,74,41,167,134,131,101], "edges": [{"from": 0, "to": 63, "label": 63},{"from": 0, "to": 30, "label": 30},{"from": 0, "to": 183, "label": 183},{"from": 0, "to": 205, "label": 205},{"from": 0, "to": 74, "label": 74},{"from": 0, "to": 41, "label": 41},{"from": 0, "to": 167, "label": 167},{"from": 0, "to": 134, "label": 134},{"from": 0, "to": 131, "label": 131},{"from": 0, "to": 101, "label": 101}]},"Reachability":{"startNode":8,"finalNode":206}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmp3tkz762u
+DFA generation time: 0.019 seconds 
+DFA states: 36 
+DFA transitions: 1126
+Problem file: /tmp/tmp3tkz762u
+Switches to update: 30
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.019 seconds
+Subproblem verification time: 0.043 seconds
+Subproblem verification time: 0.013 seconds
+Subproblem verification time: 0.014 seconds
+Subproblem verification time: 0.012 seconds
+Subproblem verification time: 0.013 seconds
+Subproblem verification time: 0.013 seconds
+Minimum batches required: 3
+[[28, 29, 63, 64, 98, 99, 133, 134, 168, 169, 203, 204], [27, 62, 97, 132, 167, 202], [6, 26, 41, 61, 76, 96, 111, 131, 146, 166, 181, 201]]
+Total program runtime: 0.316 seconds
+
+Kaki stderr:  
+Time: 0.316
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/GtsSlovakia.gml 5 --dir topzoo_res/SeparateWPk/kaki/kaki-1 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 2.12
+	System time (seconds): 1.45
+	Percent of CPU this job got: 331%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 100228
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 39597
+	Voluntary context switches: 5249
+	Involuntary context switches: 423
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

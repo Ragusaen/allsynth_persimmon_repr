@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Garr201007.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/kaki/kaki-2', dump_bdd=False)
+Running 5Garr201007.gml
+Policy: (Reach 327)
+Initial path of nodes: [10, 18, 19, 8, 49, 31, 13, 52, 55, 84, 67, 95, 63, 74, 73, 65, 120, 128, 129, 118, 159, 141, 123, 162, 175, 183, 184, 173, 214, 196, 178, 217, 230, 238, 239, 228, 269, 251, 233, 272, 285, 293, 294, 283, 324, 306, 288, 327]
+Final path of nodes: [10, 18, 19, 16, 49, 12, 29, 13, 52, 55, 84, 67, 98, 71, 74, 73, 65, 120, 128, 129, 126, 159, 122, 139, 123, 162, 175, 183, 184, 181, 214, 177, 194, 178, 217, 230, 238, 239, 236, 269, 232, 249, 233, 272, 285, 293, 294, 291, 324, 287, 304, 288, 327]
+{"Initial_routing":[[10, 18], [18, 19], [19, 8], [8, 49], [49, 31], [31, 13], [13, 52], [52, 55], [55, 84], [84, 67], [67, 95], [95, 63], [63, 74], [74, 73], [73, 65], [65, 120], [120, 128], [128, 129], [129, 118], [118, 159], [159, 141], [141, 123], [123, 162], [162, 175], [175, 183], [183, 184], [184, 173], [173, 214], [214, 196], [196, 178], [178, 217], [217, 230], [230, 238], [238, 239], [239, 228], [228, 269], [269, 251], [251, 233], [233, 272], [272, 285], [285, 293], [293, 294], [294, 283], [283, 324], [324, 306], [306, 288], [288, 327]],"Final_routing":[[10, 18], [18, 19], [19, 16], [16, 49], [49, 12], [12, 29], [29, 13], [13, 52], [52, 55], [55, 84], [84, 67], [67, 98], [98, 71], [71, 74], [74, 73], [73, 65], [65, 120], [120, 128], [128, 129], [129, 126], [126, 159], [159, 122], [122, 139], [139, 123], [123, 162], [162, 175], [175, 183], [183, 184], [184, 181], [181, 214], [214, 177], [177, 194], [194, 178], [178, 217], [217, 230], [230, 238], [238, 239], [239, 236], [236, 269], [269, 232], [232, 249], [249, 233], [233, 272], [272, 285], [285, 293], [293, 294], [294, 291], [291, 324], [324, 287], [287, 304], [304, 288], [288, 327]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"Reachability":{"startNode":10,"finalNode":327}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpfe5d38ye
+DFA generation time: 0.008 seconds 
+DFA states: 3 
+DFA transitions: 66
+Problem file: /tmp/tmpfe5d38ye
+Switches to update: 40
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.005 seconds
+Subproblem verification time: 0.062 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Minimum batches required: 3
+[[16, 12, 29, 98, 71, 126, 122, 139, 181, 177, 194, 236, 232, 249, 291, 287, 304], [49, 19, 67, 159, 129, 214, 184, 269, 239, 324, 294], [8, 31, 95, 63, 118, 141, 173, 196, 228, 251, 283, 306]]
+Total program runtime: 0.224 seconds
+
+Kaki stderr:  
+Time: 0.224
+Solution: None
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Garr201007.gml 5 --dir topzoo_res/Reach/kaki/kaki-2 --e-prop Reach --repeat 1"
+	User time (seconds): 1.40
+	System time (seconds): 1.43
+	Percent of CPU this job got: 363%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.78
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 92324
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 39589
+	Voluntary context switches: 3834
+	Involuntary context switches: 208
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

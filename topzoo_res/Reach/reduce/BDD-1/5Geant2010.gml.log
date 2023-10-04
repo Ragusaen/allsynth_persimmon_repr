@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Geant2010.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/reduce/BDD-1', dump_bdd=False)
+Running 5Geant2010.gml
+Policy: (Reach 221)
+Initial path of nodes: [12, 10, 19, 20, 5, 3, 27, 36, 48, 47, 50, 63, 41, 39, 70, 71, 86, 84, 93, 94, 79, 77, 101, 110, 123, 121, 130, 131, 116, 114, 138, 147, 160, 158, 167, 168, 153, 151, 175, 184, 197, 195, 204, 205, 190, 188, 212, 221]
+Final path of nodes: [12, 10, 13, 26, 4, 2, 35, 36, 48, 56, 57, 42, 41, 37, 39, 70, 71, 86, 85, 84, 87, 100, 78, 76, 109, 110, 123, 122, 121, 124, 137, 115, 113, 146, 147, 160, 159, 158, 161, 174, 152, 150, 183, 184, 197, 196, 195, 198, 211, 189, 187, 220, 221]
+Time: 0.016367197036743164
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Geant2010.gml 5 --dir topzoo_res/Reach/reduce/BDD-1 --e-prop Reach --repeat 1 --reduce"
+	User time (seconds): 0.76
+	System time (seconds): 1.31
+	Percent of CPU this job got: 444%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.46
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 93252
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14328
+	Voluntary context switches: 40
+	Involuntary context switches: 29
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,40 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Belnet2009.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/PERS/PERS-0', dump_bdd=False)
+Running 5Belnet2009.gml
+Policy: (Service([51, 107]-114) & (Reach 114))
+Initial path of nodes: [2, 11, 10, 18, 4, 5, 8, 9, 21, 22, 27, 38, 28, 33, 30, 29, 44, 53, 52, 60, 46, 47, 50, 51, 65, 74, 73, 81, 67, 68, 71, 72, 86, 95, 94, 102, 88, 89, 92, 93, 107, 116, 115, 123, 109, 110, 113, 114]
+Final path of nodes: [2, 3, 0, 1, 6, 17, 7, 12, 9, 21, 24, 23, 32, 31, 39, 25, 26, 29, 44, 45, 42, 43, 48, 59, 49, 54, 51, 65, 66, 63, 64, 69, 80, 70, 75, 72, 86, 87, 84, 85, 90, 101, 91, 96, 93, 107, 108, 105, 106, 111, 122, 112, 117, 114]
+Persimmon problem:  {"Initial_routing":[[2, 11], [11, 10], [10, 18], [18, 4], [4, 5], [5, 8], [8, 9], [9, 21], [21, 22], [22, 27], [27, 38], [38, 28], [28, 33], [33, 30], [30, 29], [29, 44], [44, 53], [53, 52], [52, 60], [60, 46], [46, 47], [47, 50], [50, 51], [51, 65], [65, 74], [74, 73], [73, 81], [81, 67], [67, 68], [68, 71], [71, 72], [72, 86], [86, 95], [95, 94], [94, 102], [102, 88], [88, 89], [89, 92], [92, 93], [93, 107], [107, 116], [116, 115], [115, 123], [123, 109], [109, 110], [110, 113], [113, 114]],"Final_routing":[[2, 3], [3, 0], [0, 1], [1, 6], [6, 17], [17, 7], [7, 12], [12, 9], [9, 21], [21, 24], [24, 23], [23, 32], [32, 31], [31, 39], [39, 25], [25, 26], [26, 29], [29, 44], [44, 45], [45, 42], [42, 43], [43, 48], [48, 59], [59, 49], [49, 54], [54, 51], [51, 65], [65, 66], [66, 63], [63, 64], [64, 69], [69, 80], [80, 70], [70, 75], [75, 72], [72, 86], [86, 87], [87, 84], [84, 85], [85, 90], [90, 101], [101, 91], [91, 96], [96, 93], [93, 107], [107, 108], [108, 105], [105, 106], [106, 111], [111, 122], [122, 112], [112, 117], [117, 114]],"Properties":{"ServiceChain": {"waypoint": [51,107]},"Reachability":{"startNode":2,"finalNode":114}}}
+Persimmon stdout:  Chain equivalence reduction: 90 -> 24
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+<=== Starting iteration 2 ===>
+Solution: Some([[66, 63, 64, 69, 80, 70, 75, 24, 23, 32, 31, 39, 25, 26, 3, 0, 1, 6, 17, 7, 12, 45, 42, 43, 48, 59, 49, 54, 87, 84, 85, 90, 101, 91, 96, 108, 105, 106, 111, 122, 112, 117], [65, 44, 86, 2, 107, 21], [22, 27, 38, 28, 33, 30, 95, 94, 102, 88, 89, 92, 11, 10, 18, 4, 5, 8, 53, 52, 60, 46, 47, 50, 74, 73, 81, 67, 68, 71, 116, 115, 123, 109, 110, 113]])
+Time elapsed: 889.21µs
+Time elapsed(s): 0.000889s
+
+Persimmon stderr:  
+Time: 0.000889
+Solution: [[66, 63, 64, 69, 80, 70, 75, 24, 23, 32, 31, 39, 25, 26, 3, 0, 1, 6, 17, 7, 12, 45, 42, 43, 48, 59, 49, 54, 87, 84, 85, 90, 101, 91, 96, 108, 105, 106, 111, 122, 112, 117], [65, 44, 86, 2, 107, 21], [22, 27, 38, 28, 33, 30, 95, 94, 102, 88, 89, 92, 11, 10, 18, 4, 5, 8, 53, 52, 60, 46, 47, 50, 74, 73, 81, 67, 68, 71, 116, 115, 123, 109, 110, 113]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Belnet2009.gml 5 --dir topzoo_res/SC/PERS/PERS-0 --e-prop SC --repeat 1"
+	User time (seconds): 0.67
+	System time (seconds): 1.26
+	Percent of CPU this job got: 578%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71352
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13115
+	Voluntary context switches: 37
+	Involuntary context switches: 161
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

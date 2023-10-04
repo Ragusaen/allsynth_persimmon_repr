@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Pern.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/reduce/BDD-2', dump_bdd=False)
+Running 5Pern.gml
+Policy: ((((((((((((((((((((WP(267-760) | WP(655-760)) | WP(528-760)) | WP(401-760)) | WP(274-760)) | WP(147-760)) | WP(170-760)) | WP(427-760)) | WP(685-760)) | WP(558-760)) | WP(431-760)) | WP(304-760)) | WP(177-760)) | WP(50-760)) | WP(568-760)) | WP(737-760)) | WP(102-760)) | WP(373-760)) | WP(506-760)) | WP(253-760)) & (Reach 760))
+Initial path of nodes: [20, 43, 13, 46, 60, 102, 126, 119, 125, 147, 170, 140, 173, 187, 229, 253, 246, 252, 274, 297, 267, 300, 314, 356, 380, 373, 379, 401, 424, 394, 427, 441, 483, 507, 500, 506, 528, 551, 521, 554, 568, 610, 634, 627, 633, 655, 678, 648, 681, 695, 737, 761, 754, 760]
+Final path of nodes: [20, 43, 13, 10, 59, 50, 72, 126, 119, 125, 147, 170, 140, 137, 186, 177, 199, 253, 246, 252, 274, 297, 267, 264, 313, 304, 326, 380, 373, 379, 401, 424, 394, 391, 440, 431, 453, 507, 500, 506, 528, 551, 521, 518, 567, 558, 580, 634, 627, 633, 655, 678, 648, 645, 694, 685, 707, 761, 754, 760]
+Time: 0.06276893615722656
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Pern.gml 5 --dir topzoo_res/SeparateWPk/reduce/BDD-2 --e-prop SeparateWPk --repeat 1 --reduce"
+	User time (seconds): 1.35
+	System time (seconds): 1.29
+	Percent of CPU this job got: 253%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 90720
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14812
+	Voluntary context switches: 33
+	Involuntary context switches: 37
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

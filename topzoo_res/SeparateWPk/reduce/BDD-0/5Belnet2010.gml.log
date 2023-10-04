@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Belnet2010.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/reduce/BDD-0', dump_bdd=False)
+Running 5Belnet2010.gml
+Policy: ((((((((((((((((((((WP(128-126) | WP(129-126)) | WP(4-126)) | WP(16-126)) | WP(18-126)) | WP(22-126)) | WP(37-126)) | WP(42-126)) | WP(48-126)) | WP(56-126)) | WP(60-126)) | WP(66-126)) | WP(81-126)) | WP(83-126)) | WP(87-126)) | WP(91-126)) | WP(95-126)) | WP(102-126)) | WP(112-126)) | WP(122-126)) & (Reach 126))
+Initial path of nodes: [12, 21, 20, 7, 4, 18, 17, 16, 24, 25, 22, 26, 40, 39, 38, 37, 56, 65, 64, 51, 48, 62, 61, 60, 78, 87, 86, 73, 70, 84, 83, 82, 100, 109, 108, 95, 92, 106, 105, 104, 122, 131, 130, 117, 114, 128, 127, 126]
+Final path of nodes: [12, 13, 2, 3, 0, 4, 7, 19, 14, 15, 16, 24, 35, 34, 43, 42, 29, 41, 36, 37, 56, 57, 46, 47, 44, 48, 51, 63, 58, 59, 60, 78, 79, 68, 69, 66, 70, 73, 85, 80, 81, 82, 100, 101, 90, 91, 88, 92, 95, 107, 102, 103, 104, 122, 123, 112, 113, 110, 114, 117, 129, 124, 125, 126]
+Time: 0.5666942596435547
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Belnet2010.gml 5 --dir topzoo_res/SeparateWPk/reduce/BDD-0 --e-prop SeparateWPk --repeat 1 --reduce"
+	User time (seconds): 1.44
+	System time (seconds): 1.22
+	Percent of CPU this job got: 232%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 87792
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14526
+	Voluntary context switches: 24
+	Involuntary context switches: 116
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,30 @@
+<map id="DdLocalCache" name="DdLocalCache">
+<area shape="rect" id="Node000001" title="Local cache." alt="" coords="51,415,164,443"/>
+<area shape="poly" id="edge19_Node000001_Node000001" title=" " alt="" coords="181,416,188,421,191,429,183,440,166,445,164,440,180,436,186,428,184,424,178,420"/>
+<area shape="rect" id="Node000005" href="$structDdManager.html" title="Specialized DD symbol table." alt="" coords="286,545,383,572"/>
+<area shape="poly" id="edge14_Node000005_Node000001" title=" " alt="" coords="101,457,96,490,99,505,106,519,118,528,135,535,181,545,286,554,285,559,180,551,133,540,115,532,102,522,94,507,91,490,95,456"/>
+<area shape="rect" id="Node000002" href="$structDdLocalCacheItem.html" title="Generic local cache item." alt="" coords="5,132,149,160"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,175,109,414,104,415,77,175"/>
+<area shape="rect" id="Node000003" href="$structDdNode.html" title="Decision diagram node." alt="" coords="242,5,315,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="228,35,198,45,169,59,122,97,89,134,85,130,118,93,166,55,196,40,227,30"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="331,7,339,11,342,20,334,30,316,34,315,28,331,26,336,19,335,15,329,12"/>
+<area shape="rect" id="Node000004" href="$structDdChildren.html" title="The two children of a non&#45;terminal node." alt="" coords="173,132,266,160"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="232,43,218,58,212,77,211,96,218,131,212,132,206,97,206,76,213,56,228,40"/>
+<area shape="poly" id="edge7_Node000005_Node000003" title=" " alt="" coords="286,48,288,57,294,145,294,214,294,283,300,370,317,470,334,544,328,545,312,471,295,371,288,283,288,214,289,145,282,57,281,48"/>
+<area shape="rect" id="Node000006" href="$structDdCache.html" title="Computed table." alt="" coords="396,263,475,291"/>
+<area shape="poly" id="edge9_Node000006_Node000003" title=" " alt="" coords="310,41,324,55,364,112,395,171,434,262,429,264,391,174,359,115,320,59,306,44"/>
+<area shape="rect" id="Node000007" href="$structDdSubtable.html" title="Subtable for one index." alt="" coords="482,263,579,291"/>
+<area shape="poly" id="edge11_Node000007_Node000003" title=" " alt="" coords="330,26,363,37,395,55,422,79,446,106,485,166,512,221,528,262,523,264,508,224,480,168,441,109,418,82,391,59,361,42,329,32"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="226,117,252,56,266,32,271,35,256,58,231,119"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="271,545,221,523,205,506,190,489,129,445,132,441,193,485,209,503,225,518,273,540"/>
+<area shape="poly" id="edge18_Node000005_Node000005" title=" " alt="" coords="398,548,406,552,409,559,401,568,383,571,382,566,398,563,404,558,402,556,396,553"/>
+<area shape="rect" id="Node000009" href="$structDdHook.html" title="CUDD hook." alt="" coords="298,688,371,716"/>
+<area shape="poly" id="edge16_Node000009_Node000005" title=" " alt="" coords="325,587,323,597,318,630,323,664,330,687,325,689,317,665,313,630,317,596,320,586"/>
+<area shape="poly" id="edge8_Node000005_Node000006" title=" " alt="" coords="426,305,387,396,359,480,340,545,335,544,354,479,382,394,421,303"/>
+<area shape="poly" id="edge10_Node000005_Node000007" title=" " alt="" coords="521,306,478,391,436,464,393,511,353,546,349,542,390,508,432,461,474,389,516,303"/>
+<area shape="rect" id="Node000008" href="$structMtrNode__.html" title="multi&#45;way tree node." alt="" coords="555,415,639,443"/>
+<area shape="poly" id="edge12_Node000005_Node000008" title=" " alt="" coords="576,454,535,490,484,523,433,542,384,553,383,548,431,537,481,518,532,486,573,450"/>
+<area shape="poly" id="edge13_Node000008_Node000008" title=" " alt="" coords="655,415,663,420,666,429,658,441,640,445,639,440,655,437,661,428,659,423,652,419"/>
+<area shape="poly" id="edge15_Node000005_Node000009" title=" " alt="" coords="332,673,332,573,337,573,337,673"/>
+<area shape="poly" id="edge17_Node000009_Node000009" title=" " alt="" coords="388,689,395,694,398,702,390,715,372,718,371,713,387,710,392,702,390,697,385,693"/>
+</map>

@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Spiralight.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-0', dump_bdd=False)
+Running 5Spiralight.gml
+Policy: (Service([25, 50, 79]-85) & (Reach 85))
+Initial path of nodes: [4, 0, 3, 5, 6, 8, 7, 9, 10, 19, 15, 18, 20, 21, 23, 22, 24, 25, 34, 30, 33, 35, 36, 38, 37, 39, 40, 49, 45, 48, 50, 51, 53, 52, 54, 55, 64, 60, 63, 65, 66, 68, 67, 69, 70, 79, 75, 78, 80, 81, 83, 82, 84, 85]
+Final path of nodes: [4, 1, 2, 5, 14, 13, 12, 11, 10, 19, 16, 17, 20, 29, 28, 27, 26, 25, 34, 31, 32, 35, 44, 43, 42, 41, 40, 49, 46, 47, 50, 59, 58, 57, 56, 55, 64, 61, 62, 65, 74, 73, 72, 71, 70, 79, 76, 77, 80, 89, 88, 87, 86, 85]
+Time: 0.03237318992614746
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Spiralight.gml 5 --dir topzoo_res/SC/reduce/BDD-0 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 0.87
+	System time (seconds): 1.34
+	Percent of CPU this job got: 363%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 87400
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14004
+	Voluntary context switches: 31
+	Involuntary context switches: 357
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

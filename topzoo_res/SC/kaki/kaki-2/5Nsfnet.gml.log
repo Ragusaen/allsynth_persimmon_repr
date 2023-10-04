@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Nsfnet.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/kaki/kaki-2', dump_bdd=False)
+Running 5Nsfnet.gml
+Policy: (Service([24, 35, 47, 66]-73) & (Reach 73))
+Initial path of nodes: [1, 2, 0, 11, 9, 8, 14, 15, 13, 24, 22, 21, 27, 28, 26, 37, 35, 34, 40, 41, 39, 50, 48, 47, 53, 54, 52, 63, 61, 60, 66, 67, 65, 76, 74, 73]
+Final path of nodes: [1, 4, 12, 11, 9, 8, 14, 17, 25, 24, 22, 21, 27, 30, 38, 37, 35, 34, 40, 43, 51, 50, 48, 47, 53, 56, 64, 63, 61, 60, 66, 69, 77, 76, 74, 73]
+{"Initial_routing":[[1, 2], [2, 0], [0, 11], [11, 9], [9, 8], [8, 14], [14, 15], [15, 13], [13, 24], [24, 22], [22, 21], [21, 27], [27, 28], [28, 26], [26, 37], [37, 35], [35, 34], [34, 40], [40, 41], [41, 39], [39, 50], [50, 48], [48, 47], [47, 53], [53, 54], [54, 52], [52, 63], [63, 61], [61, 60], [60, 66], [66, 67], [67, 65], [65, 76], [76, 74], [74, 73]],"Final_routing":[[1, 4], [4, 12], [12, 11], [11, 9], [9, 8], [8, 14], [14, 17], [17, 25], [25, 24], [24, 22], [22, 21], [21, 27], [27, 30], [30, 38], [38, 37], [37, 35], [35, 34], [34, 40], [40, 43], [43, 51], [51, 50], [50, 48], [48, 47], [47, 53], [53, 56], [56, 64], [64, 63], [63, 61], [61, 60], [60, 66], [66, 69], [69, 77], [77, 76], [76, 74], [74, 73]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [4], "edges": [{"from": 0, "to": 1, "label": 24},{"from": 1, "to": 2, "label": 35},{"from": 2, "to": 3, "label": 47},{"from": 3, "to": 4, "label": 66}]},"Reachability":{"startNode":1,"finalNode":73}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpkd1p3wna
+DFA generation time: 0.01 seconds 
+DFA states: 14 
+DFA transitions: 129
+Problem file: /tmp/tmpkd1p3wna
+Switches to update: 30
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.005 seconds
+Subproblem verification time: 0.029 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Minimum batches required: 3
+[[4, 12, 17, 25, 30, 38, 43, 51, 56, 64, 69, 77], [1, 14, 27, 40, 53, 66], [2, 0, 15, 13, 28, 26, 41, 39, 54, 52, 67, 65]]
+Total program runtime: 0.202 seconds
+
+Kaki stderr:  
+Time: 0.202
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Nsfnet.gml 5 --dir topzoo_res/SC/kaki/kaki-2 --e-prop SC --repeat 1"
+	User time (seconds): 1.29
+	System time (seconds): 1.42
+	Percent of CPU this job got: 403%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 93668
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 37907
+	Voluntary context switches: 3518
+	Involuntary context switches: 559
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

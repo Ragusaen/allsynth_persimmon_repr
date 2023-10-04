@@ -1,0 +1,51 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Heanet.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/kaki/kaki-0', dump_bdd=False)
+Running 5Heanet.gml
+Policy: (Reach 41)
+Initial path of nodes: [2, 1, 6, 7, 10, 12, 16, 15, 20, 23, 22, 27, 30, 29, 34, 37, 36, 41]
+Final path of nodes: [2, 1, 6, 7, 13, 12, 16, 17, 20, 23, 24, 27, 30, 31, 34, 37, 38, 41]
+{"Initial_routing":[[2, 1], [1, 6], [6, 7], [7, 10], [10, 12], [12, 16], [16, 15], [15, 20], [20, 23], [23, 22], [22, 27], [27, 30], [30, 29], [29, 34], [34, 37], [37, 36], [36, 41]],"Final_routing":[[2, 1], [1, 6], [6, 7], [7, 13], [13, 12], [12, 16], [16, 17], [17, 20], [20, 23], [23, 24], [24, 27], [27, 30], [30, 31], [31, 34], [34, 37], [37, 38], [38, 41]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"Reachability":{"startNode":2,"finalNode":41}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpxg5_xqo9
+DFA generation time: 0.006 seconds 
+DFA states: 3 
+DFA transitions: 24
+Problem file: /tmp/tmpxg5_xqo9
+Switches to update: 15
+
+Decomposed topology into 5 subproblems
+Topological decomposition took 0.003 seconds
+Subproblem verification time: 0.028 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.008 seconds
+Minimum batches required: 3
+[[13, 17, 24, 31, 38], [7, 16, 23, 30, 37], [10, 15, 22, 29, 36]]
+Total program runtime: 0.156 seconds
+
+Kaki stderr:  
+Time: 0.156
+Solution: None
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Heanet.gml 5 --dir topzoo_res/Reach/kaki/kaki-0 --e-prop Reach --repeat 1"
+	User time (seconds): 1.20
+	System time (seconds): 1.35
+	Percent of CPU this job got: 399%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 85432
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 32964
+	Voluntary context switches: 3064
+	Involuntary context switches: 132
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Funet.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/reduce/BDD-2', dump_bdd=False)
+Running 5Funet.gml
+Policy: (Reach 151)
+Initial path of nodes: [9, 8, 5, 4, 24, 23, 18, 19, 20, 21, 35, 34, 31, 30, 50, 49, 44, 45, 46, 47, 61, 60, 57, 56, 76, 75, 70, 71, 72, 73, 87, 86, 83, 82, 102, 101, 96, 97, 98, 99, 113, 112, 109, 108, 128, 127, 122, 123, 124, 125, 139, 138, 135, 134, 154, 153, 148, 149, 150, 151]
+Final path of nodes: [9, 13, 12, 7, 6, 3, 2, 25, 22, 20, 21, 35, 39, 38, 33, 32, 29, 28, 51, 48, 46, 47, 61, 65, 64, 59, 58, 55, 54, 77, 74, 72, 73, 87, 91, 90, 85, 84, 81, 80, 103, 100, 98, 99, 113, 117, 116, 111, 110, 107, 106, 129, 126, 124, 125, 139, 143, 142, 137, 136, 133, 132, 155, 152, 150, 151]
+Time: 0.007550477981567383
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Funet.gml 5 --dir topzoo_res/Reach/reduce/BDD-2 --e-prop Reach --repeat 1 --reduce"
+	User time (seconds): 0.73
+	System time (seconds): 1.29
+	Percent of CPU this job got: 478%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 88616
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14119
+	Voluntary context switches: 21
+	Involuntary context switches: 30
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classDD.html" title="Base class for all decision diagrams in CUDD." alt="" coords="5,59,47,86"/>
+<area shape="rect" id="Node000001" href="$classABDD.html" title="Class for ADDs and BDDs." alt="" coords="95,32,154,60"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="60,61,93,51,95,56,62,66"/>
+<area shape="rect" id="Node000004" href="$classZDD.html" title="Class for ZDDs." alt="" coords="99,84,150,112"/>
+<area shape="poly" id="edge4_Node000000_Node000004" title=" " alt="" coords="62,79,99,89,98,94,61,84"/>
+<area shape="rect" id="Node000002" href="$classADD.html" title="Class for ADDs." alt="" coords="202,5,252,33"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="168,32,201,23,203,28,169,37"/>
+<area shape="rect" id="Node000003" href="$classBDD.html" title="Class for BDDs." alt="" coords="202,57,252,85"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="169,54,203,63,201,68,168,59"/>
+</map>

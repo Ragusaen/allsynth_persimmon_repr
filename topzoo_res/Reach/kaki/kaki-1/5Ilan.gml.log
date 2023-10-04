@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Ilan.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/kaki/kaki-1', dump_bdd=False)
+Running 5Ilan.gml
+Policy: (Reach 82)
+Initial path of nodes: [2, 3, 7, 0, 12, 15, 14, 21, 17, 20, 30, 31, 35, 28, 40, 44, 45, 49, 42, 54, 58, 59, 63, 56, 68, 72, 73, 77, 70, 82]
+Final path of nodes: [2, 3, 9, 0, 12, 15, 14, 23, 17, 20, 30, 31, 37, 28, 40, 44, 45, 51, 42, 54, 58, 59, 65, 56, 68, 72, 73, 79, 70, 82]
+{"Initial_routing":[[2, 3], [3, 7], [7, 0], [0, 12], [12, 15], [15, 14], [14, 21], [21, 17], [17, 20], [20, 30], [30, 31], [31, 35], [35, 28], [28, 40], [40, 44], [44, 45], [45, 49], [49, 42], [42, 54], [54, 58], [58, 59], [59, 63], [63, 56], [56, 68], [68, 72], [72, 73], [73, 77], [77, 70], [70, 82]],"Final_routing":[[2, 3], [3, 9], [9, 0], [0, 12], [12, 15], [15, 14], [14, 23], [23, 17], [17, 20], [20, 30], [30, 31], [31, 37], [37, 28], [28, 40], [40, 44], [44, 45], [45, 51], [51, 42], [42, 54], [54, 58], [58, 59], [59, 65], [65, 56], [56, 68], [68, 72], [72, 73], [73, 79], [79, 70], [70, 82]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"Reachability":{"startNode":2,"finalNode":82}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpx4ri3s09
+DFA generation time: 0.007 seconds 
+DFA states: 3 
+DFA transitions: 37
+Problem file: /tmp/tmpx4ri3s09
+Switches to update: 18
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.003 seconds
+Subproblem verification time: 0.027 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.008 seconds
+Minimum batches required: 3
+[[9, 23, 37, 51, 65, 79], [3, 14, 31, 45, 59, 73], [7, 21, 35, 49, 63, 77]]
+Total program runtime: 0.166 seconds
+
+Kaki stderr:  
+Time: 0.166
+Solution: None
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Ilan.gml 5 --dir topzoo_res/Reach/kaki/kaki-1 --e-prop Reach --repeat 1"
+	User time (seconds): 1.28
+	System time (seconds): 1.32
+	Percent of CPU this job got: 397%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 86564
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 36685
+	Voluntary context switches: 3019
+	Involuntary context switches: 239
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

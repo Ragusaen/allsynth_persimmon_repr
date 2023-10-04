@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/HurricaneElectric.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/kaki/kaki-2', dump_bdd=False)
+Running 5HurricaneElectric.gml
+Policy: (Service([25, 61, 89, 126]-137) & (Reach 137))
+Initial path of nodes: [6, 1, 0, 12, 9, 13, 17, 30, 25, 24, 36, 33, 37, 41, 54, 49, 48, 60, 57, 61, 65, 78, 73, 72, 84, 81, 85, 89, 102, 97, 96, 108, 105, 109, 113, 126, 121, 120, 132, 129, 133, 137]
+Final path of nodes: [6, 1, 3, 23, 4, 13, 17, 30, 25, 27, 47, 28, 37, 41, 54, 49, 51, 71, 52, 61, 65, 78, 73, 75, 95, 76, 85, 89, 102, 97, 99, 119, 100, 109, 113, 126, 121, 123, 143, 124, 133, 137]
+{"Initial_routing":[[6, 1], [1, 0], [0, 12], [12, 9], [9, 13], [13, 17], [17, 30], [30, 25], [25, 24], [24, 36], [36, 33], [33, 37], [37, 41], [41, 54], [54, 49], [49, 48], [48, 60], [60, 57], [57, 61], [61, 65], [65, 78], [78, 73], [73, 72], [72, 84], [84, 81], [81, 85], [85, 89], [89, 102], [102, 97], [97, 96], [96, 108], [108, 105], [105, 109], [109, 113], [113, 126], [126, 121], [121, 120], [120, 132], [132, 129], [129, 133], [133, 137]],"Final_routing":[[6, 1], [1, 3], [3, 23], [23, 4], [4, 13], [13, 17], [17, 30], [30, 25], [25, 27], [27, 47], [47, 28], [28, 37], [37, 41], [41, 54], [54, 49], [49, 51], [51, 71], [71, 52], [52, 61], [61, 65], [65, 78], [78, 73], [73, 75], [75, 95], [95, 76], [76, 85], [85, 89], [89, 102], [102, 97], [97, 99], [99, 119], [119, 100], [100, 109], [109, 113], [113, 126], [126, 121], [121, 123], [123, 143], [143, 124], [124, 133], [133, 137]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [4], "edges": [{"from": 0, "to": 1, "label": 25},{"from": 1, "to": 2, "label": 61},{"from": 2, "to": 3, "label": 89},{"from": 3, "to": 4, "label": 126}]},"Reachability":{"startNode":6,"finalNode":137}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpa0fun4ir
+DFA generation time: 0.01 seconds 
+DFA states: 15 
+DFA transitions: 229
+Problem file: /tmp/tmpa0fun4ir
+Switches to update: 42
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.007 seconds
+Subproblem verification time: 0.027 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.008 seconds
+Minimum batches required: 3
+[[3, 23, 4, 27, 47, 28, 51, 71, 52, 75, 95, 76, 99, 119, 100, 123, 143, 124], [1, 25, 49, 73, 97, 121], [0, 12, 9, 24, 36, 33, 48, 60, 57, 72, 84, 81, 96, 108, 105, 120, 132, 129]]
+Total program runtime: 0.185 seconds
+
+Kaki stderr:  
+Time: 0.185
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/HurricaneElectric.gml 5 --dir topzoo_res/SC/kaki/kaki-2 --e-prop SC --repeat 1"
+	User time (seconds): 1.39
+	System time (seconds): 1.41
+	Percent of CPU this job got: 414%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 97100
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 37063
+	Voluntary context switches: 3640
+	Involuntary context switches: 200
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

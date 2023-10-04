@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Garr200212.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/kaki/kaki-1', dump_bdd=False)
+Running 5Garr200212.gml
+Policy: (((((WP(135-154) | WP(108-154)) | WP(81-154)) | WP(54-154)) | WP(27-154)) & (Reach 154))
+Initial path of nodes: [0, 2, 4, 13, 19, 27, 29, 31, 40, 46, 54, 56, 58, 67, 73, 81, 83, 85, 94, 100, 108, 110, 112, 121, 127, 135, 137, 139, 148, 154]
+Final path of nodes: [0, 2, 24, 13, 19, 27, 29, 51, 40, 46, 54, 56, 78, 67, 73, 81, 83, 105, 94, 100, 108, 110, 132, 121, 127, 135, 137, 159, 148, 154]
+{"Initial_routing":[[0, 2], [2, 4], [4, 13], [13, 19], [19, 27], [27, 29], [29, 31], [31, 40], [40, 46], [46, 54], [54, 56], [56, 58], [58, 67], [67, 73], [73, 81], [81, 83], [83, 85], [85, 94], [94, 100], [100, 108], [108, 110], [110, 112], [112, 121], [121, 127], [127, 135], [135, 137], [137, 139], [139, 148], [148, 154]],"Final_routing":[[0, 2], [2, 24], [24, 13], [13, 19], [19, 27], [27, 29], [29, 51], [51, 40], [40, 46], [46, 54], [54, 56], [56, 78], [78, 67], [67, 73], [73, 81], [81, 83], [83, 105], [105, 94], [94, 100], [100, 108], [108, 110], [110, 132], [132, 121], [121, 127], [127, 135], [135, 137], [137, 159], [159, 148], [148, 154]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [27,54,81,135,108], "edges": [{"from": 0, "to": 27, "label": 27},{"from": 0, "to": 54, "label": 54},{"from": 0, "to": 81, "label": 81},{"from": 0, "to": 135, "label": 135},{"from": 0, "to": 108, "label": 108}]},"Reachability":{"startNode":0,"finalNode":154}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpzv06sjlv
+DFA generation time: 0.016 seconds 
+DFA states: 9 
+DFA transitions: 91
+Problem file: /tmp/tmpzv06sjlv
+Switches to update: 18
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.011 seconds
+Subproblem verification time: 0.045 seconds
+Subproblem verification time: 0.013 seconds
+Subproblem verification time: 0.012 seconds
+Subproblem verification time: 0.013 seconds
+Subproblem verification time: 0.013 seconds
+Subproblem verification time: 0.014 seconds
+Minimum batches required: 3
+[[24, 51, 78, 105, 132, 159], [2, 29, 56, 83, 110, 137], [4, 31, 58, 85, 112, 139]]
+Total program runtime: 0.288 seconds
+
+Kaki stderr:  
+Time: 0.288
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Garr200212.gml 5 --dir topzoo_res/SeparateWPk/kaki/kaki-1 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 1.99
+	System time (seconds): 1.25
+	Percent of CPU this job got: 306%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 90312
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 36828
+	Voluntary context switches: 3758
+	Involuntary context switches: 522
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

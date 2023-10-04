@@ -1,0 +1,40 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/GtsRomania.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/PERS/PERS-0', dump_bdd=False)
+Running 5GtsRomania.gml
+Policy: (Reach 121)
+Initial path of nodes: [8, 19, 18, 20, 11, 16, 29, 40, 39, 41, 32, 37, 50, 61, 60, 62, 53, 58, 71, 82, 81, 83, 74, 79, 92, 103, 102, 104, 95, 100, 113, 124, 123, 125, 116, 121]
+Final path of nodes: [8, 19, 18, 5, 0, 11, 16, 29, 40, 39, 26, 21, 32, 37, 50, 61, 60, 47, 42, 53, 58, 71, 82, 81, 68, 63, 74, 79, 92, 103, 102, 89, 84, 95, 100, 113, 124, 123, 110, 105, 116, 121]
+Persimmon problem:  {"Initial_routing":[[8, 19], [19, 18], [18, 20], [20, 11], [11, 16], [16, 29], [29, 40], [40, 39], [39, 41], [41, 32], [32, 37], [37, 50], [50, 61], [61, 60], [60, 62], [62, 53], [53, 58], [58, 71], [71, 82], [82, 81], [81, 83], [83, 74], [74, 79], [79, 92], [92, 103], [103, 102], [102, 104], [104, 95], [95, 100], [100, 113], [113, 124], [124, 123], [123, 125], [125, 116], [116, 121]],"Final_routing":[[8, 19], [19, 18], [18, 5], [5, 0], [0, 11], [11, 16], [16, 29], [29, 40], [40, 39], [39, 26], [26, 21], [21, 32], [32, 37], [37, 50], [50, 61], [61, 60], [60, 47], [47, 42], [42, 53], [53, 58], [58, 71], [71, 82], [82, 81], [81, 68], [68, 63], [63, 74], [74, 79], [79, 92], [92, 103], [103, 102], [102, 89], [89, 84], [84, 95], [95, 100], [100, 113], [113, 124], [124, 123], [123, 110], [110, 105], [105, 116], [116, 121]],"Properties":{"Reachability":{"startNode":8,"finalNode":121}}}
+Persimmon stdout:  Chain equivalence reduction: 48 -> 26
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+<=== Starting iteration 2 ===>
+Solution: Some([[26, 21, 110, 105, 68, 63, 5, 0, 89, 84, 47, 42], [39, 81, 123, 102, 60, 18], [62, 125, 20, 83, 104, 41]])
+Time elapsed: 1.23ms
+Time elapsed(s): 0.001228s
+
+Persimmon stderr:  
+Time: 0.001228
+Solution: [[26, 21, 110, 105, 68, 63, 5, 0, 89, 84, 47, 42], [39, 81, 123, 102, 60, 18], [62, 125, 20, 83, 104, 41]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/GtsRomania.gml 5 --dir topzoo_res/Reach/PERS/PERS-0 --e-prop Reach --repeat 1"
+	User time (seconds): 0.76
+	System time (seconds): 1.25
+	Percent of CPU this job got: 491%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71164
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13084
+	Voluntary context switches: 32
+	Involuntary context switches: 115
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

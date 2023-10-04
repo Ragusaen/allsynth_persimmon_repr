@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Airtel.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-0', dump_bdd=False)
+Running 5Airtel.gml
+Policy: (Service([23, 46, 63, 84]-95) & (Reach 95))
+Initial path of nodes: [4, 9, 1, 14, 15, 18, 23, 16, 29, 28, 36, 41, 33, 46, 47, 52, 57, 49, 62, 63, 68, 73, 65, 78, 79, 84, 89, 81, 94, 95]
+Final path of nodes: [4, 9, 7, 14, 15, 18, 23, 17, 29, 28, 36, 41, 39, 46, 47, 52, 57, 55, 62, 63, 68, 73, 71, 78, 79, 84, 89, 87, 94, 95]
+Time: 0.006316661834716797
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Airtel.gml 5 --dir topzoo_res/SC/reduce/BDD-0 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 0.64
+	System time (seconds): 1.31
+	Percent of CPU this job got: 555%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.35
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 91604
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14010
+	Voluntary context switches: 45
+	Involuntary context switches: 69
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

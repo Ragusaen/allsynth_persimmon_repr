@@ -1,0 +1,40 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Bics.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/PERS/PERS-2', dump_bdd=False)
+Running 5Bics.gml
+Policy: (((((((((((((((((((((WP(133-193) | WP(137-193)) | WP(16-193)) | WP(146-193)) | WP(24-193)) | WP(39-193)) | WP(40-193)) | WP(170-193)) | WP(171-193)) | WP(52-193)) | WP(181-193)) | WP(187-193)) | WP(63-193)) | WP(71-193)) | WP(73-193)) | WP(85-193)) | WP(95-193)) | WP(99-193)) | WP(106-193)) | WP(113-193)) | WP(127-193)) & (Reach 193))
+Initial path of nodes: [6, 7, 5, 0, 1, 16, 30, 29, 28, 39, 40, 38, 33, 34, 49, 63, 62, 61, 72, 73, 71, 66, 67, 82, 96, 95, 94, 105, 106, 104, 99, 100, 115, 129, 128, 127, 138, 139, 137, 132, 133, 148, 162, 161, 160, 171, 172, 170, 165, 166, 181, 195, 194, 193]
+Final path of nodes: [6, 7, 5, 8, 25, 24, 19, 14, 22, 28, 39, 40, 38, 33, 35, 52, 47, 55, 61, 72, 73, 71, 74, 91, 90, 85, 80, 88, 94, 105, 106, 104, 99, 101, 118, 113, 121, 127, 138, 139, 137, 140, 157, 156, 151, 146, 154, 160, 171, 172, 170, 165, 167, 184, 179, 187, 193]
+Persimmon problem:  {"Initial_routing":[[6, 7], [7, 5], [5, 0], [0, 1], [1, 16], [16, 30], [30, 29], [29, 28], [28, 39], [39, 40], [40, 38], [38, 33], [33, 34], [34, 49], [49, 63], [63, 62], [62, 61], [61, 72], [72, 73], [73, 71], [71, 66], [66, 67], [67, 82], [82, 96], [96, 95], [95, 94], [94, 105], [105, 106], [106, 104], [104, 99], [99, 100], [100, 115], [115, 129], [129, 128], [128, 127], [127, 138], [138, 139], [139, 137], [137, 132], [132, 133], [133, 148], [148, 162], [162, 161], [161, 160], [160, 171], [171, 172], [172, 170], [170, 165], [165, 166], [166, 181], [181, 195], [195, 194], [194, 193]],"Final_routing":[[6, 7], [7, 5], [5, 8], [8, 25], [25, 24], [24, 19], [19, 14], [14, 22], [22, 28], [28, 39], [39, 40], [40, 38], [38, 33], [33, 35], [35, 52], [52, 47], [47, 55], [55, 61], [61, 72], [72, 73], [73, 71], [71, 74], [74, 91], [91, 90], [90, 85], [85, 80], [80, 88], [88, 94], [94, 105], [105, 106], [106, 104], [104, 99], [99, 101], [101, 118], [118, 113], [113, 121], [121, 127], [127, 138], [138, 139], [139, 137], [137, 140], [140, 157], [157, 156], [156, 151], [151, 146], [146, 154], [154, 160], [160, 171], [171, 172], [172, 170], [170, 165], [165, 167], [167, 184], [184, 179], [179, 187], [187, 193]],"Properties":{"MultiAlternativeWaypoint": {"waypoint": [133,137,16,146,24,39,40,170,171,52,181,187,63,71,73,85,95,99,106,113,127]},"Reachability":{"startNode":6,"finalNode":193}}}
+Persimmon stdout:  Chain equivalence reduction: 84 -> 54
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+<=== Starting iteration 2 ===>
+Solution: Some([[154, 19, 14, 22, 167, 184, 179, 74, 91, 90, 146, 101, 118, 187, 47, 55, 113, 8, 25, 24, 140, 157, 156, 151, 35, 121, 52, 80, 88, 85], [71, 99, 165, 5, 33, 137], [0, 1, 166, 181, 132, 133, 63, 66, 67, 82, 96, 95, 34, 49, 148, 162, 161, 30, 29, 62, 100, 115, 129, 128, 16, 195, 194]])
+Time elapsed: 3.92ms
+Time elapsed(s): 0.003921s
+
+Persimmon stderr:  
+Time: 0.003921
+Solution: [[154, 19, 14, 22, 167, 184, 179, 74, 91, 90, 146, 101, 118, 187, 47, 55, 113, 8, 25, 24, 140, 157, 156, 151, 35, 121, 52, 80, 88, 85], [71, 99, 165, 5, 33, 137], [0, 1, 166, 181, 132, 133, 63, 66, 67, 82, 96, 95, 34, 49, 148, 162, 161, 30, 29, 62, 100, 115, 129, 128, 16, 195, 194]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Bics.gml 5 --dir topzoo_res/SeparateWPk/PERS/PERS-2 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 0.74
+	System time (seconds): 1.31
+	Percent of CPU this job got: 461%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 72120
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13326
+	Voluntary context switches: 30
+	Involuntary context switches: 126
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Rediris.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/PERS/PERS-0', dump_bdd=False)
+Running 5Rediris.gml
+Policy: (((((WP(38-108) | WP(76-108)) | WP(19-108)) | WP(57-108)) | WP(95-108)) & (Reach 108))
+Initial path of nodes: [0, 3, 16, 12, 13, 19, 22, 35, 31, 32, 38, 41, 54, 50, 51, 57, 60, 73, 69, 70, 76, 79, 92, 88, 89, 95, 98, 111, 107, 108]
+Final path of nodes: [0, 3, 16, 14, 13, 19, 25, 35, 33, 32, 38, 44, 54, 52, 51, 57, 63, 73, 71, 70, 76, 82, 92, 90, 89, 95, 101, 111, 109, 108]
+Persimmon problem:  {"Initial_routing":[[0, 3], [3, 16], [16, 12], [12, 13], [13, 19], [19, 22], [22, 35], [35, 31], [31, 32], [32, 38], [38, 41], [41, 54], [54, 50], [50, 51], [51, 57], [57, 60], [60, 73], [73, 69], [69, 70], [70, 76], [76, 79], [79, 92], [92, 88], [88, 89], [89, 95], [95, 98], [98, 111], [111, 107], [107, 108]],"Final_routing":[[0, 3], [3, 16], [16, 14], [14, 13], [13, 19], [19, 25], [25, 35], [35, 33], [33, 32], [32, 38], [38, 44], [44, 54], [54, 52], [52, 51], [51, 57], [57, 63], [63, 73], [73, 71], [71, 70], [70, 76], [76, 82], [82, 92], [92, 90], [90, 89], [89, 95], [95, 101], [101, 111], [111, 109], [109, 108]],"Properties":{"MultiAlternativeWaypoint": {"waypoint": [38,76,19,57,95]},"Reachability":{"startNode":0,"finalNode":108}}}
+Persimmon stdout:  Chain equivalence reduction: 41 -> 40
+Constructing all update BDD
+Solution: Some([[63, 33, 109, 71, 52, 44, 25, 14, 101, 90, 82], [73, 95, 54, 19, 35, 38, 92, 57, 16, 111, 76], [69, 50, 60, 79, 31, 98, 22, 41, 12, 88, 107]])
+Time elapsed: 2.44ms
+Time elapsed(s): 0.002443s
+
+Persimmon stderr:  
+Time: 0.002443
+Solution: [[63, 33, 109, 71, 52, 44, 25, 14, 101, 90, 82], [73, 95, 54, 19, 35, 38, 92, 57, 16, 111, 76], [69, 50, 60, 79, 31, 98, 22, 41, 12, 88, 107]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Rediris.gml 5 --dir topzoo_res/SeparateWPk/PERS/PERS-0 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 0.89
+	System time (seconds): 1.28
+	Percent of CPU this job got: 373%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.58
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 70976
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13096
+	Voluntary context switches: 30
+	Involuntary context switches: 164
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

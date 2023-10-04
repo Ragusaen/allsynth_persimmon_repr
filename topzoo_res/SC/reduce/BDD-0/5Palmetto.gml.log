@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Palmetto.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-0', dump_bdd=False)
+Running 5Palmetto.gml
+Policy: (Service([38, 83, 94, 139, 185, 230]-263) & (Reach 263))
+Initial path of nodes: [23, 20, 24, 21, 13, 12, 0, 1, 6, 5, 4, 37, 38, 68, 65, 69, 66, 58, 57, 45, 46, 51, 50, 49, 82, 83, 113, 110, 114, 111, 103, 102, 90, 91, 96, 95, 94, 127, 128, 158, 155, 159, 156, 148, 147, 135, 136, 141, 140, 139, 172, 173, 203, 200, 204, 201, 193, 192, 180, 181, 186, 185, 184, 217, 218, 248, 245, 249, 246, 238, 237, 225, 226, 231, 230, 229, 262, 263]
+Final path of nodes: [23, 20, 24, 17, 35, 36, 43, 41, 40, 8, 5, 4, 39, 38, 68, 65, 64, 63, 62, 80, 81, 88, 86, 85, 53, 50, 49, 84, 83, 113, 110, 114, 107, 125, 126, 133, 131, 130, 98, 95, 94, 129, 128, 158, 155, 154, 153, 152, 170, 171, 178, 176, 175, 143, 140, 139, 174, 173, 203, 200, 204, 197, 215, 216, 223, 221, 220, 188, 185, 184, 219, 218, 248, 245, 244, 243, 242, 260, 261, 268, 266, 265, 233, 230, 229, 264, 263]
+Time: 0.07791805267333984
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Palmetto.gml 5 --dir topzoo_res/SC/reduce/BDD-0 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 0.98
+	System time (seconds): 1.34
+	Percent of CPU this job got: 322%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.72
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 89020
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14454
+	Voluntary context switches: 26
+	Involuntary context switches: 88
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

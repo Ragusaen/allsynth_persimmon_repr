@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Nsfnet.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/PERS/PERS-1', dump_bdd=False)
+Running 5Nsfnet.gml
+Policy: (((((((((WP(66-73) | WP(37-73)) | WP(39-73)) | WP(8-73)) | WP(73-73)) | WP(51-73)) | WP(54-73)) | WP(22-73)) | WP(56-73)) & (Reach 73))
+Initial path of nodes: [1, 2, 0, 11, 9, 8, 14, 15, 13, 24, 22, 21, 27, 28, 26, 37, 35, 34, 40, 41, 39, 50, 48, 47, 53, 54, 52, 63, 61, 60, 66, 67, 65, 76, 74, 73]
+Final path of nodes: [1, 4, 12, 11, 9, 8, 14, 17, 25, 24, 22, 21, 27, 30, 38, 37, 35, 34, 40, 43, 51, 50, 48, 47, 53, 56, 64, 63, 61, 60, 66, 69, 77, 76, 74, 73]
+Persimmon problem:  {"Initial_routing":[[1, 2], [2, 0], [0, 11], [11, 9], [9, 8], [8, 14], [14, 15], [15, 13], [13, 24], [24, 22], [22, 21], [21, 27], [27, 28], [28, 26], [26, 37], [37, 35], [35, 34], [34, 40], [40, 41], [41, 39], [39, 50], [50, 48], [48, 47], [47, 53], [53, 54], [54, 52], [52, 63], [63, 61], [61, 60], [60, 66], [66, 67], [67, 65], [65, 76], [76, 74], [74, 73]],"Final_routing":[[1, 4], [4, 12], [12, 11], [11, 9], [9, 8], [8, 14], [14, 17], [17, 25], [25, 24], [24, 22], [22, 21], [21, 27], [27, 30], [30, 38], [38, 37], [37, 35], [35, 34], [34, 40], [40, 43], [43, 51], [51, 50], [50, 48], [48, 47], [47, 53], [53, 56], [56, 64], [64, 63], [63, 61], [61, 60], [60, 66], [66, 69], [69, 77], [77, 76], [76, 74], [74, 73]],"Properties":{"MultiAlternativeWaypoint": {"waypoint": [66,37,39,8,73,51,54,22,56]},"Reachability":{"startNode":1,"finalNode":73}}}
+Persimmon stdout:  Chain equivalence reduction: 48 -> 33
+Constructing all update BDD
+Solution: Some([[69, 77, 4, 12, 30, 38, 56, 51, 64, 17, 25, 43], [14, 27, 1, 40, 53, 66], [67, 65, 41, 28, 26, 15, 13, 2, 0, 39, 52, 54]])
+Time elapsed: 1.81ms
+Time elapsed(s): 0.001808s
+
+Persimmon stderr:  
+Time: 0.001808
+Solution: [[69, 77, 4, 12, 30, 38, 56, 51, 64, 17, 25, 43], [14, 27, 1, 40, 53, 66], [67, 65, 41, 28, 26, 15, 13, 2, 0, 39, 52, 54]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Nsfnet.gml 5 --dir topzoo_res/SeparateWPk/PERS/PERS-1 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 0.86
+	System time (seconds): 1.32
+	Percent of CPU this job got: 379%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 70464
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12952
+	Voluntary context switches: 34
+	Involuntary context switches: 100
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

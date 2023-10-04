@@ -1,0 +1,39 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Vinaren.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/PERS/PERS-0', dump_bdd=False)
+Running 5Vinaren.gml
+Policy: (((((((((((((((((WP(66-148) | WP(102-148)) | WP(6-148)) | WP(73-148)) | WP(137-148)) | WP(74-148)) | WP(76-148)) | WP(105-148)) | WP(81-148)) | WP(49-148)) | WP(52-148)) | WP(149-148)) | WP(116-148)) | WP(24-148)) | WP(26-148)) | WP(27-148)) | WP(127-148)) & (Reach 148))
+Initial path of nodes: [12, 16, 2, 1, 6, 24, 23, 29, 49, 31, 26, 27, 41, 37, 62, 66, 52, 51, 56, 74, 73, 87, 91, 77, 76, 81, 99, 98, 112, 116, 102, 101, 106, 124, 123, 137, 141, 127, 126, 131, 149, 148]
+Final path of nodes: [12, 16, 2, 3, 1, 6, 5, 24, 23, 29, 49, 30, 31, 26, 28, 27, 41, 37, 62, 66, 52, 53, 51, 56, 55, 74, 73, 87, 91, 77, 76, 81, 99, 98, 112, 116, 102, 103, 101, 106, 105, 124, 123, 137, 141, 127, 126, 131, 149, 148]
+Persimmon problem:  {"Initial_routing":[[12, 16], [16, 2], [2, 1], [1, 6], [6, 24], [24, 23], [23, 29], [29, 49], [49, 31], [31, 26], [26, 27], [27, 41], [41, 37], [37, 62], [62, 66], [66, 52], [52, 51], [51, 56], [56, 74], [74, 73], [73, 87], [87, 91], [91, 77], [77, 76], [76, 81], [81, 99], [99, 98], [98, 112], [112, 116], [116, 102], [102, 101], [101, 106], [106, 124], [124, 123], [123, 137], [137, 141], [141, 127], [127, 126], [126, 131], [131, 149], [149, 148]],"Final_routing":[[12, 16], [16, 2], [2, 3], [3, 1], [1, 6], [6, 5], [5, 24], [24, 23], [23, 29], [29, 49], [49, 30], [30, 31], [31, 26], [26, 28], [28, 27], [27, 41], [41, 37], [37, 62], [62, 66], [66, 52], [52, 53], [53, 51], [51, 56], [56, 55], [55, 74], [74, 73], [73, 87], [87, 91], [91, 77], [77, 76], [76, 81], [81, 99], [99, 98], [98, 112], [112, 116], [116, 102], [102, 103], [103, 101], [101, 106], [106, 105], [105, 124], [124, 123], [123, 137], [137, 141], [141, 127], [127, 126], [126, 131], [131, 149], [149, 148]],"Properties":{"MultiAlternativeWaypoint": {"waypoint": [66,102,6,73,137,74,76,105,81,49,52,149,116,24,26,27,127]},"Reachability":{"startNode":12,"finalNode":148}}}
+Persimmon stdout:  Chain equivalence reduction: 50 -> 38
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+Solution: Some([[105, 28, 30, 3, 5, 103, 53, 55], [106, 56, 6, 49, 52, 26, 102, 2]])
+Time elapsed: 1.52ms
+Time elapsed(s): 0.001517s
+
+Persimmon stderr:  
+Time: 0.001517
+Solution: [[105, 28, 30, 3, 5, 103, 53, 55], [106, 56, 6, 49, 52, 26, 102, 2]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Vinaren.gml 5 --dir topzoo_res/SeparateWPk/PERS/PERS-0 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 0.73
+	System time (seconds): 1.28
+	Percent of CPU this job got: 497%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71420
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13135
+	Voluntary context switches: 33
+	Involuntary context switches: 108
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

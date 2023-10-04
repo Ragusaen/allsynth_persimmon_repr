@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Garr200912.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-2', dump_bdd=False)
+Running 5Garr200912.gml
+Policy: (Service([51, 72, 156, 181, 234, 280, 321]-321) & (Reach 321))
+Initial path of nodes: [10, 18, 19, 8, 48, 30, 13, 51, 54, 82, 66, 93, 62, 73, 72, 64, 118, 126, 127, 116, 156, 138, 121, 159, 172, 180, 181, 170, 210, 192, 175, 213, 226, 234, 235, 224, 264, 246, 229, 267, 280, 288, 289, 278, 318, 300, 283, 321]
+Final path of nodes: [10, 18, 19, 16, 48, 12, 28, 13, 51, 54, 82, 66, 96, 70, 73, 72, 64, 118, 126, 127, 124, 156, 120, 136, 121, 159, 172, 180, 181, 178, 210, 174, 190, 175, 213, 226, 234, 235, 232, 264, 228, 244, 229, 267, 280, 288, 289, 286, 318, 282, 298, 283, 321]
+Time: 0.03797793388366699
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Garr200912.gml 5 --dir topzoo_res/SC/reduce/BDD-2 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 1.03
+	System time (seconds): 1.26
+	Percent of CPU this job got: 334%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 89348
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14400
+	Voluntary context switches: 25
+	Involuntary context switches: 48
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

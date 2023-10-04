@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Compuserve.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/PERS/PERS-0', dump_bdd=False)
+Running 5Compuserve.gml
+Policy: (Reach 81)
+Initial path of nodes: [6, 13, 12, 2, 11, 18, 19, 16, 25, 24, 34, 41, 40, 30, 39, 48, 55, 54, 44, 53, 62, 69, 68, 58, 67, 76, 83, 82, 72, 81]
+Final path of nodes: [6, 13, 4, 5, 2, 11, 18, 27, 26, 23, 24, 34, 35, 36, 37, 38, 39, 48, 49, 50, 51, 52, 53, 62, 63, 64, 65, 66, 67, 76, 77, 78, 79, 80, 81]
+Persimmon problem:  {"Initial_routing":[[6, 13], [13, 12], [12, 2], [2, 11], [11, 18], [18, 19], [19, 16], [16, 25], [25, 24], [24, 34], [34, 41], [41, 40], [40, 30], [30, 39], [39, 48], [48, 55], [55, 54], [54, 44], [44, 53], [53, 62], [62, 69], [69, 68], [68, 58], [58, 67], [67, 76], [76, 83], [83, 82], [82, 72], [72, 81]],"Final_routing":[[6, 13], [13, 4], [4, 5], [5, 2], [2, 11], [11, 18], [18, 27], [27, 26], [26, 23], [23, 24], [24, 34], [34, 35], [35, 36], [36, 37], [37, 38], [38, 39], [39, 48], [48, 49], [49, 50], [50, 51], [51, 52], [52, 53], [53, 62], [62, 63], [63, 64], [64, 65], [65, 66], [66, 67], [67, 76], [76, 77], [77, 78], [78, 79], [79, 80], [80, 81]],"Properties":{"Reachability":{"startNode":6,"finalNode":81}}}
+Persimmon stdout:  Chain equivalence reduction: 51 -> 25
+Constructing all update BDD
+Solution: Some([[35, 36, 37, 38, 63, 64, 65, 66, 49, 50, 51, 52, 77, 78, 79, 80, 4, 5, 27, 26, 23], [34, 13, 18, 48, 62, 76], [83, 82, 72, 41, 40, 30, 19, 16, 25, 69, 68, 58, 55, 54, 44, 12]])
+Time elapsed: 1.18ms
+Time elapsed(s): 0.001181s
+
+Persimmon stderr:  
+Time: 0.001181
+Solution: [[35, 36, 37, 38, 63, 64, 65, 66, 49, 50, 51, 52, 77, 78, 79, 80, 4, 5, 27, 26, 23], [34, 13, 18, 48, 62, 76], [83, 82, 72, 41, 40, 30, 19, 16, 25, 69, 68, 58, 55, 54, 44, 12]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Compuserve.gml 5 --dir topzoo_res/Reach/PERS/PERS-0 --e-prop Reach --repeat 1"
+	User time (seconds): 0.88
+	System time (seconds): 1.20
+	Percent of CPU this job got: 359%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.58
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 70464
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12988
+	Voluntary context switches: 31
+	Involuntary context switches: 154
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

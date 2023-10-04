@@ -1,0 +1,10 @@
+<map id="GlobalQueueItem" name="GlobalQueueItem">
+<area shape="rect" id="Node000001" title="Item of the queue used in the levelized traversal of the BDD." alt="" coords="5,118,141,146"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="156,122,164,125,167,132,159,141,141,145,140,140,157,137,162,132,160,129,154,126"/>
+<area shape="rect" id="Node000002" href="$structDdNode.html" title="Decision diagram node." alt="" coords="196,5,270,33"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="204,44,93,120,90,115,201,40"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="286,8,293,12,296,20,288,29,271,32,270,27,286,25,291,19,289,16,284,13"/>
+<area shape="rect" id="Node000003" href="$structDdChildren.html" title="The two children of a non&#45;terminal node." alt="" coords="229,118,322,146"/>
+<area shape="poly" id="edge5_Node000003_Node000002" title=" " alt="" coords="231,48,232,69,237,90,246,104,258,116,254,119,242,107,232,92,226,70,226,48"/>
+<area shape="poly" id="edge4_Node000002_Node000003" title=" " alt="" coords="263,105,236,35,241,33,268,103"/>
+</map>

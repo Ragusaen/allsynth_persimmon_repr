@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Harnet.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/PERS/PERS-1', dump_bdd=False)
+Running 5Harnet.gml
+Policy: (Reach 125)
+Initial path of nodes: [0, 2, 15, 16, 18, 20, 21, 23, 36, 37, 39, 41, 42, 44, 57, 58, 60, 62, 63, 65, 78, 79, 81, 83, 84, 86, 99, 100, 102, 104, 105, 107, 120, 121, 123, 125]
+Final path of nodes: [0, 2, 15, 17, 19, 20, 21, 23, 36, 38, 40, 41, 42, 44, 57, 59, 61, 62, 63, 65, 78, 80, 82, 83, 84, 86, 99, 101, 103, 104, 105, 107, 120, 122, 124, 125]
+Persimmon problem:  {"Initial_routing":[[0, 2], [2, 15], [15, 16], [16, 18], [18, 20], [20, 21], [21, 23], [23, 36], [36, 37], [37, 39], [39, 41], [41, 42], [42, 44], [44, 57], [57, 58], [58, 60], [60, 62], [62, 63], [63, 65], [65, 78], [78, 79], [79, 81], [81, 83], [83, 84], [84, 86], [86, 99], [99, 100], [100, 102], [102, 104], [104, 105], [105, 107], [107, 120], [120, 121], [121, 123], [123, 125]],"Final_routing":[[0, 2], [2, 15], [15, 17], [17, 19], [19, 20], [20, 21], [21, 23], [23, 36], [36, 38], [38, 40], [40, 41], [41, 42], [42, 44], [44, 57], [57, 59], [59, 61], [61, 62], [62, 63], [63, 65], [65, 78], [78, 80], [80, 82], [82, 83], [83, 84], [84, 86], [86, 99], [99, 101], [101, 103], [103, 104], [104, 105], [105, 107], [107, 120], [120, 122], [122, 124], [124, 125]],"Properties":{"Reachability":{"startNode":0,"finalNode":125}}}
+Persimmon stdout:  Chain equivalence reduction: 48 -> 25
+Constructing all update BDD
+Solution: Some([[59, 61, 38, 40, 122, 124, 80, 82, 101, 103, 17, 19], [78, 120, 15, 57, 36, 99], [16, 18, 100, 102, 58, 60, 79, 81, 37, 39, 121, 123]])
+Time elapsed: 1.25ms
+Time elapsed(s): 0.001254s
+
+Persimmon stderr:  
+Time: 0.001254
+Solution: [[59, 61, 38, 40, 122, 124, 80, 82, 101, 103, 17, 19], [78, 120, 15, 57, 36, 99], [16, 18, 100, 102, 58, 60, 79, 81, 37, 39, 121, 123]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Harnet.gml 5 --dir topzoo_res/Reach/PERS/PERS-1 --e-prop Reach --repeat 1"
+	User time (seconds): 0.91
+	System time (seconds): 1.29
+	Percent of CPU this job got: 356%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 70848
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13045
+	Voluntary context switches: 31
+	Involuntary context switches: 181
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

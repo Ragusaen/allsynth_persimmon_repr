@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/GtsPoland.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/reduce/BDD-1', dump_bdd=False)
+Running 5GtsPoland.gml
+Policy: ((((((((((((((((((((((((((WP(1-193) | WP(130-193)) | WP(9-193)) | WP(140-193)) | WP(143-193)) | WP(145-193)) | WP(149-193)) | WP(27-193)) | WP(28-193)) | WP(33-193)) | WP(166-193)) | WP(174-193)) | WP(51-193)) | WP(180-193)) | WP(58-193)) | WP(62-193)) | WP(192-193)) | WP(193-193)) | WP(72-193)) | WP(77-193)) | WP(80-193)) | WP(94-193)) | WP(98-193)) | WP(99-193)) | WP(106-193)) | WP(125-193)) & (Reach 193))
+Initial path of nodes: [15, 11, 7, 6, 0, 9, 8, 31, 32, 29, 28, 48, 44, 40, 39, 33, 42, 41, 64, 65, 62, 61, 81, 77, 73, 72, 66, 75, 74, 97, 98, 95, 94, 114, 110, 106, 105, 99, 108, 107, 130, 131, 128, 127, 147, 143, 139, 138, 132, 141, 140, 163, 164, 161, 160, 180, 176, 172, 171, 165, 174, 173, 196, 197, 194, 193]
+Final path of nodes: [15, 11, 17, 18, 0, 1, 14, 13, 25, 26, 27, 28, 48, 44, 50, 51, 33, 34, 47, 46, 58, 59, 60, 61, 81, 77, 83, 84, 66, 67, 80, 79, 91, 92, 93, 94, 114, 110, 116, 117, 99, 100, 113, 112, 124, 125, 126, 127, 147, 143, 149, 150, 132, 133, 146, 145, 157, 158, 159, 160, 180, 176, 182, 183, 165, 166, 179, 178, 190, 191, 192, 193]
+Time: 0.2256007194519043
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/GtsPoland.gml 5 --dir topzoo_res/SeparateWPk/reduce/BDD-1 --e-prop SeparateWPk --repeat 1 --reduce"
+	User time (seconds): 1.15
+	System time (seconds): 1.28
+	Percent of CPU this job got: 291%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.83
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 88208
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14418
+	Voluntary context switches: 24
+	Involuntary context switches: 121
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

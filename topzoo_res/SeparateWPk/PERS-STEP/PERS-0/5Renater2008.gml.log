@@ -1,0 +1,40 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Renater2008.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/PERS/PERS-0', dump_bdd=False)
+Running 5Renater2008.gml
+Policy: ((((((((((((((WP(65-197) | WP(66-197)) | WP(130-197)) | WP(195-197)) | WP(40-197)) | WP(138-197)) | WP(152-197)) | WP(115-197)) | WP(180-197)) | WP(87-197)) | WP(24-197)) | WP(122-197)) | WP(189-197)) | WP(30-197)) & (Reach 197))
+Initial path of nodes: [15, 16, 7, 6, 0, 24, 23, 32, 48, 49, 40, 39, 33, 57, 56, 65, 81, 82, 73, 72, 66, 90, 89, 98, 114, 115, 106, 105, 99, 123, 122, 131, 147, 148, 139, 138, 132, 156, 155, 164, 180, 181, 172, 171, 165, 189, 188, 197]
+Final path of nodes: [15, 16, 7, 20, 21, 30, 31, 32, 48, 49, 40, 53, 54, 63, 64, 65, 81, 82, 73, 86, 87, 96, 97, 98, 114, 115, 106, 119, 120, 129, 130, 131, 147, 148, 139, 152, 153, 162, 163, 164, 180, 181, 172, 185, 186, 195, 196, 197]
+Persimmon problem:  {"Initial_routing":[[15, 16], [16, 7], [7, 6], [6, 0], [0, 24], [24, 23], [23, 32], [32, 48], [48, 49], [49, 40], [40, 39], [39, 33], [33, 57], [57, 56], [56, 65], [65, 81], [81, 82], [82, 73], [73, 72], [72, 66], [66, 90], [90, 89], [89, 98], [98, 114], [114, 115], [115, 106], [106, 105], [105, 99], [99, 123], [123, 122], [122, 131], [131, 147], [147, 148], [148, 139], [139, 138], [138, 132], [132, 156], [156, 155], [155, 164], [164, 180], [180, 181], [181, 172], [172, 171], [171, 165], [165, 189], [189, 188], [188, 197]],"Final_routing":[[15, 16], [16, 7], [7, 20], [20, 21], [21, 30], [30, 31], [31, 32], [32, 48], [48, 49], [49, 40], [40, 53], [53, 54], [54, 63], [63, 64], [64, 65], [65, 81], [81, 82], [82, 73], [73, 86], [86, 87], [87, 96], [96, 97], [97, 98], [98, 114], [114, 115], [115, 106], [106, 119], [119, 120], [120, 129], [129, 130], [130, 131], [131, 147], [147, 148], [148, 139], [139, 152], [152, 153], [153, 162], [162, 163], [163, 164], [164, 180], [180, 181], [181, 172], [172, 185], [185, 186], [186, 195], [195, 196], [196, 197]],"Properties":{"MultiAlternativeWaypoint": {"waypoint": [65,66,130,195,40,138,152,115,180,87,24,122,189,30]},"Reachability":{"startNode":15,"finalNode":197}}}
+Persimmon stdout:  Chain equivalence reduction: 72 -> 45
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+<=== Starting iteration 2 ===>
+Solution: Some([[130, 20, 21, 86, 153, 162, 163, 31, 96, 97, 53, 54, 63, 64, 196, 185, 186, 119, 120, 129, 87, 195, 152, 30], [7, 40, 73, 172, 106, 139], [138, 122, 171, 165, 24, 72, 66, 188, 90, 89, 105, 99, 123, 132, 156, 155, 189, 23, 6, 0, 39, 33, 57, 56]])
+Time elapsed: 2.74ms
+Time elapsed(s): 0.002738s
+
+Persimmon stderr:  
+Time: 0.002738
+Solution: [[130, 20, 21, 86, 153, 162, 163, 31, 96, 97, 53, 54, 63, 64, 196, 185, 186, 119, 120, 129, 87, 195, 152, 30], [7, 40, 73, 172, 106, 139], [138, 122, 171, 165, 24, 72, 66, 188, 90, 89, 105, 99, 123, 132, 156, 155, 189, 23, 6, 0, 39, 33, 57, 56]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Renater2008.gml 5 --dir topzoo_res/SeparateWPk/PERS/PERS-0 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 0.73
+	System time (seconds): 1.30
+	Percent of CPU this job got: 479%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71996
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13276
+	Voluntary context switches: 31
+	Involuntary context switches: 83
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,40 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Marwan.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/PERS/PERS-2', dump_bdd=False)
+Running 5Marwan.gml
+Policy: (Reach 92)
+Initial path of nodes: [1, 0, 3, 2, 15, 13, 12, 17, 16, 19, 18, 31, 29, 28, 33, 32, 35, 34, 47, 45, 44, 49, 48, 51, 50, 63, 61, 60, 65, 64, 67, 66, 79, 77, 76, 81, 80, 83, 82, 95, 93, 92]
+Final path of nodes: [1, 4, 7, 2, 15, 13, 12, 17, 20, 23, 22, 31, 29, 28, 33, 36, 39, 34, 47, 45, 44, 49, 52, 55, 54, 63, 61, 60, 65, 68, 71, 66, 79, 77, 76, 81, 84, 87, 86, 95, 93, 92]
+Persimmon problem:  {"Initial_routing":[[1, 0], [0, 3], [3, 2], [2, 15], [15, 13], [13, 12], [12, 17], [17, 16], [16, 19], [19, 18], [18, 31], [31, 29], [29, 28], [28, 33], [33, 32], [32, 35], [35, 34], [34, 47], [47, 45], [45, 44], [44, 49], [49, 48], [48, 51], [51, 50], [50, 63], [63, 61], [61, 60], [60, 65], [65, 64], [64, 67], [67, 66], [66, 79], [79, 77], [77, 76], [76, 81], [81, 80], [80, 83], [83, 82], [82, 95], [95, 93], [93, 92]],"Final_routing":[[1, 4], [4, 7], [7, 2], [2, 15], [15, 13], [13, 12], [12, 17], [17, 20], [20, 23], [23, 22], [22, 31], [31, 29], [29, 28], [28, 33], [33, 36], [36, 39], [39, 34], [34, 47], [47, 45], [45, 44], [44, 49], [49, 52], [52, 55], [55, 54], [54, 63], [63, 61], [61, 60], [60, 65], [65, 68], [68, 71], [71, 66], [66, 79], [79, 77], [77, 76], [76, 81], [81, 84], [84, 87], [87, 86], [86, 95], [95, 93], [93, 92]],"Properties":{"Reachability":{"startNode":1,"finalNode":92}}}
+Persimmon stdout:  Chain equivalence reduction: 57 -> 25
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+<=== Starting iteration 2 ===>
+Solution: Some([[36, 39, 52, 55, 54, 84, 87, 86, 68, 71, 4, 7, 20, 23, 22], [65, 81, 49, 1, 17, 33], [64, 67, 16, 19, 18, 80, 83, 82, 48, 51, 50, 32, 35, 0, 3]])
+Time elapsed: 1.21ms
+Time elapsed(s): 0.001214s
+
+Persimmon stderr:  
+Time: 0.001214
+Solution: [[36, 39, 52, 55, 54, 84, 87, 86, 68, 71, 4, 7, 20, 23, 22], [65, 81, 49, 1, 17, 33], [64, 67, 16, 19, 18, 80, 83, 82, 48, 51, 50, 32, 35, 0, 3]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Marwan.gml 5 --dir topzoo_res/Reach/PERS/PERS-2 --e-prop Reach --repeat 1"
+	User time (seconds): 0.65
+	System time (seconds): 1.35
+	Percent of CPU this job got: 495%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 70744
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13009
+	Voluntary context switches: 32
+	Involuntary context switches: 171
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

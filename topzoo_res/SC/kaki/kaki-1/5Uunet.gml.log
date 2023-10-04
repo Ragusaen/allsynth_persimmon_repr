@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Uunet.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/kaki/kaki-1', dump_bdd=False)
+Running 5Uunet.gml
+Policy: (Service([51, 115, 167, 236, 285]-285) & (Reach 285))
+Initial path of nodes: [17, 15, 14, 9, 6, 7, 20, 39, 40, 51, 88, 52, 49, 53, 62, 82, 67, 68, 115, 113, 112, 107, 104, 105, 118, 137, 138, 164, 162, 161, 156, 153, 154, 167, 186, 187, 213, 211, 210, 205, 202, 203, 216, 235, 236, 262, 260, 259, 254, 251, 252, 265, 284, 285]
+Final path of nodes: [17, 15, 14, 13, 4, 0, 3, 39, 40, 51, 88, 69, 56, 55, 58, 82, 67, 68, 115, 114, 131, 111, 102, 98, 101, 137, 138, 164, 163, 180, 156, 170, 168, 167, 186, 187, 213, 212, 229, 209, 200, 196, 199, 235, 236, 262, 261, 278, 254, 268, 266, 265, 284, 285]
+{"Initial_routing":[[17, 15], [15, 14], [14, 9], [9, 6], [6, 7], [7, 20], [20, 39], [39, 40], [40, 51], [51, 88], [88, 52], [52, 49], [49, 53], [53, 62], [62, 82], [82, 67], [67, 68], [68, 115], [115, 113], [113, 112], [112, 107], [107, 104], [104, 105], [105, 118], [118, 137], [137, 138], [138, 164], [164, 162], [162, 161], [161, 156], [156, 153], [153, 154], [154, 167], [167, 186], [186, 187], [187, 213], [213, 211], [211, 210], [210, 205], [205, 202], [202, 203], [203, 216], [216, 235], [235, 236], [236, 262], [262, 260], [260, 259], [259, 254], [254, 251], [251, 252], [252, 265], [265, 284], [284, 285]],"Final_routing":[[17, 15], [15, 14], [14, 13], [13, 4], [4, 0], [0, 3], [3, 39], [39, 40], [40, 51], [51, 88], [88, 69], [69, 56], [56, 55], [55, 58], [58, 82], [82, 67], [67, 68], [68, 115], [115, 114], [114, 131], [131, 111], [111, 102], [102, 98], [98, 101], [101, 137], [137, 138], [138, 164], [164, 163], [163, 180], [180, 156], [156, 170], [170, 168], [168, 167], [167, 186], [186, 187], [187, 213], [213, 212], [212, 229], [229, 209], [209, 200], [200, 196], [196, 199], [199, 235], [235, 236], [236, 262], [262, 261], [261, 278], [278, 254], [254, 268], [268, 266], [266, 265], [265, 284], [284, 285]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [5], "edges": [{"from": 0, "to": 1, "label": 51},{"from": 1, "to": 2, "label": 115},{"from": 2, "to": 3, "label": 167},{"from": 3, "to": 4, "label": 236},{"from": 4, "to": 5, "label": 285}]},"Reachability":{"startNode":17,"finalNode":285}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpdqgd_241
+DFA generation time: 0.011 seconds 
+DFA states: 10 
+DFA transitions: 228
+Problem file: /tmp/tmpdqgd_241
+Switches to update: 64
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.008 seconds
+Subproblem verification time: 0.027 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.01 seconds
+Minimum batches required: 3
+[[13, 4, 0, 3, 69, 56, 55, 58, 114, 131, 111, 102, 98, 101, 163, 170, 180, 168, 212, 229, 209, 200, 196, 199, 261, 268, 278, 266], [14, 88, 115, 156, 164, 213, 254, 262], [9, 6, 7, 20, 52, 49, 53, 62, 113, 112, 107, 104, 105, 118, 162, 161, 153, 154, 211, 210, 205, 202, 203, 216, 260, 259, 251, 252]]
+Total program runtime: 0.2 seconds
+
+Kaki stderr:  
+Time: 0.2
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Uunet.gml 5 --dir topzoo_res/SC/kaki/kaki-1 --e-prop SC --repeat 1"
+	User time (seconds): 1.55
+	System time (seconds): 1.37
+	Percent of CPU this job got: 396%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.73
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 102008
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 39210
+	Voluntary context switches: 4537
+	Involuntary context switches: 170
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

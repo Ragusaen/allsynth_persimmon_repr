@@ -1,0 +1,12 @@
+<map id="GlobalInfo" name="GlobalInfo">
+<area shape="rect" id="Node000001" title="Bookkeeping data structure for subsetting algorithm." alt="" coords="15,231,103,259"/>
+<area shape="rect" id="Node000002" href="$structNodeDist.html" title="structure created to store subset results for each node and distances with odd and even parity of the..." alt="" coords="150,118,232,146"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,158,76,232,73,228,163,153"/>
+<area shape="rect" id="Node000003" href="$structDdNode.html" title="Decision diagram node." alt="" coords="200,5,273,33"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="186,29,142,38,95,55,51,80,32,97,16,116,10,131,8,145,16,177,32,206,49,229,45,232,28,209,11,179,3,146,5,129,11,114,28,93,48,76,93,50,141,33,185,24"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="197,44,184,58,180,73,180,89,188,117,183,119,175,89,175,72,180,56,193,40"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="289,8,297,12,300,20,292,29,274,32,273,27,289,25,294,19,293,16,287,13"/>
+<area shape="rect" id="Node000004" href="$structDdChildren.html" title="The two children of a non&#45;terminal node." alt="" coords="278,118,371,146"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="258,43,316,116,312,119,254,47"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="320,104,315,81,304,59,289,45,272,35,275,31,293,41,308,55,320,79,325,103"/>
+</map>

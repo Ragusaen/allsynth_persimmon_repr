@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Intranetwork.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-0', dump_bdd=False)
+Running 5Intranetwork.gml
+Policy: (Service([35, 50, 74, 89, 113, 128, 152, 167, 191, 206, 230]-225) & (Reach 225))
+Initial path of nodes: [11, 12, 22, 18, 10, 17, 24, 8, 5, 6, 13, 35, 36, 37, 38, 2, 30, 50, 51, 61, 57, 49, 56, 63, 47, 44, 45, 52, 74, 75, 76, 77, 41, 69, 89, 90, 100, 96, 88, 95, 102, 86, 83, 84, 91, 113, 114, 115, 116, 80, 108, 128, 129, 139, 135, 127, 134, 141, 125, 122, 123, 130, 152, 153, 154, 155, 119, 147, 167, 168, 178, 174, 166, 173, 180, 164, 161, 162, 169, 191, 192, 193, 194, 158, 186, 206, 207, 217, 213, 205, 212, 219, 203, 200, 201, 208, 230, 231, 232, 233, 197, 225]
+Final path of nodes: [11, 19, 20, 21, 18, 23, 17, 24, 16, 7, 4, 13, 34, 35, 36, 37, 38, 29, 30, 50, 58, 59, 60, 57, 62, 56, 63, 55, 46, 43, 52, 74, 75, 76, 53, 77, 68, 69, 89, 97, 98, 99, 96, 101, 95, 102, 94, 85, 82, 91, 112, 113, 114, 115, 116, 107, 108, 128, 136, 137, 138, 135, 140, 134, 141, 133, 124, 121, 130, 152, 153, 154, 131, 155, 146, 147, 167, 175, 176, 177, 174, 179, 173, 180, 172, 163, 160, 169, 190, 191, 192, 193, 194, 185, 186, 206, 214, 215, 216, 213, 218, 212, 219, 211, 202, 199, 208, 230, 231, 232, 209, 233, 224, 225]
+Time: 0.37145566940307617
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Intranetwork.gml 5 --dir topzoo_res/SC/reduce/BDD-0 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 1.30
+	System time (seconds): 1.26
+	Percent of CPU this job got: 267%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 88740
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14791
+	Voluntary context switches: 24
+	Involuntary context switches: 44
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

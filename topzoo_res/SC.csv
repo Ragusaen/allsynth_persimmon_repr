@@ -1,0 +1,415 @@
+name;prop;#initonly;#finalOnly;#noChange;#change;#tool;#method;#time;mem MB;#ans
+5Aarnet.gml;(Service([18, 19, 44, 64, 80, 100, 113]-113) & (Reach 113));24;24;30;6;reduce=True;VerifyMethod.allSymbolic;0.018943548202514603;87.39066666666668;True
+5Abilene.gml;(Service([26, 55]-59) & (Reach 59));24;24;6;6;reduce=True;VerifyMethod.allSymbolic;0.009382168451944967;87.26400000000001;True
+5Abvt.gml;(Service([40, 101]-134) & (Reach 134));34;34;8;6;reduce=True;VerifyMethod.allSymbolic;0.010622262954711867;89.224;True
+5Aconet.gml;(Service([67, 118]-136) & (Reach 136));18;18;6;6;reduce=True;VerifyMethod.allSymbolic;0.0087622801462809;88.508;True
+5Agis.gml;(Service([41, 66, 91, 116, 141]-143) & (Reach 143));18;18;24;6;reduce=True;VerifyMethod.allSymbolic;0.013960838317871066;88.62133333333334;True
+5Airtel.gml;(Service([23, 46, 63, 84]-95) & (Reach 95));6;6;18;6;reduce=True;VerifyMethod.allSymbolic;0.0094692707061767;89.00666666666666;True
+5Ans.gml;(Service([35, 52, 70, 91]-106) & (Reach 106));18;24;18;6;reduce=True;VerifyMethod.allSymbolic;0.013668855031331334;87.55866666666667;True
+5Arnes.gml;(Service([44, 78, 112, 146, 180]-197) & (Reach 197));18;30;13;17;reduce=True;VerifyMethod.allSymbolic;0.0673957665761311;88.56666666666666;True
+5Arpanet196912.gml;(Service([7, 12, 21]-23) & (Reach 23));0;2;16;2;reduce=True;VerifyMethod.allSymbolic;0.006877104441324801;86.89733333333334;True
+5Arpanet19706.gml;(Service([17, 21, 31, 43]-52) & (Reach 52));5;16;16;9;reduce=True;VerifyMethod.allSymbolic;0.0229435761769612;87.13733333333333;True
+5Arpanet19719.gml;(Service([31, 72]-103) & (Reach 103));34;39;8;6;reduce=True;VerifyMethod.allSymbolic;0.0116055806477864;87.724;True
+5Arpanet19723.gml;(Service([70, 127]-145) & (Reach 145));54;59;6;6;reduce=True;VerifyMethod.allSymbolic;0.016233285268147733;87.92266666666667;True
+5Arpanet19728.gml;(Service([84, 146]-171) & (Reach 171));48;48;6;6;reduce=True;VerifyMethod.allSymbolic;0.0143644014994303;87.99866666666667;True
+5AsnetAm.gml;(Service([58, 72, 157, 226, 253, 267, 333]-383) & (Reach 383));15;21;27;12;reduce=True;VerifyMethod.allSymbolic;0.07868798573811843;91.068;True
+5Atmnet.gml;(Service([57, 110]-120) & (Reach 120));48;54;6;6;reduce=True;VerifyMethod.allSymbolic;0.017413377761840765;89.04666666666667;True
+5AttMpls.gml;(Service([27, 76, 124]-149) & (Reach 149));17;23;8;11;reduce=True;VerifyMethod.allSymbolic;0.026996215184529566;89.66933333333333;True
+5Bbnplanet.gml;(Service([45, 62, 94, 137]-148) & (Reach 148));24;24;18;6;reduce=True;VerifyMethod.allSymbolic;0.015439271926879834;87.95066666666666;True
+5Bellcanada.gml;(Service([19, 65, 110, 106, 162, 208, 246, 259]-250) & (Reach 250));42;48;30;12;reduce=True;VerifyMethod.allSymbolic;0.08987490336100257;89.24133333333333;True
+5Bellsouth.gml;(Service([46, 100, 144, 138, 163, 254, 257, 301]-291) & (Reach 291));6;12;36;6;reduce=True;VerifyMethod.allSymbolic;0.0204384326934814;88.85466666666667;True
+5Belnet2003.gml;(Service([35, 76, 120]-137) & (Reach 137));6;6;12;6;reduce=True;VerifyMethod.allSymbolic;0.009339173634846966;88.02533333333334;True
+5Belnet2004.gml;(Service([35, 76, 120]-137) & (Reach 137));6;6;12;6;reduce=True;VerifyMethod.allSymbolic;0.0092264016469319;88.81599999999999;True
+5Belnet2005.gml;(Service([51, 91, 129]-137) & (Reach 137));7;7;11;6;reduce=True;VerifyMethod.allSymbolic;0.009300629297892233;88.12933333333335;True
+5Belnet2006.gml;(Service([51, 91, 129]-137) & (Reach 137));7;7;11;6;reduce=True;VerifyMethod.allSymbolic;0.009075800577799433;88.128;True
+5Belnet2007.gml;(Service([35, 73, 91, 111]-120) & (Reach 120));26;42;6;16;reduce=True;VerifyMethod.allSymbolic;0.13247871398925778;87.74666666666667;True
+5Belnet2008.gml;(Service([35, 73, 91, 111]-120) & (Reach 120));26;42;6;16;reduce=True;VerifyMethod.allSymbolic;0.13212211926778158;87.86666666666667;True
+5Belnet2009.gml;(Service([51, 107]-114) & (Reach 114));36;42;6;6;reduce=True;VerifyMethod.allSymbolic;0.015009085337320933;87.84533333333333;True
+5Belnet2010.gml;(Service([37, 78, 95, 114]-126) & (Reach 126));26;42;6;16;reduce=True;VerifyMethod.allSymbolic;0.199589729309082;87.99066666666666;True
+5BeyondTheNetwork.gml;(Service([26, 124, 132, 165, 259, 314]-291) & (Reach 291));14;21;28;6;reduce=True;VerifyMethod.allSymbolic;0.019961198170979768;90.38933333333334;True
+5Bics.gml;(Service([40, 73, 104, 137, 165]-193) & (Reach 193));27;30;21;6;reduce=True;VerifyMethod.allSymbolic;0.0192952156066894;89.17866666666667;True
+5Biznet.gml;(Service([19, 57, 81, 103, 131, 155, 164]-164) & (Reach 164));66;72;24;12;reduce=True;VerifyMethod.allSymbolic;0.10338052113850905;88.77066666666667;True
+5Bren.gml;(Service([53, 90, 127, 164, 201]-221) & (Reach 221));24;36;18;12;reduce=True;VerifyMethod.allSymbolic;0.054818232854207304;88.89733333333334;True
+5BsonetEurope.gml;(Service([23, 48, 66, 70, 88, 107]-106) & (Reach 106));10;10;26;6;reduce=True;VerifyMethod.allSymbolic;0.015038251876831034;88.93866666666668;True
+5BtAsiaPac.gml;(Service([35, 42, 79, 100]-119) & (Reach 119));6;6;18;6;reduce=True;VerifyMethod.allSymbolic;0.010736942291259733;87.80533333333334;True
+5BtEurope.gml;(Service([41, 65, 92, 134]-140) & (Reach 140));6;6;18;6;reduce=True;VerifyMethod.allSymbolic;0.010829528172810833;88.54933333333334;True
+5BtNorthAmerica.gml;(Service([44, 112, 178]-214) & (Reach 214));22;27;11;9;reduce=True;VerifyMethod.allSymbolic;0.023862520853678303;88.90933333333334;True
+5Canerie.gml;(Service([30, 49, 81, 112, 142, 158, 163]-190) & (Reach 190));17;34;21;16;reduce=True;VerifyMethod.allSymbolic;0.11833866437276201;87.95333333333333;True
+5Cernet.gml;(Service([41, 82, 123, 164, 205]-243) & (Reach 243));6;17;13;17;reduce=True;VerifyMethod.allSymbolic;0.06616195042928057;89.34666666666668;True
+5Cesnet2001.gml;(Service([23, 65, 87, 109]-132) & (Reach 132));5;5;20;5;reduce=True;VerifyMethod.allSymbolic;0.010071118672688768;87.644;True
+5Cesnet200304.gml;(Service([23, 43, 82, 111, 141, 170]-168) & (Reach 168));9;12;24;9;reduce=True;VerifyMethod.allSymbolic;0.0249826908111572;87.908;True
+5Cesnet200511.gml;(Service([19, 56, 81, 126, 179, 210, 214]-214) & (Reach 214));12;12;30;6;reduce=True;VerifyMethod.allSymbolic;0.016965786616007467;88.32;True
+5Cesnet200603.gml;(Service([19, 56, 81, 126, 179, 210, 214]-214) & (Reach 214));12;12;30;6;reduce=True;VerifyMethod.allSymbolic;0.0164838631947835;88.31866666666667;True
+5Cesnet200706.gml;(Service([58, 104, 148, 170, 214, 259]-258) & (Reach 258));10;16;26;6;reduce=True;VerifyMethod.allSymbolic;0.016569932301839164;88.61733333333332;True
+5Cesnet201006.gml;(Service([100, 151, 203, 254, 306]-306) & (Reach 306));16;19;17;9;reduce=True;VerifyMethod.allSymbolic;0.024694204330444298;89.26133333333333;True
+5Chinanet.gml;(Service([75, 122, 163, 212]-247) & (Reach 247));6;12;18;6;reduce=True;VerifyMethod.allSymbolic;0.011733929316202733;88.96933333333334;True
+5Claranet.gml;(Service([18, 42, 58, 75]-88) & (Reach 88));6;12;18;6;reduce=True;VerifyMethod.allSymbolic;0.012026230494181299;87.93599999999999;True
+5Cogentco.gml;(Service([61, 41, 321, 274, 379, 516, 436, 714, 743, 780, 909, 931, 1110, 1046, 1026]-1167) & (Reach 1167));96;114;60;18;reduce=True;VerifyMethod.allSymbolic;1.013749837875366;95.556;True
+5Colt.gml;(Service([118, 209, 305, 356, 413, 510, 554, 642, 822, 883]-860) & (Reach 860));72;111;30;24;reduce=True;VerifyMethod.allSymbolic;0.36681008338928217;93.71999999999998;True
+5Columbus.gml;(Service([64, 133, 205, 238, 337, 369, 414]-414) & (Reach 414));78;102;24;12;reduce=True;VerifyMethod.allSymbolic;0.34287627538045246;89.08666666666666;True
+5Compuserve.gml;(Service([24, 62]-81) & (Reach 81));16;21;8;6;reduce=True;VerifyMethod.allSymbolic;0.010329643885294533;87.368;True
+5CrlNetworkServices.gml;(Service([82, 119, 162, 195]-195) & (Reach 195));45;59;13;8;reduce=True;VerifyMethod.allSymbolic;0.04310695330301917;88.22266666666667;True
+5Cwix.gml;(Service([39, 101, 174]-209) & (Reach 209));34;37;13;7;reduce=True;VerifyMethod.allSymbolic;0.0168233712514241;88.24266666666666;True
+5Darkstrand.gml;(Service([78, 157]-162) & (Reach 162));60;66;6;6;reduce=True;VerifyMethod.allSymbolic;0.020778179168701134;88.02133333333335;True
+5Dataxchange.gml;(Service([9, 22, 33]-35) & (Reach 35));0;2;16;2;reduce=True;VerifyMethod.allSymbolic;0.007704496383666933;87.58133333333335;True
+5Deltacom.gml;(Service([35, 108, 147, 160, 258, 330, 372, 358, 490, 470, 604, 600, 673]-673) & (Reach 673));78;90;54;12;reduce=True;VerifyMethod.allSymbolic;0.2648429870605469;90.46133333333334;True
+5Dfn.gml;(Service([154, 231, 342]-347) & (Reach 347));25;25;6;11;reduce=True;VerifyMethod.allSymbolic;0.02450291315714513;89.27733333333333;True
+5Digex.gml;(Service([89, 172]-182) & (Reach 182));54;60;6;6;reduce=True;VerifyMethod.allSymbolic;0.018342177073160767;88.13733333333333;True
+5Easynet.gml;(Service([12, 31, 48, 66, 85, 102]-107) & (Reach 107));9;18;21;12;reduce=True;VerifyMethod.allSymbolic;0.04340974489847813;89.60266666666666;True
+5EliBackbone.gml;(Service([25, 42, 76, 94, 109]-112) & (Reach 112));15;22;10;17;reduce=True;VerifyMethod.allSymbolic;0.060841878255208266;87.748;True
+5Epoch.gml;(Service([14, 29]-35) & (Reach 35));11;11;7;6;reduce=True;VerifyMethod.allSymbolic;0.008940060933430935;87.07466666666666;True
+5Ernet.gml;(Service([18, 32, 81, 117, 148, 161, 168]-168) & (Reach 168));6;6;30;6;reduce=True;VerifyMethod.allSymbolic;0.015270471572875933;88.032;True
+5Esnet.gml;(Service([126, 193, 324]-397) & (Reach 397));40;47;12;8;reduce=True;VerifyMethod.allSymbolic;0.030305067698160732;89.28800000000001;True
+5Evolink.gml;(Service([54, 88, 139, 195]-213) & (Reach 213));36;36;12;12;reduce=True;VerifyMethod.allSymbolic;0.03503227233886713;88.62400000000001;True
+5Fatman.gml;(Service([17, 34, 51, 68, 85]-91) & (Reach 91));6;12;24;6;reduce=True;VerifyMethod.allSymbolic;0.013853311538696234;88.22666666666667;True
+5Fccn.gml;(Service([19, 31, 68, 75, 100, 125, 134]-134) & (Reach 134));0;6;30;6;reduce=True;VerifyMethod.allSymbolic;0.016177654266357366;87.844;True
+5Forthnet.gml;(Service([55, 117, 84, 131, 206, 189, 291, 331, 365]-363) & (Reach 363));0;6;42;6;reduce=True;VerifyMethod.allSymbolic;0.021958589553832935;89.488;True
+5Funet.gml;(Service([47, 98, 139]-151) & (Reach 151));42;48;12;6;reduce=True;VerifyMethod.allSymbolic;0.019170443216959602;87.992;True
+5Gambia.gml;(Service([26, 44, 47, 77, 99, 102, 132, 154, 166]-159) & (Reach 159));6;18;42;6;reduce=True;VerifyMethod.allSymbolic;0.029660224914550736;88.00133333333333;True
+5Garr200212.gml;(Service([29, 67, 100, 135]-154) & (Reach 154));6;6;18;6;reduce=True;VerifyMethod.allSymbolic;0.010633865992228134;87.80399999999999;True
+5Garr200902.gml;(Service([51, 72, 156, 181, 234, 283, 321]-321) & (Reach 321));12;17;25;11;reduce=True;VerifyMethod.allSymbolic;0.039404630661010694;89.008;True
+5Garr200908.gml;(Service([51, 72, 156, 181, 234, 283, 321]-321) & (Reach 321));12;17;25;11;reduce=True;VerifyMethod.allSymbolic;0.039195060729980434;90.50933333333334;True
+5Garr200909.gml;(Service([52, 73, 159, 184, 238, 285, 327]-327) & (Reach 327));12;17;25;11;reduce=True;VerifyMethod.allSymbolic;0.0389606952667236;89.12266666666666;True
+5Garr200912.gml;(Service([51, 72, 156, 181, 234, 280, 321]-321) & (Reach 321));12;17;25;11;reduce=True;VerifyMethod.allSymbolic;0.039103269577026305;89.25599999999999;True
+5Garr201001.gml;(Service([51, 72, 156, 181, 234, 280, 321]-321) & (Reach 321));12;17;25;11;reduce=True;VerifyMethod.allSymbolic;0.04438813527425126;91.13600000000001;True
+5Garr201003.gml;(Service([51, 72, 156, 181, 234, 280, 321]-321) & (Reach 321));12;17;25;11;reduce=True;VerifyMethod.allSymbolic;0.038620392481485966;89.272;True
+5Garr201004.gml;(Service([51, 72, 156, 181, 234, 280, 321]-321) & (Reach 321));12;17;25;11;reduce=True;VerifyMethod.allSymbolic;0.03878569602966303;89.23866666666667;True
+5Garr201005.gml;(Service([52, 73, 159, 184, 238, 285, 327]-327) & (Reach 327));12;17;25;11;reduce=True;VerifyMethod.allSymbolic;0.03916486104329423;89.36266666666667;True
+5Garr201007.gml;(Service([52, 73, 159, 184, 238, 285, 327]-327) & (Reach 327));12;17;25;11;reduce=True;VerifyMethod.allSymbolic;0.0371628602345784;89.25999999999999;True
+5Garr201008.gml;(Service([52, 73, 159, 184, 238, 285, 327]-327) & (Reach 327));12;17;25;11;reduce=True;VerifyMethod.allSymbolic;0.0380929311116536;89.25999999999999;True
+5Garr201010.gml;(Service([56, 66, 165, 221, 277, 333]-333) & (Reach 333));17;22;25;6;reduce=True;VerifyMethod.allSymbolic;0.0184684594472249;90.37066666666665;True
+5Garr201012.gml;(Service([56, 66, 165, 221, 277, 333]-333) & (Reach 333));17;22;25;6;reduce=True;VerifyMethod.allSymbolic;0.018751859664916933;89.11466666666666;True
+5Garr201101.gml;(Service([56, 66, 165, 221, 277, 333]-333) & (Reach 333));17;22;25;6;reduce=True;VerifyMethod.allSymbolic;0.018264134724934832;89.90933333333334;True
+5Garr201102.gml;(Service([57, 68, 168, 225, 282, 339]-339) & (Reach 339));17;22;25;6;reduce=True;VerifyMethod.allSymbolic;0.018265406290690067;89.29466666666667;True
+5Garr201103.gml;(Service([51, 78, 168, 195, 254, 298, 341]-341) & (Reach 341));12;12;25;11;reduce=True;VerifyMethod.allSymbolic;0.0298524697621663;89.22666666666667;True
+5Garr201104.gml;(Service([52, 79, 171, 198, 258, 303, 347]-347) & (Reach 347));12;12;25;11;reduce=True;VerifyMethod.allSymbolic;0.028706550598144503;89.34266666666667;True
+5Garr201105.gml;(Service([30, 69, 126, 148, 187, 244, 266, 305]-326) & (Reach 326));9;12;36;9;reduce=True;VerifyMethod.allSymbolic;0.031254053115844664;89.28933333333333;True
+5Garr201107.gml;(Service([30, 69, 126, 148, 187, 244, 266, 305]-326) & (Reach 326));9;12;36;9;reduce=True;VerifyMethod.allSymbolic;0.03195587793985997;89.42933333333333;True
+5Garr201108.gml;(Service([30, 69, 126, 148, 187, 244, 266, 305]-326) & (Reach 326));9;12;36;9;reduce=True;VerifyMethod.allSymbolic;0.032532691955566365;89.31866666666667;True
+5Garr201109.gml;(Service([30, 69, 126, 148, 187, 244, 266, 305]-326) & (Reach 326));9;12;36;9;reduce=True;VerifyMethod.allSymbolic;0.031236569086710565;89.29599999999999;True
+5Garr201110.gml;(Service([30, 69, 126, 148, 187, 244, 266, 305]-326) & (Reach 326));9;12;36;9;reduce=True;VerifyMethod.allSymbolic;0.03134266535441076;89.16266666666667;True
+5Garr201111.gml;(Service([31, 74, 142, 152, 213, 261, 308, 331]-332) & (Reach 332));12;15;33;9;reduce=True;VerifyMethod.allSymbolic;0.035258293151855434;89.26799999999999;True
+5Garr201112.gml;(Service([31, 75, 144, 155, 217, 265, 313, 336]-338) & (Reach 338));12;15;33;9;reduce=True;VerifyMethod.allSymbolic;0.035850604375203404;89.34266666666667;True
+5Garr201201.gml;(Service([31, 75, 144, 155, 217, 265, 313, 336]-338) & (Reach 338));12;15;33;9;reduce=True;VerifyMethod.allSymbolic;0.03471263249715167;89.25333333333333;True
+5Geant2001.gml;(Service([31, 64, 91, 116, 143]-149) & (Reach 149));14;16;22;6;reduce=True;VerifyMethod.allSymbolic;0.014123042424519802;88.144;True
+5Geant2009.gml;(Service([82, 169]-203) & (Reach 203));35;35;7;6;reduce=True;VerifyMethod.allSymbolic;0.012265841166178333;88.59066666666666;True
+5Geant2010.gml;(Service([39, 110, 158]-221) & (Reach 221));28;33;9;11;reduce=True;VerifyMethod.allSymbolic;0.0320532321929931;89.408;True
+5Geant2012.gml;(Service([37, 76, 82, 124, 173, 211, 237]-237) & (Reach 237));18;24;24;12;reduce=True;VerifyMethod.allSymbolic;0.05152281125386551;88.668;True
+5Getnet.gml;(Service([12, 23, 38]-41) & (Reach 41));6;11;12;6;reduce=True;VerifyMethod.allSymbolic;0.010374625523885067;87.04533333333332;True
+5Globalcenter.gml;(Service([26, 45]-53) & (Reach 53));0;5;7;5;reduce=True;VerifyMethod.allSymbolic;0.007921139399210566;88.348;True
+5Globenet.gml;(Service([16, 64, 70, 106, 92, 159, 180, 200, 225, 240, 259, 291, 278, 370, 351, 399]-393) & (Reach 393));12;42;62;22;reduce=True;VerifyMethod.allSymbolic;0.5588192145029703;89.07066666666667;True
+5Goodnet.gml;(Service([20, 47, 68, 99]-98) & (Reach 98));8;8;16;6;reduce=True;VerifyMethod.allSymbolic;0.0114474296569824;88.34133333333334;True
+5Gridnet.gml;(Service([19, 44]-53) & (Reach 53));5;5;8;5;reduce=True;VerifyMethod.allSymbolic;0.0075980822245279335;87.29333333333334;True
+5Grnet.gml;(Service([4, 57, 81, 78, 131, 155, 152, 205]-212) & (Reach 212));9;9;39;6;reduce=True;VerifyMethod.allSymbolic;0.01931707064310703;88.476;True
+5GtsCe.gml;(Service([141, 52, 280, 291, 392, 318, 441, 571, 505, 721, 740, 750, 886, 797]-888) & (Reach 888));60;126;30;42;reduce=True;VerifyMethod.allSymbolic;4.916245619455974;110.30266666666667;True
+5GtsCzechRepublic.gml;(Service([35, 87, 144, 171]-183) & (Reach 183));37;55;7;16;reduce=True;VerifyMethod.allSymbolic;0.1461644967397054;89.52533333333334;True
+5GtsHungary.gml;(Service([42, 80, 113, 161]-173) & (Reach 173));30;30;12;12;reduce=True;VerifyMethod.allSymbolic;0.03438051541646317;88.72533333333332;True
+5GtsPoland.gml;(Service([44, 66, 127, 180]-193) & (Reach 193));42;48;12;12;reduce=True;VerifyMethod.allSymbolic;0.05109842618306473;88.86266666666666;True
+5GtsRomania.gml;(Service([29, 50, 71, 92, 113]-121) & (Reach 121));6;12;24;6;reduce=True;VerifyMethod.allSymbolic;0.013995488484700468;87.68266666666666;True
+5GtsSlovakia.gml;(Service([43, 78, 113, 148, 183]-206) & (Reach 206));12;12;24;6;reduce=True;VerifyMethod.allSymbolic;0.014199733734130833;88.25999999999999;True
+5Harnet.gml;(Service([23, 57, 83, 105]-125) & (Reach 125));12;12;18;6;reduce=True;VerifyMethod.allSymbolic;0.0115442276000976;87.68533333333333;True
+5Heanet.gml;(Service([16, 34]-41) & (Reach 41));5;5;8;5;reduce=True;VerifyMethod.allSymbolic;0.007701953252156534;87.07333333333334;True
+5HiberniaCanada.gml;(Service([23, 35, 64]-74) & (Reach 74));22;30;12;8;reduce=True;VerifyMethod.allSymbolic;0.033768812815348236;87.2;True
+5HiberniaGlobal.gml;(Service([41, 58, 65, 148, 166, 181, 251, 250, 316]-305) & (Reach 305));53;68;25;24;reduce=True;VerifyMethod.allSymbolic;0.2443994681040446;90.65866666666666;True
+5HiberniaIreland.gml;(Service([10, 16, 31, 41]-47) & (Reach 47));6;12;18;6;reduce=True;VerifyMethod.allSymbolic;0.012101332346598265;87.07733333333333;True
+5HiberniaNireland.gml;(Service([28, 55, 97]-100) & (Reach 100));30;30;12;6;reduce=True;VerifyMethod.allSymbolic;0.014099597930908167;87.628;True
+5HiberniaUk.gml;(Service([18, 58, 77]-85) & (Reach 85));30;36;12;6;reduce=True;VerifyMethod.allSymbolic;0.015466769536336201;87.30933333333333;True
+5HiberniaUs.gml;(Service([3, 26, 33, 50, 71, 87, 95, 118, 113]-121) & (Reach 121));24;24;42;6;reduce=True;VerifyMethod.allSymbolic;0.029736518859863236;87.86;True
+5Highwinds.gml;(Service([19, 37, 55, 73, 91]-93) & (Reach 93));18;18;18;12;reduce=True;VerifyMethod.allSymbolic;0.031157573064168265;87.89999999999999;True
+5HostwayInternational.gml;(Service([19, 35, 51, 67, 83]-94) & (Reach 94));24;27;21;9;reduce=True;VerifyMethod.allSymbolic;0.031420469284057534;88.68533333333333;True
+5HurricaneElectric.gml;(Service([25, 61, 89, 126]-137) & (Reach 137));18;18;18;6;reduce=True;VerifyMethod.allSymbolic;0.012951930363972968;88.00666666666666;True
+5Ibm.gml;(Service([31, 72]-103) & (Reach 103));28;28;8;6;reduce=True;VerifyMethod.allSymbolic;0.011301914850870698;88.23333333333333;True
+5Iij.gml;(Service([61, 106, 167]-217) & (Reach 217));16;16;14;6;reduce=True;VerifyMethod.allSymbolic;0.010758638381957966;89.984;True
+5Iinet.gml;(Service([37, 78, 109, 140, 171]-178) & (Reach 178));6;6;24;6;reduce=True;VerifyMethod.allSymbolic;0.0120330651601155;87.91733333333333;True
+5Ilan.gml;(Service([14, 28, 54, 72]-82) & (Reach 82));6;6;18;6;reduce=True;VerifyMethod.allSymbolic;0.010519027709960901;87.29466666666667;True
+5Integra.gml;(Service([28, 79, 91, 120]-147) & (Reach 147));23;23;19;6;reduce=True;VerifyMethod.allSymbolic;0.014740705490112234;88.176;True
+5Intellifiber.gml;(Service([29, 96, 211, 175, 225, 358, 361, 389]-434) & (Reach 434));53;65;25;18;reduce=True;VerifyMethod.allSymbolic;0.1794612407684326;90.28133333333334;True
+5Internetmci.gml;(Service([22, 56, 76, 111]-113) & (Reach 113));8;13;13;9;reduce=True;VerifyMethod.allSymbolic;0.020829757054646767;87.98266666666666;True
+5Internode.gml;(Service([77, 152, 218, 265, 389]-395) & (Reach 395));15;15;21;6;reduce=True;VerifyMethod.allSymbolic;0.013068040211995402;89.35333333333334;True
+5Interoute.gml;(Service([50, 163, 218, 271, 374, 424, 456, 564, 600]-658) & (Reach 658));60;95;19;29;reduce=True;VerifyMethod.allSymbolic;1.5062447388966878;91.02533333333334;True
+5Intranetwork.gml;(Service([35, 50, 74, 89, 113, 128, 152, 167, 191, 206, 230]-225) & (Reach 225));42;54;30;30;reduce=True;VerifyMethod.allSymbolic;0.36331597963968915;88.67466666666667;True
+5Ion.gml;(Service([204, 329, 454, 579, 704]-727) & (Reach 727));126;132;18;12;reduce=True;VerifyMethod.allSymbolic;0.16387383143107093;90.64266666666667;True
+5IowaStatewideFiberMap.gml;(Service([26, 43, 75, 117, 148, 180, 191]-191) & (Reach 191));24;30;30;6;reduce=True;VerifyMethod.allSymbolic;0.025121529897054;88.13600000000001;True
+5Iris.gml;(Service([95, 176, 275]-299) & (Reach 299));54;60;6;12;reduce=True;VerifyMethod.allSymbolic;0.050940990447998;89.248;True
+5Janetbackbone.gml;(Service([51, 98, 146]-170) & (Reach 170));18;28;7;11;reduce=True;VerifyMethod.allSymbolic;0.0296082496643066;88.344;True
+5Janetlense.gml;(Service([27, 55, 69, 105]-109) & (Reach 109));6;6;18;6;reduce=True;VerifyMethod.allSymbolic;0.010791937510172501;87.86533333333334;True
+5Karen.gml;(Service([29, 50, 97, 118]-143) & (Reach 143));23;23;14;11;reduce=True;VerifyMethod.allSymbolic;0.030261596043904566;87.82799999999999;True
+5Kdl.gml;(Service([749, 770, 1936, 2255, 2690, 3009, 3753, 3762, 4507, 4516]-4516) & (Reach 4516));303;325;38;13;reduce=True;VerifyMethod.allSymbolic;2.6800944805145264;121.99733333333334;True
+5KentmanFeb2008.gml;(Service([13, 49, 74, 90, 128, 136, 143]-143) & (Reach 143));6;6;30;6;reduce=True;VerifyMethod.allSymbolic;0.014782031377156534;87.89866666666667;True
+5KentmanJan2011.gml;(Service([30, 71, 111, 113, 132, 157, 190, 220]-227) & (Reach 227));0;3;39;3;reduce=True;VerifyMethod.allSymbolic;0.015484333038330031;88.41733333333333;True
+5KentmanJul2005.gml;(Service([25, 42, 58, 74, 90]-93) & (Reach 93));12;18;24;6;reduce=True;VerifyMethod.allSymbolic;0.015490531921386668;87.64266666666667;True
+5LambdaNet.gml;(Service([67, 159, 220]-235) & (Reach 235));66;90;12;6;reduce=True;VerifyMethod.allSymbolic;0.03463713328043613;89.82666666666667;True
+5Latnet.gml;(Service([37, 26, 111, 106, 129, 166, 168, 248, 236, 273, 289, 315, 405, 382, 371]-413) & (Reach 413));0;2;76;2;reduce=True;VerifyMethod.allSymbolic;0.03592999776204423;89.62;True
+5Layer42.gml;(Service([10, 19, 30]-34) & (Reach 34));6;6;12;6;reduce=True;VerifyMethod.allSymbolic;0.009094397226969335;87.07066666666667;True
+5Litnet.gml;(Service([44, 119, 171, 215]-257) & (Reach 257));6;12;18;6;reduce=True;VerifyMethod.allSymbolic;0.012019475301106733;90.56666666666666;True
+5Marnet.gml;(Service([37, 68, 99]-119) & (Reach 119));5;5;14;5;reduce=True;VerifyMethod.allSymbolic;0.008326609929402666;87.74533333333333;True
+5Marwan.gml;(Service([17, 34, 63, 79, 93]-92) & (Reach 92));15;15;21;6;reduce=True;VerifyMethod.allSymbolic;0.0142680803934733;88.75466666666667;True
+5Missouri.gml;(Service([70, 161, 228, 253, 320, 337]-387) & (Reach 387));58;68;26;6;reduce=True;VerifyMethod.allSymbolic;0.0428074995676676;89.59466666666667;True
+5Myren.gml;(Service([37, 74, 111, 148, 185]-221) & (Reach 221));0;3;27;3;reduce=True;VerifyMethod.allSymbolic;0.010420799255371066;88.35199999999999;True
+5Napnet.gml;(Service([11, 21, 30]-35) & (Reach 35));0;2;16;2;reduce=True;VerifyMethod.allSymbolic;0.0074822902679442665;87.08133333333332;True
+5Navigata.gml;(Service([17, 35, 56, 74]-74) & (Reach 74));9;9;15;6;reduce=True;VerifyMethod.allSymbolic;0.010995388031005832;87.264;True
+5Netrail.gml;(Service([16, 34]-41) & (Reach 41));5;5;8;5;reduce=True;VerifyMethod.allSymbolic;0.0077242851257323985;87.11466666666666;True
+5NetworkUsa.gml;(Service([46, 135, 190]-208) & (Reach 208));48;59;7;11;reduce=True;VerifyMethod.allSymbolic;0.051689545313517195;88.29866666666668;True
+5Nextgen.gml;(Service([31, 48, 65, 82, 99]-100) & (Reach 100));36;36;18;12;reduce=True;VerifyMethod.allSymbolic;0.04179835319519037;87.29599999999999;True
+5Niif.gml;(Service([44, 79, 115, 151, 187]-200) & (Reach 200));20;25;16;12;reduce=True;VerifyMethod.allSymbolic;0.04092232386271157;88.34133333333334;True
+5Noel.gml;(Service([27, 44, 57, 93]-112) & (Reach 112));17;23;19;6;reduce=True;VerifyMethod.allSymbolic;0.0151743094126383;89.528;True
+5Nsfnet.gml;(Service([24, 35, 47, 66]-73) & (Reach 73));12;12;18;6;reduce=True;VerifyMethod.allSymbolic;0.012099822362263932;87.25333333333333;True
+5Oxford.gml;(Service([33, 71, 105]-113) & (Reach 113));30;42;6;12;reduce=True;VerifyMethod.allSymbolic;0.05372897783915196;87.65466666666667;True
+5Pacificwave.gml;(Service([29, 51, 71, 90]-107) & (Reach 107));0;6;18;6;reduce=True;VerifyMethod.allSymbolic;0.010542074839274032;88.14666666666666;True
+5Packetexchange.gml;(Service([17, 31, 44, 64, 91, 110, 122]-122) & (Reach 122));24;30;24;12;reduce=True;VerifyMethod.allSymbolic;0.0574433008829752;87.68266666666666;True
+5Palmetto.gml;(Service([38, 83, 94, 139, 185, 230]-263) & (Reach 263));45;54;21;12;reduce=True;VerifyMethod.allSymbolic;0.07832193374633788;89.016;True
+5Peer1.gml;(Service([20, 36, 51, 67, 86]-91) & (Reach 91));15;18;21;6;reduce=True;VerifyMethod.allSymbolic;0.014694690704345634;87.39733333333334;True
+5Pern.gml;(Service([125, 246, 380, 394, 551, 655, 760]-760) & (Reach 760));18;24;30;6;reduce=True;VerifyMethod.allSymbolic;0.020763794581095365;91.28933333333333;True
+5PionierL1.gml;(Service([63, 90, 133, 182]-205) & (Reach 205));48;66;18;6;reduce=True;VerifyMethod.allSymbolic;0.0305960178375244;88.25999999999999;True
+5PionierL3.gml;(Service([57, 81, 133, 157, 209]-227) & (Reach 227));36;51;21;9;reduce=True;VerifyMethod.allSymbolic;0.0646446545918782;89.81599999999999;True
+5Psinet.gml;(Service([17, 40, 66, 91, 110, 129, 137]-137) & (Reach 137));36;36;30;6;reduce=True;VerifyMethod.allSymbolic;0.027831157048543265;89.17866666666667;True
+5Quest.gml;(Service([38, 83]-119) & (Reach 119));22;23;8;6;reduce=True;VerifyMethod.allSymbolic;0.010541439056396434;89.00666666666666;True
+5RedBestel.gml;(Service([18, 41, 2, 163, 128, 119, 167, 246, 211, 171, 286, 253, 292, 308, 413, 336, 389, 501, 438, 461, 422]-503) & (Reach 503));66;150;96;12;reduce=True;VerifyMethod.allSymbolic;2.1957157452901206;89.54;True
+5Rediris.gml;(Service([35, 57, 89]-108) & (Reach 108));11;11;8;11;reduce=True;VerifyMethod.allSymbolic;0.02167312304178867;88.46533333333333;True
+5Renater2001.gml;(Service([21, 33, 58, 81, 108, 117, 131]-142) & (Reach 142));4;17;32;6;reduce=True;VerifyMethod.allSymbolic;0.021375258763631135;87.73466666666667;True
+5Renater2004.gml;(Service([44, 74, 104, 134, 164]-179) & (Reach 179));18;18;18;12;reduce=True;VerifyMethod.allSymbolic;0.0306145350138346;88.11066666666666;True
+5Renater2006.gml;(Service([49, 73, 131, 180]-197) & (Reach 197));24;24;18;6;reduce=True;VerifyMethod.allSymbolic;0.014091809590657466;88.46666666666665;True
+5Renater2008.gml;(Service([49, 73, 131, 180]-197) & (Reach 197));24;24;18;6;reduce=True;VerifyMethod.allSymbolic;0.014121532440185465;88.95466666666665;True
+5Renater2010.gml;(Service([122, 233]-251) & (Reach 251));48;54;6;6;reduce=True;VerifyMethod.allSymbolic;0.016597191492716434;88.71333333333332;True
+5Restena.gml;(Service([28, 52, 70, 97]-108) & (Reach 108));12;17;13;11;reduce=True;VerifyMethod.allSymbolic;0.029954751332600865;88.3;True
+5Rhnet.gml;(Service([6, 26, 35, 39, 63, 65, 80, 86]-87) & (Reach 87));12;26;34;8;reduce=True;VerifyMethod.allSymbolic;0.04502876599629713;87.45066666666666;True
+5Rnp.gml;(Service([20, 61, 43, 67, 73, 109, 112, 137, 155, 175]-174) & (Reach 174));18;30;42;12;reduce=True;VerifyMethod.allSymbolic;0.08923371632893877;88.08266666666667;True
+5Roedunet.gml;(Service([42, 124, 167, 220]-251) & (Reach 251));6;6;18;6;reduce=True;VerifyMethod.allSymbolic;0.010356744130452433;88.70666666666666;True
+5RoedunetFibre.gml;(Service([27, 78, 89, 129, 181, 148, 223, 260, 267]-281) & (Reach 281));36;36;42;6;reduce=True;VerifyMethod.allSymbolic;0.03451975186665846;88.87333333333333;True
+5Sanet.gml;(Service([53, 75, 118, 161, 204, 247]-249) & (Reach 249));51;55;26;7;reduce=True;VerifyMethod.allSymbolic;0.03828438123067217;89.38;True
+5Sanren.gml;(Service([20, 36]-41) & (Reach 41));12;18;6;6;reduce=True;VerifyMethod.allSymbolic;0.009787400563557898;87.60133333333333;True
+5Savvis.gml;(Service([31, 72]-110) & (Reach 110));39;45;9;6;reduce=True;VerifyMethod.allSymbolic;0.014769713083902932;87.70933333333335;True
+5Shentel.gml;(Service([9, 38, 36, 67, 76, 96, 111, 125, 157, 149]-167) & (Reach 167));30;42;42;12;reduce=True;VerifyMethod.allSymbolic;0.18581748008728025;88.71866666666666;True
+5Sinet.gml;(Service([75, 192, 266, 340, 414]-443) & (Reach 443));19;25;23;6;reduce=True;VerifyMethod.allSymbolic;0.016892989476521732;90.19600000000001;True
+5Spiralight.gml;(Service([25, 50, 79]-85) & (Reach 85));36;36;6;12;reduce=True;VerifyMethod.allSymbolic;0.03201532363891597;87.464;True
+5Sprint.gml;(Service([21, 24, 45, 55]-57) & (Reach 57));8;8;16;6;reduce=True;VerifyMethod.allSymbolic;0.010820070902506466;87.13733333333334;True
+5Sunet.gml;(Service([37, 63, 89, 115, 141]-148) & (Reach 148));48;54;18;12;reduce=True;VerifyMethod.allSymbolic;0.06384332974751787;88.12666666666667;True
+5Surfnet.gml;(Service([41, 91, 141, 191, 241, 291]-291) & (Reach 291));41;52;14;17;reduce=True;VerifyMethod.allSymbolic;0.09255957603454583;89.41066666666666;True
+5Switch.gml;(Service([114, 150, 284, 374]-432) & (Reach 432));60;60;18;6;reduce=True;VerifyMethod.allSymbolic;0.024440447489420536;89.20266666666667;True
+5SwitchL3.gml;(Service([52, 89, 133, 175, 250]-250) & (Reach 250));16;21;15;11;reduce=True;VerifyMethod.allSymbolic;0.0306936899820963;88.75733333333334;True
+5Syringa.gml;(Service([72, 3, 24, 143, 76, 97, 218, 213, 173, 293, 286, 229, 297, 369, 296, 376, 442, 373, 394]-394) & (Reach 394));96;102;90;6;reduce=True;VerifyMethod.allSymbolic;0.2648211320241292;91.036;True
+5TataNld.gml;(Service([191, 431, 574, 834]-864) & (Reach 864));150;168;6;18;reduce=True;VerifyMethod.allSymbolic;0.5060211022694906;92.65333333333335;True
+5Telecomserbia.gml;(Service([17, 32]-35) & (Reach 35));12;12;6;6;reduce=True;VerifyMethod.allSymbolic;0.009436051050821867;86.94666666666667;True
+5Tinet.gml;(Service([87, 147, 211, 278]-317) & (Reach 317));36;36;18;6;reduce=True;VerifyMethod.allSymbolic;0.01780692736307773;89.14133333333332;True
+5Twaren.gml;(Service([22, 59, 78, 100]-118) & (Reach 118));6;6;18;6;reduce=True;VerifyMethod.allSymbolic;0.010681549708048433;87.584;True
+5Ulaknet.gml;(Service([82, 201, 283, 365, 447]-491) & (Reach 491));0;4;26;4;reduce=True;VerifyMethod.allSymbolic;0.010394970575968367;90.27866666666667;True
+5UniC.gml;(Service([2, 30, 42, 50, 88, 93, 101, 134, 127]-142) & (Reach 142));24;36;30;18;reduce=True;VerifyMethod.allSymbolic;0.14313157399495438;88.49733333333334;True
+5Uninet.gml;(Service([23, 34, 56]-73) & (Reach 73));16;16;9;11;reduce=True;VerifyMethod.allSymbolic;0.022576093673706;87.41466666666668;True
+5Uninett2010.gml;(Service([81, 212, 324, 403]-434) & (Reach 434));37;42;17;6;reduce=True;VerifyMethod.allSymbolic;0.018886009852091434;89.38533333333334;True
+5Uninett2011.gml;(Service([205, 376]-412) & (Reach 412));48;53;6;6;reduce=True;VerifyMethod.allSymbolic;0.015663703282674097;89.32933333333334;True
+5UsCarrier.gml;(Service([142, 131, 99, 147, 301, 188, 237, 304, 403, 323, 378, 461, 516, 483, 552, 618, 675, 789, 759, 753, 830, 932, 921, 889, 937]-937) & (Reach 937));90;126;102;24;reduce=True;VerifyMethod.allSymbolic;4.990540822347005;93.11066666666666;True
+5Uunet.gml;(Service([51, 115, 167, 236, 285]-285) & (Reach 285));28;28;18;8;reduce=True;VerifyMethod.allSymbolic;0.031040509541829367;89.03333333333335;True
+5Vinaren.gml;(Service([24, 26, 66, 73, 81, 102, 137, 149]-148) & (Reach 148));0;8;34;8;reduce=True;VerifyMethod.allSymbolic;0.031345446904500265;87.73200000000001;True
+5VtlWavenet2008.gml;(Service([258, 507]-522) & (Reach 522));180;180;6;6;reduce=True;VerifyMethod.allSymbolic;0.06148028373718256;91.07466666666669;True
+5VtlWavenet2011.gml;(Service([270, 531]-546) & (Reach 546));180;180;6;6;reduce=True;VerifyMethod.allSymbolic;0.06326071421305333;90.0;True
+5WideJpn.gml;(Service([15, 51, 60, 110, 149, 161, 165]-165) & (Reach 165));12;18;30;6;reduce=True;VerifyMethod.allSymbolic;0.0202502409617106;88.60666666666667;True
+5Xeex.gml;(Service([57, 110]-134) & (Reach 134));29;29;7;6;reduce=True;VerifyMethod.allSymbolic;0.0117005507151285;87.968;True
+5Xspedius.gml;(Service([60, 120, 179]-196) & (Reach 196));30;30;12;6;reduce=True;VerifyMethod.allSymbolic;0.013407627741495698;89.16666666666667;True
+5York.gml;(Service([40, 77, 125]-135) & (Reach 135));48;54;12;6;reduce=True;VerifyMethod.allSymbolic;0.0201464494069417;87.60133333333333;True
+5Aarnet.gml;(Service([18, 19, 44, 64, 80, 100, 113]-113) & (Reach 113));24;24;30;6;kaki;base;0.20666666666666667;98.08;True
+5Abilene.gml;(Service([26, 55]-59) & (Reach 59));24;24;6;6;kaki;base;0.19166666666666665;96.13066666666667;True
+5Abvt.gml;(Service([40, 101]-134) & (Reach 134));34;34;8;6;kaki;base;0.20166666666666666;103.38933333333334;True
+5Aconet.gml;(Service([67, 118]-136) & (Reach 136));18;18;6;6;kaki;base;0.18366666666666664;97.13866666666667;True
+5Agis.gml;(Service([41, 66, 91, 116, 141]-143) & (Reach 143));18;18;24;6;kaki;base;0.212;94.836;True
+5Airtel.gml;(Service([23, 46, 63, 84]-95) & (Reach 95));6;6;18;6;kaki;base;0.17533333333333334;93.26266666666668;True
+5Ans.gml;(Service([35, 52, 70, 91]-106) & (Reach 106));18;24;18;6;kaki;base;0.19966666666666666;97.82133333333333;True
+5Arnes.gml;(Service([44, 78, 112, 146, 180]-197) & (Reach 197));18;30;13;17;kaki;base;0.26533333333333337;106.99733333333334;True
+5Arpanet196912.gml;(Service([7, 12, 21]-23) & (Reach 23));0;2;16;2;kaki;base;0.12266666666666666;78.54533333333333;True
+5Arpanet19706.gml;(Service([17, 21, 31, 43]-52) & (Reach 52));5;16;16;9;kaki;base;0.21733333333333335;96.62266666666666;True
+5Arpanet19719.gml;(Service([31, 72]-103) & (Reach 103));34;39;8;6;kaki;base;0.20933333333333334;105.02133333333332;True
+5Arpanet19723.gml;(Service([70, 127]-145) & (Reach 145));54;59;6;6;kaki;base;0.244;111.276;True
+5Arpanet19728.gml;(Service([84, 146]-171) & (Reach 171));48;48;6;6;kaki;base;0.225;106.28266666666667;True
+5AsnetAm.gml;(Service([58, 72, 157, 226, 253, 267, 333]-383) & (Reach 383));15;21;27;12;kaki;base;0.23399999999999999;104.75999999999999;True
+5Atmnet.gml;(Service([57, 110]-120) & (Reach 120));48;54;6;6;kaki;base;0.22333333333333336;110.57600000000001;True
+5AttMpls.gml;(Service([27, 76, 124]-149) & (Reach 149));17;23;8;11;kaki;base;0.20933333333333334;103.556;True
+5Bbnplanet.gml;(Service([45, 62, 94, 137]-148) & (Reach 148));24;24;18;6;kaki;base;0.19366666666666665;98.47066666666667;True
+5Bellcanada.gml;(Service([19, 65, 110, 106, 162, 208, 246, 259]-250) & (Reach 250));42;48;30;12;kaki;base;0.25033333333333335;114.35333333333334;True
+5Bellsouth.gml;(Service([46, 100, 144, 138, 163, 254, 257, 301]-291) & (Reach 291));6;12;36;6;kaki;base;0.18966666666666665;96.40933333333334;True
+5Belnet2003.gml;(Service([35, 76, 120]-137) & (Reach 137));6;6;12;6;kaki;base;0.18066666666666667;95.79466666666667;True
+5Belnet2004.gml;(Service([35, 76, 120]-137) & (Reach 137));6;6;12;6;kaki;base;0.17899999999999996;94.644;True
+5Belnet2005.gml;(Service([51, 91, 129]-137) & (Reach 137));7;7;11;6;kaki;base;0.17400000000000002;93.88666666666666;True
+5Belnet2006.gml;(Service([51, 91, 129]-137) & (Reach 137));7;7;11;6;kaki;base;0.17333333333333334;94.74000000000001;True
+5Belnet2007.gml;(Service([35, 73, 91, 111]-120) & (Reach 120));26;42;6;16;kaki;base;0.24166666666666667;115.572;True
+5Belnet2008.gml;(Service([35, 73, 91, 111]-120) & (Reach 120));26;42;6;16;kaki;base;0.24366666666666667;113.06933333333332;True
+5Belnet2009.gml;(Service([51, 107]-114) & (Reach 114));36;42;6;6;kaki;base;0.20966666666666667;106.71066666666667;True
+5Belnet2010.gml;(Service([37, 78, 95, 114]-126) & (Reach 126));26;42;6;16;kaki;base;0.24166666666666667;113.64933333333333;True
+5BeyondTheNetwork.gml;(Service([26, 124, 132, 165, 259, 314]-291) & (Reach 291));14;21;28;6;kaki;base;0.18433333333333332;97.33066666666667;True
+5Bics.gml;(Service([40, 73, 104, 137, 165]-193) & (Reach 193));27;30;21;6;kaki;base;0.20299999999999999;96.50533333333333;True
+5Biznet.gml;(Service([19, 57, 81, 103, 131, 155, 164]-164) & (Reach 164));66;72;24;12;kaki;base;0.29133333333333333;138.45600000000002;True
+5Bren.gml;(Service([53, 90, 127, 164, 201]-221) & (Reach 221));24;36;18;12;kaki;base;0.20466666666666666;101.22133333333333;True
+5BsonetEurope.gml;(Service([23, 48, 66, 70, 88, 107]-106) & (Reach 106));10;10;26;6;kaki;base;0.18166666666666664;95.41866666666665;True
+5BtAsiaPac.gml;(Service([35, 42, 79, 100]-119) & (Reach 119));6;6;18;6;kaki;base;0.17400000000000002;93.10933333333332;True
+5BtEurope.gml;(Service([41, 65, 92, 134]-140) & (Reach 140));6;6;18;6;kaki;base;0.18066666666666667;93.07600000000001;True
+5BtNorthAmerica.gml;(Service([44, 112, 178]-214) & (Reach 214));22;27;11;9;kaki;base;0.19566666666666666;102.132;True
+5Canerie.gml;(Service([30, 49, 81, 112, 142, 158, 163]-190) & (Reach 190));17;34;21;16;kaki;base;0.3013333333333333;113.82933333333334;True
+5Cernet.gml;(Service([41, 82, 123, 164, 205]-243) & (Reach 243));6;17;13;17;kaki;base;0.255;105.04533333333335;True
+5Cesnet2001.gml;(Service([23, 65, 87, 109]-132) & (Reach 132));5;5;20;5;kaki;base;0.17066666666666666;91.75600000000001;True
+5Cesnet200304.gml;(Service([23, 43, 82, 111, 141, 170]-168) & (Reach 168));9;12;24;9;kaki;base;0.206;97.38133333333333;True
+5Cesnet200511.gml;(Service([19, 56, 81, 126, 179, 210, 214]-214) & (Reach 214));12;12;30;6;kaki;base;0.18899999999999997;96.724;True
+5Cesnet200603.gml;(Service([19, 56, 81, 126, 179, 210, 214]-214) & (Reach 214));12;12;30;6;kaki;base;0.19033333333333333;97.16533333333332;True
+5Cesnet200706.gml;(Service([58, 104, 148, 170, 214, 259]-258) & (Reach 258));10;16;26;6;kaki;base;0.19133333333333333;95.33466666666668;True
+5Cesnet201006.gml;(Service([100, 151, 203, 254, 306]-306) & (Reach 306));16;19;17;9;kaki;base;0.21333333333333335;106.79333333333334;True
+5Chinanet.gml;(Service([75, 122, 163, 212]-247) & (Reach 247));6;12;18;6;kaki;base;0.18633333333333332;93.20666666666666;True
+5Claranet.gml;(Service([18, 42, 58, 75]-88) & (Reach 88));6;12;18;6;kaki;base;0.18466666666666667;93.25999999999999;True
+5Cogentco.gml;(Service([61, 41, 321, 274, 379, 516, 436, 714, 743, 780, 909, 931, 1110, 1046, 1026]-1167) & (Reach 1167));96;114;60;18;kaki;base;0.47933333333333333;184.03733333333332;True
+5Colt.gml;(Service([118, 209, 305, 356, 413, 510, 554, 642, 822, 883]-860) & (Reach 860));72;111;30;24;kaki;base;0.466;173.612;True
+5Columbus.gml;(Service([64, 133, 205, 238, 337, 369, 414]-414) & (Reach 414));78;102;24;12;kaki;base;0.31466666666666665;145.32000000000002;True
+5Compuserve.gml;(Service([24, 62]-81) & (Reach 81));16;21;8;6;kaki;base;0.19433333333333333;95.86666666666667;True
+5CrlNetworkServices.gml;(Service([82, 119, 162, 195]-195) & (Reach 195));45;59;13;8;kaki;base;0.245;115.536;True
+5Cwix.gml;(Service([39, 101, 174]-209) & (Reach 209));34;37;13;7;kaki;base;0.21533333333333335;107.71066666666667;True
+5Darkstrand.gml;(Service([78, 157]-162) & (Reach 162));60;66;6;6;kaki;base;0.23199999999999998;116.79866666666668;True
+5Dataxchange.gml;(Service([9, 22, 33]-35) & (Reach 35));0;2;16;2;kaki;base;0.119;83.868;True
+5Deltacom.gml;(Service([35, 108, 147, 160, 258, 330, 372, 358, 490, 470, 604, 600, 673]-673) & (Reach 673));78;90;54;12;kaki;base;0.3546666666666667;175.88266666666667;True
+5Dfn.gml;(Service([154, 231, 342]-347) & (Reach 347));25;25;6;11;kaki;base;0.21166666666666667;103.616;True
+5Digex.gml;(Service([89, 172]-182) & (Reach 182));54;60;6;6;kaki;base;0.23466666666666666;113.14266666666667;True
+5Easynet.gml;(Service([12, 31, 48, 66, 85, 102]-107) & (Reach 107));9;18;21;12;kaki;base;0.25066666666666665;107.59466666666667;True
+5EliBackbone.gml;(Service([25, 42, 76, 94, 109]-112) & (Reach 112));15;22;10;17;kaki;base;0.26566666666666666;108.90533333333333;True
+5Epoch.gml;(Service([14, 29]-35) & (Reach 35));11;11;7;6;kaki;base;0.18200000000000002;94.78933333333333;True
+5Ernet.gml;(Service([18, 32, 81, 117, 148, 161, 168]-168) & (Reach 168));6;6;30;6;kaki;base;0.17800000000000002;93.78399999999999;True
+5Esnet.gml;(Service([126, 193, 324]-397) & (Reach 397));40;47;12;8;kaki;base;0.23299999999999998;110.76799999999999;True
+5Evolink.gml;(Service([54, 88, 139, 195]-213) & (Reach 213));36;36;12;12;kaki;base;0.24;114.65466666666667;True
+5Fatman.gml;(Service([17, 34, 51, 68, 85]-91) & (Reach 91));6;12;24;6;kaki;base;0.17633333333333331;91.67199999999998;True
+5Fccn.gml;(Service([19, 31, 68, 75, 100, 125, 134]-134) & (Reach 134));0;6;30;6;kaki;base;0.16533333333333333;89.39733333333334;True
+5Forthnet.gml;(Service([55, 117, 84, 131, 206, 189, 291, 331, 365]-363) & (Reach 363));0;6;42;6;kaki;base;0.18333333333333335;95.42399999999999;True
+5Funet.gml;(Service([47, 98, 139]-151) & (Reach 151));42;48;12;6;kaki;base;0.21766666666666667;110.07066666666667;True
+5Gambia.gml;(Service([26, 44, 47, 77, 99, 102, 132, 154, 166]-159) & (Reach 159));6;18;42;6;kaki;base;0.19533333333333333;97.27733333333333;True
+5Garr200212.gml;(Service([29, 67, 100, 135]-154) & (Reach 154));6;6;18;6;kaki;base;0.17699999999999996;93.59999999999998;True
+5Garr200902.gml;(Service([51, 72, 156, 181, 234, 283, 321]-321) & (Reach 321));12;17;25;11;kaki;base;0.212;102.504;True
+5Garr200908.gml;(Service([51, 72, 156, 181, 234, 283, 321]-321) & (Reach 321));12;17;25;11;kaki;base;0.21266666666666667;100.144;True
+5Garr200909.gml;(Service([52, 73, 159, 184, 238, 285, 327]-327) & (Reach 327));12;17;25;11;kaki;base;0.21666666666666667;101.51066666666667;True
+5Garr200912.gml;(Service([51, 72, 156, 181, 234, 280, 321]-321) & (Reach 321));12;17;25;11;kaki;base;0.23666666666666666;100.168;True
+5Garr201001.gml;(Service([51, 72, 156, 181, 234, 280, 321]-321) & (Reach 321));12;17;25;11;kaki;base;0.22033333333333335;102.82533333333333;True
+5Garr201003.gml;(Service([51, 72, 156, 181, 234, 280, 321]-321) & (Reach 321));12;17;25;11;kaki;base;0.20566666666666666;101.944;True
+5Garr201004.gml;(Service([51, 72, 156, 181, 234, 280, 321]-321) & (Reach 321));12;17;25;11;kaki;base;0.227;100.89066666666668;True
+5Garr201005.gml;(Service([52, 73, 159, 184, 238, 285, 327]-327) & (Reach 327));12;17;25;11;kaki;base;0.21;101.26133333333333;True
+5Garr201007.gml;(Service([52, 73, 159, 184, 238, 285, 327]-327) & (Reach 327));12;17;25;11;kaki;base;0.205;102.56666666666666;True
+5Garr201008.gml;(Service([52, 73, 159, 184, 238, 285, 327]-327) & (Reach 327));12;17;25;11;kaki;base;0.20833333333333334;102.67733333333332;True
+5Garr201010.gml;(Service([56, 66, 165, 221, 277, 333]-333) & (Reach 333));17;22;25;6;kaki;base;0.19999999999999998;98.65333333333332;True
+5Garr201012.gml;(Service([56, 66, 165, 221, 277, 333]-333) & (Reach 333));17;22;25;6;kaki;base;0.20066666666666666;98.71466666666667;True
+5Garr201101.gml;(Service([56, 66, 165, 221, 277, 333]-333) & (Reach 333));17;22;25;6;kaki;base;0.20933333333333334;99.90133333333334;True
+5Garr201102.gml;(Service([57, 68, 168, 225, 282, 339]-339) & (Reach 339));17;22;25;6;kaki;base;0.222;97.59066666666666;True
+5Garr201103.gml;(Service([51, 78, 168, 195, 254, 298, 341]-341) & (Reach 341));12;12;25;11;kaki;base;0.217;98.90133333333334;True
+5Garr201104.gml;(Service([52, 79, 171, 198, 258, 303, 347]-347) & (Reach 347));12;12;25;11;kaki;base;0.20766666666666667;99.604;True
+5Garr201105.gml;(Service([30, 69, 126, 148, 187, 244, 266, 305]-326) & (Reach 326));9;12;36;9;kaki;base;0.19299999999999998;94.41199999999999;True
+5Garr201107.gml;(Service([30, 69, 126, 148, 187, 244, 266, 305]-326) & (Reach 326));9;12;36;9;kaki;base;0.18133333333333335;97.032;True
+5Garr201108.gml;(Service([30, 69, 126, 148, 187, 244, 266, 305]-326) & (Reach 326));9;12;36;9;kaki;base;0.19933333333333333;96.09733333333334;True
+5Garr201109.gml;(Service([30, 69, 126, 148, 187, 244, 266, 305]-326) & (Reach 326));9;12;36;9;kaki;base;0.19266666666666665;96.72133333333333;True
+5Garr201110.gml;(Service([30, 69, 126, 148, 187, 244, 266, 305]-326) & (Reach 326));9;12;36;9;kaki;base;0.20166666666666666;96.504;True
+5Garr201111.gml;(Service([31, 74, 142, 152, 213, 261, 308, 331]-332) & (Reach 332));12;15;33;9;kaki;base;0.19899999999999998;97.95333333333333;True
+5Garr201112.gml;(Service([31, 75, 144, 155, 217, 265, 313, 336]-338) & (Reach 338));12;15;33;9;kaki;base;0.19699999999999998;98.67333333333333;True
+5Garr201201.gml;(Service([31, 75, 144, 155, 217, 265, 313, 336]-338) & (Reach 338));12;15;33;9;kaki;base;0.22166666666666668;97.85466666666667;True
+5Geant2001.gml;(Service([31, 64, 91, 116, 143]-149) & (Reach 149));14;16;22;6;kaki;base;0.17966666666666664;94.02666666666666;True
+5Geant2009.gml;(Service([82, 169]-203) & (Reach 203));35;35;7;6;kaki;base;0.215;101.97066666666666;True
+5Geant2010.gml;(Service([39, 110, 158]-221) & (Reach 221));28;33;9;11;kaki;base;0.213;106.74266666666666;True
+5Geant2012.gml;(Service([37, 76, 82, 124, 173, 211, 237]-237) & (Reach 237));18;24;24;12;kaki;base;0.2343333333333333;106.628;True
+5Getnet.gml;(Service([12, 23, 38]-41) & (Reach 41));6;11;12;6;kaki;base;0.18800000000000003;93.04933333333334;True
+5Globalcenter.gml;(Service([26, 45]-53) & (Reach 53));0;5;7;5;kaki;base;0.155;85.69466666666666;True
+5Globenet.gml;(Service([16, 64, 70, 106, 92, 159, 180, 200, 225, 240, 259, 291, 278, 370, 351, 399]-393) & (Reach 393));12;42;62;22;kaki;base;0.36566666666666664;133.82399999999998;True
+5Goodnet.gml;(Service([20, 47, 68, 99]-98) & (Reach 98));8;8;16;6;kaki;base;0.17733333333333334;93.17466666666667;True
+5Gridnet.gml;(Service([19, 44]-53) & (Reach 53));5;5;8;5;kaki;base;0.17500000000000002;89.96666666666665;True
+5Grnet.gml;(Service([4, 57, 81, 78, 131, 155, 152, 205]-212) & (Reach 212));9;9;39;6;kaki;base;0.19466666666666665;97.22133333333333;True
+5GtsCe.gml;(Service([141, 52, 280, 291, 392, 318, 441, 571, 505, 721, 740, 750, 886, 797]-888) & (Reach 888));60;126;30;42;kaki;base;0.6256666666666667;188.31333333333336;True
+5GtsCzechRepublic.gml;(Service([35, 87, 144, 171]-183) & (Reach 183));37;55;7;16;kaki;base;0.25566666666666665;121.068;True
+5GtsHungary.gml;(Service([42, 80, 113, 161]-173) & (Reach 173));30;30;12;12;kaki;base;0.228;109.76666666666667;True
+5GtsPoland.gml;(Service([44, 66, 127, 180]-193) & (Reach 193));42;48;12;12;kaki;base;0.25;116.35333333333334;True
+5GtsRomania.gml;(Service([29, 50, 71, 92, 113]-121) & (Reach 121));6;12;24;6;kaki;base;0.18499999999999997;93.12666666666667;True
+5GtsSlovakia.gml;(Service([43, 78, 113, 148, 183]-206) & (Reach 206));12;12;24;6;kaki;base;0.19066666666666665;94.14533333333334;True
+5Harnet.gml;(Service([23, 57, 83, 105]-125) & (Reach 125));12;12;18;6;kaki;base;0.19066666666666668;94.51466666666666;True
+5Heanet.gml;(Service([16, 34]-41) & (Reach 41));5;5;8;5;kaki;base;0.16866666666666666;92.21466666666667;True
+5HiberniaCanada.gml;(Service([23, 35, 64]-74) & (Reach 74));22;30;12;8;kaki;base;0.24133333333333332;102.58666666666666;True
+5HiberniaGlobal.gml;(Service([41, 58, 65, 148, 166, 181, 251, 250, 316]-305) & (Reach 305));53;68;25;24;kaki;base;0.48533333333333334;143.33333333333334;True
+5HiberniaIreland.gml;(Service([10, 16, 31, 41]-47) & (Reach 47));6;12;18;6;kaki;base;0.19066666666666668;92.66266666666667;True
+5HiberniaNireland.gml;(Service([28, 55, 97]-100) & (Reach 100));30;30;12;6;kaki;base;0.20033333333333334;99.84933333333333;True
+5HiberniaUk.gml;(Service([18, 58, 77]-85) & (Reach 85));30;36;12;6;kaki;base;0.214;102.33333333333333;True
+5HiberniaUs.gml;(Service([3, 26, 33, 50, 71, 87, 95, 118, 113]-121) & (Reach 121));24;24;42;6;kaki;base;0.21433333333333335;100.56400000000001;True
+5Highwinds.gml;(Service([19, 37, 55, 73, 91]-93) & (Reach 93));18;18;18;12;kaki;base;0.19833333333333333;94.92133333333334;True
+5HostwayInternational.gml;(Service([19, 35, 51, 67, 83]-94) & (Reach 94));24;27;21;9;kaki;base;0.2373333333333333;108.836;True
+5HurricaneElectric.gml;(Service([25, 61, 89, 126]-137) & (Reach 137));18;18;18;6;kaki;base;0.18633333333333332;96.64666666666666;True
+5Ibm.gml;(Service([31, 72]-103) & (Reach 103));28;28;8;6;kaki;base;0.204;100.52666666666666;True
+5Iij.gml;(Service([61, 106, 167]-217) & (Reach 217));16;16;14;6;kaki;base;0.19000000000000003;98.44666666666667;True
+5Iinet.gml;(Service([37, 78, 109, 140, 171]-178) & (Reach 178));6;6;24;6;kaki;base;0.17700000000000002;92.93333333333334;True
+5Ilan.gml;(Service([14, 28, 54, 72]-82) & (Reach 82));6;6;18;6;kaki;base;0.17800000000000002;92.74933333333333;True
+5Integra.gml;(Service([28, 79, 91, 120]-147) & (Reach 147));23;23;19;6;kaki;base;0.19633333333333333;97.77733333333333;True
+5Intellifiber.gml;(Service([29, 96, 211, 175, 225, 358, 361, 389]-434) & (Reach 434));53;65;25;18;kaki;base;0.36033333333333334;137.15200000000002;True
+5Internetmci.gml;(Service([22, 56, 76, 111]-113) & (Reach 113));8;13;13;9;kaki;base;0.18166666666666664;95.43066666666665;True
+5Internode.gml;(Service([77, 152, 218, 265, 389]-395) & (Reach 395));15;15;21;6;kaki;base;0.18266666666666667;93.64533333333333;True
+5Interoute.gml;(Service([50, 163, 218, 271, 374, 424, 456, 564, 600]-658) & (Reach 658));60;95;19;29;kaki;base;0.48133333333333334;211.16666666666666;True
+5Intranetwork.gml;(Service([35, 50, 74, 89, 113, 128, 152, 167, 191, 206, 230]-225) & (Reach 225));42;54;30;30;kaki;base;0.424;148.71333333333334;True
+5Ion.gml;(Service([204, 329, 454, 579, 704]-727) & (Reach 727));126;132;18;12;kaki;base;0.3323333333333333;145.80666666666664;True
+5IowaStatewideFiberMap.gml;(Service([26, 43, 75, 117, 148, 180, 191]-191) & (Reach 191));24;30;30;6;kaki;base;0.20633333333333334;99.04933333333334;True
+5Iris.gml;(Service([95, 176, 275]-299) & (Reach 299));54;60;6;12;kaki;base;0.2733333333333334;125.14133333333332;True
+5Janetbackbone.gml;(Service([51, 98, 146]-170) & (Reach 170));18;28;7;11;kaki;base;0.22133333333333335;108.464;True
+5Janetlense.gml;(Service([27, 55, 69, 105]-109) & (Reach 109));6;6;18;6;kaki;base;0.17866666666666667;93.248;True
+5Karen.gml;(Service([29, 50, 97, 118]-143) & (Reach 143));23;23;14;11;kaki;base;0.205;103.16133333333335;True
+5Kdl.gml;(Service([749, 770, 1936, 2255, 2690, 3009, 3753, 3762, 4507, 4516]-4516) & (Reach 4516));303;325;38;13;kaki;base;0.8003333333333332;366.65333333333336;True
+5KentmanFeb2008.gml;(Service([13, 49, 74, 90, 128, 136, 143]-143) & (Reach 143));6;6;30;6;kaki;base;0.17933333333333334;94.46266666666666;True
+5KentmanJan2011.gml;(Service([30, 71, 111, 113, 132, 157, 190, 220]-227) & (Reach 227));0;3;39;3;kaki;base;0.13633333333333333;84.65866666666666;True
+5KentmanJul2005.gml;(Service([25, 42, 58, 74, 90]-93) & (Reach 93));12;18;24;6;kaki;base;0.18566666666666665;95.108;True
+5LambdaNet.gml;(Service([67, 159, 220]-235) & (Reach 235));66;90;12;6;kaki;base;0.26533333333333337;133.72666666666666;True
+5Latnet.gml;(Service([37, 26, 111, 106, 129, 166, 168, 248, 236, 273, 289, 315, 405, 382, 371]-413) & (Reach 413));0;2;76;2;kaki;base;0.138;92.42133333333334;True
+5Layer42.gml;(Service([10, 19, 30]-34) & (Reach 34));6;6;12;6;kaki;base;0.17733333333333334;95.34933333333333;True
+5Litnet.gml;(Service([44, 119, 171, 215]-257) & (Reach 257));6;12;18;6;kaki;base;0.18233333333333332;93.896;True
+5Marnet.gml;(Service([37, 68, 99]-119) & (Reach 119));5;5;14;5;kaki;base;0.16133333333333333;92.52533333333334;True
+5Marwan.gml;(Service([17, 34, 63, 79, 93]-92) & (Reach 92));15;15;21;6;kaki;base;0.20099999999999998;100.25466666666667;True
+5Missouri.gml;(Service([70, 161, 228, 253, 320, 337]-387) & (Reach 387));58;68;26;6;kaki;base;0.25966666666666666;116.2;True
+5Myren.gml;(Service([37, 74, 111, 148, 185]-221) & (Reach 221));0;3;27;3;kaki;base;0.132;84.82000000000001;True
+5Napnet.gml;(Service([11, 21, 30]-35) & (Reach 35));0;2;16;2;kaki;base;0.12066666666666666;80.13466666666666;True
+5Navigata.gml;(Service([17, 35, 56, 74]-74) & (Reach 74));9;9;15;6;kaki;base;0.20066666666666666;95.42533333333331;True
+5Netrail.gml;(Service([16, 34]-41) & (Reach 41));5;5;8;5;kaki;base;0.16633333333333333;88.26533333333333;True
+5NetworkUsa.gml;(Service([46, 135, 190]-208) & (Reach 208));48;59;7;11;kaki;base;0.297;122.73866666666667;True
+5Nextgen.gml;(Service([31, 48, 65, 82, 99]-100) & (Reach 100));36;36;18;12;kaki;base;0.28600000000000003;112.39999999999999;True
+5Niif.gml;(Service([44, 79, 115, 151, 187]-200) & (Reach 200));20;25;16;12;kaki;base;0.227;104.67866666666667;True
+5Noel.gml;(Service([27, 44, 57, 93]-112) & (Reach 112));17;23;19;6;kaki;base;0.21066666666666667;96.40133333333334;True
+5Nsfnet.gml;(Service([24, 35, 47, 66]-73) & (Reach 73));12;12;18;6;kaki;base;0.18766666666666665;93.35066666666667;True
+5Oxford.gml;(Service([33, 71, 105]-113) & (Reach 113));30;42;6;12;kaki;base;0.23;110.89066666666668;True
+5Pacificwave.gml;(Service([29, 51, 71, 90]-107) & (Reach 107));0;6;18;6;kaki;base;0.16733333333333333;89.02;True
+5Packetexchange.gml;(Service([17, 31, 44, 64, 91, 110, 122]-122) & (Reach 122));24;30;24;12;kaki;base;0.27;108.20666666666666;True
+5Palmetto.gml;(Service([38, 83, 94, 139, 185, 230]-263) & (Reach 263));45;54;21;12;kaki;base;0.2976666666666667;129.60666666666665;True
+5Peer1.gml;(Service([20, 36, 51, 67, 86]-91) & (Reach 91));15;18;21;6;kaki;base;0.19099999999999998;94.05866666666667;True
+5Pern.gml;(Service([125, 246, 380, 394, 551, 655, 760]-760) & (Reach 760));18;24;30;6;kaki;base;0.19200000000000003;100.41066666666666;True
+5PionierL1.gml;(Service([63, 90, 133, 182]-205) & (Reach 205));48;66;18;6;kaki;base;0.2356666666666667;112.09466666666667;True
+5PionierL3.gml;(Service([57, 81, 133, 157, 209]-227) & (Reach 227));36;51;21;9;kaki;base;0.236;104.55733333333335;True
+5Psinet.gml;(Service([17, 40, 66, 91, 110, 129, 137]-137) & (Reach 137));36;36;30;6;kaki;base;0.21666666666666667;101.36666666666667;True
+5Quest.gml;(Service([38, 83]-119) & (Reach 119));22;23;8;6;kaki;base;0.19499999999999998;96.55066666666666;True
+5RedBestel.gml;(Service([18, 41, 2, 163, 128, 119, 167, 246, 211, 171, 286, 253, 292, 308, 413, 336, 389, 501, 438, 461, 422]-503) & (Reach 503));66;150;96;12;kaki;base;0.5193333333333333;218.09866666666667;True
+5Rediris.gml;(Service([35, 57, 89]-108) & (Reach 108));11;11;8;11;kaki;base;0.19066666666666668;97.45466666666668;True
+5Renater2001.gml;(Service([21, 33, 58, 81, 108, 117, 131]-142) & (Reach 142));4;17;32;6;kaki;base;0.18600000000000003;95.74399999999999;True
+5Renater2004.gml;(Service([44, 74, 104, 134, 164]-179) & (Reach 179));18;18;18;12;kaki;base;0.25066666666666665;108.14133333333332;True
+5Renater2006.gml;(Service([49, 73, 131, 180]-197) & (Reach 197));24;24;18;6;kaki;base;0.20266666666666666;102.94533333333334;True
+5Renater2008.gml;(Service([49, 73, 131, 180]-197) & (Reach 197));24;24;18;6;kaki;base;0.19433333333333333;101.20533333333333;True
+5Renater2010.gml;(Service([122, 233]-251) & (Reach 251));48;54;6;6;kaki;base;0.22;106.58133333333335;True
+5Restena.gml;(Service([28, 52, 70, 97]-108) & (Reach 108));12;17;13;11;kaki;base;0.19666666666666666;100.62533333333333;True
+5Rhnet.gml;(Service([6, 26, 35, 39, 63, 65, 80, 86]-87) & (Reach 87));12;26;34;8;kaki;base;0.22;97.55733333333335;True
+5Rnp.gml;(Service([20, 61, 43, 67, 73, 109, 112, 137, 155, 175]-174) & (Reach 174));18;30;42;12;kaki;base;0.27266666666666667;106.52133333333335;True
+5Roedunet.gml;(Service([42, 124, 167, 220]-251) & (Reach 251));6;6;18;6;kaki;base;0.17800000000000002;94.02533333333334;True
+5RoedunetFibre.gml;(Service([27, 78, 89, 129, 181, 148, 223, 260, 267]-281) & (Reach 281));36;36;42;6;kaki;base;0.223;108.07466666666666;True
+5Sanet.gml;(Service([53, 75, 118, 161, 204, 247]-249) & (Reach 249));51;55;26;7;kaki;base;0.247;111.556;True
+5Sanren.gml;(Service([20, 36]-41) & (Reach 41));12;18;6;6;kaki;base;0.19266666666666665;95.38;True
+5Savvis.gml;(Service([31, 72]-110) & (Reach 110));39;45;9;6;kaki;base;0.21033333333333334;104.02133333333332;True
+5Shentel.gml;(Service([9, 38, 36, 67, 76, 96, 111, 125, 157, 149]-167) & (Reach 167));30;42;42;12;kaki;base;0.25066666666666665;111.96933333333334;True
+5Sinet.gml;(Service([75, 192, 266, 340, 414]-443) & (Reach 443));19;25;23;6;kaki;base;0.19033333333333333;95.91466666666668;True
+5Spiralight.gml;(Service([25, 50, 79]-85) & (Reach 85));36;36;6;12;kaki;base;0.22966666666666669;112.95333333333333;True
+5Sprint.gml;(Service([21, 24, 45, 55]-57) & (Reach 57));8;8;16;6;kaki;base;0.18733333333333335;93.44933333333334;True
+5Sunet.gml;(Service([37, 63, 89, 115, 141]-148) & (Reach 148));48;54;18;12;kaki;base;0.263;106.66933333333333;True
+5Surfnet.gml;(Service([41, 91, 141, 191, 241, 291]-291) & (Reach 291));41;52;14;17;kaki;base;0.3296666666666667;139.91733333333335;True
+5Switch.gml;(Service([114, 150, 284, 374]-432) & (Reach 432));60;60;18;6;kaki;base;0.248;119.22933333333333;True
+5SwitchL3.gml;(Service([52, 89, 133, 175, 250]-250) & (Reach 250));16;21;15;11;kaki;base;0.22233333333333336;105.35333333333334;True
+5Syringa.gml;(Service([72, 3, 24, 143, 76, 97, 218, 213, 173, 293, 286, 229, 297, 369, 296, 376, 442, 373, 394]-394) & (Reach 394));96;102;90;6;kaki;base;0.36433333333333334;177.89866666666668;True
+5TataNld.gml;(Service([191, 431, 574, 834]-864) & (Reach 864));150;168;6;18;kaki;base;0.6006666666666667;205.048;True
+5Telecomserbia.gml;(Service([17, 32]-35) & (Reach 35));12;12;6;6;kaki;base;0.18166666666666664;94.052;True
+5Tinet.gml;(Service([87, 147, 211, 278]-317) & (Reach 317));36;36;18;6;kaki;base;0.22066666666666665;105.97066666666666;True
+5Twaren.gml;(Service([22, 59, 78, 100]-118) & (Reach 118));6;6;18;6;kaki;base;0.17800000000000002;93.08800000000001;True
+5Ulaknet.gml;(Service([82, 201, 283, 365, 447]-491) & (Reach 491));0;4;26;4;kaki;base;0.1386666666666667;85.24;True
+5UniC.gml;(Service([2, 30, 42, 50, 88, 93, 101, 134, 127]-142) & (Reach 142));24;36;30;18;kaki;base;0.2896666666666667;118.66666666666667;True
+5Uninet.gml;(Service([23, 34, 56]-73) & (Reach 73));16;16;9;11;kaki;base;0.19899999999999998;96.55066666666666;True
+5Uninett2010.gml;(Service([81, 212, 324, 403]-434) & (Reach 434));37;42;17;6;kaki;base;0.211;104.84533333333333;True
+5Uninett2011.gml;(Service([205, 376]-412) & (Reach 412));48;53;6;6;kaki;base;0.21833333333333335;111.30533333333334;True
+5UsCarrier.gml;(Service([142, 131, 99, 147, 301, 188, 237, 304, 403, 323, 378, 461, 516, 483, 552, 618, 675, 789, 759, 753, 830, 932, 921, 889, 937]-937) & (Reach 937));90;126;102;24;kaki;base;0.647;198.78266666666664;True
+5Uunet.gml;(Service([51, 115, 167, 236, 285]-285) & (Reach 285));28;28;18;8;kaki;base;0.19933333333333333;100.40533333333333;True
+5Vinaren.gml;(Service([24, 26, 66, 73, 81, 102, 137, 149]-148) & (Reach 148));0;8;34;8;kaki;base;0.19266666666666668;94.24400000000001;True
+5VtlWavenet2008.gml;(Service([258, 507]-522) & (Reach 522));180;180;6;6;kaki;base;0.3833333333333333;197.4466666666667;True
+5VtlWavenet2011.gml;(Service([270, 531]-546) & (Reach 546));180;180;6;6;kaki;base;0.381;197.24;True
+5WideJpn.gml;(Service([15, 51, 60, 110, 149, 161, 165]-165) & (Reach 165));12;18;30;6;kaki;base;0.19233333333333333;96.30133333333333;True
+5Xeex.gml;(Service([57, 110]-134) & (Reach 134));29;29;7;6;kaki;base;0.18966666666666665;100.12;True
+5Xspedius.gml;(Service([60, 120, 179]-196) & (Reach 196));30;30;12;6;kaki;base;0.2006666666666667;101.25333333333333;True
+5York.gml;(Service([40, 77, 125]-135) & (Reach 135));48;54;12;6;kaki;base;0.23633333333333337;110.10133333333334;True

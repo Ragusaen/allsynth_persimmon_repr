@@ -1,0 +1,40 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Quest.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/PERS/PERS-1', dump_bdd=False)
+Running 5Quest.gml
+Policy: (Service([38, 83]-119) & (Reach 119))
+Initial path of nodes: [3, 0, 11, 2, 10, 19, 20, 31, 22, 34, 37, 38, 43, 40, 51, 42, 50, 59, 63, 60, 71, 62, 70, 79, 83, 80, 91, 82, 90, 99, 103, 100, 111, 102, 110, 119]
+Final path of nodes: [3, 7, 6, 14, 17, 19, 20, 23, 27, 26, 34, 37, 38, 43, 47, 46, 54, 57, 59, 63, 67, 66, 74, 77, 79, 83, 87, 86, 94, 97, 99, 103, 107, 106, 114, 117, 119]
+Persimmon problem:  {"Initial_routing":[[3, 0], [0, 11], [11, 2], [2, 10], [10, 19], [19, 20], [20, 31], [31, 22], [22, 34], [34, 37], [37, 38], [38, 43], [43, 40], [40, 51], [51, 42], [42, 50], [50, 59], [59, 63], [63, 60], [60, 71], [71, 62], [62, 70], [70, 79], [79, 83], [83, 80], [80, 91], [91, 82], [82, 90], [90, 99], [99, 103], [103, 100], [100, 111], [111, 102], [102, 110], [110, 119]],"Final_routing":[[3, 7], [7, 6], [6, 14], [14, 17], [17, 19], [19, 20], [20, 23], [23, 27], [27, 26], [26, 34], [34, 37], [37, 38], [38, 43], [43, 47], [47, 46], [46, 54], [54, 57], [57, 59], [59, 63], [63, 67], [67, 66], [66, 74], [74, 77], [77, 79], [79, 83], [83, 87], [87, 86], [86, 94], [94, 97], [97, 99], [99, 103], [103, 107], [107, 106], [106, 114], [114, 117], [117, 119]],"Properties":{"ServiceChain": {"waypoint": [38,83]},"Reachability":{"startNode":3,"finalNode":119}}}
+Persimmon stdout:  Chain equivalence reduction: 59 -> 25
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+<=== Starting iteration 2 ===>
+Solution: Some([[87, 86, 94, 97, 23, 27, 26, 107, 106, 114, 117, 7, 6, 14, 17, 67, 66, 74, 77, 47, 46, 54, 57], [3, 20, 103, 63, 83, 43], [80, 91, 82, 90, 0, 11, 2, 10, 40, 51, 42, 50, 60, 71, 62, 70, 31, 22, 100, 111, 102, 110]])
+Time elapsed: 1.19ms
+Time elapsed(s): 0.001191s
+
+Persimmon stderr:  
+Time: 0.001191
+Solution: [[87, 86, 94, 97, 23, 27, 26, 107, 106, 114, 117, 7, 6, 14, 17, 67, 66, 74, 77, 47, 46, 54, 57], [3, 20, 103, 63, 83, 43], [80, 91, 82, 90, 0, 11, 2, 10, 40, 51, 42, 50, 60, 71, 62, 70, 31, 22, 100, 111, 102, 110]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Quest.gml 5 --dir topzoo_res/SC/PERS/PERS-1 --e-prop SC --repeat 1"
+	User time (seconds): 0.72
+	System time (seconds): 1.28
+	Percent of CPU this job got: 470%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71320
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13098
+	Voluntary context switches: 36
+	Involuntary context switches: 303
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

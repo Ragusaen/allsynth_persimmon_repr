@@ -1,0 +1,8 @@
+cython==0.29.24
+# cysignals >= 1.7.0  # optional
+
+
+# dev
+pytest>=4.6.11
+gitpython
+grip

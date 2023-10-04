@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/LambdaNet.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-1', dump_bdd=False)
+Running 5LambdaNet.gml
+Policy: (Service([67, 159, 220]-235) & (Reach 235))
+Initial path of nodes: [10, 33, 2, 11, 3, 5, 4, 6, 7, 8, 26, 27, 21, 25, 52, 75, 44, 53, 45, 47, 46, 48, 49, 50, 68, 69, 63, 67, 94, 117, 86, 95, 87, 89, 88, 90, 91, 92, 110, 111, 105, 109, 136, 159, 128, 137, 129, 131, 130, 132, 133, 134, 152, 153, 147, 151, 178, 201, 170, 179, 171, 173, 172, 174, 175, 176, 194, 195, 189, 193, 220, 243, 212, 221, 213, 215, 214, 216, 217, 218, 236, 237, 231, 235]
+Final path of nodes: [10, 33, 32, 41, 39, 40, 38, 37, 36, 35, 16, 13, 14, 15, 30, 31, 24, 25, 52, 75, 74, 83, 81, 82, 80, 79, 78, 77, 58, 55, 56, 57, 72, 73, 66, 67, 94, 117, 116, 125, 123, 124, 122, 121, 120, 119, 100, 97, 98, 99, 114, 115, 108, 109, 136, 159, 158, 167, 165, 166, 164, 163, 162, 161, 142, 139, 140, 141, 156, 157, 150, 151, 178, 201, 200, 209, 207, 208, 206, 205, 204, 203, 184, 181, 182, 183, 198, 199, 192, 193, 220, 243, 242, 251, 249, 250, 248, 247, 246, 245, 226, 223, 224, 225, 240, 241, 234, 235]
+Time: 0.03400254249572754
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/LambdaNet.gml 5 --dir topzoo_res/SC/reduce/BDD-1 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 0.92
+	System time (seconds): 1.36
+	Percent of CPU this job got: 338%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 88584
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14358
+	Voluntary context switches: 22
+	Involuntary context switches: 61
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

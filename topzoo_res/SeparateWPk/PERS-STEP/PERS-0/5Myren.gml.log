@@ -1,0 +1,39 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Myren.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/PERS/PERS-0', dump_bdd=False)
+Running 5Myren.gml
+Policy: ((((((((((WP(37-221) | WP(73-221)) | WP(74-221)) | WP(141-221)) | WP(110-221)) | WP(111-221)) | WP(178-221)) | WP(148-221)) | WP(214-221)) | WP(185-221)) & (Reach 221))
+Initial path of nodes: [0, 34, 29, 30, 36, 37, 71, 66, 67, 73, 74, 108, 103, 104, 110, 111, 145, 140, 141, 147, 148, 182, 177, 178, 184, 185, 219, 214, 215, 221]
+Final path of nodes: [0, 34, 29, 30, 36, 37, 71, 68, 66, 67, 73, 74, 108, 103, 104, 110, 111, 145, 142, 140, 141, 147, 148, 182, 177, 178, 184, 185, 219, 216, 214, 215, 221]
+Persimmon problem:  {"Initial_routing":[[0, 34], [34, 29], [29, 30], [30, 36], [36, 37], [37, 71], [71, 66], [66, 67], [67, 73], [73, 74], [74, 108], [108, 103], [103, 104], [104, 110], [110, 111], [111, 145], [145, 140], [140, 141], [141, 147], [147, 148], [148, 182], [182, 177], [177, 178], [178, 184], [184, 185], [185, 219], [219, 214], [214, 215], [215, 221]],"Final_routing":[[0, 34], [34, 29], [29, 30], [30, 36], [36, 37], [37, 71], [71, 68], [68, 66], [66, 67], [67, 73], [73, 74], [74, 108], [108, 103], [103, 104], [104, 110], [110, 111], [111, 145], [145, 142], [142, 140], [140, 141], [141, 147], [147, 148], [148, 182], [182, 177], [177, 178], [178, 184], [184, 185], [185, 219], [219, 216], [216, 214], [214, 215], [215, 221]],"Properties":{"MultiAlternativeWaypoint": {"waypoint": [37,73,74,141,110,111,178,148,214,185]},"Reachability":{"startNode":0,"finalNode":221}}}
+Persimmon stdout:  Chain equivalence reduction: 33 -> 23
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+Solution: Some([[68, 142, 216], [145, 71, 219]])
+Time elapsed: 708.43µs
+Time elapsed(s): 0.000708s
+
+Persimmon stderr:  
+Time: 0.000708
+Solution: [[68, 142, 216], [145, 71, 219]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Myren.gml 5 --dir topzoo_res/SeparateWPk/PERS/PERS-0 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 0.75
+	System time (seconds): 1.27
+	Percent of CPU this job got: 466%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.43
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71860
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13233
+	Voluntary context switches: 30
+	Involuntary context switches: 333
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

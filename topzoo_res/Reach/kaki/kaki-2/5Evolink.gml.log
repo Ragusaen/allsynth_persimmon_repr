@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Evolink.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/kaki/kaki-2', dump_bdd=False)
+Running 5Evolink.gml
+Policy: (Reach 213)
+Initial path of nodes: [10, 17, 8, 14, 11, 6, 0, 3, 2, 28, 47, 54, 45, 51, 48, 43, 37, 40, 39, 65, 84, 91, 82, 88, 85, 80, 74, 77, 76, 102, 121, 128, 119, 125, 122, 117, 111, 114, 113, 139, 158, 165, 156, 162, 159, 154, 148, 151, 150, 176, 195, 202, 193, 199, 196, 191, 185, 188, 187, 213]
+Final path of nodes: [10, 17, 12, 14, 33, 32, 34, 35, 22, 28, 47, 54, 49, 51, 70, 69, 71, 72, 59, 65, 84, 91, 86, 88, 107, 106, 108, 109, 96, 102, 121, 128, 123, 125, 144, 143, 145, 146, 133, 139, 158, 165, 160, 162, 181, 180, 182, 183, 170, 176, 195, 202, 197, 199, 218, 217, 219, 220, 207, 213]
+{"Initial_routing":[[10, 17], [17, 8], [8, 14], [14, 11], [11, 6], [6, 0], [0, 3], [3, 2], [2, 28], [28, 47], [47, 54], [54, 45], [45, 51], [51, 48], [48, 43], [43, 37], [37, 40], [40, 39], [39, 65], [65, 84], [84, 91], [91, 82], [82, 88], [88, 85], [85, 80], [80, 74], [74, 77], [77, 76], [76, 102], [102, 121], [121, 128], [128, 119], [119, 125], [125, 122], [122, 117], [117, 111], [111, 114], [114, 113], [113, 139], [139, 158], [158, 165], [165, 156], [156, 162], [162, 159], [159, 154], [154, 148], [148, 151], [151, 150], [150, 176], [176, 195], [195, 202], [202, 193], [193, 199], [199, 196], [196, 191], [191, 185], [185, 188], [188, 187], [187, 213]],"Final_routing":[[10, 17], [17, 12], [12, 14], [14, 33], [33, 32], [32, 34], [34, 35], [35, 22], [22, 28], [28, 47], [47, 54], [54, 49], [49, 51], [51, 70], [70, 69], [69, 71], [71, 72], [72, 59], [59, 65], [65, 84], [84, 91], [91, 86], [86, 88], [88, 107], [107, 106], [106, 108], [108, 109], [109, 96], [96, 102], [102, 121], [121, 128], [128, 123], [123, 125], [125, 144], [144, 143], [143, 145], [145, 146], [146, 133], [133, 139], [139, 158], [158, 165], [165, 160], [160, 162], [162, 181], [181, 180], [180, 182], [182, 183], [183, 170], [170, 176], [176, 195], [195, 202], [202, 197], [197, 199], [199, 218], [218, 217], [217, 219], [219, 220], [220, 207], [207, 213]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"Reachability":{"startNode":10,"finalNode":213}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpa4_x40sl
+DFA generation time: 0.01 seconds 
+DFA states: 3 
+DFA transitions: 97
+Problem file: /tmp/tmpa4_x40sl
+Switches to update: 84
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.007 seconds
+Subproblem verification time: 0.04 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.009 seconds
+Minimum batches required: 3
+[[12, 33, 32, 34, 35, 22, 49, 70, 69, 71, 72, 59, 86, 107, 106, 108, 109, 96, 123, 144, 143, 145, 146, 133, 160, 181, 180, 182, 183, 170, 197, 218, 217, 219, 220, 207], [14, 17, 51, 54, 88, 91, 125, 128, 162, 165, 199, 202], [8, 11, 6, 0, 3, 2, 45, 48, 43, 37, 40, 39, 82, 85, 80, 74, 77, 76, 119, 122, 117, 111, 114, 113, 156, 159, 154, 148, 151, 150, 193, 196, 191, 185, 188, 187]]
+Total program runtime: 0.218 seconds
+
+Kaki stderr:  
+Time: 0.218
+Solution: None
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Evolink.gml 5 --dir topzoo_res/Reach/kaki/kaki-2 --e-prop Reach --repeat 1"
+	User time (seconds): 1.69
+	System time (seconds): 1.31
+	Percent of CPU this job got: 397%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 97760
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 40431
+	Voluntary context switches: 3938
+	Involuntary context switches: 237
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

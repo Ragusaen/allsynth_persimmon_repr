@@ -1,0 +1,36 @@
+<map id="cudd/cuddZddPort.c" name="cudd/cuddZddPort.c">
+<area shape="rect" id="Node000001" title="Functions that translate BDDs to ZDDs." alt="" coords="396,5,545,33"/>
+<area shape="rect" id="Node000002" href="$util_8h.html" title="Low&#45;level utilities." alt="" coords="645,81,699,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="508,31,632,76,630,81,506,36"/>
+<area shape="rect" id="Node000011" href="$cuddInt_8h.html" title="Internal data structures of the CUDD package." alt="" coords="230,81,311,109"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="436,36,321,78,319,73,434,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="417,157,490,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="645,108,505,155,503,150,643,103"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="897,157,970,184"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="700,101,883,152,882,157,699,106"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="994,157,1067,184"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="700,98,818,120,980,153,979,159,817,125,699,104"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="305,232,370,260"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="647,112,555,159,502,187,385,232,383,227,500,182,552,154,645,107"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="565,157,635,184"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="661,111,625,148,621,144,657,107"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="709,157,779,184"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="687,107,723,144,719,148,683,111"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="802,157,873,184"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="701,106,796,148,794,153,699,111"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="473,232,559,260"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="674,110,668,146,661,167,649,186,614,214,574,233,572,228,611,210,645,183,656,165,663,145,669,109"/>
+<area shape="poly" id="edge12_Node000011_Node000003" title=" " alt="" coords="304,107,409,148,407,153,302,112"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="237,157,304,184"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="273,109,273,142,268,142,268,109"/>
+<area shape="rect" id="Node000013" href="$st_8h.html" title="Symbol table package." alt="" coords="5,157,51,184"/>
+<area shape="poly" id="edge13_Node000011_Node000013" title=" " alt="" coords="230,110,66,159,64,154,229,105"/>
+<area shape="rect" id="Node000014" href="$mtr_8h.html" title="Multiway&#45;branch tree manipulation." alt="" coords="75,157,131,184"/>
+<area shape="poly" id="edge14_Node000011_Node000014" title=" " alt="" coords="242,112,146,153,144,148,240,107"/>
+<area shape="rect" id="Node000015" href="$epd_8h.html" title="The University of Colorado extended double precision package." alt="" coords="155,157,213,184"/>
+<area shape="poly" id="edge16_Node000011_Node000015" title=" " alt="" coords="257,111,212,149,209,145,253,107"/>
+<area shape="rect" id="Node000016" href="$cudd_8h.html" title="The University of Colorado decision diagram package." alt="" coords="328,157,392,184"/>
+<area shape="poly" id="edge17_Node000011_Node000016" title=" " alt="" coords="288,107,335,145,331,149,285,111"/>
+<area shape="poly" id="edge15_Node000014_Node000006" title=" " alt="" coords="132,178,143,182,291,228,290,233,142,187,130,183"/>
+<area shape="poly" id="edge18_Node000016_Node000010" title=" " alt="" coords="389,182,476,223,474,228,387,187"/>
+</map>

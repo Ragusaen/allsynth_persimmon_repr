@@ -1,0 +1,58 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Palmetto.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/kaki/kaki-1', dump_bdd=False)
+Running 5Palmetto.gml
+Policy: (Service([38, 83, 94, 139, 185, 230]-263) & (Reach 263))
+Initial path of nodes: [23, 20, 24, 21, 13, 12, 0, 1, 6, 5, 4, 37, 38, 68, 65, 69, 66, 58, 57, 45, 46, 51, 50, 49, 82, 83, 113, 110, 114, 111, 103, 102, 90, 91, 96, 95, 94, 127, 128, 158, 155, 159, 156, 148, 147, 135, 136, 141, 140, 139, 172, 173, 203, 200, 204, 201, 193, 192, 180, 181, 186, 185, 184, 217, 218, 248, 245, 249, 246, 238, 237, 225, 226, 231, 230, 229, 262, 263]
+Final path of nodes: [23, 20, 24, 17, 35, 36, 43, 41, 40, 8, 5, 4, 39, 38, 68, 65, 64, 63, 62, 80, 81, 88, 86, 85, 53, 50, 49, 84, 83, 113, 110, 114, 107, 125, 126, 133, 131, 130, 98, 95, 94, 129, 128, 158, 155, 154, 153, 152, 170, 171, 178, 176, 175, 143, 140, 139, 174, 173, 203, 200, 204, 197, 215, 216, 223, 221, 220, 188, 185, 184, 219, 218, 248, 245, 244, 243, 242, 260, 261, 268, 266, 265, 233, 230, 229, 264, 263]
+{"Initial_routing":[[23, 20], [20, 24], [24, 21], [21, 13], [13, 12], [12, 0], [0, 1], [1, 6], [6, 5], [5, 4], [4, 37], [37, 38], [38, 68], [68, 65], [65, 69], [69, 66], [66, 58], [58, 57], [57, 45], [45, 46], [46, 51], [51, 50], [50, 49], [49, 82], [82, 83], [83, 113], [113, 110], [110, 114], [114, 111], [111, 103], [103, 102], [102, 90], [90, 91], [91, 96], [96, 95], [95, 94], [94, 127], [127, 128], [128, 158], [158, 155], [155, 159], [159, 156], [156, 148], [148, 147], [147, 135], [135, 136], [136, 141], [141, 140], [140, 139], [139, 172], [172, 173], [173, 203], [203, 200], [200, 204], [204, 201], [201, 193], [193, 192], [192, 180], [180, 181], [181, 186], [186, 185], [185, 184], [184, 217], [217, 218], [218, 248], [248, 245], [245, 249], [249, 246], [246, 238], [238, 237], [237, 225], [225, 226], [226, 231], [231, 230], [230, 229], [229, 262], [262, 263]],"Final_routing":[[23, 20], [20, 24], [24, 17], [17, 35], [35, 36], [36, 43], [43, 41], [41, 40], [40, 8], [8, 5], [5, 4], [4, 39], [39, 38], [38, 68], [68, 65], [65, 64], [64, 63], [63, 62], [62, 80], [80, 81], [81, 88], [88, 86], [86, 85], [85, 53], [53, 50], [50, 49], [49, 84], [84, 83], [83, 113], [113, 110], [110, 114], [114, 107], [107, 125], [125, 126], [126, 133], [133, 131], [131, 130], [130, 98], [98, 95], [95, 94], [94, 129], [129, 128], [128, 158], [158, 155], [155, 154], [154, 153], [153, 152], [152, 170], [170, 171], [171, 178], [178, 176], [176, 175], [175, 143], [143, 140], [140, 139], [139, 174], [174, 173], [173, 203], [203, 200], [200, 204], [204, 197], [197, 215], [215, 216], [216, 223], [223, 221], [221, 220], [220, 188], [188, 185], [185, 184], [184, 219], [219, 218], [218, 248], [248, 245], [245, 244], [244, 243], [243, 242], [242, 260], [260, 261], [261, 268], [268, 266], [266, 265], [265, 233], [233, 230], [230, 229], [229, 264], [264, 263]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [6], "edges": [{"from": 0, "to": 1, "label": 38},{"from": 1, "to": 2, "label": 83},{"from": 2, "to": 3, "label": 94},{"from": 3, "to": 4, "label": 139},{"from": 4, "to": 5, "label": 185},{"from": 5, "to": 6, "label": 230}]},"Reachability":{"startNode":23,"finalNode":263}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpymjalksf
+DFA generation time: 0.016 seconds 
+DFA states: 37 
+DFA transitions: 1079
+Problem file: /tmp/tmpymjalksf
+Switches to update: 111
+
+Decomposed topology into 12 subproblems
+Topological decomposition took 0.021 seconds
+Subproblem verification time: 0.029 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.011 seconds
+Subproblem verification time: 0.009 seconds
+Minimum batches required: 3
+[[17, 35, 36, 43, 41, 40, 8, 39, 64, 63, 62, 80, 81, 88, 86, 85, 53, 84, 107, 125, 126, 133, 131, 130, 98, 129, 154, 153, 152, 170, 171, 178, 176, 175, 143, 174, 197, 215, 216, 223, 221, 220, 188, 219, 244, 243, 242, 260, 261, 268, 266, 265, 233, 264], [24, 4, 65, 49, 114, 94, 155, 139, 204, 184, 245, 229], [21, 13, 12, 0, 1, 6, 37, 69, 66, 58, 57, 45, 46, 51, 82, 111, 103, 102, 90, 91, 96, 127, 159, 156, 148, 147, 135, 136, 141, 172, 201, 193, 192, 180, 181, 186, 217, 249, 246, 238, 237, 225, 226, 231, 262]]
+Total program runtime: 0.3 seconds
+
+Kaki stderr:  
+Time: 0.3
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Palmetto.gml 5 --dir topzoo_res/SC/kaki/kaki-1 --e-prop SC --repeat 1"
+	User time (seconds): 2.00
+	System time (seconds): 1.52
+	Percent of CPU this job got: 421%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.83
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 128384
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 57416
+	Voluntary context switches: 5306
+	Involuntary context switches: 809
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

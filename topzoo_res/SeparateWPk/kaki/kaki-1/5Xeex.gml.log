@@ -1,0 +1,47 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Xeex.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/kaki/kaki-1', dump_bdd=False)
+Running 5Xeex.gml
+Policy: ((((((((((((((WP(129-134) | WP(43-134)) | WP(140-134)) | WP(142-134)) | WP(47-134)) | WP(113-134)) | WP(114-134)) | WP(20-134)) | WP(53-134)) | WP(22-134)) | WP(56-134)) | WP(93-134)) | WP(62-134)) | WP(95-134)) & (Reach 134))
+Initial path of nodes: [9, 5, 18, 4, 23, 22, 14, 29, 32, 41, 43, 45, 44, 37, 57, 53, 66, 52, 71, 70, 62, 81, 77, 90, 76, 95, 94, 86, 105, 101, 114, 100, 119, 118, 110, 129, 125, 138, 124, 143, 142, 134]
+Final path of nodes: [9, 8, 17, 19, 21, 20, 14, 29, 42, 28, 47, 46, 44, 37, 57, 56, 65, 67, 69, 68, 62, 81, 80, 89, 91, 93, 92, 86, 105, 104, 113, 115, 117, 116, 110, 129, 128, 137, 139, 141, 140, 134]
+{"Initial_routing":[[9, 5], [5, 18], [18, 4], [4, 23], [23, 22], [22, 14], [14, 29], [29, 32], [32, 41], [41, 43], [43, 45], [45, 44], [44, 37], [37, 57], [57, 53], [53, 66], [66, 52], [52, 71], [71, 70], [70, 62], [62, 81], [81, 77], [77, 90], [90, 76], [76, 95], [95, 94], [94, 86], [86, 105], [105, 101], [101, 114], [114, 100], [100, 119], [119, 118], [118, 110], [110, 129], [129, 125], [125, 138], [138, 124], [124, 143], [143, 142], [142, 134]],"Final_routing":[[9, 8], [8, 17], [17, 19], [19, 21], [21, 20], [20, 14], [14, 29], [29, 42], [42, 28], [28, 47], [47, 46], [46, 44], [44, 37], [37, 57], [57, 56], [56, 65], [65, 67], [67, 69], [69, 68], [68, 62], [62, 81], [81, 80], [80, 89], [89, 91], [91, 93], [93, 92], [92, 86], [86, 105], [105, 104], [104, 113], [113, 115], [115, 117], [117, 116], [116, 110], [110, 129], [129, 128], [128, 137], [137, 139], [139, 141], [141, 140], [140, 134]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [95,62,93,56,22,53,20,114,113,47,142,140,129,43], "edges": [{"from": 0, "to": 95, "label": 95},{"from": 0, "to": 62, "label": 62},{"from": 0, "to": 93, "label": 93},{"from": 0, "to": 56, "label": 56},{"from": 0, "to": 22, "label": 22},{"from": 0, "to": 53, "label": 53},{"from": 0, "to": 20, "label": 20},{"from": 0, "to": 114, "label": 114},{"from": 0, "to": 113, "label": 113},{"from": 0, "to": 47, "label": 47},{"from": 0, "to": 142, "label": 142},{"from": 0, "to": 140, "label": 140},{"from": 0, "to": 129, "label": 129},{"from": 0, "to": 43, "label": 43}]},"Reachability":{"startNode":9,"finalNode":134}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmp0q6hidp3
+DFA generation time: 0.028 seconds 
+DFA states: 70 
+DFA transitions: 4235
+Problem file: /tmp/tmp0q6hidp3
+Switches to update: 64
+
+Decomposed topology into 1 subproblems
+Topological decomposition took 0.051 seconds
+Subproblem verification time: 3.399 seconds
+Minimum batches required: 3
+[[8, 42, 56, 80, 104, 128, 17, 19, 21, 20, 28, 47, 46, 65, 67, 69, 68, 89, 91, 93, 92, 113, 115, 117, 116, 137, 139, 141, 140], [129, 105, 81, 57, 29, 9], [5, 18, 4, 23, 22, 32, 41, 43, 45, 53, 66, 52, 71, 70, 77, 90, 76, 95, 94, 101, 114, 100, 119, 118, 125, 138, 124, 143, 142]]
+Total program runtime: 4.681 seconds
+
+Kaki stderr:  
+Time: 4.681
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Xeex.gml 5 --dir topzoo_res/SeparateWPk/kaki/kaki-1 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 8.42
+	System time (seconds): 1.58
+	Percent of CPU this job got: 187%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.34
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 533640
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 73060
+	Voluntary context switches: 4486
+	Involuntary context switches: 483
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

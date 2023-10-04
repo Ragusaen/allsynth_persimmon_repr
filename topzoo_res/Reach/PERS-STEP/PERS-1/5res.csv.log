@@ -1,0 +1,46 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/res.csv', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/PERS/PERS-1', dump_bdd=False)
+Traceback (most recent call last):
+  File "/home/rasmus/Documents/dat7/AllSynth/allsynth/run.py", line 162, in <module>
+    (G, p1, p2) = gen_init_final(gml_path, num_copies=num_copies)
+  File "/home/rasmus/Documents/dat7/AllSynth/allsynth/topology.py", line 142, in gen_init_final
+    G = get_gml_network(gml_path) 
+  File "/home/rasmus/Documents/dat7/AllSynth/allsynth/topology.py", line 16, in get_gml_network
+    return nx.read_gml(str(Path(gml_path).resolve()), label='id')
+  File "/home/rasmus/Documents/dat7/AllSynth/venv/lib/python3.10/site-packages/networkx/utils/decorators.py", line 766, in func
+    return argmap._lazy_compile(__wrapper)(*args, **kwargs)
+  File "<class 'networkx.utils.decorators.argmap'> compilation 5", line 5, in argmap_read_gml_1
+  File "/home/rasmus/Documents/dat7/AllSynth/venv/lib/python3.10/site-packages/networkx/readwrite/gml.py", line 195, in read_gml
+    G = parse_gml_lines(filter_lines(path), label, destringizer)
+  File "/home/rasmus/Documents/dat7/AllSynth/venv/lib/python3.10/site-packages/networkx/readwrite/gml.py", line 438, in parse_gml_lines
+    graph = parse_graph()
+  File "/home/rasmus/Documents/dat7/AllSynth/venv/lib/python3.10/site-packages/networkx/readwrite/gml.py", line 427, in parse_graph
+    curr_token, dct = parse_kv(next(tokens))
+  File "/home/rasmus/Documents/dat7/AllSynth/venv/lib/python3.10/site-packages/networkx/readwrite/gml.py", line 354, in parse_kv
+    curr_token = next(tokens)
+  File "/home/rasmus/Documents/dat7/AllSynth/venv/lib/python3.10/site-packages/networkx/readwrite/gml.py", line 321, in tokenize
+    raise NetworkXError(m)
+networkx.exception.NetworkXError: cannot tokenize ; prop; #initonly; #finalOnly; #noChange; #change; #tool; #time at (1, 5)
+Command exited with non-zero status 1
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/res.csv 5 --dir topzoo_res/Reach/PERS/PERS-1 --e-prop Reach --repeat 1"
+	User time (seconds): 0.66
+	System time (seconds): 1.32
+	Percent of CPU this job got: 517%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 70324
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12723
+	Voluntary context switches: 22
+	Involuntary context switches: 166
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1

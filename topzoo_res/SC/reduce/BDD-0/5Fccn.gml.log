@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Fccn.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-0', dump_bdd=False)
+Running 5Fccn.gml
+Policy: (Service([19, 31, 68, 75, 100, 125, 134]-134) & (Reach 134))
+Initial path of nodes: [10, 8, 6, 22, 20, 19, 25, 43, 45, 29, 31, 34, 56, 54, 52, 68, 66, 65, 79, 77, 75, 91, 89, 88, 102, 100, 98, 114, 112, 111, 125, 123, 121, 137, 135, 134]
+Final path of nodes: [10, 8, 6, 5, 22, 20, 19, 25, 43, 45, 28, 29, 31, 34, 56, 54, 52, 51, 68, 66, 65, 79, 77, 75, 74, 91, 89, 88, 102, 100, 98, 97, 114, 112, 111, 125, 123, 121, 120, 137, 135, 134]
+Time: 0.016040325164794922
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Fccn.gml 5 --dir topzoo_res/SC/reduce/BDD-0 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 0.95
+	System time (seconds): 1.24
+	Percent of CPU this job got: 361%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 87732
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14094
+	Voluntary context switches: 24
+	Involuntary context switches: 110
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

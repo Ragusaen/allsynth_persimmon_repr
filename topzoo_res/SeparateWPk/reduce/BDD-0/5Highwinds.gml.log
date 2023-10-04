@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Highwinds.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/reduce/BDD-0', dump_bdd=False)
+Running 5Highwinds.gml
+Policy: ((((((((((((WP(2-93) | WP(91-93)) | WP(45-93)) | WP(60-93)) | WP(50-93)) | WP(21-93)) | WP(22-93)) | WP(54-93)) | WP(89-93)) | WP(26-93)) | WP(59-93)) | WP(92-93)) & (Reach 93))
+Initial path of nodes: [1, 5, 4, 17, 9, 2, 0, 3, 19, 23, 22, 35, 27, 20, 18, 21, 37, 41, 40, 53, 45, 38, 36, 39, 55, 59, 58, 71, 63, 56, 54, 57, 73, 77, 76, 89, 81, 74, 72, 75, 91, 95, 94, 107, 99, 92, 90, 93]
+Final path of nodes: [1, 6, 8, 17, 14, 2, 0, 3, 19, 24, 26, 35, 32, 20, 18, 21, 37, 42, 44, 53, 50, 38, 36, 39, 55, 60, 62, 71, 68, 56, 54, 57, 73, 78, 80, 89, 86, 74, 72, 75, 91, 96, 98, 107, 104, 92, 90, 93]
+Time: 0.05182909965515137
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Highwinds.gml 5 --dir topzoo_res/SeparateWPk/reduce/BDD-0 --e-prop SeparateWPk --repeat 1 --reduce"
+	User time (seconds): 0.97
+	System time (seconds): 1.27
+	Percent of CPU this job got: 347%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 87960
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2
+	Minor (reclaiming a frame) page faults: 14130
+	Voluntary context switches: 26
+	Involuntary context switches: 111
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Noel.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-0', dump_bdd=False)
+Running 5Noel.gml
+Policy: (Service([27, 44, 57, 93]-112) & (Reach 112))
+Initial path of nodes: [7, 6, 0, 2, 15, 16, 17, 23, 27, 28, 22, 19, 25, 26, 45, 44, 38, 40, 53, 54, 55, 64, 63, 57, 59, 72, 73, 74, 83, 82, 76, 78, 91, 92, 93, 102, 101, 95, 97, 110, 111, 112]
+Final path of nodes: [7, 6, 0, 3, 9, 8, 18, 17, 23, 27, 37, 34, 21, 19, 25, 26, 45, 44, 38, 41, 47, 46, 56, 55, 64, 63, 57, 60, 66, 65, 75, 74, 83, 82, 76, 79, 85, 84, 94, 93, 102, 101, 95, 98, 104, 103, 113, 112]
+Time: 0.015172243118286133
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Noel.gml 5 --dir topzoo_res/SC/reduce/BDD-0 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 0.89
+	System time (seconds): 1.30
+	Percent of CPU this job got: 369%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 87452
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14037
+	Voluntary context switches: 34
+	Involuntary context switches: 104
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

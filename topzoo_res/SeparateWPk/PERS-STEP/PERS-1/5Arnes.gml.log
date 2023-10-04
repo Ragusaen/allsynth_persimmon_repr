@@ -1,0 +1,40 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Arnes.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/PERS/PERS-1', dump_bdd=False)
+Running 5Arnes.gml
+Policy: ((((((((((((((((((WP(64-197) | WP(98-197)) | WP(130-197)) | WP(132-197)) | WP(166-197)) | WP(199-197)) | WP(200-197)) | WP(44-197)) | WP(78-197)) | WP(143-197)) | WP(112-197)) | WP(29-197)) | WP(146-197)) | WP(180-197)) | WP(119-197)) | WP(57-197)) | WP(61-197)) | WP(30-197)) & (Reach 197))
+Initial path of nodes: [10, 17, 23, 7, 30, 29, 28, 27, 44, 51, 57, 41, 64, 63, 62, 61, 78, 85, 91, 75, 98, 97, 96, 95, 112, 119, 125, 109, 132, 131, 130, 129, 146, 153, 159, 143, 166, 165, 164, 163, 180, 187, 193, 177, 200, 199, 198, 197]
+Final path of nodes: [10, 17, 14, 18, 7, 30, 11, 12, 26, 27, 44, 56, 57, 38, 41, 64, 45, 46, 60, 61, 78, 90, 91, 72, 75, 98, 79, 80, 94, 95, 112, 124, 125, 106, 109, 132, 113, 114, 128, 129, 146, 158, 159, 140, 143, 166, 147, 148, 162, 163, 180, 192, 193, 174, 177, 200, 181, 182, 196, 197]
+Persimmon problem:  {"Initial_routing":[[10, 17], [17, 23], [23, 7], [7, 30], [30, 29], [29, 28], [28, 27], [27, 44], [44, 51], [51, 57], [57, 41], [41, 64], [64, 63], [63, 62], [62, 61], [61, 78], [78, 85], [85, 91], [91, 75], [75, 98], [98, 97], [97, 96], [96, 95], [95, 112], [112, 119], [119, 125], [125, 109], [109, 132], [132, 131], [131, 130], [130, 129], [129, 146], [146, 153], [153, 159], [159, 143], [143, 166], [166, 165], [165, 164], [164, 163], [163, 180], [180, 187], [187, 193], [193, 177], [177, 200], [200, 199], [199, 198], [198, 197]],"Final_routing":[[10, 17], [17, 14], [14, 18], [18, 7], [7, 30], [30, 11], [11, 12], [12, 26], [26, 27], [27, 44], [44, 56], [56, 57], [57, 38], [38, 41], [41, 64], [64, 45], [45, 46], [46, 60], [60, 61], [61, 78], [78, 90], [90, 91], [91, 72], [72, 75], [75, 98], [98, 79], [79, 80], [80, 94], [94, 95], [95, 112], [112, 124], [124, 125], [125, 106], [106, 109], [109, 132], [132, 113], [113, 114], [114, 128], [128, 129], [129, 146], [146, 158], [158, 159], [159, 140], [140, 143], [143, 166], [166, 147], [147, 148], [148, 162], [162, 163], [163, 180], [180, 192], [192, 193], [193, 174], [174, 177], [177, 200], [200, 181], [181, 182], [182, 196], [196, 197]],"Properties":{"MultiAlternativeWaypoint": {"waypoint": [64,98,130,132,166,199,200,44,78,143,112,29,146,180,119,57,61,30]},"Reachability":{"startNode":10,"finalNode":197}}}
+Persimmon stdout:  Chain equivalence reduction: 78 -> 62
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+<=== Starting iteration 2 ===>
+Solution: Some([[45, 46, 60, 140, 14, 18, 79, 80, 94, 124, 181, 182, 196, 72, 113, 114, 128, 174, 147, 148, 162, 90, 11, 12, 26, 106, 192, 56, 158, 38], [17, 98, 146, 44, 64, 180, 132, 112, 78, 166, 30, 200], [23, 199, 29, 85, 119, 63, 62, 187, 153, 198, 28, 125, 97, 96, 91, 159, 130, 131, 51, 165, 164, 57, 193]])
+Time elapsed: 5.21ms
+Time elapsed(s): 0.005205s
+
+Persimmon stderr:  
+Time: 0.005205
+Solution: [[45, 46, 60, 140, 14, 18, 79, 80, 94, 124, 181, 182, 196, 72, 113, 114, 128, 174, 147, 148, 162, 90, 11, 12, 26, 106, 192, 56, 158, 38], [17, 98, 146, 44, 64, 180, 132, 112, 78, 166, 30, 200], [23, 199, 29, 85, 119, 63, 62, 187, 153, 198, 28, 125, 97, 96, 91, 159, 130, 131, 51, 165, 164, 57, 193]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Arnes.gml 5 --dir topzoo_res/SeparateWPk/PERS/PERS-1 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 0.78
+	System time (seconds): 1.23
+	Percent of CPU this job got: 443%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.45
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 72116
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13336
+	Voluntary context switches: 32
+	Involuntary context switches: 214
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

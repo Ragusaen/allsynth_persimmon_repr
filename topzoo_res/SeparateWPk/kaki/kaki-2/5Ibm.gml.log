@@ -1,0 +1,47 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Ibm.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/kaki/kaki-2', dump_bdd=False)
+Running 5Ibm.gml
+Policy: ((((((((((((((WP(102-103) | WP(71-103)) | WP(39-103)) | WP(104-103)) | WP(74-103)) | WP(43-103)) | WP(12-103)) | WP(14-103)) | WP(78-103)) | WP(49-103)) | WP(22-103)) | WP(90-103)) | WP(27-103)) | WP(62-103)) & (Reach 103))
+Initial path of nodes: [0, 3, 2, 9, 17, 14, 13, 18, 21, 20, 27, 35, 32, 31, 36, 39, 38, 45, 53, 50, 49, 54, 57, 56, 63, 71, 68, 67, 72, 75, 74, 81, 89, 86, 85, 90, 93, 92, 99, 107, 104, 103]
+Final path of nodes: [0, 3, 2, 4, 8, 12, 13, 18, 25, 24, 22, 26, 30, 31, 36, 43, 42, 40, 44, 48, 49, 54, 61, 60, 58, 62, 66, 67, 72, 79, 78, 76, 80, 84, 85, 90, 97, 96, 94, 98, 102, 103]
+{"Initial_routing":[[0, 3], [3, 2], [2, 9], [9, 17], [17, 14], [14, 13], [13, 18], [18, 21], [21, 20], [20, 27], [27, 35], [35, 32], [32, 31], [31, 36], [36, 39], [39, 38], [38, 45], [45, 53], [53, 50], [50, 49], [49, 54], [54, 57], [57, 56], [56, 63], [63, 71], [71, 68], [68, 67], [67, 72], [72, 75], [75, 74], [74, 81], [81, 89], [89, 86], [86, 85], [85, 90], [90, 93], [93, 92], [92, 99], [99, 107], [107, 104], [104, 103]],"Final_routing":[[0, 3], [3, 2], [2, 4], [4, 8], [8, 12], [12, 13], [13, 18], [18, 25], [25, 24], [24, 22], [22, 26], [26, 30], [30, 31], [31, 36], [36, 43], [43, 42], [42, 40], [40, 44], [44, 48], [48, 49], [49, 54], [54, 61], [61, 60], [60, 58], [58, 62], [62, 66], [66, 67], [67, 72], [72, 79], [79, 78], [78, 76], [76, 80], [80, 84], [84, 85], [85, 90], [90, 97], [97, 96], [96, 94], [94, 98], [98, 102], [102, 103]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [62,27,90,22,49,78,14,12,43,74,104,39,102,71], "edges": [{"from": 0, "to": 62, "label": 62},{"from": 0, "to": 27, "label": 27},{"from": 0, "to": 90, "label": 90},{"from": 0, "to": 22, "label": 22},{"from": 0, "to": 49, "label": 49},{"from": 0, "to": 78, "label": 78},{"from": 0, "to": 14, "label": 14},{"from": 0, "to": 12, "label": 12},{"from": 0, "to": 43, "label": 43},{"from": 0, "to": 74, "label": 74},{"from": 0, "to": 104, "label": 104},{"from": 0, "to": 39, "label": 39},{"from": 0, "to": 102, "label": 102},{"from": 0, "to": 71, "label": 71}]},"Reachability":{"startNode":0,"finalNode":103}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmppr202z5z
+DFA generation time: 0.027 seconds 
+DFA states: 70 
+DFA transitions: 4113
+Problem file: /tmp/tmppr202z5z
+Switches to update: 62
+
+Decomposed topology into 1 subproblems
+Topological decomposition took 0.037 seconds
+Subproblem verification time: 2.997 seconds
+Minimum batches required: 3
+[[4, 25, 43, 61, 79, 97, 8, 12, 24, 22, 26, 30, 42, 40, 44, 48, 60, 58, 62, 66, 78, 76, 80, 84, 96, 94, 98, 102], [90, 72, 54, 36, 18, 2], [9, 17, 14, 21, 20, 27, 35, 32, 39, 38, 45, 53, 50, 57, 56, 63, 71, 68, 75, 74, 81, 89, 86, 93, 92, 99, 107, 104]]
+Total program runtime: 4.222 seconds
+
+Kaki stderr:  
+Time: 4.222
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Ibm.gml 5 --dir topzoo_res/SeparateWPk/kaki/kaki-2 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 8.08
+	System time (seconds): 1.46
+	Percent of CPU this job got: 193%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 541476
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 76808
+	Voluntary context switches: 4442
+	Involuntary context switches: 1200
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

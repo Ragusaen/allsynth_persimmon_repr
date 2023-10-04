@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Arpanet196912.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/PERS/PERS-0', dump_bdd=False)
+Running 5Arpanet196912.gml
+Policy: (((((WP(7-23) | WP(12-23)) | WP(13-23)) | WP(16-23)) | WP(21-23)) & (Reach 23))
+Initial path of nodes: [1, 0, 3, 5, 4, 7, 9, 8, 11, 13, 12, 15, 17, 16, 19, 21, 20, 23]
+Final path of nodes: [1, 0, 3, 5, 4, 7, 9, 10, 8, 11, 13, 12, 15, 17, 18, 16, 19, 21, 20, 23]
+Persimmon problem:  {"Initial_routing":[[1, 0], [0, 3], [3, 5], [5, 4], [4, 7], [7, 9], [9, 8], [8, 11], [11, 13], [13, 12], [12, 15], [15, 17], [17, 16], [16, 19], [19, 21], [21, 20], [20, 23]],"Final_routing":[[1, 0], [0, 3], [3, 5], [5, 4], [4, 7], [7, 9], [9, 10], [10, 8], [8, 11], [11, 13], [13, 12], [12, 15], [15, 17], [17, 18], [18, 16], [16, 19], [19, 21], [21, 20], [20, 23]],"Properties":{"MultiAlternativeWaypoint": {"waypoint": [7,12,13,16,21]},"Reachability":{"startNode":1,"finalNode":23}}}
+Persimmon stdout:  Chain equivalence reduction: 20 -> 14
+Constructing all update BDD
+Solution: Some([[18, 10], [17, 9]])
+Time elapsed: 309.04µs
+Time elapsed(s): 0.000309s
+
+Persimmon stderr:  
+Time: 0.000309
+Solution: [[18, 10], [17, 9]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Arpanet196912.gml 5 --dir topzoo_res/SeparateWPk/PERS/PERS-0 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 0.63
+	System time (seconds): 1.30
+	Percent of CPU this job got: 587%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 70468
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12884
+	Voluntary context switches: 27
+	Involuntary context switches: 124
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

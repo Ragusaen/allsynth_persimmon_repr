@@ -1,0 +1,39 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Globalcenter.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/PERS/PERS-2', dump_bdd=False)
+Running 5Globalcenter.gml
+Policy: (((((WP(35-53) | WP(45-53)) | WP(46-53)) | WP(18-53)) | WP(26-53)) & (Reach 53))
+Initial path of nodes: [0, 8, 9, 17, 18, 26, 27, 35, 36, 44, 45, 53]
+Final path of nodes: [0, 8, 9, 10, 17, 18, 19, 26, 27, 28, 35, 36, 37, 44, 45, 46, 53]
+Persimmon problem:  {"Initial_routing":[[0, 8], [8, 9], [9, 17], [17, 18], [18, 26], [26, 27], [27, 35], [35, 36], [36, 44], [44, 45], [45, 53]],"Final_routing":[[0, 8], [8, 9], [9, 10], [10, 17], [17, 18], [18, 19], [19, 26], [26, 27], [27, 28], [28, 35], [35, 36], [36, 37], [37, 44], [44, 45], [45, 46], [46, 53]],"Properties":{"MultiAlternativeWaypoint": {"waypoint": [35,45,46,18,26]},"Reachability":{"startNode":0,"finalNode":53}}}
+Persimmon stdout:  Chain equivalence reduction: 17 -> 16
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+Solution: Some([[37, 19, 28, 10, 46], [36, 45, 18, 9, 27]])
+Time elapsed: 447.45µs
+Time elapsed(s): 0.000447s
+
+Persimmon stderr:  
+Time: 0.000447
+Solution: [[37, 19, 28, 10, 46], [36, 45, 18, 9, 27]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Globalcenter.gml 5 --dir topzoo_res/SeparateWPk/PERS/PERS-2 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 0.76
+	System time (seconds): 1.24
+	Percent of CPU this job got: 500%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71000
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13042
+	Voluntary context switches: 30
+	Involuntary context switches: 150
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Iij.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/kaki/kaki-2', dump_bdd=False)
+Running 5Iij.gml
+Policy: (Reach 217)
+Initial path of nodes: [14, 19, 24, 6, 21, 32, 50, 44, 43, 61, 56, 52, 88, 93, 98, 80, 95, 106, 125, 130, 135, 117, 132, 143, 162, 167, 172, 154, 169, 180, 199, 204, 209, 191, 206, 217]
+Final path of nodes: [14, 19, 25, 30, 31, 32, 50, 44, 71, 61, 56, 52, 88, 93, 99, 104, 105, 106, 125, 130, 136, 141, 142, 143, 162, 167, 173, 178, 179, 180, 199, 204, 210, 215, 216, 217]
+{"Initial_routing":[[14, 19], [19, 24], [24, 6], [6, 21], [21, 32], [32, 50], [50, 44], [44, 43], [43, 61], [61, 56], [56, 52], [52, 88], [88, 93], [93, 98], [98, 80], [80, 95], [95, 106], [106, 125], [125, 130], [130, 135], [135, 117], [117, 132], [132, 143], [143, 162], [162, 167], [167, 172], [172, 154], [154, 169], [169, 180], [180, 199], [199, 204], [204, 209], [209, 191], [191, 206], [206, 217]],"Final_routing":[[14, 19], [19, 25], [25, 30], [30, 31], [31, 32], [32, 50], [50, 44], [44, 71], [71, 61], [61, 56], [56, 52], [52, 88], [88, 93], [93, 99], [99, 104], [104, 105], [105, 106], [106, 125], [125, 130], [130, 136], [136, 141], [141, 142], [142, 143], [143, 162], [162, 167], [167, 173], [173, 178], [178, 179], [179, 180], [180, 199], [199, 204], [204, 210], [210, 215], [215, 216], [216, 217]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"Reachability":{"startNode":14,"finalNode":217}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpqt30io91
+DFA generation time: 0.007 seconds 
+DFA states: 3 
+DFA transitions: 53
+Problem file: /tmp/tmpqt30io91
+Switches to update: 38
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.004 seconds
+Subproblem verification time: 0.029 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Minimum batches required: 3
+[[25, 30, 31, 71, 99, 104, 105, 136, 141, 142, 173, 178, 179, 210, 215, 216], [19, 44, 93, 130, 167, 204], [24, 6, 21, 43, 98, 80, 95, 135, 117, 132, 172, 154, 169, 209, 191, 206]]
+Total program runtime: 0.188 seconds
+
+Kaki stderr:  
+Time: 0.188
+Solution: None
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Iij.gml 5 --dir topzoo_res/Reach/kaki/kaki-2 --e-prop Reach --repeat 1"
+	User time (seconds): 1.39
+	System time (seconds): 1.32
+	Percent of CPU this job got: 381%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 92456
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 35898
+	Voluntary context switches: 3697
+	Involuntary context switches: 180
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

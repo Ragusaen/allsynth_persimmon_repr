@@ -1,0 +1,40 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Cernet.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/PERS/PERS-0', dump_bdd=False)
+Running 5Cernet.gml
+Policy: ((((((((((((((((WP(33-243) | WP(65-243)) | WP(130-243)) | WP(161-243)) | WP(196-243)) | WP(38-243)) | WP(103-243)) | WP(171-243)) | WP(205-243)) | WP(78-243)) | WP(238-243)) | WP(82-243)) | WP(147-243)) | WP(243-243)) | WP(211-243)) | WP(119-243)) & (Reach 243))
+Initial path of nodes: [0, 7, 24, 21, 37, 38, 41, 48, 65, 62, 78, 79, 82, 89, 106, 103, 119, 120, 123, 130, 147, 144, 160, 161, 164, 171, 188, 185, 201, 202, 205, 212, 229, 226, 242, 243]
+Final path of nodes: [0, 7, 24, 32, 37, 33, 38, 41, 47, 48, 65, 73, 78, 74, 79, 82, 88, 89, 106, 114, 119, 115, 120, 123, 129, 130, 147, 155, 160, 156, 161, 164, 170, 171, 188, 196, 201, 197, 202, 205, 211, 212, 229, 237, 242, 238, 243]
+Persimmon problem:  {"Initial_routing":[[0, 7], [7, 24], [24, 21], [21, 37], [37, 38], [38, 41], [41, 48], [48, 65], [65, 62], [62, 78], [78, 79], [79, 82], [82, 89], [89, 106], [106, 103], [103, 119], [119, 120], [120, 123], [123, 130], [130, 147], [147, 144], [144, 160], [160, 161], [161, 164], [164, 171], [171, 188], [188, 185], [185, 201], [201, 202], [202, 205], [205, 212], [212, 229], [229, 226], [226, 242], [242, 243]],"Final_routing":[[0, 7], [7, 24], [24, 32], [32, 37], [37, 33], [33, 38], [38, 41], [41, 47], [47, 48], [48, 65], [65, 73], [73, 78], [78, 74], [74, 79], [79, 82], [82, 88], [88, 89], [89, 106], [106, 114], [114, 119], [119, 115], [115, 120], [120, 123], [123, 129], [129, 130], [130, 147], [147, 155], [155, 160], [160, 156], [156, 161], [161, 164], [164, 170], [170, 171], [171, 188], [188, 196], [196, 201], [201, 197], [197, 202], [202, 205], [205, 211], [211, 212], [212, 229], [229, 237], [237, 242], [242, 238], [238, 243]],"Properties":{"MultiAlternativeWaypoint": {"waypoint": [33,65,130,161,196,38,103,171,205,78,238,82,147,243,211,119]},"Reachability":{"startNode":0,"finalNode":243}}}
+Persimmon stdout:  Chain equivalence reduction: 53 -> 52
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+<=== Starting iteration 2 ===>
+Solution: Some([[156, 238, 197, 33, 129, 170, 155, 211, 73, 32, 74, 115, 237, 114, 196, 88, 47], [24, 147, 106, 65, 229, 188], [205, 78, 123, 201, 119, 160, 82, 226, 185, 242, 21, 41, 62, 103, 144, 164, 37]])
+Time elapsed: 3.69ms
+Time elapsed(s): 0.003689s
+
+Persimmon stderr:  
+Time: 0.003689
+Solution: [[156, 238, 197, 33, 129, 170, 155, 211, 73, 32, 74, 115, 237, 114, 196, 88, 47], [24, 147, 106, 65, 229, 188], [205, 78, 123, 201, 119, 160, 82, 226, 185, 242, 21, 41, 62, 103, 144, 164, 37]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Cernet.gml 5 --dir topzoo_res/SeparateWPk/PERS/PERS-0 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 0.64
+	System time (seconds): 1.33
+	Percent of CPU this job got: 520%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 72504
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13405
+	Voluntary context switches: 34
+	Involuntary context switches: 270
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

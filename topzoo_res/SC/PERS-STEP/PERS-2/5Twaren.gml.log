@@ -1,0 +1,40 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Twaren.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/PERS/PERS-2', dump_bdd=False)
+Running 5Twaren.gml
+Policy: (Service([22, 59, 78, 100]-118) & (Reach 118))
+Initial path of nodes: [0, 2, 4, 19, 18, 20, 22, 24, 39, 38, 40, 42, 44, 59, 58, 60, 62, 64, 79, 78, 80, 82, 84, 99, 98, 100, 102, 104, 119, 118]
+Final path of nodes: [0, 2, 13, 19, 18, 20, 22, 33, 39, 38, 40, 42, 53, 59, 58, 60, 62, 73, 79, 78, 80, 82, 93, 99, 98, 100, 102, 113, 119, 118]
+Persimmon problem:  {"Initial_routing":[[0, 2], [2, 4], [4, 19], [19, 18], [18, 20], [20, 22], [22, 24], [24, 39], [39, 38], [38, 40], [40, 42], [42, 44], [44, 59], [59, 58], [58, 60], [60, 62], [62, 64], [64, 79], [79, 78], [78, 80], [80, 82], [82, 84], [84, 99], [99, 98], [98, 100], [100, 102], [102, 104], [104, 119], [119, 118]],"Final_routing":[[0, 2], [2, 13], [13, 19], [19, 18], [18, 20], [20, 22], [22, 33], [33, 39], [39, 38], [38, 40], [40, 42], [42, 53], [53, 59], [59, 58], [58, 60], [60, 62], [62, 73], [73, 79], [79, 78], [78, 80], [80, 82], [82, 93], [93, 99], [99, 98], [98, 100], [100, 102], [102, 113], [113, 119], [119, 118]],"Properties":{"ServiceChain": {"waypoint": [22,59,78,100]},"Reachability":{"startNode":0,"finalNode":118}}}
+Persimmon stdout:  Chain equivalence reduction: 36 -> 30
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+<=== Starting iteration 2 ===>
+Solution: Some([[113, 53, 33, 13, 93, 73], [2, 62, 82, 22, 102, 42], [64, 84, 104, 44, 4, 24]])
+Time elapsed: 1.56ms
+Time elapsed(s): 0.001564s
+
+Persimmon stderr:  
+Time: 0.001564
+Solution: [[113, 53, 33, 13, 93, 73], [2, 62, 82, 22, 102, 42], [64, 84, 104, 44, 4, 24]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Twaren.gml 5 --dir topzoo_res/SC/PERS/PERS-2 --e-prop SC --repeat 1"
+	User time (seconds): 0.72
+	System time (seconds): 1.28
+	Percent of CPU this job got: 487%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71040
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13036
+	Voluntary context switches: 33
+	Involuntary context switches: 139
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

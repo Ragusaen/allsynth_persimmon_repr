@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Packetexchange.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/PERS/PERS-1', dump_bdd=False)
+Running 5Packetexchange.gml
+Policy: (((((((((((((((((((((((WP(12-122) | WP(17-122)) | WP(20-122)) | WP(23-122)) | WP(26-122)) | WP(31-122)) | WP(41-122)) | WP(43-122)) | WP(47-122)) | WP(57-122)) | WP(62-122)) | WP(68-122)) | WP(69-122)) | WP(77-122)) | WP(83-122)) | WP(89-122)) | WP(91-122)) | WP(95-122)) | WP(104-122)) | WP(110-122)) | WP(117-122)) | WP(122-122)) | WP(125-122)) & (Reach 122))
+Initial path of nodes: [5, 7, 4, 1, 2, 20, 19, 18, 10, 17, 26, 28, 25, 22, 23, 41, 40, 39, 31, 38, 47, 49, 46, 43, 44, 62, 61, 60, 52, 59, 68, 70, 67, 64, 65, 83, 82, 81, 73, 80, 89, 91, 88, 85, 86, 104, 103, 102, 94, 101, 110, 112, 109, 106, 107, 125, 124, 123, 115, 122]
+Final path of nodes: [5, 7, 6, 1, 2, 12, 11, 14, 15, 10, 17, 26, 28, 27, 22, 23, 33, 32, 35, 36, 31, 38, 47, 49, 48, 43, 44, 54, 53, 56, 57, 52, 59, 68, 70, 69, 64, 65, 75, 74, 77, 78, 73, 80, 89, 91, 90, 85, 86, 96, 95, 98, 99, 94, 101, 110, 112, 111, 106, 107, 117, 116, 119, 120, 115, 122]
+Persimmon problem:  {"Initial_routing":[[5, 7], [7, 4], [4, 1], [1, 2], [2, 20], [20, 19], [19, 18], [18, 10], [10, 17], [17, 26], [26, 28], [28, 25], [25, 22], [22, 23], [23, 41], [41, 40], [40, 39], [39, 31], [31, 38], [38, 47], [47, 49], [49, 46], [46, 43], [43, 44], [44, 62], [62, 61], [61, 60], [60, 52], [52, 59], [59, 68], [68, 70], [70, 67], [67, 64], [64, 65], [65, 83], [83, 82], [82, 81], [81, 73], [73, 80], [80, 89], [89, 91], [91, 88], [88, 85], [85, 86], [86, 104], [104, 103], [103, 102], [102, 94], [94, 101], [101, 110], [110, 112], [112, 109], [109, 106], [106, 107], [107, 125], [125, 124], [124, 123], [123, 115], [115, 122]],"Final_routing":[[5, 7], [7, 6], [6, 1], [1, 2], [2, 12], [12, 11], [11, 14], [14, 15], [15, 10], [10, 17], [17, 26], [26, 28], [28, 27], [27, 22], [22, 23], [23, 33], [33, 32], [32, 35], [35, 36], [36, 31], [31, 38], [38, 47], [47, 49], [49, 48], [48, 43], [43, 44], [44, 54], [54, 53], [53, 56], [56, 57], [57, 52], [52, 59], [59, 68], [68, 70], [70, 69], [69, 64], [64, 65], [65, 75], [75, 74], [74, 77], [77, 78], [78, 73], [73, 80], [80, 89], [89, 91], [91, 90], [90, 85], [85, 86], [86, 96], [96, 95], [95, 98], [98, 99], [99, 94], [94, 101], [101, 110], [110, 112], [112, 111], [111, 106], [106, 107], [107, 117], [117, 116], [116, 119], [119, 120], [120, 115], [115, 122]],"Properties":{"MultiAlternativeWaypoint": {"waypoint": [12,17,20,23,26,31,41,43,47,57,62,68,69,77,83,89,91,95,104,110,117,122,125]},"Reachability":{"startNode":5,"finalNode":122}}}
+Persimmon stdout:  Chain equivalence reduction: 90 -> 69
+Constructing all update BDD
+Solution: Some([[117, 48, 57, 33, 32, 35, 36, 11, 14, 15, 95, 98, 99, 77, 75, 74, 111, 6, 12, 27, 69, 96, 54, 53, 56, 116, 119, 120, 90, 78], [91, 86, 107, 7, 44, 28, 112, 2, 23, 65, 70, 49], [67, 61, 60, 82, 81, 124, 123, 125, 19, 18, 4, 83, 103, 102, 25, 20, 62, 40, 39, 88, 46, 104, 109, 41]])
+Time elapsed: 5.94ms
+Time elapsed(s): 0.005944s
+
+Persimmon stderr:  
+Time: 0.005944
+Solution: [[117, 48, 57, 33, 32, 35, 36, 11, 14, 15, 95, 98, 99, 77, 75, 74, 111, 6, 12, 27, 69, 96, 54, 53, 56, 116, 119, 120, 90, 78], [91, 86, 107, 7, 44, 28, 112, 2, 23, 65, 70, 49], [67, 61, 60, 82, 81, 124, 123, 125, 19, 18, 4, 83, 103, 102, 25, 20, 62, 40, 39, 88, 46, 104, 109, 41]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Packetexchange.gml 5 --dir topzoo_res/SeparateWPk/PERS/PERS-1 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 0.89
+	System time (seconds): 1.30
+	Percent of CPU this job got: 367%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71104
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13151
+	Voluntary context switches: 33
+	Involuntary context switches: 169
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

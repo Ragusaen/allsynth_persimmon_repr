@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Cwix.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/reduce/BDD-2', dump_bdd=False)
+Running 5Cwix.gml
+Policy: ((((((((((((((((((((WP(128-209) | WP(1-209)) | WP(132-209)) | WP(5-209)) | WP(137-209)) | WP(150-209)) | WP(153-209)) | WP(165-209)) | WP(38-209)) | WP(42-209)) | WP(182-209)) | WP(185-209)) | WP(60-209)) | WP(61-209)) | WP(200-209)) | WP(72-209)) | WP(210-209)) | WP(90-209)) | WP(102-209)) | WP(109-209)) & (Reach 209))
+Initial path of nodes: [20, 19, 18, 24, 9, 5, 31, 30, 29, 40, 42, 37, 36, 39, 45, 60, 54, 61, 92, 91, 90, 96, 81, 77, 103, 102, 101, 128, 127, 126, 132, 117, 113, 139, 138, 137, 164, 163, 162, 168, 153, 149, 175, 174, 173, 200, 199, 198, 204, 189, 185, 211, 210, 209]
+Final path of nodes: [20, 21, 2, 3, 0, 1, 6, 30, 29, 40, 42, 70, 62, 63, 39, 38, 57, 56, 55, 54, 61, 92, 93, 74, 75, 72, 73, 78, 102, 101, 128, 129, 110, 111, 108, 109, 114, 138, 137, 164, 165, 146, 147, 144, 145, 150, 174, 173, 200, 201, 182, 183, 180, 181, 186, 210, 209]
+Time: 0.07054734230041504
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Cwix.gml 5 --dir topzoo_res/SeparateWPk/reduce/BDD-2 --e-prop SeparateWPk --repeat 1 --reduce"
+	User time (seconds): 0.98
+	System time (seconds): 1.29
+	Percent of CPU this job got: 338%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 92412
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14300
+	Voluntary context switches: 38
+	Involuntary context switches: 62
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

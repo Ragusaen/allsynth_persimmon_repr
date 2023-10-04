@@ -1,0 +1,51 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Marnet.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/kaki/kaki-0', dump_bdd=False)
+Running 5Marnet.gml
+Policy: (Reach 119)
+Initial path of nodes: [8, 17, 2, 19, 20, 22, 37, 28, 48, 57, 42, 59, 68, 77, 62, 79, 88, 97, 82, 99, 108, 117, 102, 119]
+Final path of nodes: [8, 17, 4, 19, 20, 22, 37, 28, 48, 57, 44, 59, 68, 77, 64, 79, 88, 97, 84, 99, 108, 117, 104, 119]
+{"Initial_routing":[[8, 17], [17, 2], [2, 19], [19, 20], [20, 22], [22, 37], [37, 28], [28, 48], [48, 57], [57, 42], [42, 59], [59, 68], [68, 77], [77, 62], [62, 79], [79, 88], [88, 97], [97, 82], [82, 99], [99, 108], [108, 117], [117, 102], [102, 119]],"Final_routing":[[8, 17], [17, 4], [4, 19], [19, 20], [20, 22], [22, 37], [37, 28], [28, 48], [48, 57], [57, 44], [44, 59], [59, 68], [68, 77], [77, 64], [64, 79], [79, 88], [88, 97], [97, 84], [84, 99], [99, 108], [108, 117], [117, 104], [104, 119]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"Reachability":{"startNode":8,"finalNode":119}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmppeea5m6l
+DFA generation time: 0.007 seconds 
+DFA states: 3 
+DFA transitions: 30
+Problem file: /tmp/tmppeea5m6l
+Switches to update: 15
+
+Decomposed topology into 5 subproblems
+Topological decomposition took 0.004 seconds
+Subproblem verification time: 0.029 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.008 seconds
+Minimum batches required: 3
+[[4, 44, 64, 84, 104], [17, 57, 77, 97, 117], [2, 42, 62, 82, 102]]
+Total program runtime: 0.16 seconds
+
+Kaki stderr:  
+Time: 0.16
+Solution: None
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Marnet.gml 5 --dir topzoo_res/Reach/kaki/kaki-0 --e-prop Reach --repeat 1"
+	User time (seconds): 1.28
+	System time (seconds): 1.32
+	Percent of CPU this job got: 390%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 85488
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 35184
+	Voluntary context switches: 3155
+	Involuntary context switches: 71
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

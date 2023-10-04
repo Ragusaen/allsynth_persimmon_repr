@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/HiberniaUs.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/PERS/PERS-2', dump_bdd=False)
+Running 5HiberniaUs.gml
+Policy: ((((((((((((((((((WP(97-121) | WP(3-121)) | WP(131-121)) | WP(35-121)) | WP(100-121)) | WP(72-121)) | WP(41-121)) | WP(45-121)) | WP(46-121)) | WP(49-121)) | WP(113-121)) | WP(84-121)) | WP(21-121)) | WP(118-121)) | WP(55-121)) | WP(86-121)) | WP(92-121)) | WP(29-121)) & (Reach 121))
+Initial path of nodes: [8, 5, 4, 7, 6, 3, 1, 9, 19, 18, 21, 11, 30, 27, 26, 29, 28, 25, 23, 31, 41, 40, 43, 33, 52, 49, 48, 51, 50, 47, 45, 53, 63, 62, 65, 55, 74, 71, 70, 73, 72, 69, 67, 75, 85, 84, 87, 77, 96, 93, 92, 95, 94, 91, 89, 97, 107, 106, 109, 99, 118, 115, 114, 117, 116, 113, 111, 119, 129, 128, 131, 121]
+Final path of nodes: [8, 5, 4, 7, 6, 3, 2, 12, 13, 20, 21, 11, 30, 27, 26, 29, 28, 25, 24, 34, 35, 42, 43, 33, 52, 49, 48, 51, 50, 47, 46, 56, 57, 64, 65, 55, 74, 71, 70, 73, 72, 69, 68, 78, 79, 86, 87, 77, 96, 93, 92, 95, 94, 91, 90, 100, 101, 108, 109, 99, 118, 115, 114, 117, 116, 113, 112, 122, 123, 130, 131, 121]
+Persimmon problem:  {"Initial_routing":[[8, 5], [5, 4], [4, 7], [7, 6], [6, 3], [3, 1], [1, 9], [9, 19], [19, 18], [18, 21], [21, 11], [11, 30], [30, 27], [27, 26], [26, 29], [29, 28], [28, 25], [25, 23], [23, 31], [31, 41], [41, 40], [40, 43], [43, 33], [33, 52], [52, 49], [49, 48], [48, 51], [51, 50], [50, 47], [47, 45], [45, 53], [53, 63], [63, 62], [62, 65], [65, 55], [55, 74], [74, 71], [71, 70], [70, 73], [73, 72], [72, 69], [69, 67], [67, 75], [75, 85], [85, 84], [84, 87], [87, 77], [77, 96], [96, 93], [93, 92], [92, 95], [95, 94], [94, 91], [91, 89], [89, 97], [97, 107], [107, 106], [106, 109], [109, 99], [99, 118], [118, 115], [115, 114], [114, 117], [117, 116], [116, 113], [113, 111], [111, 119], [119, 129], [129, 128], [128, 131], [131, 121]],"Final_routing":[[8, 5], [5, 4], [4, 7], [7, 6], [6, 3], [3, 2], [2, 12], [12, 13], [13, 20], [20, 21], [21, 11], [11, 30], [30, 27], [27, 26], [26, 29], [29, 28], [28, 25], [25, 24], [24, 34], [34, 35], [35, 42], [42, 43], [43, 33], [33, 52], [52, 49], [49, 48], [48, 51], [51, 50], [50, 47], [47, 46], [46, 56], [56, 57], [57, 64], [64, 65], [65, 55], [55, 74], [74, 71], [71, 70], [70, 73], [73, 72], [72, 69], [69, 68], [68, 78], [78, 79], [79, 86], [86, 87], [87, 77], [77, 96], [96, 93], [93, 92], [92, 95], [95, 94], [94, 91], [91, 90], [90, 100], [100, 101], [101, 108], [108, 109], [109, 99], [99, 118], [118, 115], [115, 114], [114, 117], [117, 116], [116, 113], [113, 112], [112, 122], [122, 123], [123, 130], [130, 131], [131, 121]],"Properties":{"MultiAlternativeWaypoint": {"waypoint": [97,3,131,35,100,72,41,45,46,49,113,84,21,118,55,86,92,29]},"Reachability":{"startNode":8,"finalNode":121}}}
+Persimmon stdout:  Chain equivalence reduction: 96 -> 50
+Constructing all update BDD
+Solution: Some([[46, 2, 12, 13, 20, 68, 78, 79, 90, 101, 108, 56, 57, 64, 112, 122, 123, 130, 42, 35, 100, 86, 24, 34], [47, 69, 113, 91, 3, 25], [45, 111, 119, 129, 128, 53, 63, 62, 97, 89, 107, 106, 41, 84, 40, 1, 9, 19, 18, 23, 31, 67, 75, 85]])
+Time elapsed: 3.34ms
+Time elapsed(s): 0.003340s
+
+Persimmon stderr:  
+Time: 0.00334
+Solution: [[46, 2, 12, 13, 20, 68, 78, 79, 90, 101, 108, 56, 57, 64, 112, 122, 123, 130, 42, 35, 100, 86, 24, 34], [47, 69, 113, 91, 3, 25], [45, 111, 119, 129, 128, 53, 63, 62, 97, 89, 107, 106, 41, 84, 40, 1, 9, 19, 18, 23, 31, 67, 75, 85]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/HiberniaUs.gml 5 --dir topzoo_res/SeparateWPk/PERS/PERS-2 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 0.91
+	System time (seconds): 1.28
+	Percent of CPU this job got: 359%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71224
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13149
+	Voluntary context switches: 31
+	Involuntary context switches: 156
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

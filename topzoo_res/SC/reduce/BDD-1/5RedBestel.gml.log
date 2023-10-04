@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/RedBestel.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-1', dump_bdd=False)
+Running 5RedBestel.gml
+Policy: (Service([18, 41, 2, 163, 128, 119, 167, 246, 211, 171, 286, 253, 292, 308, 413, 336, 389, 501, 438, 461, 422]-503) & (Reach 503))
+Initial path of nodes: [81, 34, 79, 77, 78, 47, 46, 69, 61, 21, 18, 22, 20, 48, 54, 6, 71, 1, 44, 0, 43, 41, 40, 35, 53, 3, 2, 56, 83, 165, 118, 163, 161, 162, 131, 130, 153, 145, 105, 102, 106, 104, 132, 138, 90, 155, 85, 128, 84, 127, 125, 124, 119, 137, 87, 86, 140, 167, 249, 202, 247, 245, 246, 215, 214, 237, 229, 189, 186, 190, 188, 216, 222, 174, 239, 169, 212, 168, 211, 209, 208, 203, 221, 171, 170, 224, 251, 333, 286, 331, 329, 330, 299, 298, 321, 313, 273, 270, 274, 272, 300, 306, 258, 323, 253, 296, 252, 295, 293, 292, 287, 305, 255, 254, 308, 335, 417, 370, 415, 413, 414, 383, 382, 405, 397, 357, 354, 358, 356, 384, 390, 342, 407, 337, 380, 336, 379, 377, 376, 371, 389, 339, 338, 392, 419, 501, 454, 499, 497, 498, 467, 466, 489, 481, 441, 438, 442, 440, 468, 474, 426, 491, 421, 464, 420, 463, 461, 460, 455, 473, 423, 422, 476, 503]
+Final path of nodes: [81, 34, 79, 77, 78, 17, 49, 72, 51, 67, 68, 70, 50, 62, 63, 16, 18, 31, 23, 25, 5, 65, 4, 10, 9, 8, 75, 29, 7, 30, 45, 1, 44, 0, 43, 41, 40, 35, 53, 3, 2, 56, 83, 165, 118, 163, 161, 162, 101, 133, 156, 135, 151, 152, 154, 134, 146, 147, 100, 102, 115, 107, 109, 89, 149, 88, 94, 93, 92, 159, 113, 91, 114, 129, 85, 128, 84, 127, 125, 124, 119, 137, 87, 86, 140, 167, 249, 202, 247, 245, 246, 185, 217, 240, 219, 235, 236, 238, 218, 230, 231, 184, 186, 199, 191, 193, 173, 233, 172, 178, 177, 176, 243, 197, 175, 198, 213, 169, 212, 168, 211, 209, 208, 203, 221, 171, 170, 224, 251, 333, 286, 331, 329, 330, 269, 301, 324, 303, 319, 320, 322, 302, 314, 315, 268, 270, 283, 275, 277, 257, 317, 256, 262, 261, 260, 327, 281, 259, 282, 297, 253, 296, 252, 295, 293, 292, 287, 305, 255, 254, 308, 335, 417, 370, 415, 413, 414, 353, 385, 408, 387, 403, 404, 406, 386, 398, 399, 352, 354, 367, 359, 361, 341, 401, 340, 346, 345, 344, 411, 365, 343, 366, 381, 337, 380, 336, 379, 377, 376, 371, 389, 339, 338, 392, 419, 501, 454, 499, 497, 498, 437, 469, 492, 471, 487, 488, 490, 470, 482, 483, 436, 438, 451, 443, 445, 425, 485, 424, 430, 429, 428, 495, 449, 427, 450, 465, 421, 464, 420, 463, 461, 460, 455, 473, 423, 422, 476, 503]
+Time: 2.227893114089966
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/RedBestel.gml 5 --dir topzoo_res/SC/reduce/BDD-1 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 3.29
+	System time (seconds): 1.34
+	Percent of CPU this job got: 152%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 89560
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 15189
+	Voluntary context switches: 23
+	Involuntary context switches: 71
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

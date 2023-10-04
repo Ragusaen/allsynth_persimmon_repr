@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Grnet.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/reduce/BDD-0', dump_bdd=False)
+Running 5Grnet.gml
+Policy: ((((((((((((WP(192-212) | WP(193-212)) | WP(102-212)) | WP(135-212)) | WP(8-212)) | WP(168-212)) | WP(42-212)) | WP(43-212)) | WP(138-212)) | WP(141-212)) | WP(78-212)) | WP(182-212)) & (Reach 212))
+Initial path of nodes: [7, 6, 28, 24, 20, 8, 5, 4, 27, 44, 43, 65, 61, 57, 45, 42, 41, 64, 81, 80, 102, 98, 94, 82, 79, 78, 101, 118, 117, 139, 135, 131, 119, 116, 115, 138, 155, 154, 176, 172, 168, 156, 153, 152, 175, 192, 191, 213, 209, 205, 193, 190, 189, 212]
+Final path of nodes: [7, 6, 28, 30, 34, 8, 5, 4, 27, 44, 43, 65, 67, 57, 45, 42, 41, 64, 81, 80, 102, 104, 108, 82, 79, 78, 101, 118, 117, 139, 141, 131, 119, 116, 115, 138, 155, 154, 176, 178, 182, 156, 153, 152, 175, 192, 191, 213, 215, 205, 193, 190, 189, 212]
+Time: 0.03385782241821289
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Grnet.gml 5 --dir topzoo_res/SeparateWPk/reduce/BDD-0 --e-prop SeparateWPk --repeat 1 --reduce"
+	User time (seconds): 0.93
+	System time (seconds): 1.32
+	Percent of CPU this job got: 344%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 88412
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14266
+	Voluntary context switches: 27
+	Involuntary context switches: 423
+	Swaps: 0
+	File system inputs: 24
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

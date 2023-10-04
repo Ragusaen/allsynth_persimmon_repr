@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Aconet.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/reduce/BDD-0', dump_bdd=False)
+Running 5Aconet.gml
+Policy: (((((WP(72-136) | WP(49-136)) | WP(118-136)) | WP(26-136)) | WP(95-136)) & (Reach 136))
+Initial path of nodes: [3, 2, 7, 20, 21, 26, 25, 30, 43, 44, 49, 48, 53, 66, 67, 72, 71, 76, 89, 90, 95, 94, 99, 112, 113, 118, 117, 122, 135, 136]
+Final path of nodes: [3, 14, 4, 19, 21, 26, 37, 27, 42, 44, 49, 60, 50, 65, 67, 72, 83, 73, 88, 90, 95, 106, 96, 111, 113, 118, 129, 119, 134, 136]
+Time: 0.00800180435180664
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Aconet.gml 5 --dir topzoo_res/SeparateWPk/reduce/BDD-0 --e-prop SeparateWPk --repeat 1 --reduce"
+	User time (seconds): 0.66
+	System time (seconds): 1.23
+	Percent of CPU this job got: 540%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.35
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 87696
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14067
+	Voluntary context switches: 27
+	Involuntary context switches: 118
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

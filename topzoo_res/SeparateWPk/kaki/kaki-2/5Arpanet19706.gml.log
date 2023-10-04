@@ -1,0 +1,55 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Arpanet19706.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/kaki/kaki-2', dump_bdd=False)
+Running 5Arpanet19706.gml
+Policy: (((((((((((WP(32-52) | WP(37-52)) | WP(7-52)) | WP(39-52)) | WP(9-52)) | WP(46-52)) | WP(14-52)) | WP(19-52)) | WP(52-52)) | WP(24-52)) | WP(28-52)) & (Reach 52))
+Initial path of nodes: [1, 3, 4, 8, 7, 9, 17, 13, 12, 11, 19, 21, 22, 26, 25, 28, 30, 31, 35, 34, 37, 39, 40, 44, 43, 46, 48, 49, 53, 52]
+Final path of nodes: [1, 3, 4, 5, 6, 7, 9, 17, 16, 15, 14, 13, 12, 10, 11, 19, 20, 21, 22, 23, 24, 25, 28, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43, 46, 48, 49, 50, 51, 52]
+{"Initial_routing":[[1, 3], [3, 4], [4, 8], [8, 7], [7, 9], [9, 17], [17, 13], [13, 12], [12, 11], [11, 19], [19, 21], [21, 22], [22, 26], [26, 25], [25, 28], [28, 30], [30, 31], [31, 35], [35, 34], [34, 37], [37, 39], [39, 40], [40, 44], [44, 43], [43, 46], [46, 48], [48, 49], [49, 53], [53, 52]],"Final_routing":[[1, 3], [3, 4], [4, 5], [5, 6], [6, 7], [7, 9], [9, 17], [17, 16], [16, 15], [15, 14], [14, 13], [13, 12], [12, 10], [10, 11], [11, 19], [19, 20], [20, 21], [21, 22], [22, 23], [23, 24], [24, 25], [25, 28], [28, 30], [30, 31], [31, 32], [32, 33], [33, 34], [34, 37], [37, 38], [38, 39], [39, 40], [40, 41], [41, 42], [42, 43], [43, 46], [46, 48], [48, 49], [49, 50], [50, 51], [51, 52]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [28,24,52,19,14,46,9,39,7,32,37], "edges": [{"from": 0, "to": 28, "label": 28},{"from": 0, "to": 24, "label": 24},{"from": 0, "to": 52, "label": 52},{"from": 0, "to": 19, "label": 19},{"from": 0, "to": 14, "label": 14},{"from": 0, "to": 46, "label": 46},{"from": 0, "to": 9, "label": 9},{"from": 0, "to": 39, "label": 39},{"from": 0, "to": 7, "label": 7},{"from": 0, "to": 32, "label": 32},{"from": 0, "to": 37, "label": 37}]},"Reachability":{"startNode":1,"finalNode":52}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmp3iilf8em
+DFA generation time: 0.022 seconds 
+DFA states: 73 
+DFA transitions: 2453
+Problem file: /tmp/tmp3iilf8em
+Switches to update: 30
+
+Decomposed topology into 9 subproblems
+Topological decomposition took 0.038 seconds
+Subproblem verification time: 0.052 seconds
+Subproblem verification time: 0.014 seconds
+Subproblem verification time: 0.013 seconds
+Subproblem verification time: 0.013 seconds
+Subproblem verification time: 0.015 seconds
+Subproblem verification time: 0.015 seconds
+Subproblem verification time: 0.013 seconds
+Subproblem verification time: 0.014 seconds
+Subproblem verification time: 0.013 seconds
+Minimum batches required: 3
+[[5, 6, 16, 15, 14, 10, 20, 23, 24, 32, 33, 38, 41, 42, 50, 51], [4, 17, 12, 19, 22, 31, 37, 40, 49], [8, 26, 35, 44, 53]]
+Total program runtime: 0.412 seconds
+
+Kaki stderr:  
+Time: 0.412
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Arpanet19706.gml 5 --dir topzoo_res/SeparateWPk/kaki/kaki-2 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 2.49
+	System time (seconds): 1.41
+	Percent of CPU this job got: 349%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 103936
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 46040
+	Voluntary context switches: 5613
+	Involuntary context switches: 482
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

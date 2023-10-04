@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Digex.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/kaki/kaki-1', dump_bdd=False)
+Running 5Digex.gml
+Policy: (Reach 182)
+Initial path of nodes: [17, 12, 11, 10, 19, 14, 15, 4, 29, 28, 27, 48, 43, 42, 41, 50, 45, 46, 35, 60, 59, 58, 79, 74, 73, 72, 81, 76, 77, 66, 91, 90, 89, 110, 105, 104, 103, 112, 107, 108, 97, 122, 121, 120, 141, 136, 135, 134, 143, 138, 139, 128, 153, 152, 151, 172, 167, 166, 165, 174, 169, 170, 159, 184, 183, 182]
+Final path of nodes: [17, 18, 20, 13, 2, 3, 0, 7, 6, 25, 26, 27, 48, 49, 51, 44, 33, 34, 31, 38, 37, 56, 57, 58, 79, 80, 82, 75, 64, 65, 62, 69, 68, 87, 88, 89, 110, 111, 113, 106, 95, 96, 93, 100, 99, 118, 119, 120, 141, 142, 144, 137, 126, 127, 124, 131, 130, 149, 150, 151, 172, 173, 175, 168, 157, 158, 155, 162, 161, 180, 181, 182]
+{"Initial_routing":[[17, 12], [12, 11], [11, 10], [10, 19], [19, 14], [14, 15], [15, 4], [4, 29], [29, 28], [28, 27], [27, 48], [48, 43], [43, 42], [42, 41], [41, 50], [50, 45], [45, 46], [46, 35], [35, 60], [60, 59], [59, 58], [58, 79], [79, 74], [74, 73], [73, 72], [72, 81], [81, 76], [76, 77], [77, 66], [66, 91], [91, 90], [90, 89], [89, 110], [110, 105], [105, 104], [104, 103], [103, 112], [112, 107], [107, 108], [108, 97], [97, 122], [122, 121], [121, 120], [120, 141], [141, 136], [136, 135], [135, 134], [134, 143], [143, 138], [138, 139], [139, 128], [128, 153], [153, 152], [152, 151], [151, 172], [172, 167], [167, 166], [166, 165], [165, 174], [174, 169], [169, 170], [170, 159], [159, 184], [184, 183], [183, 182]],"Final_routing":[[17, 18], [18, 20], [20, 13], [13, 2], [2, 3], [3, 0], [0, 7], [7, 6], [6, 25], [25, 26], [26, 27], [27, 48], [48, 49], [49, 51], [51, 44], [44, 33], [33, 34], [34, 31], [31, 38], [38, 37], [37, 56], [56, 57], [57, 58], [58, 79], [79, 80], [80, 82], [82, 75], [75, 64], [64, 65], [65, 62], [62, 69], [69, 68], [68, 87], [87, 88], [88, 89], [89, 110], [110, 111], [111, 113], [113, 106], [106, 95], [95, 96], [96, 93], [93, 100], [100, 99], [99, 118], [118, 119], [119, 120], [120, 141], [141, 142], [142, 144], [144, 137], [137, 126], [126, 127], [127, 124], [124, 131], [131, 130], [130, 149], [149, 150], [150, 151], [151, 172], [172, 173], [173, 175], [175, 168], [168, 157], [157, 158], [158, 155], [155, 162], [162, 161], [161, 180], [180, 181], [181, 182]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"Reachability":{"startNode":17,"finalNode":182}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmplh6u7r26
+DFA generation time: 0.011 seconds 
+DFA states: 3 
+DFA transitions: 127
+Problem file: /tmp/tmplh6u7r26
+Switches to update: 120
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.009 seconds
+Subproblem verification time: 0.039 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.013 seconds
+Minimum batches required: 3
+[[18, 20, 13, 2, 3, 0, 7, 6, 25, 26, 49, 51, 44, 33, 34, 31, 38, 37, 56, 57, 80, 82, 75, 64, 65, 62, 69, 68, 87, 88, 111, 113, 106, 95, 96, 93, 100, 99, 118, 119, 142, 144, 137, 126, 127, 124, 131, 130, 149, 150, 173, 175, 168, 157, 158, 155, 162, 161, 180, 181], [17, 48, 79, 110, 141, 172], [12, 11, 10, 19, 14, 15, 4, 29, 28, 43, 42, 41, 50, 45, 46, 35, 60, 59, 74, 73, 72, 81, 76, 77, 66, 91, 90, 105, 104, 103, 112, 107, 108, 97, 122, 121, 136, 135, 134, 143, 138, 139, 128, 153, 152, 167, 166, 165, 174, 169, 170, 159, 184, 183]]
+Total program runtime: 0.231 seconds
+
+Kaki stderr:  
+Time: 0.231
+Solution: None
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Digex.gml 5 --dir topzoo_res/Reach/kaki/kaki-1 --e-prop Reach --repeat 1"
+	User time (seconds): 1.67
+	System time (seconds): 1.38
+	Percent of CPU this job got: 383%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.79
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 106080
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 39063
+	Voluntary context switches: 5351
+	Involuntary context switches: 128
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

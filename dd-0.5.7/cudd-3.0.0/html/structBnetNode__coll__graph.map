@@ -1,0 +1,13 @@
+<map id="BnetNode" name="BnetNode">
+<area shape="rect" id="Node000001" title="Node of the boolean network." alt="" coords="39,118,125,146"/>
+<area shape="poly" id="edge7_Node000001_Node000001" title=" " alt="" coords="140,121,148,125,151,132,143,142,125,145,125,140,140,138,146,132,144,129,138,125"/>
+<area shape="rect" id="Node000002" href="$structBnetTabline.html" title="Type to store a line of the truth table of a node." alt="" coords="5,5,103,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,47,81,117,76,118,58,48"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="119,9,126,12,129,20,121,29,104,32,103,27,119,24,124,19,122,16,116,13"/>
+<area shape="rect" id="Node000003" href="$structDdNode.html" title="Decision diagram node." alt="" coords="184,5,257,33"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="195,44,100,120,97,116,191,40"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="274,8,281,12,284,20,276,29,258,32,258,27,273,25,279,19,277,16,271,13"/>
+<area shape="rect" id="Node000004" href="$structDdChildren.html" title="The two children of a non&#45;terminal node." alt="" coords="211,118,305,146"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="218,48,217,69,222,90,230,104,242,116,238,120,226,107,217,92,212,70,213,48"/>
+<area shape="poly" id="edge5_Node000003_Node000004" title=" " alt="" coords="246,105,223,34,228,33,251,103"/>
+</map>

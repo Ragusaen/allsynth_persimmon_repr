@@ -1,0 +1,40 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Oxford.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/PERS/PERS-0', dump_bdd=False)
+Running 5Oxford.gml
+Policy: ((((((((((((((((((WP(64-113) | WP(33-113)) | WP(65-113)) | WP(71-113)) | WP(105-113)) | WP(74-113)) | WP(11-113)) | WP(45-113)) | WP(15-113)) | WP(80-113)) | WP(111-113)) | WP(51-113)) | WP(115-113)) | WP(85-113)) | WP(25-113)) | WP(26-113)) | WP(91-113)) | WP(31-113)) & (Reach 113))
+Initial path of nodes: [5, 4, 6, 0, 11, 15, 14, 13, 25, 24, 26, 20, 31, 35, 34, 33, 45, 44, 46, 40, 51, 55, 54, 53, 65, 64, 66, 60, 71, 75, 74, 73, 85, 84, 86, 80, 91, 95, 94, 93, 105, 104, 106, 100, 111, 115, 114, 113]
+Final path of nodes: [5, 8, 9, 7, 1, 11, 18, 17, 12, 13, 25, 28, 29, 27, 21, 31, 38, 37, 32, 33, 45, 48, 49, 47, 41, 51, 58, 57, 52, 53, 65, 68, 69, 67, 61, 71, 78, 77, 72, 73, 85, 88, 89, 87, 81, 91, 98, 97, 92, 93, 105, 108, 109, 107, 101, 111, 118, 117, 112, 113]
+Persimmon problem:  {"Initial_routing":[[5, 4], [4, 6], [6, 0], [0, 11], [11, 15], [15, 14], [14, 13], [13, 25], [25, 24], [24, 26], [26, 20], [20, 31], [31, 35], [35, 34], [34, 33], [33, 45], [45, 44], [44, 46], [46, 40], [40, 51], [51, 55], [55, 54], [54, 53], [53, 65], [65, 64], [64, 66], [66, 60], [60, 71], [71, 75], [75, 74], [74, 73], [73, 85], [85, 84], [84, 86], [86, 80], [80, 91], [91, 95], [95, 94], [94, 93], [93, 105], [105, 104], [104, 106], [106, 100], [100, 111], [111, 115], [115, 114], [114, 113]],"Final_routing":[[5, 8], [8, 9], [9, 7], [7, 1], [1, 11], [11, 18], [18, 17], [17, 12], [12, 13], [13, 25], [25, 28], [28, 29], [29, 27], [27, 21], [21, 31], [31, 38], [38, 37], [37, 32], [32, 33], [33, 45], [45, 48], [48, 49], [49, 47], [47, 41], [41, 51], [51, 58], [58, 57], [57, 52], [52, 53], [53, 65], [65, 68], [68, 69], [69, 67], [67, 61], [61, 71], [71, 78], [78, 77], [77, 72], [72, 73], [73, 85], [85, 88], [88, 89], [89, 87], [87, 81], [81, 91], [91, 98], [98, 97], [97, 92], [92, 93], [93, 105], [105, 108], [108, 109], [109, 107], [107, 101], [101, 111], [111, 118], [118, 117], [117, 112], [112, 113]],"Properties":{"MultiAlternativeWaypoint": {"waypoint": [64,33,65,71,105,74,11,45,15,80,111,51,115,85,25,26,91,31]},"Reachability":{"startNode":5,"finalNode":113}}}
+Persimmon stdout:  Chain equivalence reduction: 90 -> 49
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+<=== Starting iteration 2 ===>
+Solution: Some([[78, 77, 72, 8, 9, 7, 1, 48, 49, 47, 41, 118, 117, 112, 58, 57, 52, 98, 97, 92, 88, 89, 87, 81, 18, 17, 12, 68, 69, 67, 61, 38, 37, 32, 108, 109, 107, 101, 28, 29, 27, 21], [25, 85, 51, 5, 65, 91, 71, 105, 111, 31, 11, 45], [35, 34, 44, 46, 40, 24, 14, 104, 106, 100, 15, 95, 94, 74, 4, 6, 0, 84, 86, 80, 114, 115, 26, 55, 54, 75, 64, 20, 66, 60]])
+Time elapsed: 3.37ms
+Time elapsed(s): 0.003365s
+
+Persimmon stderr:  
+Time: 0.003365
+Solution: [[78, 77, 72, 8, 9, 7, 1, 48, 49, 47, 41, 118, 117, 112, 58, 57, 52, 98, 97, 92, 88, 89, 87, 81, 18, 17, 12, 68, 69, 67, 61, 38, 37, 32, 108, 109, 107, 101, 28, 29, 27, 21], [25, 85, 51, 5, 65, 91, 71, 105, 111, 31, 11, 45], [35, 34, 44, 46, 40, 24, 14, 104, 106, 100, 15, 95, 94, 74, 4, 6, 0, 84, 86, 80, 114, 115, 26, 55, 54, 75, 64, 20, 66, 60]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Oxford.gml 5 --dir topzoo_res/SeparateWPk/PERS/PERS-0 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 0.75
+	System time (seconds): 1.26
+	Percent of CPU this job got: 492%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71348
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13104
+	Voluntary context switches: 28
+	Involuntary context switches: 97
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

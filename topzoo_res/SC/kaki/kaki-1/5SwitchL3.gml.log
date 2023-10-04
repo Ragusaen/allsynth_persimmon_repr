@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/SwitchL3.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/kaki/kaki-1', dump_bdd=False)
+Running 5SwitchL3.gml
+Policy: (Service([52, 89, 133, 175, 250]-250) & (Reach 250))
+Initial path of nodes: [16, 4, 5, 41, 7, 39, 40, 52, 76, 73, 46, 47, 50, 69, 100, 88, 89, 125, 91, 123, 124, 142, 130, 131, 167, 133, 165, 166, 184, 172, 173, 209, 175, 207, 208, 226, 214, 215, 251, 217, 249, 250]
+Final path of nodes: [16, 4, 5, 28, 29, 7, 23, 40, 52, 76, 77, 49, 71, 51, 69, 100, 88, 89, 112, 113, 91, 107, 124, 142, 130, 157, 159, 127, 133, 149, 166, 184, 172, 173, 196, 197, 175, 191, 208, 226, 214, 241, 243, 211, 217, 233, 250]
+{"Initial_routing":[[16, 4], [4, 5], [5, 41], [41, 7], [7, 39], [39, 40], [40, 52], [52, 76], [76, 73], [73, 46], [46, 47], [47, 50], [50, 69], [69, 100], [100, 88], [88, 89], [89, 125], [125, 91], [91, 123], [123, 124], [124, 142], [142, 130], [130, 131], [131, 167], [167, 133], [133, 165], [165, 166], [166, 184], [184, 172], [172, 173], [173, 209], [209, 175], [175, 207], [207, 208], [208, 226], [226, 214], [214, 215], [215, 251], [251, 217], [217, 249], [249, 250]],"Final_routing":[[16, 4], [4, 5], [5, 28], [28, 29], [29, 7], [7, 23], [23, 40], [40, 52], [52, 76], [76, 77], [77, 49], [49, 71], [71, 51], [51, 69], [69, 100], [100, 88], [88, 89], [89, 112], [112, 113], [113, 91], [91, 107], [107, 124], [124, 142], [142, 130], [130, 157], [157, 159], [159, 127], [127, 133], [133, 149], [149, 166], [166, 184], [184, 172], [172, 173], [173, 196], [196, 197], [197, 175], [175, 191], [191, 208], [208, 226], [226, 214], [214, 241], [241, 243], [243, 211], [211, 217], [217, 233], [233, 250]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [5], "edges": [{"from": 0, "to": 1, "label": 52},{"from": 1, "to": 2, "label": 89},{"from": 2, "to": 3, "label": 133},{"from": 3, "to": 4, "label": 175},{"from": 4, "to": 5, "label": 250}]},"Reachability":{"startNode":16,"finalNode":250}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmp7m30qi0e
+DFA generation time: 0.011 seconds 
+DFA states: 18 
+DFA transitions: 337
+Problem file: /tmp/tmp7m30qi0e
+Switches to update: 48
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.008 seconds
+Subproblem verification time: 0.036 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.01 seconds
+Minimum batches required: 3
+[[28, 23, 29, 77, 49, 71, 51, 112, 107, 113, 157, 149, 159, 127, 196, 191, 197, 241, 233, 243, 211], [7, 5, 76, 91, 89, 133, 130, 175, 173, 217, 214], [41, 39, 73, 46, 47, 50, 125, 123, 131, 167, 165, 209, 207, 215, 251, 249]]
+Total program runtime: 0.207 seconds
+
+Kaki stderr:  
+Time: 0.207
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/SwitchL3.gml 5 --dir topzoo_res/SC/kaki/kaki-1 --e-prop SC --repeat 1"
+	User time (seconds): 1.58
+	System time (seconds): 1.41
+	Percent of CPU this job got: 406%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.73
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 107152
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 43423
+	Voluntary context switches: 3898
+	Involuntary context switches: 186
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

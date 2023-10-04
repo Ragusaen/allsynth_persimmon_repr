@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Iij.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/PERS/PERS-0', dump_bdd=False)
+Running 5Iij.gml
+Policy: (((((((((WP(32-217) | WP(167-217)) | WP(135-217)) | WP(199-217)) | WP(104-217)) | WP(136-217)) | WP(80-217)) | WP(56-217)) | WP(217-217)) & (Reach 217))
+Initial path of nodes: [14, 19, 24, 6, 21, 32, 50, 44, 43, 61, 56, 52, 88, 93, 98, 80, 95, 106, 125, 130, 135, 117, 132, 143, 162, 167, 172, 154, 169, 180, 199, 204, 209, 191, 206, 217]
+Final path of nodes: [14, 19, 25, 30, 31, 32, 50, 44, 71, 61, 56, 52, 88, 93, 99, 104, 105, 106, 125, 130, 136, 141, 142, 143, 162, 167, 173, 178, 179, 180, 199, 204, 210, 215, 216, 217]
+Persimmon problem:  {"Initial_routing":[[14, 19], [19, 24], [24, 6], [6, 21], [21, 32], [32, 50], [50, 44], [44, 43], [43, 61], [61, 56], [56, 52], [52, 88], [88, 93], [93, 98], [98, 80], [80, 95], [95, 106], [106, 125], [125, 130], [130, 135], [135, 117], [117, 132], [132, 143], [143, 162], [162, 167], [167, 172], [172, 154], [154, 169], [169, 180], [180, 199], [199, 204], [204, 209], [209, 191], [191, 206], [206, 217]],"Final_routing":[[14, 19], [19, 25], [25, 30], [30, 31], [31, 32], [32, 50], [50, 44], [44, 71], [71, 61], [61, 56], [56, 52], [52, 88], [88, 93], [93, 99], [99, 104], [104, 105], [105, 106], [106, 125], [125, 130], [130, 136], [136, 141], [141, 142], [142, 143], [143, 162], [162, 167], [167, 173], [173, 178], [178, 179], [179, 180], [180, 199], [199, 204], [204, 210], [210, 215], [215, 216], [216, 217]],"Properties":{"MultiAlternativeWaypoint": {"waypoint": [32,167,135,199,104,136,80,56,217]},"Reachability":{"startNode":14,"finalNode":217}}}
+Persimmon stdout:  Chain equivalence reduction: 52 -> 35
+Constructing all update BDD
+Solution: Some([[99, 210, 215, 216, 25, 30, 31, 136, 105, 104, 71, 173, 178, 179, 141, 142], [93, 19, 167, 44, 130, 204], [24, 6, 21, 172, 154, 169, 98, 209, 191, 206, 95, 117, 132, 135, 43, 80]])
+Time elapsed: 1.97ms
+Time elapsed(s): 0.001971s
+
+Persimmon stderr:  
+Time: 0.001971
+Solution: [[99, 210, 215, 216, 25, 30, 31, 136, 105, 104, 71, 173, 178, 179, 141, 142], [93, 19, 167, 44, 130, 204], [24, 6, 21, 172, 154, 169, 98, 209, 191, 206, 95, 117, 132, 135, 43, 80]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Iij.gml 5 --dir topzoo_res/SeparateWPk/PERS/PERS-0 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 0.94
+	System time (seconds): 1.24
+	Percent of CPU this job got: 343%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71996
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13337
+	Voluntary context switches: 30
+	Involuntary context switches: 199
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

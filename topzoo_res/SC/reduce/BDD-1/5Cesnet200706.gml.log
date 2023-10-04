@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Cesnet200706.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-1', dump_bdd=False)
+Running 5Cesnet200706.gml
+Policy: (Service([58, 104, 148, 170, 214, 259]-258) & (Reach 258))
+Initial path of nodes: [16, 28, 9, 7, 40, 39, 38, 58, 83, 84, 51, 53, 72, 60, 104, 116, 97, 95, 128, 127, 126, 148, 160, 141, 139, 172, 171, 170, 192, 204, 185, 183, 216, 215, 214, 236, 248, 229, 227, 260, 259, 258]
+Final path of nodes: [16, 28, 9, 6, 0, 41, 39, 38, 58, 83, 85, 44, 50, 53, 72, 60, 104, 116, 97, 94, 88, 129, 127, 126, 148, 160, 141, 138, 132, 172, 171, 170, 192, 204, 185, 182, 176, 217, 215, 214, 236, 248, 229, 226, 220, 260, 259, 258]
+Time: 0.016391515731811523
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Cesnet200706.gml 5 --dir topzoo_res/SC/reduce/BDD-1 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 0.90
+	System time (seconds): 1.35
+	Percent of CPU this job got: 343%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 88572
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14289
+	Voluntary context switches: 25
+	Involuntary context switches: 370
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

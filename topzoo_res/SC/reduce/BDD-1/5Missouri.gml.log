@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Missouri.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-1', dump_bdd=False)
+Running 5Missouri.gml
+Policy: (Service([70, 161, 228, 253, 320, 337]-387) & (Reach 387))
+Initial path of nodes: [27, 26, 9, 32, 42, 17, 16, 49, 63, 64, 66, 65, 57, 2, 52, 70, 69, 124, 132, 133, 131, 130, 116, 83, 84, 108, 99, 76, 93, 94, 161, 160, 143, 166, 176, 151, 150, 183, 197, 198, 200, 199, 191, 136, 186, 228, 227, 210, 233, 243, 218, 217, 250, 264, 265, 267, 266, 258, 203, 253, 295, 294, 277, 300, 310, 285, 284, 317, 331, 332, 334, 333, 325, 270, 320, 362, 361, 344, 367, 377, 352, 351, 384, 398, 399, 401, 400, 392, 337, 387]
+Final path of nodes: [27, 26, 9, 12, 15, 28, 30, 14, 11, 4, 10, 62, 61, 56, 58, 2, 52, 70, 69, 125, 123, 128, 129, 77, 71, 78, 81, 97, 95, 82, 79, 76, 93, 94, 161, 160, 143, 146, 149, 162, 164, 148, 145, 138, 144, 196, 195, 190, 192, 136, 186, 228, 227, 210, 233, 242, 231, 215, 212, 205, 211, 263, 262, 257, 259, 203, 253, 295, 294, 277, 280, 283, 296, 298, 282, 279, 272, 278, 330, 329, 324, 326, 270, 320, 362, 361, 344, 367, 376, 365, 349, 346, 339, 345, 397, 396, 391, 393, 337, 387]
+Time: 0.04253125190734863
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Missouri.gml 5 --dir topzoo_res/SC/reduce/BDD-1 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 1.01
+	System time (seconds): 1.38
+	Percent of CPU this job got: 303%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.78
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 89684
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14547
+	Voluntary context switches: 27
+	Involuntary context switches: 60
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

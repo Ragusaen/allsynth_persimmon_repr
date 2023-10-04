@@ -1,0 +1,40 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Garr201001.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/PERS/PERS-0', dump_bdd=False)
+Running 5Garr201001.gml
+Policy: (Service([51, 72, 156, 181, 234, 280, 321]-321) & (Reach 321))
+Initial path of nodes: [10, 18, 19, 8, 48, 30, 13, 51, 54, 82, 66, 93, 62, 73, 72, 64, 118, 126, 127, 116, 156, 138, 121, 159, 172, 180, 181, 170, 210, 192, 175, 213, 226, 234, 235, 224, 264, 246, 229, 267, 280, 288, 289, 278, 318, 300, 283, 321]
+Final path of nodes: [10, 18, 19, 16, 48, 12, 28, 13, 51, 54, 82, 66, 96, 70, 73, 72, 64, 118, 126, 127, 124, 156, 120, 136, 121, 159, 172, 180, 181, 178, 210, 174, 190, 175, 213, 226, 234, 235, 232, 264, 228, 244, 229, 267, 280, 288, 289, 286, 318, 282, 298, 283, 321]
+Persimmon problem:  {"Initial_routing":[[10, 18], [18, 19], [19, 8], [8, 48], [48, 30], [30, 13], [13, 51], [51, 54], [54, 82], [82, 66], [66, 93], [93, 62], [62, 73], [73, 72], [72, 64], [64, 118], [118, 126], [126, 127], [127, 116], [116, 156], [156, 138], [138, 121], [121, 159], [159, 172], [172, 180], [180, 181], [181, 170], [170, 210], [210, 192], [192, 175], [175, 213], [213, 226], [226, 234], [234, 235], [235, 224], [224, 264], [264, 246], [246, 229], [229, 267], [267, 280], [280, 288], [288, 289], [289, 278], [278, 318], [318, 300], [300, 283], [283, 321]],"Final_routing":[[10, 18], [18, 19], [19, 16], [16, 48], [48, 12], [12, 28], [28, 13], [13, 51], [51, 54], [54, 82], [82, 66], [66, 96], [96, 70], [70, 73], [73, 72], [72, 64], [64, 118], [118, 126], [126, 127], [127, 124], [124, 156], [156, 120], [120, 136], [136, 121], [121, 159], [159, 172], [172, 180], [180, 181], [181, 178], [178, 210], [210, 174], [174, 190], [190, 175], [175, 213], [213, 226], [226, 234], [234, 235], [235, 232], [232, 264], [264, 228], [228, 244], [244, 229], [229, 267], [267, 280], [280, 288], [288, 289], [289, 286], [286, 318], [318, 282], [282, 298], [298, 283], [283, 321]],"Properties":{"ServiceChain": {"waypoint": [51,72,156,181,234,280,321]},"Reachability":{"startNode":10,"finalNode":321}}}
+Persimmon stdout:  Chain equivalence reduction: 65 -> 48
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+<=== Starting iteration 2 ===>
+Solution: Some([[232, 96, 70, 286, 178, 174, 190, 120, 136, 282, 298, 124, 12, 28, 228, 244, 16], [66, 318, 19, 210, 289, 264, 127, 48, 235, 156, 181], [224, 138, 300, 278, 116, 30, 8, 93, 62, 170, 246, 192]])
+Time elapsed: 3.17ms
+Time elapsed(s): 0.003168s
+
+Persimmon stderr:  
+Time: 0.003168
+Solution: [[232, 96, 70, 286, 178, 174, 190, 120, 136, 282, 298, 124, 12, 28, 228, 244, 16], [66, 318, 19, 210, 289, 264, 127, 48, 235, 156, 181], [224, 138, 300, 278, 116, 30, 8, 93, 62, 170, 246, 192]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Garr201001.gml 5 --dir topzoo_res/SC/PERS/PERS-0 --e-prop SC --repeat 1"
+	User time (seconds): 0.76
+	System time (seconds): 1.29
+	Percent of CPU this job got: 430%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.47
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 72756
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13484
+	Voluntary context switches: 32
+	Involuntary context switches: 293
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

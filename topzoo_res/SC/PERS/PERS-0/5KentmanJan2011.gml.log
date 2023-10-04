@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/KentmanJan2011.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/PERS/PERS-0', dump_bdd=False)
+Running 5KentmanJan2011.gml
+Policy: (Service([30, 71, 111, 113, 132, 157, 190, 220]-227) & (Reach 227))
+Initial path of nodes: [0, 35, 5, 33, 18, 30, 37, 38, 73, 43, 71, 56, 68, 75, 76, 111, 81, 109, 94, 106, 113, 114, 149, 119, 147, 132, 144, 151, 152, 187, 157, 185, 170, 182, 189, 190, 225, 195, 223, 208, 220, 227]
+Final path of nodes: [0, 35, 5, 12, 33, 18, 30, 37, 38, 73, 43, 71, 56, 68, 75, 76, 111, 81, 88, 109, 94, 106, 113, 114, 149, 119, 147, 132, 144, 151, 152, 187, 157, 164, 185, 170, 182, 189, 190, 225, 195, 223, 208, 220, 227]
+Persimmon problem:  {"Initial_routing":[[0, 35], [35, 5], [5, 33], [33, 18], [18, 30], [30, 37], [37, 38], [38, 73], [73, 43], [43, 71], [71, 56], [56, 68], [68, 75], [75, 76], [76, 111], [111, 81], [81, 109], [109, 94], [94, 106], [106, 113], [113, 114], [114, 149], [149, 119], [119, 147], [147, 132], [132, 144], [144, 151], [151, 152], [152, 187], [187, 157], [157, 185], [185, 170], [170, 182], [182, 189], [189, 190], [190, 225], [225, 195], [195, 223], [223, 208], [208, 220], [220, 227]],"Final_routing":[[0, 35], [35, 5], [5, 12], [12, 33], [33, 18], [18, 30], [30, 37], [37, 38], [38, 73], [73, 43], [43, 71], [71, 56], [56, 68], [68, 75], [75, 76], [76, 111], [111, 81], [81, 88], [88, 109], [109, 94], [94, 106], [106, 113], [113, 114], [114, 149], [149, 119], [119, 147], [147, 132], [132, 144], [144, 151], [151, 152], [152, 187], [187, 157], [157, 164], [164, 185], [185, 170], [170, 182], [182, 189], [189, 190], [190, 225], [225, 195], [195, 223], [223, 208], [208, 220], [220, 227]],"Properties":{"ServiceChain": {"waypoint": [30,71,111,113,132,157,190,220]},"Reachability":{"startNode":0,"finalNode":227}}}
+Persimmon stdout:  Chain equivalence reduction: 45 -> 23
+Constructing all update BDD
+Solution: Some([[12, 164, 88], [5, 157, 81]])
+Time elapsed: 1.01ms
+Time elapsed(s): 0.001009s
+
+Persimmon stderr:  
+Time: 0.001009
+Solution: [[12, 164, 88], [5, 157, 81]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/KentmanJan2011.gml 5 --dir topzoo_res/SC/PERS/PERS-0 --e-prop SC --repeat 1"
+	User time (seconds): 0.95
+	System time (seconds): 1.28
+	Percent of CPU this job got: 351%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71744
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13255
+	Voluntary context switches: 29
+	Involuntary context switches: 80
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

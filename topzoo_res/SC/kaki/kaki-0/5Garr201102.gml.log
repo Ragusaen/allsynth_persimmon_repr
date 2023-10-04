@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Garr201102.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/kaki/kaki-0', dump_bdd=False)
+Running 5Garr201102.gml
+Policy: (Service([57, 68, 168, 225, 282, 339]-339) & (Reach 339))
+Initial path of nodes: [8, 21, 20, 9, 51, 33, 14, 54, 57, 88, 70, 99, 66, 77, 76, 68, 122, 135, 134, 123, 165, 147, 128, 168, 179, 192, 191, 180, 222, 204, 185, 225, 236, 249, 248, 237, 279, 261, 242, 282, 293, 306, 305, 294, 336, 318, 299, 339]
+Final path of nodes: [8, 21, 20, 17, 45, 13, 31, 14, 54, 57, 88, 70, 102, 74, 77, 76, 68, 122, 135, 134, 131, 159, 127, 145, 128, 168, 179, 192, 191, 188, 216, 184, 202, 185, 225, 236, 249, 248, 245, 273, 241, 259, 242, 282, 293, 306, 305, 302, 330, 298, 316, 299, 339]
+{"Initial_routing":[[8, 21], [21, 20], [20, 9], [9, 51], [51, 33], [33, 14], [14, 54], [54, 57], [57, 88], [88, 70], [70, 99], [99, 66], [66, 77], [77, 76], [76, 68], [68, 122], [122, 135], [135, 134], [134, 123], [123, 165], [165, 147], [147, 128], [128, 168], [168, 179], [179, 192], [192, 191], [191, 180], [180, 222], [222, 204], [204, 185], [185, 225], [225, 236], [236, 249], [249, 248], [248, 237], [237, 279], [279, 261], [261, 242], [242, 282], [282, 293], [293, 306], [306, 305], [305, 294], [294, 336], [336, 318], [318, 299], [299, 339]],"Final_routing":[[8, 21], [21, 20], [20, 17], [17, 45], [45, 13], [13, 31], [31, 14], [14, 54], [54, 57], [57, 88], [88, 70], [70, 102], [102, 74], [74, 77], [77, 76], [76, 68], [68, 122], [122, 135], [135, 134], [134, 131], [131, 159], [159, 127], [127, 145], [145, 128], [128, 168], [168, 179], [179, 192], [192, 191], [191, 188], [188, 216], [216, 184], [184, 202], [202, 185], [185, 225], [225, 236], [236, 249], [249, 248], [248, 245], [245, 273], [273, 241], [241, 259], [259, 242], [242, 282], [282, 293], [293, 306], [306, 305], [305, 302], [302, 330], [330, 298], [298, 316], [316, 299], [299, 339]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [6], "edges": [{"from": 0, "to": 1, "label": 57},{"from": 1, "to": 2, "label": 68},{"from": 2, "to": 3, "label": 168},{"from": 3, "to": 4, "label": 225},{"from": 4, "to": 5, "label": 282},{"from": 5, "to": 6, "label": 339}]},"Reachability":{"startNode":8,"finalNode":339}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmp4xr1k7p8
+DFA generation time: 0.014 seconds 
+DFA states: 18 
+DFA transitions: 389
+Problem file: /tmp/tmp4xr1k7p8
+Switches to update: 45
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.008 seconds
+Subproblem verification time: 0.027 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.008 seconds
+Minimum batches required: 3
+[[17, 45, 13, 31, 102, 74, 131, 159, 127, 145, 188, 216, 184, 202, 245, 273, 241, 259, 302, 330, 298, 316], [20, 70, 134, 191, 248, 305], [9, 51, 33, 99, 66, 123, 165, 147, 180, 222, 204, 237, 279, 261, 294, 336, 318]]
+Total program runtime: 0.196 seconds
+
+Kaki stderr:  
+Time: 0.196
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Garr201102.gml 5 --dir topzoo_res/SC/kaki/kaki-0 --e-prop SC --repeat 1"
+	User time (seconds): 1.56
+	System time (seconds): 1.35
+	Percent of CPU this job got: 391%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.74
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 99292
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 38463
+	Voluntary context switches: 3879
+	Involuntary context switches: 158
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

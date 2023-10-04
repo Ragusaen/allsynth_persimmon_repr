@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/HiberniaCanada.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/reduce/BDD-1', dump_bdd=False)
+Running 5HiberniaCanada.gml
+Policy: (Reach 74)
+Initial path of nodes: [2, 12, 4, 11, 0, 10, 9, 14, 17, 24, 13, 23, 20, 21, 28, 38, 30, 37, 26, 36, 35, 41, 51, 43, 50, 39, 49, 48, 54, 64, 56, 63, 52, 62, 61, 67, 77, 69, 76, 65, 75, 74]
+Final path of nodes: [2, 12, 3, 5, 6, 7, 8, 9, 14, 17, 25, 16, 18, 19, 20, 23, 22, 21, 28, 38, 29, 31, 32, 33, 34, 35, 41, 51, 42, 44, 45, 46, 47, 48, 54, 64, 55, 57, 58, 59, 60, 61, 67, 77, 68, 70, 71, 72, 73, 74]
+Time: 0.017925024032592773
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/HiberniaCanada.gml 5 --dir topzoo_res/Reach/reduce/BDD-1 --e-prop Reach --repeat 1 --reduce"
+	User time (seconds): 0.76
+	System time (seconds): 1.28
+	Percent of CPU this job got: 466%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.43
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 87884
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13977
+	Voluntary context switches: 22
+	Involuntary context switches: 26
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

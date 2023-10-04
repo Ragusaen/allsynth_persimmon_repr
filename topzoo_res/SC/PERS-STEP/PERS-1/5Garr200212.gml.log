@@ -1,0 +1,40 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Garr200212.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/PERS/PERS-1', dump_bdd=False)
+Running 5Garr200212.gml
+Policy: (Service([29, 67, 100, 135]-154) & (Reach 154))
+Initial path of nodes: [0, 2, 4, 13, 19, 27, 29, 31, 40, 46, 54, 56, 58, 67, 73, 81, 83, 85, 94, 100, 108, 110, 112, 121, 127, 135, 137, 139, 148, 154]
+Final path of nodes: [0, 2, 24, 13, 19, 27, 29, 51, 40, 46, 54, 56, 78, 67, 73, 81, 83, 105, 94, 100, 108, 110, 132, 121, 127, 135, 137, 159, 148, 154]
+Persimmon problem:  {"Initial_routing":[[0, 2], [2, 4], [4, 13], [13, 19], [19, 27], [27, 29], [29, 31], [31, 40], [40, 46], [46, 54], [54, 56], [56, 58], [58, 67], [67, 73], [73, 81], [81, 83], [83, 85], [85, 94], [94, 100], [100, 108], [108, 110], [110, 112], [112, 121], [121, 127], [127, 135], [135, 137], [137, 139], [139, 148], [148, 154]],"Final_routing":[[0, 2], [2, 24], [24, 13], [13, 19], [19, 27], [27, 29], [29, 51], [51, 40], [40, 46], [46, 54], [54, 56], [56, 78], [78, 67], [67, 73], [73, 81], [81, 83], [83, 105], [105, 94], [94, 100], [100, 108], [108, 110], [110, 132], [132, 121], [121, 127], [127, 135], [135, 137], [137, 159], [159, 148], [148, 154]],"Properties":{"ServiceChain": {"waypoint": [29,67,100,135]},"Reachability":{"startNode":0,"finalNode":154}}}
+Persimmon stdout:  Chain equivalence reduction: 36 -> 30
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+<=== Starting iteration 2 ===>
+Solution: Some([[78, 132, 105, 24, 159, 51], [2, 110, 56, 137, 29, 83], [31, 85, 112, 4, 58, 139]])
+Time elapsed: 1.78ms
+Time elapsed(s): 0.001778s
+
+Persimmon stderr:  
+Time: 0.001778
+Solution: [[78, 132, 105, 24, 159, 51], [2, 110, 56, 137, 29, 83], [31, 85, 112, 4, 58, 139]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Garr200212.gml 5 --dir topzoo_res/SC/PERS/PERS-1 --e-prop SC --repeat 1"
+	User time (seconds): 0.79
+	System time (seconds): 1.11
+	Percent of CPU this job got: 381%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.50
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71348
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13111
+	Voluntary context switches: 31
+	Involuntary context switches: 30669
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

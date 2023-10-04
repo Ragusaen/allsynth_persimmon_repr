@@ -1,0 +1,40 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Easynet.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/PERS/PERS-1', dump_bdd=False)
+Running 5Easynet.gml
+Policy: (Reach 107)
+Initial path of nodes: [2, 3, 7, 9, 10, 11, 12, 21, 22, 26, 28, 29, 30, 31, 40, 41, 45, 47, 48, 49, 50, 59, 60, 64, 66, 67, 68, 69, 78, 79, 83, 85, 86, 87, 88, 97, 98, 102, 104, 105, 106, 107]
+Final path of nodes: [2, 3, 7, 17, 9, 10, 13, 12, 21, 22, 19, 26, 28, 34, 33, 32, 31, 40, 41, 45, 55, 47, 48, 51, 50, 59, 60, 57, 64, 66, 72, 71, 70, 69, 78, 79, 83, 93, 85, 86, 89, 88, 97, 98, 95, 102, 104, 110, 109, 108, 107]
+Persimmon problem:  {"Initial_routing":[[2, 3], [3, 7], [7, 9], [9, 10], [10, 11], [11, 12], [12, 21], [21, 22], [22, 26], [26, 28], [28, 29], [29, 30], [30, 31], [31, 40], [40, 41], [41, 45], [45, 47], [47, 48], [48, 49], [49, 50], [50, 59], [59, 60], [60, 64], [64, 66], [66, 67], [67, 68], [68, 69], [69, 78], [78, 79], [79, 83], [83, 85], [85, 86], [86, 87], [87, 88], [88, 97], [97, 98], [98, 102], [102, 104], [104, 105], [105, 106], [106, 107]],"Final_routing":[[2, 3], [3, 7], [7, 17], [17, 9], [9, 10], [10, 13], [13, 12], [12, 21], [21, 22], [22, 19], [19, 26], [26, 28], [28, 34], [34, 33], [33, 32], [32, 31], [31, 40], [40, 41], [41, 45], [45, 55], [55, 47], [47, 48], [48, 51], [51, 50], [50, 59], [59, 60], [60, 57], [57, 64], [64, 66], [66, 72], [72, 71], [71, 70], [70, 69], [69, 78], [78, 79], [79, 83], [83, 93], [93, 85], [85, 86], [86, 89], [89, 88], [88, 97], [97, 98], [98, 95], [95, 102], [102, 104], [104, 110], [110, 109], [109, 108], [108, 107]],"Properties":{"Reachability":{"startNode":2,"finalNode":107}}}
+Persimmon stdout:  Chain equivalence reduction: 60 -> 43
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+<=== Starting iteration 2 ===>
+Solution: Some([[51, 95, 19, 89, 110, 109, 108, 17, 34, 33, 32, 13, 55, 93, 57, 72, 71, 70], [104, 66, 48, 86, 10, 28], [83, 49, 7, 29, 30, 60, 67, 68, 11, 22, 87, 45, 98, 105, 106]])
+Time elapsed: 2.69ms
+Time elapsed(s): 0.002692s
+
+Persimmon stderr:  
+Time: 0.002692
+Solution: [[51, 95, 19, 89, 110, 109, 108, 17, 34, 33, 32, 13, 55, 93, 57, 72, 71, 70], [104, 66, 48, 86, 10, 28], [83, 49, 7, 29, 30, 60, 67, 68, 11, 22, 87, 45, 98, 105, 106]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Easynet.gml 5 --dir topzoo_res/Reach/PERS/PERS-1 --e-prop Reach --repeat 1"
+	User time (seconds): 0.70
+	System time (seconds): 1.31
+	Percent of CPU this job got: 496%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71228
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13089
+	Voluntary context switches: 29
+	Involuntary context switches: 112
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

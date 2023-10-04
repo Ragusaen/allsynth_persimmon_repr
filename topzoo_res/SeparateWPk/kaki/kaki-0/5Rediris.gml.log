@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Rediris.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/kaki/kaki-0', dump_bdd=False)
+Running 5Rediris.gml
+Policy: (((((WP(38-108) | WP(76-108)) | WP(19-108)) | WP(57-108)) | WP(95-108)) & (Reach 108))
+Initial path of nodes: [0, 3, 16, 12, 13, 19, 22, 35, 31, 32, 38, 41, 54, 50, 51, 57, 60, 73, 69, 70, 76, 79, 92, 88, 89, 95, 98, 111, 107, 108]
+Final path of nodes: [0, 3, 16, 14, 13, 19, 25, 35, 33, 32, 38, 44, 54, 52, 51, 57, 63, 73, 71, 70, 76, 82, 92, 90, 89, 95, 101, 111, 109, 108]
+{"Initial_routing":[[0, 3], [3, 16], [16, 12], [12, 13], [13, 19], [19, 22], [22, 35], [35, 31], [31, 32], [32, 38], [38, 41], [41, 54], [54, 50], [50, 51], [51, 57], [57, 60], [60, 73], [73, 69], [69, 70], [70, 76], [76, 79], [79, 92], [92, 88], [88, 89], [89, 95], [95, 98], [98, 111], [111, 107], [107, 108]],"Final_routing":[[0, 3], [3, 16], [16, 14], [14, 13], [13, 19], [19, 25], [25, 35], [35, 33], [33, 32], [32, 38], [38, 44], [44, 54], [54, 52], [52, 51], [51, 57], [57, 63], [63, 73], [73, 71], [71, 70], [70, 76], [76, 82], [82, 92], [92, 90], [90, 89], [89, 95], [95, 101], [101, 111], [111, 109], [109, 108]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [95,57,19,38,76], "edges": [{"from": 0, "to": 95, "label": 95},{"from": 0, "to": 57, "label": 57},{"from": 0, "to": 19, "label": 19},{"from": 0, "to": 38, "label": 38},{"from": 0, "to": 76, "label": 76}]},"Reachability":{"startNode":0,"finalNode":108}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmp4v2hv6n6
+DFA generation time: 0.017 seconds 
+DFA states: 33 
+DFA transitions: 1060
+Problem file: /tmp/tmp4v2hv6n6
+Switches to update: 33
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.016 seconds
+Subproblem verification time: 0.043 seconds
+Subproblem verification time: 0.014 seconds
+Subproblem verification time: 0.014 seconds
+Subproblem verification time: 0.013 seconds
+Subproblem verification time: 0.014 seconds
+Subproblem verification time: 0.017 seconds
+Minimum batches required: 3
+[[14, 25, 33, 44, 52, 63, 71, 82, 90, 101, 109], [16, 35, 19, 54, 38, 73, 57, 92, 76, 111, 95], [12, 22, 31, 41, 50, 60, 69, 79, 88, 98, 107]]
+Total program runtime: 0.324 seconds
+
+Kaki stderr:  
+Time: 0.324
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Rediris.gml 5 --dir topzoo_res/SeparateWPk/kaki/kaki-0 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 2.18
+	System time (seconds): 1.42
+	Percent of CPU this job got: 354%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 104608
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 40652
+	Voluntary context switches: 4817
+	Involuntary context switches: 398
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

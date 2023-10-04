@@ -1,0 +1,12 @@
+<map id="SubsetInfo" name="SubsetInfo">
+<area shape="rect" id="Node000001" title="Miscellaneous info." alt="" coords="5,231,96,259"/>
+<area shape="rect" id="Node000002" href="$structDdNode.html" title="Decision diagram node." alt="" coords="91,5,165,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,44,68,76,54,95,44,116,37,147,38,178,49,230,43,231,32,179,32,146,39,114,50,92,64,72,97,41"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="181,8,188,12,191,20,183,29,166,32,165,27,180,25,186,19,184,16,178,13"/>
+<area shape="rect" id="Node000003" href="$structDdChildren.html" title="The two children of a non&#45;terminal node." alt="" coords="81,118,175,146"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="116,47,113,58,111,74,113,90,123,117,118,118,108,92,105,74,108,56,111,46"/>
+<area shape="rect" id="Node000004" href="$structNodeData.html" title="Data structure to store the information on each node." alt="" coords="198,118,284,146"/>
+<area shape="poly" id="edge6_Node000004_Node000002" title=" " alt="" coords="153,42,230,116,226,120,150,46"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="125,103,125,34,131,34,131,103"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="208,156,74,233,72,228,205,151"/>
+</map>

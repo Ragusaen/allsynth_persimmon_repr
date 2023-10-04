@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/York.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/kaki/kaki-0', dump_bdd=False)
+Running 5York.gml
+Policy: (Service([40, 77, 125]-135) & (Reach 135))
+Initial path of nodes: [10, 8, 5, 7, 6, 1, 0, 3, 2, 21, 20, 27, 30, 29, 24, 23, 26, 25, 44, 43, 41, 40, 56, 54, 51, 53, 52, 47, 46, 49, 48, 67, 66, 79, 77, 74, 76, 75, 70, 69, 72, 71, 90, 89, 102, 100, 97, 99, 98, 93, 92, 95, 94, 113, 112, 125, 123, 120, 122, 121, 116, 115, 118, 117, 136, 135]
+Final path of nodes: [10, 8, 9, 12, 14, 13, 22, 15, 16, 17, 18, 20, 27, 30, 28, 31, 32, 35, 37, 36, 45, 38, 39, 40, 56, 54, 55, 58, 60, 59, 68, 61, 62, 63, 64, 66, 79, 77, 78, 81, 83, 82, 91, 84, 85, 86, 87, 89, 102, 100, 101, 104, 106, 105, 114, 107, 108, 109, 110, 112, 125, 123, 124, 127, 129, 128, 137, 130, 131, 132, 133, 135]
+{"Initial_routing":[[10, 8], [8, 5], [5, 7], [7, 6], [6, 1], [1, 0], [0, 3], [3, 2], [2, 21], [21, 20], [20, 27], [27, 30], [30, 29], [29, 24], [24, 23], [23, 26], [26, 25], [25, 44], [44, 43], [43, 41], [41, 40], [40, 56], [56, 54], [54, 51], [51, 53], [53, 52], [52, 47], [47, 46], [46, 49], [49, 48], [48, 67], [67, 66], [66, 79], [79, 77], [77, 74], [74, 76], [76, 75], [75, 70], [70, 69], [69, 72], [72, 71], [71, 90], [90, 89], [89, 102], [102, 100], [100, 97], [97, 99], [99, 98], [98, 93], [93, 92], [92, 95], [95, 94], [94, 113], [113, 112], [112, 125], [125, 123], [123, 120], [120, 122], [122, 121], [121, 116], [116, 115], [115, 118], [118, 117], [117, 136], [136, 135]],"Final_routing":[[10, 8], [8, 9], [9, 12], [12, 14], [14, 13], [13, 22], [22, 15], [15, 16], [16, 17], [17, 18], [18, 20], [20, 27], [27, 30], [30, 28], [28, 31], [31, 32], [32, 35], [35, 37], [37, 36], [36, 45], [45, 38], [38, 39], [39, 40], [40, 56], [56, 54], [54, 55], [55, 58], [58, 60], [60, 59], [59, 68], [68, 61], [61, 62], [62, 63], [63, 64], [64, 66], [66, 79], [79, 77], [77, 78], [78, 81], [81, 83], [83, 82], [82, 91], [91, 84], [84, 85], [85, 86], [86, 87], [87, 89], [89, 102], [102, 100], [100, 101], [101, 104], [104, 106], [106, 105], [105, 114], [114, 107], [107, 108], [108, 109], [109, 110], [110, 112], [112, 125], [125, 123], [123, 124], [124, 127], [127, 129], [129, 128], [128, 137], [137, 130], [130, 131], [131, 132], [132, 133], [133, 135]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [3], "edges": [{"from": 0, "to": 1, "label": 40},{"from": 1, "to": 2, "label": 77},{"from": 2, "to": 3, "label": 125}]},"Reachability":{"startNode":10,"finalNode":135}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmph5yc6z33
+DFA generation time: 0.014 seconds 
+DFA states: 13 
+DFA transitions: 433
+Problem file: /tmp/tmph5yc6z33
+Switches to update: 108
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.012 seconds
+Subproblem verification time: 0.028 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.01 seconds
+Minimum batches required: 3
+[[9, 12, 14, 13, 22, 15, 16, 17, 18, 28, 31, 32, 35, 37, 36, 45, 38, 39, 55, 58, 60, 59, 68, 61, 62, 63, 64, 78, 81, 83, 82, 91, 84, 85, 86, 87, 101, 104, 106, 105, 114, 107, 108, 109, 110, 124, 127, 129, 128, 137, 130, 131, 132, 133], [8, 30, 54, 77, 100, 123], [5, 7, 6, 1, 0, 3, 2, 21, 29, 24, 23, 26, 25, 44, 43, 41, 51, 53, 52, 47, 46, 49, 48, 67, 74, 76, 75, 70, 69, 72, 71, 90, 97, 99, 98, 93, 92, 95, 94, 113, 120, 122, 121, 116, 115, 118, 117, 136]]
+Total program runtime: 0.226 seconds
+
+Kaki stderr:  
+Time: 0.226
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/York.gml 5 --dir topzoo_res/SC/kaki/kaki-0 --e-prop SC --repeat 1"
+	User time (seconds): 1.83
+	System time (seconds): 1.27
+	Percent of CPU this job got: 431%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.72
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 106400
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 40520
+	Voluntary context switches: 4638
+	Involuntary context switches: 674
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

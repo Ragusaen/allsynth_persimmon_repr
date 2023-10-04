@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Esnet.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/reduce/BDD-2', dump_bdd=False)
+Running 5Esnet.gml
+Policy: (((((((((((((((((((((((WP(129-397) | WP(262-397)) | WP(392-397)) | WP(398-397)) | WP(147-397)) | WP(153-397)) | WP(174-397)) | WP(310-397)) | WP(57-397)) | WP(58-397)) | WP(62-397)) | WP(194-397)) | WP(70-397)) | WP(72-397)) | WP(329-397)) | WP(330-397)) | WP(204-397)) | WP(334-397)) | WP(84-397)) | WP(365-397)) | WP(242-397)) | WP(243-397)) | WP(378-397)) & (Reach 397))
+Initial path of nodes: [38, 41, 40, 61, 60, 58, 6, 18, 52, 57, 72, 73, 74, 126, 128, 129, 108, 109, 106, 107, 174, 177, 176, 197, 196, 194, 142, 154, 188, 193, 242, 245, 244, 265, 264, 262, 210, 222, 256, 261, 310, 313, 312, 333, 332, 330, 278, 290, 324, 329, 378, 381, 380, 401, 400, 398, 346, 358, 392, 397]
+Final path of nodes: [38, 39, 17, 16, 25, 62, 0, 11, 51, 52, 57, 72, 75, 69, 74, 70, 126, 128, 130, 93, 84, 85, 107, 174, 175, 153, 152, 161, 198, 136, 147, 187, 188, 193, 242, 243, 221, 220, 229, 266, 204, 215, 255, 256, 261, 310, 311, 289, 288, 297, 334, 272, 283, 323, 324, 329, 378, 379, 357, 356, 365, 402, 340, 351, 391, 392, 397]
+Time: 0.1134796142578125
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Esnet.gml 5 --dir topzoo_res/SeparateWPk/reduce/BDD-2 --e-prop SeparateWPk --repeat 1 --reduce"
+	User time (seconds): 1.12
+	System time (seconds): 1.31
+	Percent of CPU this job got: 294%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.82
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 89200
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14569
+	Voluntary context switches: 25
+	Involuntary context switches: 81
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

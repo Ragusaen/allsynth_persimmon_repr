@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Internode.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/reduce/BDD-1', dump_bdd=False)
+Running 5Internode.gml
+Policy: ((((((((((WP(258-395) | WP(67-395)) | WP(197-395)) | WP(389-395)) | WP(265-395)) | WP(371-395)) | WP(214-395)) | WP(152-395)) | WP(59-395)) | WP(126-395)) & (Reach 395))
+Initial path of nodes: [41, 20, 1, 6, 60, 59, 65, 77, 66, 69, 67, 84, 82, 104, 173, 152, 133, 138, 192, 191, 197, 239, 218, 199, 204, 258, 257, 263, 305, 284, 265, 270, 324, 323, 329, 371, 350, 331, 336, 390, 389, 395]
+Final path of nodes: [41, 20, 1, 18, 16, 59, 65, 77, 66, 72, 126, 125, 82, 104, 173, 152, 133, 150, 148, 191, 197, 239, 218, 217, 223, 214, 257, 263, 305, 284, 265, 282, 280, 323, 329, 371, 350, 349, 355, 346, 389, 395]
+Time: 0.02377486228942871
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Internode.gml 5 --dir topzoo_res/SeparateWPk/reduce/BDD-1 --e-prop SeparateWPk --repeat 1 --reduce"
+	User time (seconds): 1.00
+	System time (seconds): 1.32
+	Percent of CPU this job got: 292%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.79
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 88948
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14395
+	Voluntary context switches: 23
+	Involuntary context switches: 161
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

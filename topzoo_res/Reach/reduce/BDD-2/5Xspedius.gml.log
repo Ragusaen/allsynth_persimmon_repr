@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Xspedius.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/reduce/BDD-2', dump_bdd=False)
+Running 5Xspedius.gml
+Policy: (Reach 196)
+Initial path of nodes: [9, 18, 5, 24, 31, 30, 29, 26, 43, 52, 39, 58, 65, 64, 63, 60, 77, 86, 73, 92, 99, 98, 97, 94, 111, 120, 107, 126, 133, 132, 131, 128, 145, 154, 141, 160, 167, 166, 165, 162, 179, 188, 175, 194, 201, 200, 199, 196]
+Final path of nodes: [9, 18, 16, 23, 0, 3, 27, 26, 43, 52, 50, 57, 34, 37, 61, 60, 77, 86, 84, 91, 68, 71, 95, 94, 111, 120, 118, 125, 102, 105, 129, 128, 145, 154, 152, 159, 136, 139, 163, 162, 179, 188, 186, 193, 170, 173, 197, 196]
+Time: 0.006487369537353516
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Xspedius.gml 5 --dir topzoo_res/Reach/reduce/BDD-2 --e-prop Reach --repeat 1 --reduce"
+	User time (seconds): 0.74
+	System time (seconds): 1.31
+	Percent of CPU this job got: 463%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 89152
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14237
+	Voluntary context switches: 27
+	Involuntary context switches: 27
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

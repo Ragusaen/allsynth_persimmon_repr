@@ -1,0 +1,40 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Janetbackbone.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/PERS/PERS-2', dump_bdd=False)
+Running 5Janetbackbone.gml
+Policy: ((((((((((((((WP(128-170) | WP(98-170)) | WP(134-170)) | WP(71-170)) | WP(39-170)) | WP(170-170)) | WP(146-170)) | WP(82-170)) | WP(52-170)) | WP(117-170)) | WP(25-170)) | WP(156-170)) | WP(61-170)) | WP(94-170)) & (Reach 170))
+Initial path of nodes: [1, 18, 11, 13, 14, 25, 29, 40, 42, 41, 52, 51, 59, 76, 69, 71, 72, 83, 88, 105, 98, 100, 101, 112, 117, 134, 127, 129, 130, 141, 146, 163, 156, 158, 159, 170]
+Final path of nodes: [1, 18, 17, 12, 24, 25, 29, 33, 46, 41, 39, 43, 50, 51, 59, 61, 69, 65, 75, 70, 82, 83, 88, 90, 98, 94, 104, 99, 111, 112, 117, 119, 127, 123, 133, 128, 140, 141, 146, 148, 156, 152, 162, 157, 169, 170]
+Persimmon problem:  {"Initial_routing":[[1, 18], [18, 11], [11, 13], [13, 14], [14, 25], [25, 29], [29, 40], [40, 42], [42, 41], [41, 52], [52, 51], [51, 59], [59, 76], [76, 69], [69, 71], [71, 72], [72, 83], [83, 88], [88, 105], [105, 98], [98, 100], [100, 101], [101, 112], [112, 117], [117, 134], [134, 127], [127, 129], [129, 130], [130, 141], [141, 146], [146, 163], [163, 156], [156, 158], [158, 159], [159, 170]],"Final_routing":[[1, 18], [18, 17], [17, 12], [12, 24], [24, 25], [25, 29], [29, 33], [33, 46], [46, 41], [41, 39], [39, 43], [43, 50], [50, 51], [51, 59], [59, 61], [61, 69], [69, 65], [65, 75], [75, 70], [70, 82], [82, 83], [83, 88], [88, 90], [90, 98], [98, 94], [94, 104], [104, 99], [99, 111], [111, 112], [112, 117], [117, 119], [119, 127], [127, 123], [123, 133], [133, 128], [128, 140], [140, 141], [141, 146], [146, 148], [148, 156], [156, 152], [152, 162], [162, 157], [157, 169], [169, 170]],"Properties":{"MultiAlternativeWaypoint": {"waypoint": [128,98,134,71,39,170,146,82,52,117,25,156,61,94]},"Reachability":{"startNode":1,"finalNode":170}}}
+Persimmon stdout:  Chain equivalence reduction: 64 -> 46
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+<=== Starting iteration 2 ===>
+Solution: Some([[119, 123, 133, 128, 17, 12, 24, 148, 61, 33, 46, 82, 39, 152, 162, 157, 169, 43, 50, 65, 75, 70, 104, 99, 111, 90, 94, 140], [146, 117, 156, 18, 88, 127, 41, 98, 69, 59, 29], [52, 100, 101, 71, 129, 130, 76, 163, 72, 11, 13, 14, 134, 40, 42, 158, 159, 105]])
+Time elapsed: 3.37ms
+Time elapsed(s): 0.003370s
+
+Persimmon stderr:  
+Time: 0.00337
+Solution: [[119, 123, 133, 128, 17, 12, 24, 148, 61, 33, 46, 82, 39, 152, 162, 157, 169, 43, 50, 65, 75, 70, 104, 99, 111, 90, 94, 140], [146, 117, 156, 18, 88, 127, 41, 98, 69, 59, 29], [52, 100, 101, 71, 129, 130, 76, 163, 72, 11, 13, 14, 134, 40, 42, 158, 159, 105]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Janetbackbone.gml 5 --dir topzoo_res/SeparateWPk/PERS/PERS-2 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 0.74
+	System time (seconds): 1.29
+	Percent of CPU this job got: 437%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.46
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71484
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13273
+	Voluntary context switches: 31
+	Involuntary context switches: 134
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,42 @@
+<map id="ApproxInfo" name="ApproxInfo">
+<area shape="rect" id="Node000001" title="Main bookkeeping data structure for approximation algorithms." alt="" coords="111,678,204,705"/>
+<area shape="rect" id="Node000002" href="$structDdNode.html" title="Decision diagram node." alt="" coords="219,5,293,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,26,116,37,77,46,52,59,22,96,10,132,8,173,9,224,9,600,12,617,19,631,44,654,77,670,112,680,110,685,75,675,41,658,15,634,7,618,4,600,4,224,3,173,5,131,18,93,49,55,76,41,115,32,204,21"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="309,7,316,11,319,20,311,30,294,34,293,28,308,26,314,19,312,15,306,12"/>
+<area shape="rect" id="Node000003" href="$structDdChildren.html" title="The two children of a non&#45;terminal node." alt="" coords="44,212,137,239"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="205,27,168,38,150,47,135,59,122,76,111,96,98,139,93,180,93,211,87,211,88,180,93,138,106,94,117,73,131,55,147,42,166,33,204,22"/>
+<area shape="rect" id="Node000004" href="$structNodeData.html" title="Data structure to store the information on each node." alt="" coords="114,355,201,382"/>
+<area shape="poly" id="edge6_Node000004_Node000002" title=" " alt="" coords="217,43,203,59,183,97,169,140,160,183,156,226,154,302,158,354,153,354,149,303,150,226,155,182,164,138,178,95,199,55,213,40"/>
+<area shape="rect" id="Node000006" href="$structDdHashItem.html" title="Local hash table item." alt="" coords="208,355,310,382"/>
+<area shape="poly" id="edge10_Node000006_Node000002" title=" " alt="" coords="259,48,261,354,256,354,254,48"/>
+<area shape="rect" id="Node000007" href="$structDdManager.html" title="Specialized DD symbol table." alt="" coords="455,430,551,457"/>
+<area shape="poly" id="edge12_Node000007_Node000002" title=" " alt="" coords="308,19,463,30,540,40,594,55,624,69,645,83,662,103,677,131,705,205,713,239,715,272,711,303,701,334,683,364,657,396,633,414,606,428,552,441,551,436,605,423,630,410,653,392,678,361,696,331,706,302,710,271,708,240,700,207,672,133,658,106,642,87,621,73,592,59,539,45,462,35,307,25"/>
+<area shape="rect" id="Node000008" href="$structDdCache.html" title="Computed table." alt="" coords="463,212,542,239"/>
+<area shape="poly" id="edge14_Node000008_Node000002" title=" " alt="" coords="305,37,379,74,417,100,453,130,483,172,500,210,496,213,478,175,449,134,414,104,376,79,303,42"/>
+<area shape="rect" id="Node000009" href="$structDdSubtable.html" title="Subtable for one index." alt="" coords="567,212,663,239"/>
+<area shape="poly" id="edge16_Node000009_Node000002" title=" " alt="" coords="308,20,383,30,423,40,462,55,493,70,515,86,557,130,588,173,610,210,606,213,584,176,553,134,511,90,490,75,460,59,422,45,382,35,307,25"/>
+<area shape="rect" id="Node000012" href="$structDdLocalCacheItem.html" title="Generic local cache item." alt="" coords="774,430,917,457"/>
+<area shape="poly" id="edge21_Node000012_Node000002" title=" " alt="" coords="308,17,376,18,461,24,554,35,646,54,737,76,772,94,806,130,829,169,844,212,853,256,857,299,856,377,850,430,845,429,851,377,852,299,848,256,839,213,824,171,802,134,769,99,735,81,645,60,553,40,461,29,376,24,308,22"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="75,199,62,167,53,129,54,90,59,72,70,55,95,40,134,30,219,20,219,25,135,35,97,45,74,59,64,74,59,91,59,129,67,166,80,197"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="160,397,160,677,155,677,155,397"/>
+<area shape="rect" id="Node000005" href="$structDdHashTable.html" title="Local hash table." alt="" coords="206,585,312,613"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="235,624,174,679,170,675,232,620"/>
+<area shape="poly" id="edge8_Node000005_Node000006" title=" " alt="" coords="261,397,261,585,256,585,256,397"/>
+<area shape="poly" id="edge9_Node000006_Node000006" title=" " alt="" coords="326,355,333,360,337,369,329,380,311,385,310,380,326,376,331,368,329,364,323,360"/>
+<area shape="poly" id="edge11_Node000005_Node000007" title=" " alt="" coords="441,464,406,478,371,495,341,517,313,542,271,586,267,583,309,538,337,513,369,491,403,473,439,459"/>
+<area shape="poly" id="edge27_Node000007_Node000007" title=" " alt="" coords="567,430,574,435,578,444,570,456,552,460,551,455,567,451,572,443,570,439,564,435"/>
+<area shape="rect" id="Node000011" href="$structDdLocalCache.html" title="Local cache." alt="" coords="675,585,789,613"/>
+<area shape="poly" id="edge22_Node000011_Node000007" title=" " alt="" coords="566,461,590,474,611,491,622,509,625,527,627,543,637,559,655,573,676,582,674,587,652,577,633,563,622,545,619,528,617,511,607,495,587,478,563,466"/>
+<area shape="rect" id="Node000013" href="$structDdHook.html" title="CUDD hook." alt="" coords="418,585,491,613"/>
+<area shape="poly" id="edge25_Node000013_Node000007" title=" " alt="" coords="469,468,456,480,447,494,441,518,441,542,452,584,447,585,436,543,435,517,442,492,452,477,465,464"/>
+<area shape="poly" id="edge13_Node000007_Node000008" title=" " alt="" coords="505,254,505,429,500,429,500,254"/>
+<area shape="poly" id="edge15_Node000007_Node000009" title=" " alt="" coords="613,255,596,321,581,360,561,396,543,415,524,431,521,427,540,412,557,392,576,357,591,320,608,253"/>
+<area shape="rect" id="Node000010" href="$structMtrNode__.html" title="multi&#45;way tree node." alt="" coords="278,212,362,239"/>
+<area shape="poly" id="edge17_Node000007_Node000010" title=" " alt="" coords="342,249,494,427,490,431,338,252"/>
+<area shape="poly" id="edge18_Node000010_Node000010" title=" " alt="" coords="343,201,359,196,374,199,385,209,389,226,383,245,368,254,349,253,330,242,333,237,351,248,367,249,379,242,384,225,380,211,371,203,359,201,344,206"/>
+<area shape="poly" id="edge19_Node000007_Node000011" title=" " alt="" coords="725,571,715,526,708,507,701,495,676,481,638,470,551,453,552,448,639,464,678,476,705,491,713,505,720,525,730,570"/>
+<area shape="poly" id="edge23_Node000011_Node000011" title=" " alt="" coords="805,590,815,599,807,607,790,610,789,605,805,602,810,599,802,594"/>
+<area shape="poly" id="edge20_Node000011_Node000012" title=" " alt="" coords="848,473,840,518,832,541,818,563,802,577,784,587,781,582,799,572,814,559,827,539,835,516,842,472"/>
+<area shape="poly" id="edge24_Node000007_Node000013" title=" " alt="" coords="455,570,462,532,474,492,492,457,497,459,479,494,468,534,461,571"/>
+<area shape="poly" id="edge26_Node000013_Node000013" title=" " alt="" coords="508,590,518,599,510,608,492,610,492,605,507,603,513,599,505,594"/>
+</map>

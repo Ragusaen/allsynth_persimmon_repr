@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/VtlWavenet2008.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-2', dump_bdd=False)
+Running 5VtlWavenet2008.gml
+Policy: (Service([258, 507]-522) & (Reach 522))
+Initial path of nodes: [67, 64, 65, 62, 63, 16, 60, 12, 61, 58, 10, 11, 8, 9, 37, 0, 28, 1, 29, 30, 51, 32, 87, 33, 35, 34, 86, 85, 84, 83, 59, 82, 147, 170, 168, 169, 129, 134, 161, 101, 115, 135, 114, 110, 113, 131, 112, 163, 124, 130, 157, 156, 138, 141, 140, 143, 142, 145, 105, 144, 137, 136, 102, 154, 243, 240, 241, 238, 239, 192, 236, 188, 237, 234, 186, 187, 184, 185, 213, 176, 204, 177, 205, 206, 227, 208, 263, 209, 211, 210, 262, 261, 260, 259, 235, 258, 331, 328, 329, 326, 327, 280, 324, 276, 325, 322, 274, 275, 272, 273, 301, 264, 292, 265, 293, 294, 315, 296, 351, 297, 299, 298, 350, 349, 348, 347, 323, 346, 419, 416, 417, 414, 415, 368, 412, 364, 413, 410, 362, 363, 360, 361, 389, 352, 380, 353, 381, 382, 403, 384, 439, 385, 387, 386, 438, 437, 436, 435, 411, 434, 507, 504, 505, 502, 503, 456, 500, 452, 501, 498, 450, 451, 448, 449, 477, 440, 468, 441, 469, 470, 491, 472, 527, 473, 475, 474, 526, 525, 524, 523, 499, 522]
+Final path of nodes: [67, 66, 14, 48, 49, 56, 17, 57, 54, 55, 52, 53, 50, 68, 69, 42, 36, 75, 24, 43, 25, 22, 26, 47, 27, 13, 73, 46, 41, 81, 80, 82, 147, 171, 172, 173, 174, 122, 123, 121, 175, 120, 139, 118, 117, 89, 116, 88, 125, 97, 96, 99, 98, 146, 149, 100, 148, 104, 151, 150, 153, 152, 155, 154, 243, 242, 190, 224, 225, 232, 193, 233, 230, 231, 228, 229, 226, 244, 245, 218, 212, 251, 200, 219, 201, 198, 202, 223, 203, 189, 249, 222, 217, 257, 256, 258, 331, 330, 278, 312, 313, 320, 281, 321, 318, 319, 316, 317, 314, 332, 333, 306, 300, 339, 288, 307, 289, 286, 290, 311, 291, 277, 337, 310, 305, 345, 344, 346, 419, 418, 366, 400, 401, 408, 369, 409, 406, 407, 404, 405, 402, 420, 421, 394, 388, 427, 376, 395, 377, 374, 378, 399, 379, 365, 425, 398, 393, 433, 432, 434, 507, 506, 454, 488, 489, 496, 457, 497, 494, 495, 492, 493, 490, 508, 509, 482, 476, 515, 464, 483, 465, 462, 466, 487, 467, 453, 513, 486, 481, 521, 520, 522]
+Time: 0.061528921127319336
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/VtlWavenet2008.gml 5 --dir topzoo_res/SC/reduce/BDD-2 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 1.14
+	System time (seconds): 1.33
+	Percent of CPU this job got: 285%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.86
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 93620
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14631
+	Voluntary context switches: 40
+	Involuntary context switches: 84
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

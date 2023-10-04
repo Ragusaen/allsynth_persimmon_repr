@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Netrail.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-2', dump_bdd=False)
+Running 5Netrail.gml
+Policy: (Service([16, 34]-41) & (Reach 41))
+Initial path of nodes: [2, 1, 6, 7, 11, 12, 16, 15, 20, 23, 22, 27, 30, 29, 34, 37, 36, 41]
+Final path of nodes: [2, 1, 6, 7, 13, 12, 16, 18, 20, 23, 25, 27, 30, 32, 34, 37, 39, 41]
+Time: 0.0075418949127197266
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Netrail.gml 5 --dir topzoo_res/SC/reduce/BDD-2 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 0.88
+	System time (seconds): 1.28
+	Percent of CPU this job got: 386%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.56
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 87256
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13845
+	Voluntary context switches: 25
+	Involuntary context switches: 42
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

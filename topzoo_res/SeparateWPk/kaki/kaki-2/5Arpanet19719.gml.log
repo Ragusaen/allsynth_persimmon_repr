@@ -1,0 +1,47 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Arpanet19719.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/kaki/kaki-2', dump_bdd=False)
+Running 5Arpanet19719.gml
+Policy: (((((((((((((((((((WP(10-103) | WP(14-103)) | WP(22-103)) | WP(26-103)) | WP(30-103)) | WP(31-103)) | WP(42-103)) | WP(49-103)) | WP(52-103)) | WP(56-103)) | WP(59-103)) | WP(71-103)) | WP(72-103)) | WP(73-103)) | WP(81-103)) | WP(90-103)) | WP(93-103)) | WP(100-103)) | WP(104-103)) & (Reach 103))
+Initial path of nodes: [0, 17, 8, 1, 16, 10, 5, 13, 18, 35, 26, 19, 34, 28, 23, 31, 36, 53, 44, 37, 52, 46, 41, 49, 54, 71, 62, 55, 70, 64, 59, 67, 72, 89, 80, 73, 88, 82, 77, 85, 90, 107, 98, 91, 106, 100, 95, 103]
+Final path of nodes: [0, 17, 8, 7, 9, 14, 12, 13, 18, 21, 22, 24, 20, 27, 32, 30, 31, 36, 39, 40, 42, 38, 45, 50, 48, 49, 54, 57, 58, 60, 56, 63, 68, 66, 67, 72, 75, 76, 78, 74, 81, 86, 84, 85, 90, 93, 94, 96, 92, 99, 104, 102, 103]
+{"Initial_routing":[[0, 17], [17, 8], [8, 1], [1, 16], [16, 10], [10, 5], [5, 13], [13, 18], [18, 35], [35, 26], [26, 19], [19, 34], [34, 28], [28, 23], [23, 31], [31, 36], [36, 53], [53, 44], [44, 37], [37, 52], [52, 46], [46, 41], [41, 49], [49, 54], [54, 71], [71, 62], [62, 55], [55, 70], [70, 64], [64, 59], [59, 67], [67, 72], [72, 89], [89, 80], [80, 73], [73, 88], [88, 82], [82, 77], [77, 85], [85, 90], [90, 107], [107, 98], [98, 91], [91, 106], [106, 100], [100, 95], [95, 103]],"Final_routing":[[0, 17], [17, 8], [8, 7], [7, 9], [9, 14], [14, 12], [12, 13], [13, 18], [18, 21], [21, 22], [22, 24], [24, 20], [20, 27], [27, 32], [32, 30], [30, 31], [31, 36], [36, 39], [39, 40], [40, 42], [42, 38], [38, 45], [45, 50], [50, 48], [48, 49], [49, 54], [54, 57], [57, 58], [58, 60], [60, 56], [56, 63], [63, 68], [68, 66], [66, 67], [67, 72], [72, 75], [75, 76], [76, 78], [78, 74], [74, 81], [81, 86], [86, 84], [84, 85], [85, 90], [90, 93], [93, 94], [94, 96], [96, 92], [92, 99], [99, 104], [104, 102], [102, 103]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [104,100,93,90,81,73,72,71,59,56,52,49,42,31,30,26,22,10,14], "edges": [{"from": 0, "to": 104, "label": 104},{"from": 0, "to": 100, "label": 100},{"from": 0, "to": 93, "label": 93},{"from": 0, "to": 90, "label": 90},{"from": 0, "to": 81, "label": 81},{"from": 0, "to": 73, "label": 73},{"from": 0, "to": 72, "label": 72},{"from": 0, "to": 71, "label": 71},{"from": 0, "to": 59, "label": 59},{"from": 0, "to": 56, "label": 56},{"from": 0, "to": 52, "label": 52},{"from": 0, "to": 49, "label": 49},{"from": 0, "to": 42, "label": 42},{"from": 0, "to": 31, "label": 31},{"from": 0, "to": 30, "label": 30},{"from": 0, "to": 26, "label": 26},{"from": 0, "to": 22, "label": 22},{"from": 0, "to": 10, "label": 10},{"from": 0, "to": 14, "label": 14}]},"Reachability":{"startNode":0,"finalNode":103}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpv_d8wbx5
+DFA generation time: 0.041 seconds 
+DFA states: 92 
+DFA transitions: 6762
+Problem file: /tmp/tmpv_d8wbx5
+Switches to update: 79
+
+Decomposed topology into 1 subproblems
+Topological decomposition took 0.105 seconds
+Subproblem verification time: 5.912 seconds
+Minimum batches required: 3
+[[7, 21, 39, 57, 75, 93, 9, 14, 12, 22, 24, 20, 27, 32, 30, 40, 42, 38, 45, 50, 48, 58, 60, 56, 63, 68, 66, 76, 78, 74, 81, 86, 84, 94, 96, 92, 99, 104, 102], [90, 72, 54, 36, 18, 8], [1, 16, 10, 5, 35, 26, 19, 34, 28, 23, 53, 44, 37, 52, 46, 41, 71, 62, 55, 70, 64, 59, 89, 80, 73, 88, 82, 77, 107, 98, 91, 106, 100, 95]]
+Total program runtime: 8.215 seconds
+
+Kaki stderr:  
+Time: 8.215
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Arpanet19719.gml 5 --dir topzoo_res/SeparateWPk/kaki/kaki-2 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 11.42
+	System time (seconds): 1.87
+	Percent of CPU this job got: 148%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 638532
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 73540
+	Voluntary context switches: 6435
+	Involuntary context switches: 1366
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

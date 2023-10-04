@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Navigata.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/PERS/PERS-2', dump_bdd=False)
+Running 5Navigata.gml
+Policy: (((((WP(65-74) | WP(39-74)) | WP(13-74)) | WP(52-74)) | WP(26-74)) & (Reach 74))
+Initial path of nodes: [0, 4, 11, 5, 9, 13, 17, 24, 18, 22, 26, 30, 37, 31, 35, 39, 43, 50, 44, 48, 52, 56, 63, 57, 61, 65, 69, 76, 70, 74]
+Final path of nodes: [0, 4, 11, 8, 9, 13, 17, 23, 21, 22, 26, 30, 37, 34, 35, 39, 43, 49, 47, 48, 52, 56, 63, 60, 61, 65, 69, 75, 73, 74]
+Persimmon problem:  {"Initial_routing":[[0, 4], [4, 11], [11, 5], [5, 9], [9, 13], [13, 17], [17, 24], [24, 18], [18, 22], [22, 26], [26, 30], [30, 37], [37, 31], [31, 35], [35, 39], [39, 43], [43, 50], [50, 44], [44, 48], [48, 52], [52, 56], [56, 63], [63, 57], [57, 61], [61, 65], [65, 69], [69, 76], [76, 70], [70, 74]],"Final_routing":[[0, 4], [4, 11], [11, 8], [8, 9], [9, 13], [13, 17], [17, 23], [23, 21], [21, 22], [22, 26], [26, 30], [30, 37], [37, 34], [34, 35], [35, 39], [39, 43], [43, 49], [49, 47], [47, 48], [48, 52], [52, 56], [56, 63], [63, 60], [60, 61], [61, 65], [65, 69], [69, 75], [75, 73], [73, 74]],"Properties":{"MultiAlternativeWaypoint": {"waypoint": [65,39,13,52,26]},"Reachability":{"startNode":0,"finalNode":74}}}
+Persimmon stdout:  Chain equivalence reduction: 39 -> 32
+Constructing all update BDD
+Solution: Some([[60, 23, 21, 34, 75, 73, 8, 49, 47], [63, 37, 69, 17, 11, 43], [50, 44, 57, 76, 70, 31, 24, 18, 5]])
+Time elapsed: 1.78ms
+Time elapsed(s): 0.001780s
+
+Persimmon stderr:  
+Time: 0.00178
+Solution: [[60, 23, 21, 34, 75, 73, 8, 49, 47], [63, 37, 69, 17, 11, 43], [50, 44, 57, 76, 70, 31, 24, 18, 5]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Navigata.gml 5 --dir topzoo_res/SeparateWPk/PERS/PERS-2 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 0.88
+	System time (seconds): 1.30
+	Percent of CPU this job got: 377%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 70716
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12986
+	Voluntary context switches: 31
+	Involuntary context switches: 129
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

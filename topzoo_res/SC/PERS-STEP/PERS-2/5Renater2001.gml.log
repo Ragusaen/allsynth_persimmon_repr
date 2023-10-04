@@ -1,0 +1,40 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Renater2001.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/PERS/PERS-2', dump_bdd=False)
+Running 5Renater2001.gml
+Policy: (Service([21, 33, 58, 81, 108, 117, 131]-142) & (Reach 142))
+Initial path of nodes: [12, 9, 13, 10, 11, 21, 22, 27, 39, 35, 34, 37, 33, 36, 60, 57, 61, 58, 59, 69, 70, 84, 81, 85, 82, 83, 93, 94, 108, 105, 109, 106, 107, 117, 118, 132, 129, 133, 130, 131, 141, 142]
+Final path of nodes: [12, 9, 13, 6, 1, 10, 11, 21, 22, 27, 39, 24, 25, 30, 37, 33, 36, 60, 57, 61, 54, 49, 58, 59, 69, 70, 84, 81, 85, 78, 73, 72, 87, 83, 93, 94, 108, 105, 109, 102, 97, 106, 107, 117, 118, 132, 129, 133, 126, 121, 120, 135, 131, 141, 142]
+Persimmon problem:  {"Initial_routing":[[12, 9], [9, 13], [13, 10], [10, 11], [11, 21], [21, 22], [22, 27], [27, 39], [39, 35], [35, 34], [34, 37], [37, 33], [33, 36], [36, 60], [60, 57], [57, 61], [61, 58], [58, 59], [59, 69], [69, 70], [70, 84], [84, 81], [81, 85], [85, 82], [82, 83], [83, 93], [93, 94], [94, 108], [108, 105], [105, 109], [109, 106], [106, 107], [107, 117], [117, 118], [118, 132], [132, 129], [129, 133], [133, 130], [130, 131], [131, 141], [141, 142]],"Final_routing":[[12, 9], [9, 13], [13, 6], [6, 1], [1, 10], [10, 11], [11, 21], [21, 22], [22, 27], [27, 39], [39, 24], [24, 25], [25, 30], [30, 37], [37, 33], [33, 36], [36, 60], [60, 57], [57, 61], [61, 54], [54, 49], [49, 58], [58, 59], [59, 69], [69, 70], [70, 84], [84, 81], [81, 85], [85, 78], [78, 73], [73, 72], [72, 87], [87, 83], [83, 93], [93, 94], [94, 108], [108, 105], [105, 109], [109, 102], [102, 97], [97, 106], [106, 107], [107, 117], [117, 118], [118, 132], [132, 129], [129, 133], [133, 126], [126, 121], [121, 120], [120, 135], [135, 131], [131, 141], [141, 142]],"Properties":{"ServiceChain": {"waypoint": [21,33,58,81,108,117,131]},"Reachability":{"startNode":12,"finalNode":142}}}
+Persimmon stdout:  Chain equivalence reduction: 59 -> 34
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+<=== Starting iteration 2 ===>
+Solution: Some([[102, 97, 126, 121, 120, 135, 78, 73, 72, 87, 6, 1, 24, 25, 30, 54, 49], [85, 133, 39], [130, 82, 109, 13, 61, 35, 34]])
+Time elapsed: 1.93ms
+Time elapsed(s): 0.001930s
+
+Persimmon stderr:  
+Time: 0.00193
+Solution: [[102, 97, 126, 121, 120, 135, 78, 73, 72, 87, 6, 1, 24, 25, 30, 54, 49], [85, 133, 39], [130, 82, 109, 13, 61, 35, 34]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Renater2001.gml 5 --dir topzoo_res/SC/PERS/PERS-2 --e-prop SC --repeat 1"
+	User time (seconds): 0.80
+	System time (seconds): 1.22
+	Percent of CPU this job got: 480%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71300
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13121
+	Voluntary context switches: 38
+	Involuntary context switches: 96
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

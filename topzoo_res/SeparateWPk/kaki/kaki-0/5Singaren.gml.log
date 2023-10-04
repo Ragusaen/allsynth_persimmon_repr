@@ -1,0 +1,33 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Singaren.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/kaki/kaki-0', dump_bdd=False)
+Traceback (most recent call last):
+  File "/home/rasmus/Documents/dat7/AllSynth/allsynth/run.py", line 168, in <module>
+    run_all_GML(savedir, config, suffix, G, p1, p2, dump=dump_bdd, num_copies=num_copies, op_req=op_req_ltl)
+  File "/home/rasmus/Documents/dat7/AllSynth/allsynth/experiments.py", line 212, in run_all_GML
+    p = SynthesisProblem(p1,p2,prop(p1,p2),restricted=config.restrict)
+  File "/home/rasmus/Documents/dat7/AllSynth/allsynth/problem.py", line 11, in __init__
+    raise IdenticalPathsError("Initial path and final path are identical!")
+problem.IdenticalPathsError: Initial path and final path are identical!
+Command exited with non-zero status 1
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Singaren.gml 5 --dir topzoo_res/SeparateWPk/kaki/kaki-0 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 0.84
+	System time (seconds): 1.25
+	Percent of CPU this job got: 350%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 69992
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12790
+	Voluntary context switches: 24
+	Involuntary context switches: 299
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1

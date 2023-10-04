@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Marwan.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/kaki/kaki-2', dump_bdd=False)
+Running 5Marwan.gml
+Policy: (((((((((((WP(32-92) | WP(67-92)) | WP(36-92)) | WP(71-92)) | WP(44-92)) | WP(13-92)) | WP(81-92)) | WP(18-92)) | WP(22-92)) | WP(93-92)) | WP(63-92)) & (Reach 92))
+Initial path of nodes: [1, 0, 3, 2, 15, 13, 12, 17, 16, 19, 18, 31, 29, 28, 33, 32, 35, 34, 47, 45, 44, 49, 48, 51, 50, 63, 61, 60, 65, 64, 67, 66, 79, 77, 76, 81, 80, 83, 82, 95, 93, 92]
+Final path of nodes: [1, 4, 7, 2, 15, 13, 12, 17, 20, 23, 22, 31, 29, 28, 33, 36, 39, 34, 47, 45, 44, 49, 52, 55, 54, 63, 61, 60, 65, 68, 71, 66, 79, 77, 76, 81, 84, 87, 86, 95, 93, 92]
+{"Initial_routing":[[1, 0], [0, 3], [3, 2], [2, 15], [15, 13], [13, 12], [12, 17], [17, 16], [16, 19], [19, 18], [18, 31], [31, 29], [29, 28], [28, 33], [33, 32], [32, 35], [35, 34], [34, 47], [47, 45], [45, 44], [44, 49], [49, 48], [48, 51], [51, 50], [50, 63], [63, 61], [61, 60], [60, 65], [65, 64], [64, 67], [67, 66], [66, 79], [79, 77], [77, 76], [76, 81], [81, 80], [80, 83], [83, 82], [82, 95], [95, 93], [93, 92]],"Final_routing":[[1, 4], [4, 7], [7, 2], [2, 15], [15, 13], [13, 12], [12, 17], [17, 20], [20, 23], [23, 22], [22, 31], [31, 29], [29, 28], [28, 33], [33, 36], [36, 39], [39, 34], [34, 47], [47, 45], [45, 44], [44, 49], [49, 52], [52, 55], [55, 54], [54, 63], [63, 61], [61, 60], [60, 65], [65, 68], [68, 71], [71, 66], [66, 79], [79, 77], [77, 76], [76, 81], [81, 84], [84, 87], [87, 86], [86, 95], [95, 93], [93, 92]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [63,93,22,18,81,13,44,71,36,32,67], "edges": [{"from": 0, "to": 63, "label": 63},{"from": 0, "to": 93, "label": 93},{"from": 0, "to": 22, "label": 22},{"from": 0, "to": 18, "label": 18},{"from": 0, "to": 81, "label": 81},{"from": 0, "to": 13, "label": 13},{"from": 0, "to": 44, "label": 44},{"from": 0, "to": 71, "label": 71},{"from": 0, "to": 36, "label": 36},{"from": 0, "to": 32, "label": 32},{"from": 0, "to": 67, "label": 67}]},"Reachability":{"startNode":1,"finalNode":92}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmp9lnzeymn
+DFA generation time: 0.026 seconds 
+DFA states: 11 
+DFA transitions: 378
+Problem file: /tmp/tmp9lnzeymn
+Switches to update: 36
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.015 seconds
+Subproblem verification time: 0.043 seconds
+Subproblem verification time: 0.013 seconds
+Subproblem verification time: 0.014 seconds
+Subproblem verification time: 0.014 seconds
+Subproblem verification time: 0.014 seconds
+Subproblem verification time: 0.014 seconds
+Minimum batches required: 3
+[[4, 7, 20, 23, 22, 36, 39, 52, 55, 54, 68, 71, 84, 87, 86], [1, 17, 33, 49, 65, 81], [0, 3, 16, 19, 18, 32, 35, 48, 51, 50, 64, 67, 80, 83, 82]]
+Total program runtime: 0.348 seconds
+
+Kaki stderr:  
+Time: 0.348
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Marwan.gml 5 --dir topzoo_res/SeparateWPk/kaki/kaki-2 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 2.24
+	System time (seconds): 1.43
+	Percent of CPU this job got: 333%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.10
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 95380
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 37105
+	Voluntary context switches: 4216
+	Involuntary context switches: 712
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

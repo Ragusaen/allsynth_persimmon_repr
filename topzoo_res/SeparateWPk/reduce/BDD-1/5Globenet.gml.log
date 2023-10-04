@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Globenet.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/reduce/BDD-1', dump_bdd=False)
+Running 5Globenet.gml
+Policy: (((((((((((((((((((((((((((((WP(131-393) | WP(393-393)) | WP(10-393)) | WP(266-393)) | WP(397-393)) | WP(16-393)) | WP(153-393)) | WP(285-393)) | WP(158-393)) | WP(42-393)) | WP(304-393)) | WP(307-393)) | WP(180-393)) | WP(58-393)) | WP(62-393)) | WP(193-393)) | WP(200-393)) | WP(332-393)) | WP(211-393)) | WP(84-393)) | WP(345-393)) | WP(351-393)) | WP(226-393)) | WP(103-393)) | WP(106-393)) | WP(235-393)) | WP(239-393)) | WP(370-393)) | WP(377-393)) & (Reach 393))
+Initial path of nodes: [35, 36, 25, 24, 23, 16, 17, 38, 46, 39, 10, 64, 65, 66, 2, 58, 68, 70, 67, 132, 131, 77, 106, 113, 105, 84, 83, 90, 91, 92, 103, 102, 169, 170, 159, 158, 157, 150, 151, 172, 180, 173, 144, 198, 199, 200, 136, 192, 236, 237, 226, 225, 224, 217, 218, 239, 247, 240, 211, 265, 266, 267, 203, 259, 303, 304, 293, 292, 291, 284, 285, 306, 314, 307, 278, 332, 333, 334, 270, 326, 370, 371, 360, 359, 358, 351, 352, 373, 381, 374, 345, 399, 400, 401, 337, 393]
+Final path of nodes: [35, 36, 25, 24, 23, 16, 17, 34, 19, 46, 42, 39, 10, 59, 61, 62, 64, 65, 66, 57, 58, 68, 70, 67, 132, 131, 129, 128, 126, 77, 106, 109, 110, 96, 101, 84, 83, 90, 91, 92, 103, 102, 169, 170, 159, 158, 157, 150, 151, 168, 153, 180, 176, 173, 144, 193, 195, 196, 198, 199, 200, 191, 192, 236, 237, 226, 225, 224, 217, 218, 235, 220, 247, 243, 240, 211, 260, 262, 263, 265, 266, 267, 258, 259, 303, 304, 293, 292, 291, 284, 285, 302, 287, 314, 310, 307, 278, 327, 329, 330, 332, 333, 334, 325, 326, 370, 371, 360, 359, 358, 351, 352, 369, 354, 381, 377, 374, 345, 394, 396, 397, 399, 400, 401, 392, 393]
+Time: 1.6981136798858643
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Globenet.gml 5 --dir topzoo_res/SeparateWPk/reduce/BDD-1 --e-prop SeparateWPk --repeat 1 --reduce"
+	User time (seconds): 2.79
+	System time (seconds): 1.26
+	Percent of CPU this job got: 163%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.49
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 89096
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 15088
+	Voluntary context switches: 24
+	Involuntary context switches: 231
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

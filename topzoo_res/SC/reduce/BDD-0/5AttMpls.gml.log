@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/AttMpls.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-0', dump_bdd=False)
+Running 5AttMpls.gml
+Policy: (Service([27, 76, 124]-149) & (Reach 149))
+Initial path of nodes: [1, 0, 2, 9, 22, 24, 26, 25, 27, 34, 47, 49, 51, 50, 52, 59, 72, 74, 76, 75, 77, 84, 97, 99, 101, 100, 102, 109, 122, 124, 126, 125, 127, 134, 147, 149]
+Final path of nodes: [1, 0, 2, 15, 13, 12, 24, 26, 31, 27, 40, 38, 37, 49, 51, 56, 52, 65, 63, 62, 74, 76, 81, 77, 90, 88, 87, 99, 101, 106, 102, 115, 113, 112, 124, 126, 131, 127, 140, 138, 137, 149]
+Time: 0.02732372283935547
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/AttMpls.gml 5 --dir topzoo_res/SC/reduce/BDD-0 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 0.94
+	System time (seconds): 1.30
+	Percent of CPU this job got: 352%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 88164
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14232
+	Voluntary context switches: 25
+	Involuntary context switches: 48
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

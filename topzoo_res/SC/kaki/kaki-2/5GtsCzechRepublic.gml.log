@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/GtsCzechRepublic.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/kaki/kaki-2', dump_bdd=False)
+Running 5GtsCzechRepublic.gml
+Policy: (Service([35, 87, 144, 171]-183) & (Reach 183))
+Initial path of nodes: [16, 15, 14, 25, 26, 11, 30, 22, 3, 23, 32, 35, 54, 62, 38, 36, 37, 41, 49, 48, 80, 79, 78, 89, 90, 75, 94, 86, 67, 87, 112, 111, 110, 121, 122, 107, 126, 118, 99, 119, 144, 143, 142, 153, 154, 139, 158, 150, 131, 151, 176, 175, 174, 185, 186, 171, 190, 182, 163, 183]
+Final path of nodes: [16, 17, 9, 5, 4, 6, 30, 11, 28, 27, 12, 2, 23, 32, 35, 55, 34, 44, 59, 60, 43, 58, 57, 46, 47, 48, 80, 81, 73, 69, 68, 70, 94, 75, 92, 91, 76, 66, 87, 112, 113, 105, 101, 100, 102, 126, 107, 124, 123, 108, 98, 119, 144, 145, 137, 133, 132, 134, 158, 139, 156, 155, 140, 130, 151, 176, 177, 169, 165, 164, 166, 190, 171, 188, 187, 172, 162, 183]
+{"Initial_routing":[[16, 15], [15, 14], [14, 25], [25, 26], [26, 11], [11, 30], [30, 22], [22, 3], [3, 23], [23, 32], [32, 35], [35, 54], [54, 62], [62, 38], [38, 36], [36, 37], [37, 41], [41, 49], [49, 48], [48, 80], [80, 79], [79, 78], [78, 89], [89, 90], [90, 75], [75, 94], [94, 86], [86, 67], [67, 87], [87, 112], [112, 111], [111, 110], [110, 121], [121, 122], [122, 107], [107, 126], [126, 118], [118, 99], [99, 119], [119, 144], [144, 143], [143, 142], [142, 153], [153, 154], [154, 139], [139, 158], [158, 150], [150, 131], [131, 151], [151, 176], [176, 175], [175, 174], [174, 185], [185, 186], [186, 171], [171, 190], [190, 182], [182, 163], [163, 183]],"Final_routing":[[16, 17], [17, 9], [9, 5], [5, 4], [4, 6], [6, 30], [30, 11], [11, 28], [28, 27], [27, 12], [12, 2], [2, 23], [23, 32], [32, 35], [35, 55], [55, 34], [34, 44], [44, 59], [59, 60], [60, 43], [43, 58], [58, 57], [57, 46], [46, 47], [47, 48], [48, 80], [80, 81], [81, 73], [73, 69], [69, 68], [68, 70], [70, 94], [94, 75], [75, 92], [92, 91], [91, 76], [76, 66], [66, 87], [87, 112], [112, 113], [113, 105], [105, 101], [101, 100], [100, 102], [102, 126], [126, 107], [107, 124], [124, 123], [123, 108], [108, 98], [98, 119], [119, 144], [144, 145], [145, 137], [137, 133], [133, 132], [132, 134], [134, 158], [158, 139], [139, 156], [156, 155], [155, 140], [140, 130], [130, 151], [151, 176], [176, 177], [177, 169], [169, 165], [165, 164], [164, 166], [166, 190], [190, 171], [171, 188], [188, 187], [187, 172], [172, 162], [162, 183]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [4], "edges": [{"from": 0, "to": 1, "label": 35},{"from": 1, "to": 2, "label": 87},{"from": 2, "to": 3, "label": 144},{"from": 3, "to": 4, "label": 171}]},"Reachability":{"startNode":16,"finalNode":183}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmp5pdop3hb
+DFA generation time: 0.013 seconds 
+DFA states: 13 
+DFA transitions: 469
+Problem file: /tmp/tmp5pdop3hb
+Switches to update: 108
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.012 seconds
+Subproblem verification time: 0.04 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.013 seconds
+Subproblem verification time: 0.012 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.015 seconds
+Minimum batches required: 5
+[[17, 28, 9, 5, 4, 6, 27, 12, 2, 55, 34, 44, 59, 60, 43, 58, 57, 46, 47, 81, 92, 73, 69, 68, 70, 91, 76, 66, 113, 124, 105, 101, 100, 102, 123, 108, 98, 145, 156, 137, 133, 132, 134, 155, 140, 130, 177, 188, 169, 165, 164, 166, 187, 172, 162], [11, 16, 35, 75, 80, 107, 112, 139, 144, 171], [30, 54, 62, 38, 36, 37, 41, 49, 94, 126, 158, 190], [15, 14, 25, 26, 22, 3, 79, 78, 89, 90, 86, 67, 111, 110, 121, 122, 118, 99, 143, 142, 153, 154, 150, 131, 176], [175, 174, 185, 186, 182, 163]]
+Total program runtime: 0.25 seconds
+
+Kaki stderr:  
+Time: 0.25
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/GtsCzechRepublic.gml 5 --dir topzoo_res/SC/kaki/kaki-2 --e-prop SC --repeat 1"
+	User time (seconds): 1.81
+	System time (seconds): 1.44
+	Percent of CPU this job got: 433%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 121052
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 46026
+	Voluntary context switches: 4785
+	Involuntary context switches: 158
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

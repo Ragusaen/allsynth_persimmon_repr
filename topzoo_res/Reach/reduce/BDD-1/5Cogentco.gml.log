@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Cogentco.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/reduce/BDD-1', dump_bdd=False)
+Running 5Cogentco.gml
+Policy: (Reach 1167)
+Initial path of nodes: [125, 123, 124, 121, 122, 61, 60, 69, 144, 149, 150, 82, 83, 148, 154, 146, 152, 77, 162, 167, 168, 169, 185, 143, 42, 40, 41, 189, 182, 322, 320, 321, 318, 319, 258, 257, 266, 341, 346, 347, 279, 280, 345, 351, 343, 349, 274, 359, 364, 365, 366, 382, 340, 239, 237, 238, 386, 379, 519, 517, 518, 515, 516, 455, 454, 463, 538, 543, 544, 476, 477, 542, 548, 540, 546, 471, 556, 561, 562, 563, 579, 537, 436, 434, 435, 583, 576, 716, 714, 715, 712, 713, 652, 651, 660, 735, 740, 741, 673, 674, 739, 745, 737, 743, 668, 753, 758, 759, 760, 776, 734, 633, 631, 632, 780, 773, 913, 911, 912, 909, 910, 849, 848, 857, 932, 937, 938, 870, 871, 936, 942, 934, 940, 865, 950, 955, 956, 957, 973, 931, 830, 828, 829, 977, 970, 1110, 1108, 1109, 1106, 1107, 1046, 1045, 1054, 1129, 1134, 1135, 1067, 1068, 1133, 1139, 1131, 1137, 1062, 1147, 1152, 1153, 1154, 1170, 1128, 1027, 1025, 1026, 1174, 1167]
+Final path of nodes: [125, 123, 124, 121, 122, 61, 128, 127, 130, 129, 14, 15, 13, 12, 32, 37, 160, 153, 152, 77, 3, 4, 6, 5, 131, 142, 143, 42, 43, 41, 189, 182, 322, 320, 321, 318, 319, 258, 325, 324, 327, 326, 211, 212, 210, 209, 229, 234, 357, 350, 349, 274, 200, 201, 203, 202, 328, 339, 340, 239, 240, 238, 386, 379, 519, 517, 518, 515, 516, 455, 522, 521, 524, 523, 408, 409, 407, 406, 426, 431, 554, 547, 546, 471, 397, 398, 400, 399, 525, 536, 537, 436, 437, 435, 583, 576, 716, 714, 715, 712, 713, 652, 719, 718, 721, 720, 605, 606, 604, 603, 623, 628, 751, 744, 743, 668, 594, 595, 597, 596, 722, 733, 734, 633, 634, 632, 780, 773, 913, 911, 912, 909, 910, 849, 916, 915, 918, 917, 802, 803, 801, 800, 820, 825, 948, 941, 940, 865, 791, 792, 794, 793, 919, 930, 931, 830, 831, 829, 977, 970, 1110, 1108, 1109, 1106, 1107, 1046, 1113, 1112, 1115, 1114, 999, 1000, 998, 997, 1017, 1022, 1145, 1138, 1137, 1062, 988, 989, 991, 990, 1116, 1127, 1128, 1027, 1028, 1026, 1174, 1167]
+Time: 0.07901310920715332
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Cogentco.gml 5 --dir topzoo_res/Reach/reduce/BDD-1 --e-prop Reach --repeat 1 --reduce"
+	User time (seconds): 1.61
+	System time (seconds): 1.30
+	Percent of CPU this job got: 222%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 98124
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 16081
+	Voluntary context switches: 37
+	Involuntary context switches: 52
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

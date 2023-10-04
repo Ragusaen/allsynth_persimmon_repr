@@ -1,0 +1,11 @@
+<map id="util/cstringstream.c" name="util/cstringstream.c">
+<area shape="rect" id="Node000001" title="Simple string streams in C." alt="" coords="103,5,250,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,71,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,36,77,76,74,72,151,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="95,81,165,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,35,148,70,144,67,166,32"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="188,81,259,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="187,32,210,67,205,70,183,35"/>
+<area shape="rect" id="Node000005" href="$cstringstream_8h.html" title="Package for simple stringstreams in C." alt="" coords="283,81,406,109"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="208,31,303,72,300,77,206,36"/>
+</map>

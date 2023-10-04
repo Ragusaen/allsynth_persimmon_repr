@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/WideJpn.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/kaki/kaki-1', dump_bdd=False)
+Running 5WideJpn.gml
+Policy: (Reach 165)
+Initial path of nodes: [11, 29, 20, 0, 1, 2, 21, 15, 41, 59, 50, 30, 31, 32, 51, 45, 71, 89, 80, 60, 61, 62, 81, 75, 101, 119, 110, 90, 91, 92, 111, 105, 131, 149, 140, 120, 121, 122, 141, 135, 161, 179, 170, 150, 151, 152, 171, 165]
+Final path of nodes: [11, 29, 20, 0, 6, 10, 22, 21, 15, 41, 59, 50, 30, 36, 40, 52, 51, 45, 71, 89, 80, 60, 66, 70, 82, 81, 75, 101, 119, 110, 90, 96, 100, 112, 111, 105, 131, 149, 140, 120, 126, 130, 142, 141, 135, 161, 179, 170, 150, 156, 160, 172, 171, 165]
+{"Initial_routing":[[11, 29], [29, 20], [20, 0], [0, 1], [1, 2], [2, 21], [21, 15], [15, 41], [41, 59], [59, 50], [50, 30], [30, 31], [31, 32], [32, 51], [51, 45], [45, 71], [71, 89], [89, 80], [80, 60], [60, 61], [61, 62], [62, 81], [81, 75], [75, 101], [101, 119], [119, 110], [110, 90], [90, 91], [91, 92], [92, 111], [111, 105], [105, 131], [131, 149], [149, 140], [140, 120], [120, 121], [121, 122], [122, 141], [141, 135], [135, 161], [161, 179], [179, 170], [170, 150], [150, 151], [151, 152], [152, 171], [171, 165]],"Final_routing":[[11, 29], [29, 20], [20, 0], [0, 6], [6, 10], [10, 22], [22, 21], [21, 15], [15, 41], [41, 59], [59, 50], [50, 30], [30, 36], [36, 40], [40, 52], [52, 51], [51, 45], [45, 71], [71, 89], [89, 80], [80, 60], [60, 66], [66, 70], [70, 82], [82, 81], [81, 75], [75, 101], [101, 119], [119, 110], [110, 90], [90, 96], [96, 100], [100, 112], [112, 111], [111, 105], [105, 131], [131, 149], [149, 140], [140, 120], [120, 126], [126, 130], [130, 142], [142, 141], [141, 135], [135, 161], [161, 179], [179, 170], [170, 150], [150, 156], [156, 160], [160, 172], [172, 171], [171, 165]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"Reachability":{"startNode":11,"finalNode":165}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpw89gvymk
+DFA generation time: 0.009 seconds 
+DFA states: 3 
+DFA transitions: 67
+Problem file: /tmp/tmpw89gvymk
+Switches to update: 36
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.005 seconds
+Subproblem verification time: 0.028 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Minimum batches required: 3
+[[6, 10, 22, 36, 40, 52, 66, 70, 82, 96, 100, 112, 126, 130, 142, 156, 160, 172], [0, 30, 60, 90, 120, 150], [1, 2, 31, 32, 61, 62, 91, 92, 121, 122, 151, 152]]
+Total program runtime: 0.184 seconds
+
+Kaki stderr:  
+Time: 0.184
+Solution: None
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/WideJpn.gml 5 --dir topzoo_res/Reach/kaki/kaki-1 --e-prop Reach --repeat 1"
+	User time (seconds): 1.41
+	System time (seconds): 1.40
+	Percent of CPU this job got: 390%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.72
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 92344
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 37372
+	Voluntary context switches: 3837
+	Involuntary context switches: 342
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

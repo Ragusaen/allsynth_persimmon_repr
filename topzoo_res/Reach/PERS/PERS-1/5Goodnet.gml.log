@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Goodnet.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/PERS/PERS-1', dump_bdd=False)
+Running 5Goodnet.gml
+Policy: (Reach 98)
+Initial path of nodes: [0, 3, 9, 14, 13, 17, 20, 26, 31, 30, 34, 37, 43, 48, 47, 51, 54, 60, 65, 64, 68, 71, 77, 82, 81, 85, 88, 94, 99, 98]
+Final path of nodes: [0, 3, 15, 14, 13, 17, 20, 32, 31, 30, 34, 41, 46, 48, 47, 51, 54, 66, 65, 64, 68, 75, 80, 82, 81, 85, 88, 100, 99, 98]
+Persimmon problem:  {"Initial_routing":[[0, 3], [3, 9], [9, 14], [14, 13], [13, 17], [17, 20], [20, 26], [26, 31], [31, 30], [30, 34], [34, 37], [37, 43], [43, 48], [48, 47], [47, 51], [51, 54], [54, 60], [60, 65], [65, 64], [64, 68], [68, 71], [71, 77], [77, 82], [82, 81], [81, 85], [85, 88], [88, 94], [94, 99], [99, 98]],"Final_routing":[[0, 3], [3, 15], [15, 14], [14, 13], [13, 17], [17, 20], [20, 32], [32, 31], [31, 30], [30, 34], [34, 41], [41, 46], [46, 48], [48, 47], [47, 51], [51, 54], [54, 66], [66, 65], [65, 64], [64, 68], [68, 75], [75, 80], [80, 82], [82, 81], [81, 85], [85, 88], [88, 100], [100, 99], [99, 98]],"Properties":{"Reachability":{"startNode":0,"finalNode":98}}}
+Persimmon stdout:  Chain equivalence reduction: 38 -> 26
+Constructing all update BDD
+Solution: Some([[15, 75, 80, 32, 66, 41, 46, 100], [20, 3, 88, 54, 34, 68], [37, 43, 9, 60, 71, 77, 26, 94]])
+Time elapsed: 1.22ms
+Time elapsed(s): 0.001222s
+
+Persimmon stderr:  
+Time: 0.001222
+Solution: [[15, 75, 80, 32, 66, 41, 46, 100], [20, 3, 88, 54, 34, 68], [37, 43, 9, 60, 71, 77, 26, 94]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Goodnet.gml 5 --dir topzoo_res/Reach/PERS/PERS-1 --e-prop Reach --repeat 1"
+	User time (seconds): 0.96
+	System time (seconds): 1.23
+	Percent of CPU this job got: 371%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 70968
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 13064
+	Voluntary context switches: 29
+	Involuntary context switches: 181
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

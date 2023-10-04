@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Karen.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/PERS/PERS-1', dump_bdd=False)
+Running 5Karen.gml
+Policy: (Reach 143)
+Initial path of nodes: [4, 1, 0, 2, 14, 21, 22, 18, 29, 26, 25, 27, 39, 46, 47, 43, 54, 51, 50, 52, 64, 71, 72, 68, 79, 76, 75, 77, 89, 96, 97, 93, 104, 101, 100, 102, 114, 121, 122, 118, 129, 126, 125, 127, 139, 146, 147, 143]
+Final path of nodes: [4, 1, 0, 3, 24, 23, 22, 18, 29, 30, 25, 28, 49, 48, 47, 43, 54, 55, 50, 53, 74, 73, 72, 68, 79, 80, 75, 78, 99, 98, 97, 93, 104, 105, 100, 103, 124, 123, 122, 118, 129, 130, 125, 128, 149, 148, 147, 143]
+Persimmon problem:  {"Initial_routing":[[4, 1], [1, 0], [0, 2], [2, 14], [14, 21], [21, 22], [22, 18], [18, 29], [29, 26], [26, 25], [25, 27], [27, 39], [39, 46], [46, 47], [47, 43], [43, 54], [54, 51], [51, 50], [50, 52], [52, 64], [64, 71], [71, 72], [72, 68], [68, 79], [79, 76], [76, 75], [75, 77], [77, 89], [89, 96], [96, 97], [97, 93], [93, 104], [104, 101], [101, 100], [100, 102], [102, 114], [114, 121], [121, 122], [122, 118], [118, 129], [129, 126], [126, 125], [125, 127], [127, 139], [139, 146], [146, 147], [147, 143]],"Final_routing":[[4, 1], [1, 0], [0, 3], [3, 24], [24, 23], [23, 22], [22, 18], [18, 29], [29, 30], [30, 25], [25, 28], [28, 49], [49, 48], [48, 47], [47, 43], [43, 54], [54, 55], [55, 50], [50, 53], [53, 74], [74, 73], [73, 72], [72, 68], [68, 79], [79, 80], [80, 75], [75, 78], [78, 99], [99, 98], [98, 97], [97, 93], [93, 104], [104, 105], [105, 100], [100, 103], [103, 124], [124, 123], [123, 122], [122, 118], [118, 129], [129, 130], [130, 125], [125, 128], [128, 149], [149, 148], [148, 147], [147, 143]],"Properties":{"Reachability":{"startNode":4,"finalNode":143}}}
+Persimmon stdout:  Chain equivalence reduction: 71 -> 41
+Constructing all update BDD
+Solution: Some([[105, 103, 124, 123, 80, 78, 99, 98, 55, 30, 128, 149, 148, 28, 49, 48, 53, 74, 73, 3, 24, 23, 130], [129, 79, 125, 100, 29, 25, 75, 0, 50, 104, 54], [102, 114, 121, 27, 39, 46, 52, 64, 71, 127, 139, 146, 26, 77, 89, 96, 101, 2, 14, 21, 126, 51, 76]])
+Time elapsed: 2.46ms
+Time elapsed(s): 0.002458s
+
+Persimmon stderr:  
+Time: 0.002458
+Solution: [[105, 103, 124, 123, 80, 78, 99, 98, 55, 30, 128, 149, 148, 28, 49, 48, 53, 74, 73, 3, 24, 23, 130], [129, 79, 125, 100, 29, 25, 75, 0, 50, 104, 54], [102, 114, 121, 27, 39, 46, 52, 64, 71, 127, 139, 146, 26, 77, 89, 96, 101, 2, 14, 21, 126, 51, 76]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Karen.gml 5 --dir topzoo_res/Reach/PERS/PERS-1 --e-prop Reach --repeat 1"
+	User time (seconds): 0.90
+	System time (seconds): 1.31
+	Percent of CPU this job got: 361%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 73012
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13115
+	Voluntary context switches: 43
+	Involuntary context switches: 165
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

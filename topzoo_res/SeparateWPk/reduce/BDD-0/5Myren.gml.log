@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Myren.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/reduce/BDD-0', dump_bdd=False)
+Running 5Myren.gml
+Policy: ((((((((((WP(37-221) | WP(73-221)) | WP(74-221)) | WP(141-221)) | WP(110-221)) | WP(111-221)) | WP(178-221)) | WP(148-221)) | WP(214-221)) | WP(185-221)) & (Reach 221))
+Initial path of nodes: [0, 34, 29, 30, 36, 37, 71, 66, 67, 73, 74, 108, 103, 104, 110, 111, 145, 140, 141, 147, 148, 182, 177, 178, 184, 185, 219, 214, 215, 221]
+Final path of nodes: [0, 34, 29, 30, 36, 37, 71, 68, 66, 67, 73, 74, 108, 103, 104, 110, 111, 145, 142, 140, 141, 147, 148, 182, 177, 178, 184, 185, 219, 216, 214, 215, 221]
+Time: 0.022582054138183594
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Myren.gml 5 --dir topzoo_res/SeparateWPk/reduce/BDD-0 --e-prop SeparateWPk --repeat 1 --reduce"
+	User time (seconds): 0.99
+	System time (seconds): 1.22
+	Percent of CPU this job got: 310%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 88212
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14179
+	Voluntary context switches: 29
+	Involuntary context switches: 47097
+	Swaps: 0
+	File system inputs: 24
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

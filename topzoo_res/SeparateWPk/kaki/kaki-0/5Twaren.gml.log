@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Twaren.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/kaki/kaki-0', dump_bdd=False)
+Running 5Twaren.gml
+Policy: (((((WP(100-118) | WP(40-118)) | WP(80-118)) | WP(20-118)) | WP(60-118)) & (Reach 118))
+Initial path of nodes: [0, 2, 4, 19, 18, 20, 22, 24, 39, 38, 40, 42, 44, 59, 58, 60, 62, 64, 79, 78, 80, 82, 84, 99, 98, 100, 102, 104, 119, 118]
+Final path of nodes: [0, 2, 13, 19, 18, 20, 22, 33, 39, 38, 40, 42, 53, 59, 58, 60, 62, 73, 79, 78, 80, 82, 93, 99, 98, 100, 102, 113, 119, 118]
+{"Initial_routing":[[0, 2], [2, 4], [4, 19], [19, 18], [18, 20], [20, 22], [22, 24], [24, 39], [39, 38], [38, 40], [40, 42], [42, 44], [44, 59], [59, 58], [58, 60], [60, 62], [62, 64], [64, 79], [79, 78], [78, 80], [80, 82], [82, 84], [84, 99], [99, 98], [98, 100], [100, 102], [102, 104], [104, 119], [119, 118]],"Final_routing":[[0, 2], [2, 13], [13, 19], [19, 18], [18, 20], [20, 22], [22, 33], [33, 39], [39, 38], [38, 40], [40, 42], [42, 53], [53, 59], [59, 58], [58, 60], [60, 62], [62, 73], [73, 79], [79, 78], [78, 80], [80, 82], [82, 93], [93, 99], [99, 98], [98, 100], [100, 102], [102, 113], [113, 119], [119, 118]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [60,20,80,100,40], "edges": [{"from": 0, "to": 60, "label": 60},{"from": 0, "to": 20, "label": 20},{"from": 0, "to": 80, "label": 80},{"from": 0, "to": 100, "label": 100},{"from": 0, "to": 40, "label": 40}]},"Reachability":{"startNode":0,"finalNode":118}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpha4dvavv
+DFA generation time: 0.014 seconds 
+DFA states: 9 
+DFA transitions: 91
+Problem file: /tmp/tmpha4dvavv
+Switches to update: 18
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.007 seconds
+Subproblem verification time: 0.045 seconds
+Subproblem verification time: 0.014 seconds
+Subproblem verification time: 0.012 seconds
+Subproblem verification time: 0.013 seconds
+Subproblem verification time: 0.013 seconds
+Subproblem verification time: 0.014 seconds
+Minimum batches required: 3
+[[13, 33, 53, 73, 93, 113], [2, 22, 42, 62, 82, 102], [4, 24, 44, 64, 84, 104]]
+Total program runtime: 0.275 seconds
+
+Kaki stderr:  
+Time: 0.275
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Twaren.gml 5 --dir topzoo_res/SeparateWPk/kaki/kaki-0 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 1.76
+	System time (seconds): 1.40
+	Percent of CPU this job got: 324%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.97
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 89380
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 38001
+	Voluntary context switches: 3432
+	Involuntary context switches: 324
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

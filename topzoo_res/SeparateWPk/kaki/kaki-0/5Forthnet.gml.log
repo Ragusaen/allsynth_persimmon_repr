@@ -1,0 +1,47 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Forthnet.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/kaki/kaki-0', dump_bdd=False)
+Running 5Forthnet.gml
+Policy: ((((((((((((((((((WP(32-363) | WP(65-363)) | WP(131-363)) | WP(291-363)) | WP(229-363)) | WP(166-363)) | WP(255-363)) | WP(104-363)) | WP(331-363)) | WP(365-363)) | WP(206-363)) | WP(239-363)) | WP(84-363)) | WP(117-363)) | WP(342-363)) | WP(55-363)) | WP(189-363)) | WP(127-363)) & (Reach 363))
+Initial path of nodes: [21, 20, 42, 43, 7, 55, 3, 53, 64, 65, 117, 69, 105, 104, 82, 84, 145, 144, 166, 167, 131, 179, 127, 177, 207, 206, 228, 229, 193, 241, 189, 239, 269, 268, 290, 291, 255, 303, 251, 301, 331, 330, 352, 353, 317, 365, 313, 363]
+Final path of nodes: [21, 20, 42, 43, 7, 32, 55, 3, 53, 64, 65, 117, 94, 69, 105, 104, 82, 84, 145, 144, 166, 167, 131, 156, 179, 127, 177, 207, 206, 228, 229, 193, 218, 241, 189, 239, 269, 268, 290, 291, 255, 280, 303, 251, 301, 331, 330, 352, 353, 317, 342, 365, 313, 363]
+{"Initial_routing":[[21, 20], [20, 42], [42, 43], [43, 7], [7, 55], [55, 3], [3, 53], [53, 64], [64, 65], [65, 117], [117, 69], [69, 105], [105, 104], [104, 82], [82, 84], [84, 145], [145, 144], [144, 166], [166, 167], [167, 131], [131, 179], [179, 127], [127, 177], [177, 207], [207, 206], [206, 228], [228, 229], [229, 193], [193, 241], [241, 189], [189, 239], [239, 269], [269, 268], [268, 290], [290, 291], [291, 255], [255, 303], [303, 251], [251, 301], [301, 331], [331, 330], [330, 352], [352, 353], [353, 317], [317, 365], [365, 313], [313, 363]],"Final_routing":[[21, 20], [20, 42], [42, 43], [43, 7], [7, 32], [32, 55], [55, 3], [3, 53], [53, 64], [64, 65], [65, 117], [117, 94], [94, 69], [69, 105], [105, 104], [104, 82], [82, 84], [84, 145], [145, 144], [144, 166], [166, 167], [167, 131], [131, 156], [156, 179], [179, 127], [127, 177], [177, 207], [207, 206], [206, 228], [228, 229], [229, 193], [193, 218], [218, 241], [241, 189], [189, 239], [239, 269], [269, 268], [268, 290], [290, 291], [291, 255], [255, 280], [280, 303], [303, 251], [251, 301], [301, 331], [331, 330], [330, 352], [352, 353], [353, 317], [317, 342], [342, 365], [365, 313], [313, 363]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [127,189,55,342,117,84,239,206,365,331,104,255,166,229,291,131,32,65], "edges": [{"from": 0, "to": 127, "label": 127},{"from": 0, "to": 189, "label": 189},{"from": 0, "to": 55, "label": 55},{"from": 0, "to": 342, "label": 342},{"from": 0, "to": 117, "label": 117},{"from": 0, "to": 84, "label": 84},{"from": 0, "to": 239, "label": 239},{"from": 0, "to": 206, "label": 206},{"from": 0, "to": 365, "label": 365},{"from": 0, "to": 331, "label": 331},{"from": 0, "to": 104, "label": 104},{"from": 0, "to": 255, "label": 255},{"from": 0, "to": 166, "label": 166},{"from": 0, "to": 229, "label": 229},{"from": 0, "to": 291, "label": 291},{"from": 0, "to": 131, "label": 131},{"from": 0, "to": 32, "label": 32},{"from": 0, "to": 65, "label": 65}]},"Reachability":{"startNode":21,"finalNode":363}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpjrndtn7s
+DFA generation time: 0.026 seconds 
+DFA states: 53 
+DFA transitions: 1317
+Problem file: /tmp/tmpjrndtn7s
+Switches to update: 12
+
+Decomposed topology into 1 subproblems
+Topological decomposition took 0.024 seconds
+Subproblem verification time: 2.574 seconds
+Minimum batches required: 2
+[[32, 94, 156, 218, 280, 342], [317, 255, 193, 131, 117, 7]]
+Total program runtime: 3.334 seconds
+
+Kaki stderr:  
+Time: 3.334
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Forthnet.gml 5 --dir topzoo_res/SeparateWPk/kaki/kaki-0 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 6.37
+	System time (seconds): 1.44
+	Percent of CPU this job got: 186%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 360456
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 54159
+	Voluntary context switches: 4214
+	Involuntary context switches: 248
+	Swaps: 0
+	File system inputs: 32
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

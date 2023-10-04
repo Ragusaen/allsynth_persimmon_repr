@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Uninet.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/PERS/PERS-1', dump_bdd=False)
+Running 5Uninet.gml
+Policy: (Reach 73)
+Initial path of nodes: [2, 1, 4, 7, 10, 8, 13, 23, 20, 17, 14, 15, 28, 27, 30, 33, 36, 34, 41, 40, 43, 46, 49, 47, 54, 53, 56, 59, 62, 60, 67, 66, 69, 72, 75, 73]
+Final path of nodes: [2, 1, 4, 11, 9, 8, 13, 23, 24, 17, 16, 15, 28, 29, 30, 37, 35, 34, 41, 42, 43, 50, 48, 47, 54, 55, 56, 63, 61, 60, 67, 68, 69, 76, 74, 73]
+Persimmon problem:  {"Initial_routing":[[2, 1], [1, 4], [4, 7], [7, 10], [10, 8], [8, 13], [13, 23], [23, 20], [20, 17], [17, 14], [14, 15], [15, 28], [28, 27], [27, 30], [30, 33], [33, 36], [36, 34], [34, 41], [41, 40], [40, 43], [43, 46], [46, 49], [49, 47], [47, 54], [54, 53], [53, 56], [56, 59], [59, 62], [62, 60], [60, 67], [67, 66], [66, 69], [69, 72], [72, 75], [75, 73]],"Final_routing":[[2, 1], [1, 4], [4, 11], [11, 9], [9, 8], [8, 13], [13, 23], [23, 24], [24, 17], [17, 16], [16, 15], [15, 28], [28, 29], [29, 30], [30, 37], [37, 35], [35, 34], [34, 41], [41, 42], [42, 43], [43, 50], [50, 48], [48, 47], [47, 54], [54, 55], [55, 56], [56, 63], [63, 61], [61, 60], [60, 67], [67, 68], [68, 69], [69, 76], [76, 74], [74, 73]],"Properties":{"Reachability":{"startNode":2,"finalNode":73}}}
+Persimmon stdout:  Chain equivalence reduction: 52 -> 40
+Constructing all update BDD
+Solution: Some([[76, 74, 37, 35, 42, 24, 55, 68, 16, 63, 61, 29, 50, 48, 11, 9], [23, 69, 43, 30, 41, 67, 28, 4, 54, 56, 17], [66, 40, 7, 10, 33, 36, 59, 62, 20, 72, 75, 27, 53, 14, 46, 49]])
+Time elapsed: 2.35ms
+Time elapsed(s): 0.002352s
+
+Persimmon stderr:  
+Time: 0.002352
+Solution: [[76, 74, 37, 35, 42, 24, 55, 68, 16, 63, 61, 29, 50, 48, 11, 9], [23, 69, 43, 30, 41, 67, 28, 4, 54, 56, 17], [66, 40, 7, 10, 33, 36, 59, 62, 20, 72, 75, 27, 53, 14, 46, 49]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Uninet.gml 5 --dir topzoo_res/Reach/PERS/PERS-1 --e-prop Reach --repeat 1"
+	User time (seconds): 0.87
+	System time (seconds): 1.31
+	Percent of CPU this job got: 378%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 70848
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13013
+	Voluntary context switches: 30
+	Involuntary context switches: 102
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

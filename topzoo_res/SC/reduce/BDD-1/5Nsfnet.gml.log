@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Nsfnet.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-1', dump_bdd=False)
+Running 5Nsfnet.gml
+Policy: (Service([24, 35, 47, 66]-73) & (Reach 73))
+Initial path of nodes: [1, 2, 0, 11, 9, 8, 14, 15, 13, 24, 22, 21, 27, 28, 26, 37, 35, 34, 40, 41, 39, 50, 48, 47, 53, 54, 52, 63, 61, 60, 66, 67, 65, 76, 74, 73]
+Final path of nodes: [1, 4, 12, 11, 9, 8, 14, 17, 25, 24, 22, 21, 27, 30, 38, 37, 35, 34, 40, 43, 51, 50, 48, 47, 53, 56, 64, 63, 61, 60, 66, 69, 77, 76, 74, 73]
+Time: 0.013116598129272461
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Nsfnet.gml 5 --dir topzoo_res/SC/reduce/BDD-1 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 0.93
+	System time (seconds): 1.28
+	Percent of CPU this job got: 365%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 87260
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13907
+	Voluntary context switches: 28
+	Involuntary context switches: 46
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

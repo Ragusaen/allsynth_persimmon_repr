@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/HiberniaIreland.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/reduce/BDD-1', dump_bdd=False)
+Running 5HiberniaIreland.gml
+Policy: (((((((((((WP(33-47) | WP(34-47)) | WP(7-47)) | WP(8-47)) | WP(9-47)) | WP(41-47)) | WP(47-47)) | WP(17-47)) | WP(20-47)) | WP(25-47)) | WP(27-47)) & (Reach 47))
+Initial path of nodes: [1, 2, 5, 0, 7, 9, 10, 13, 8, 15, 17, 18, 21, 16, 23, 25, 26, 29, 24, 31, 33, 34, 37, 32, 39, 41, 42, 45, 40, 47]
+Final path of nodes: [1, 2, 3, 4, 0, 7, 9, 10, 11, 12, 8, 15, 17, 18, 19, 20, 16, 23, 25, 26, 27, 28, 24, 31, 33, 34, 35, 36, 32, 39, 41, 42, 43, 44, 40, 47]
+Time: 0.023540258407592773
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/HiberniaIreland.gml 5 --dir topzoo_res/SeparateWPk/reduce/BDD-1 --e-prop SeparateWPk --repeat 1 --reduce"
+	User time (seconds): 0.83
+	System time (seconds): 1.34
+	Percent of CPU this job got: 379%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 88944
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13886
+	Voluntary context switches: 36
+	Involuntary context switches: 128
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Agis.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/kaki/kaki-2', dump_bdd=False)
+Running 5Agis.gml
+Policy: (Reach 143)
+Initial path of nodes: [16, 15, 3, 6, 7, 19, 17, 18, 41, 40, 28, 31, 32, 44, 42, 43, 66, 65, 53, 56, 57, 69, 67, 68, 91, 90, 78, 81, 82, 94, 92, 93, 116, 115, 103, 106, 107, 119, 117, 118, 141, 140, 128, 131, 132, 144, 142, 143]
+Final path of nodes: [16, 15, 23, 22, 21, 19, 17, 18, 41, 40, 48, 47, 46, 44, 42, 43, 66, 65, 73, 72, 71, 69, 67, 68, 91, 90, 98, 97, 96, 94, 92, 93, 116, 115, 123, 122, 121, 119, 117, 118, 141, 140, 148, 147, 146, 144, 142, 143]
+{"Initial_routing":[[16, 15], [15, 3], [3, 6], [6, 7], [7, 19], [19, 17], [17, 18], [18, 41], [41, 40], [40, 28], [28, 31], [31, 32], [32, 44], [44, 42], [42, 43], [43, 66], [66, 65], [65, 53], [53, 56], [56, 57], [57, 69], [69, 67], [67, 68], [68, 91], [91, 90], [90, 78], [78, 81], [81, 82], [82, 94], [94, 92], [92, 93], [93, 116], [116, 115], [115, 103], [103, 106], [106, 107], [107, 119], [119, 117], [117, 118], [118, 141], [141, 140], [140, 128], [128, 131], [131, 132], [132, 144], [144, 142], [142, 143]],"Final_routing":[[16, 15], [15, 23], [23, 22], [22, 21], [21, 19], [19, 17], [17, 18], [18, 41], [41, 40], [40, 48], [48, 47], [47, 46], [46, 44], [44, 42], [42, 43], [43, 66], [66, 65], [65, 73], [73, 72], [72, 71], [71, 69], [69, 67], [67, 68], [68, 91], [91, 90], [90, 98], [98, 97], [97, 96], [96, 94], [94, 92], [92, 93], [93, 116], [116, 115], [115, 123], [123, 122], [122, 121], [121, 119], [119, 117], [117, 118], [118, 141], [141, 140], [140, 148], [148, 147], [147, 146], [146, 144], [144, 142], [142, 143]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"Reachability":{"startNode":16,"finalNode":143}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpwgnz26_k
+DFA generation time: 0.01 seconds 
+DFA states: 3 
+DFA transitions: 67
+Problem file: /tmp/tmpwgnz26_k
+Switches to update: 42
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.005 seconds
+Subproblem verification time: 0.029 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.008 seconds
+Minimum batches required: 3
+[[23, 22, 21, 48, 47, 46, 73, 72, 71, 98, 97, 96, 123, 122, 121, 148, 147, 146], [15, 40, 65, 90, 115, 140], [3, 6, 7, 28, 31, 32, 53, 56, 57, 78, 81, 82, 103, 106, 107, 128, 131, 132]]
+Total program runtime: 0.202 seconds
+
+Kaki stderr:  
+Time: 0.202
+Solution: None
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Agis.gml 5 --dir topzoo_res/Reach/kaki/kaki-2 --e-prop Reach --repeat 1"
+	User time (seconds): 1.37
+	System time (seconds): 1.39
+	Percent of CPU this job got: 390%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.70
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 95816
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 37623
+	Voluntary context switches: 3413
+	Involuntary context switches: 172
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

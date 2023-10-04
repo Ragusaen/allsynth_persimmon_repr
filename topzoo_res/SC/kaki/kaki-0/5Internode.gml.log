@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Internode.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/kaki/kaki-0', dump_bdd=False)
+Running 5Internode.gml
+Policy: (Service([77, 152, 218, 265, 389]-395) & (Reach 395))
+Initial path of nodes: [41, 20, 1, 6, 60, 59, 65, 77, 66, 69, 67, 84, 82, 104, 173, 152, 133, 138, 192, 191, 197, 239, 218, 199, 204, 258, 257, 263, 305, 284, 265, 270, 324, 323, 329, 371, 350, 331, 336, 390, 389, 395]
+Final path of nodes: [41, 20, 1, 18, 16, 59, 65, 77, 66, 72, 126, 125, 82, 104, 173, 152, 133, 150, 148, 191, 197, 239, 218, 217, 223, 214, 257, 263, 305, 284, 265, 282, 280, 323, 329, 371, 350, 349, 355, 346, 389, 395]
+{"Initial_routing":[[41, 20], [20, 1], [1, 6], [6, 60], [60, 59], [59, 65], [65, 77], [77, 66], [66, 69], [69, 67], [67, 84], [84, 82], [82, 104], [104, 173], [173, 152], [152, 133], [133, 138], [138, 192], [192, 191], [191, 197], [197, 239], [239, 218], [218, 199], [199, 204], [204, 258], [258, 257], [257, 263], [263, 305], [305, 284], [284, 265], [265, 270], [270, 324], [324, 323], [323, 329], [329, 371], [371, 350], [350, 331], [331, 336], [336, 390], [390, 389], [389, 395]],"Final_routing":[[41, 20], [20, 1], [1, 18], [18, 16], [16, 59], [59, 65], [65, 77], [77, 66], [66, 72], [72, 126], [126, 125], [125, 82], [82, 104], [104, 173], [173, 152], [152, 133], [133, 150], [150, 148], [148, 191], [191, 197], [197, 239], [239, 218], [218, 217], [217, 223], [223, 214], [214, 257], [257, 263], [263, 305], [305, 284], [284, 265], [265, 282], [282, 280], [280, 323], [323, 329], [329, 371], [371, 350], [350, 349], [349, 355], [355, 346], [346, 389], [389, 395]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [5], "edges": [{"from": 0, "to": 1, "label": 77},{"from": 1, "to": 2, "label": 152},{"from": 2, "to": 3, "label": 218},{"from": 3, "to": 4, "label": 265},{"from": 4, "to": 5, "label": 389}]},"Reachability":{"startNode":41,"finalNode":395}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpwcdwiv38
+DFA generation time: 0.012 seconds 
+DFA states: 9 
+DFA transitions: 124
+Problem file: /tmp/tmpwcdwiv38
+Switches to update: 36
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.006 seconds
+Subproblem verification time: 0.026 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.007 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.012 seconds
+Minimum batches required: 3
+[[18, 16, 72, 126, 125, 150, 148, 217, 223, 214, 282, 280, 349, 355, 346], [1, 66, 133, 218, 265, 350], [6, 60, 69, 67, 84, 138, 192, 199, 204, 258, 270, 324, 331, 336, 390]]
+Total program runtime: 0.188 seconds
+
+Kaki stderr:  
+Time: 0.188
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Internode.gml 5 --dir topzoo_res/SC/kaki/kaki-0 --e-prop SC --repeat 1"
+	User time (seconds): 1.45
+	System time (seconds): 1.33
+	Percent of CPU this job got: 371%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 92712
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2
+	Minor (reclaiming a frame) page faults: 37802
+	Voluntary context switches: 3729
+	Involuntary context switches: 202
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

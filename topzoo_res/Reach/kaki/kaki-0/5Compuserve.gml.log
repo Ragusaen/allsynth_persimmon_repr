@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Compuserve.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/kaki/kaki-0', dump_bdd=False)
+Running 5Compuserve.gml
+Policy: (Reach 81)
+Initial path of nodes: [6, 13, 12, 2, 11, 18, 19, 16, 25, 24, 34, 41, 40, 30, 39, 48, 55, 54, 44, 53, 62, 69, 68, 58, 67, 76, 83, 82, 72, 81]
+Final path of nodes: [6, 13, 4, 5, 2, 11, 18, 27, 26, 23, 24, 34, 35, 36, 37, 38, 39, 48, 49, 50, 51, 52, 53, 62, 63, 64, 65, 66, 67, 76, 77, 78, 79, 80, 81]
+{"Initial_routing":[[6, 13], [13, 12], [12, 2], [2, 11], [11, 18], [18, 19], [19, 16], [16, 25], [25, 24], [24, 34], [34, 41], [41, 40], [40, 30], [30, 39], [39, 48], [48, 55], [55, 54], [54, 44], [44, 53], [53, 62], [62, 69], [69, 68], [68, 58], [58, 67], [67, 76], [76, 83], [83, 82], [82, 72], [72, 81]],"Final_routing":[[6, 13], [13, 4], [4, 5], [5, 2], [2, 11], [11, 18], [18, 27], [27, 26], [26, 23], [23, 24], [24, 34], [34, 35], [35, 36], [36, 37], [37, 38], [38, 39], [39, 48], [48, 49], [49, 50], [50, 51], [51, 52], [52, 53], [53, 62], [62, 63], [63, 64], [64, 65], [65, 66], [66, 67], [67, 76], [76, 77], [77, 78], [78, 79], [79, 80], [80, 81]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"Reachability":{"startNode":6,"finalNode":81}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmp05qfv5lj
+DFA generation time: 0.008 seconds 
+DFA states: 3 
+DFA transitions: 52
+Problem file: /tmp/tmp05qfv5lj
+Switches to update: 43
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.004 seconds
+Subproblem verification time: 0.028 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Minimum batches required: 3
+[[4, 5, 27, 26, 23, 35, 36, 37, 38, 49, 50, 51, 52, 63, 64, 65, 66, 77, 78, 79, 80], [13, 18, 34, 48, 62, 76], [12, 19, 16, 25, 41, 40, 30, 55, 54, 44, 69, 68, 58, 83, 82, 72]]
+Total program runtime: 0.186 seconds
+
+Kaki stderr:  
+Time: 0.186
+Solution: None
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Compuserve.gml 5 --dir topzoo_res/Reach/kaki/kaki-0 --e-prop Reach --repeat 1"
+	User time (seconds): 1.40
+	System time (seconds): 1.37
+	Percent of CPU this job got: 402%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 94788
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 37300
+	Voluntary context switches: 3290
+	Involuntary context switches: 102
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

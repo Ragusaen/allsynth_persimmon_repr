@@ -1,0 +1,11 @@
+<map id="util/pipefork.c" name="util/pipefork.c">
+<area shape="rect" id="Node000001" title="Forks a command and sets up pipes to and from." alt="" coords="130,5,242,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,79,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,36,82,76,79,72,159,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="103,81,176,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,35,158,70,153,67,175,32"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="200,81,265,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="197,32,219,67,214,70,192,35"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="289,81,376,109"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="213,31,295,72,292,76,211,36"/>
+</map>

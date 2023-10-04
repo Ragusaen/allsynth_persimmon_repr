@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Bellsouth.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/PERS/PERS-0', dump_bdd=False)
+Running 5Bellsouth.gml
+Policy: ((((((((((((((((((WP(257-291) | WP(195-291)) | WP(101-291)) | WP(294-291)) | WP(199-291)) | WP(39-291)) | WP(137-291)) | WP(10-291)) | WP(265-291)) | WP(202-291)) | WP(235-291)) | WP(61-291)) | WP(93-291)) | WP(148-291)) | WP(189-291)) | WP(87-291)) | WP(152-291)) | WP(253-291)) & (Reach 291))
+Initial path of nodes: [2, 42, 50, 49, 35, 10, 46, 36, 53, 93, 101, 100, 86, 61, 97, 87, 104, 144, 152, 151, 137, 112, 148, 138, 155, 195, 203, 202, 188, 163, 199, 189, 206, 246, 254, 253, 239, 214, 250, 240, 257, 297, 305, 304, 290, 265, 301, 291]
+Final path of nodes: [2, 42, 50, 49, 31, 39, 10, 46, 36, 53, 93, 101, 100, 82, 90, 61, 97, 87, 104, 144, 152, 151, 133, 141, 112, 148, 138, 155, 195, 203, 202, 184, 192, 163, 199, 189, 206, 246, 254, 253, 235, 243, 214, 250, 240, 257, 297, 305, 304, 286, 294, 265, 301, 291]
+Persimmon problem:  {"Initial_routing":[[2, 42], [42, 50], [50, 49], [49, 35], [35, 10], [10, 46], [46, 36], [36, 53], [53, 93], [93, 101], [101, 100], [100, 86], [86, 61], [61, 97], [97, 87], [87, 104], [104, 144], [144, 152], [152, 151], [151, 137], [137, 112], [112, 148], [148, 138], [138, 155], [155, 195], [195, 203], [203, 202], [202, 188], [188, 163], [163, 199], [199, 189], [189, 206], [206, 246], [246, 254], [254, 253], [253, 239], [239, 214], [214, 250], [250, 240], [240, 257], [257, 297], [297, 305], [305, 304], [304, 290], [290, 265], [265, 301], [301, 291]],"Final_routing":[[2, 42], [42, 50], [50, 49], [49, 31], [31, 39], [39, 10], [10, 46], [46, 36], [36, 53], [53, 93], [93, 101], [101, 100], [100, 82], [82, 90], [90, 61], [61, 97], [97, 87], [87, 104], [104, 144], [144, 152], [152, 151], [151, 133], [133, 141], [141, 112], [112, 148], [148, 138], [138, 155], [155, 195], [195, 203], [203, 202], [202, 184], [184, 192], [192, 163], [163, 199], [199, 189], [189, 206], [206, 246], [246, 254], [254, 253], [253, 235], [235, 243], [243, 214], [214, 250], [250, 240], [240, 257], [257, 297], [297, 305], [305, 304], [304, 286], [286, 294], [294, 265], [265, 301], [301, 291]],"Properties":{"MultiAlternativeWaypoint": {"waypoint": [257,195,101,294,199,39,137,10,265,202,235,61,93,148,189,87,152,253]},"Reachability":{"startNode":2,"finalNode":291}}}
+Persimmon stdout:  Chain equivalence reduction: 60 -> 44
+Constructing all update BDD
+Solution: Some([[31, 184, 192, 286, 235, 133, 141, 294, 39, 243, 82, 90], [304, 100, 151, 49, 253, 202], [239, 86, 137, 188, 35, 290]])
+Time elapsed: 2.95ms
+Time elapsed(s): 0.002953s
+
+Persimmon stderr:  
+Time: 0.002953
+Solution: [[31, 184, 192, 286, 235, 133, 141, 294, 39, 243, 82, 90], [304, 100, 151, 49, 253, 202], [239, 86, 137, 188, 35, 290]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Bellsouth.gml 5 --dir topzoo_res/SeparateWPk/PERS/PERS-0 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 1.01
+	System time (seconds): 1.28
+	Percent of CPU this job got: 311%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.74
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 72328
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13438
+	Voluntary context switches: 30
+	Involuntary context switches: 178
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

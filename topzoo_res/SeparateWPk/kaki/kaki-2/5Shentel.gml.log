@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Shentel.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/kaki/kaki-2', dump_bdd=False)
+Running 5Shentel.gml
+Policy: ((((((((((((((((((((((((((((((((WP(132-167) | WP(9-167)) | WP(15-167)) | WP(20-167)) | WP(149-167)) | WP(27-167)) | WP(155-167)) | WP(157-167)) | WP(160-167)) | WP(36-167)) | WP(38-167)) | WP(167-167)) | WP(41-167)) | WP(47-167)) | WP(50-167)) | WP(54-167)) | WP(67-167)) | WP(68-167)) | WP(72-167)) | WP(74-167)) | WP(80-167)) | WP(81-167)) | WP(87-167)) | WP(95-167)) | WP(96-167)) | WP(98-167)) | WP(107-167)) | WP(111-167)) | WP(114-167)) | WP(120-167)) | WP(122-167)) | WP(125-167)) & (Reach 167))
+Initial path of nodes: [17, 10, 11, 12, 13, 9, 8, 24, 14, 20, 15, 19, 18, 27, 45, 38, 39, 40, 41, 37, 36, 52, 42, 48, 43, 47, 46, 55, 73, 66, 67, 68, 69, 65, 64, 80, 70, 76, 71, 75, 74, 83, 101, 94, 95, 96, 97, 93, 92, 108, 98, 104, 99, 103, 102, 111, 129, 122, 123, 124, 125, 121, 120, 136, 126, 132, 127, 131, 130, 139, 157, 150, 151, 152, 153, 149, 148, 164, 154, 160, 155, 159, 158, 167]
+Final path of nodes: [17, 10, 11, 12, 13, 9, 8, 23, 16, 22, 20, 2, 3, 25, 26, 27, 45, 38, 39, 40, 41, 37, 36, 51, 44, 50, 48, 30, 31, 53, 54, 55, 73, 66, 67, 68, 69, 65, 64, 79, 72, 78, 76, 58, 59, 81, 82, 83, 101, 94, 95, 96, 97, 93, 92, 107, 100, 106, 104, 86, 87, 109, 110, 111, 129, 122, 123, 124, 125, 121, 120, 135, 128, 134, 132, 114, 115, 137, 138, 139, 157, 150, 151, 152, 153, 149, 148, 163, 156, 162, 160, 142, 143, 165, 166, 167]
+{"Initial_routing":[[17, 10], [10, 11], [11, 12], [12, 13], [13, 9], [9, 8], [8, 24], [24, 14], [14, 20], [20, 15], [15, 19], [19, 18], [18, 27], [27, 45], [45, 38], [38, 39], [39, 40], [40, 41], [41, 37], [37, 36], [36, 52], [52, 42], [42, 48], [48, 43], [43, 47], [47, 46], [46, 55], [55, 73], [73, 66], [66, 67], [67, 68], [68, 69], [69, 65], [65, 64], [64, 80], [80, 70], [70, 76], [76, 71], [71, 75], [75, 74], [74, 83], [83, 101], [101, 94], [94, 95], [95, 96], [96, 97], [97, 93], [93, 92], [92, 108], [108, 98], [98, 104], [104, 99], [99, 103], [103, 102], [102, 111], [111, 129], [129, 122], [122, 123], [123, 124], [124, 125], [125, 121], [121, 120], [120, 136], [136, 126], [126, 132], [132, 127], [127, 131], [131, 130], [130, 139], [139, 157], [157, 150], [150, 151], [151, 152], [152, 153], [153, 149], [149, 148], [148, 164], [164, 154], [154, 160], [160, 155], [155, 159], [159, 158], [158, 167]],"Final_routing":[[17, 10], [10, 11], [11, 12], [12, 13], [13, 9], [9, 8], [8, 23], [23, 16], [16, 22], [22, 20], [20, 2], [2, 3], [3, 25], [25, 26], [26, 27], [27, 45], [45, 38], [38, 39], [39, 40], [40, 41], [41, 37], [37, 36], [36, 51], [51, 44], [44, 50], [50, 48], [48, 30], [30, 31], [31, 53], [53, 54], [54, 55], [55, 73], [73, 66], [66, 67], [67, 68], [68, 69], [69, 65], [65, 64], [64, 79], [79, 72], [72, 78], [78, 76], [76, 58], [58, 59], [59, 81], [81, 82], [82, 83], [83, 101], [101, 94], [94, 95], [95, 96], [96, 97], [97, 93], [93, 92], [92, 107], [107, 100], [100, 106], [106, 104], [104, 86], [86, 87], [87, 109], [109, 110], [110, 111], [111, 129], [129, 122], [122, 123], [123, 124], [124, 125], [125, 121], [121, 120], [120, 135], [135, 128], [128, 134], [134, 132], [132, 114], [114, 115], [115, 137], [137, 138], [138, 139], [139, 157], [157, 150], [150, 151], [151, 152], [152, 153], [153, 149], [149, 148], [148, 163], [163, 156], [156, 162], [162, 160], [160, 142], [142, 143], [143, 165], [165, 166], [166, 167]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [125,122,120,114,111,107,98,96,95,87,81,80,74,72,68,67,54,50,47,41,167,38,36,160,157,155,27,149,20,15,132,9], "edges": [{"from": 0, "to": 125, "label": 125},{"from": 0, "to": 122, "label": 122},{"from": 0, "to": 120, "label": 120},{"from": 0, "to": 114, "label": 114},{"from": 0, "to": 111, "label": 111},{"from": 0, "to": 107, "label": 107},{"from": 0, "to": 98, "label": 98},{"from": 0, "to": 96, "label": 96},{"from": 0, "to": 95, "label": 95},{"from": 0, "to": 87, "label": 87},{"from": 0, "to": 81, "label": 81},{"from": 0, "to": 80, "label": 80},{"from": 0, "to": 74, "label": 74},{"from": 0, "to": 72, "label": 72},{"from": 0, "to": 68, "label": 68},{"from": 0, "to": 67, "label": 67},{"from": 0, "to": 54, "label": 54},{"from": 0, "to": 50, "label": 50},{"from": 0, "to": 47, "label": 47},{"from": 0, "to": 41, "label": 41},{"from": 0, "to": 167, "label": 167},{"from": 0, "to": 38, "label": 38},{"from": 0, "to": 36, "label": 36},{"from": 0, "to": 160, "label": 160},{"from": 0, "to": 157, "label": 157},{"from": 0, "to": 155, "label": 155},{"from": 0, "to": 27, "label": 27},{"from": 0, "to": 149, "label": 149},{"from": 0, "to": 20, "label": 20},{"from": 0, "to": 15, "label": 15},{"from": 0, "to": 132, "label": 132},{"from": 0, "to": 9, "label": 9}]},"Reachability":{"startNode":17,"finalNode":167}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpwwa0th7v
+DFA generation time: 0.041 seconds 
+DFA states: 21 
+DFA transitions: 1963
+Problem file: /tmp/tmpwwa0th7v
+Switches to update: 84
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.036 seconds
+Subproblem verification time: 0.067 seconds
+Subproblem verification time: 0.016 seconds
+Subproblem verification time: 0.016 seconds
+Subproblem verification time: 0.017 seconds
+Subproblem verification time: 0.018 seconds
+Subproblem verification time: 0.017 seconds
+Minimum batches required: 3
+[[23, 2, 16, 22, 3, 25, 26, 51, 30, 44, 50, 31, 53, 54, 79, 58, 72, 78, 59, 81, 82, 107, 86, 100, 106, 87, 109, 110, 135, 114, 128, 134, 115, 137, 138, 163, 142, 156, 162, 143, 165, 166], [20, 8, 48, 36, 76, 64, 104, 92, 132, 120, 160, 148], [24, 14, 15, 19, 18, 52, 42, 43, 47, 46, 80, 70, 71, 75, 74, 108, 98, 99, 103, 102, 136, 126, 127, 131, 130, 164, 154, 155, 159, 158]]
+Total program runtime: 0.438 seconds
+
+Kaki stderr:  
+Time: 0.438
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Shentel.gml 5 --dir topzoo_res/SeparateWPk/kaki/kaki-2 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 3.10
+	System time (seconds): 1.32
+	Percent of CPU this job got: 389%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 124836
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 46432
+	Voluntary context switches: 5454
+	Involuntary context switches: 459
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Claranet.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/kaki/kaki-0', dump_bdd=False)
+Running 5Claranet.gml
+Policy: (((((((((((WP(34-88) | WP(75-88)) | WP(45-88)) | WP(13-88)) | WP(15-88)) | WP(46-88)) | WP(88-88)) | WP(27-88)) | WP(60-88)) | WP(30-88)) | WP(63-88)) & (Reach 88))
+Initial path of nodes: [0, 3, 14, 12, 13, 15, 18, 29, 27, 28, 30, 33, 44, 42, 43, 45, 48, 59, 57, 58, 60, 63, 74, 72, 73, 75, 78, 89, 87, 88]
+Final path of nodes: [0, 3, 1, 4, 12, 13, 15, 18, 16, 19, 27, 28, 30, 33, 31, 34, 42, 43, 45, 48, 46, 49, 57, 58, 60, 63, 61, 64, 72, 73, 75, 78, 76, 79, 87, 88]
+{"Initial_routing":[[0, 3], [3, 14], [14, 12], [12, 13], [13, 15], [15, 18], [18, 29], [29, 27], [27, 28], [28, 30], [30, 33], [33, 44], [44, 42], [42, 43], [43, 45], [45, 48], [48, 59], [59, 57], [57, 58], [58, 60], [60, 63], [63, 74], [74, 72], [72, 73], [73, 75], [75, 78], [78, 89], [89, 87], [87, 88]],"Final_routing":[[0, 3], [3, 1], [1, 4], [4, 12], [12, 13], [13, 15], [15, 18], [18, 16], [16, 19], [19, 27], [27, 28], [28, 30], [30, 33], [33, 31], [31, 34], [34, 42], [42, 43], [43, 45], [45, 48], [48, 46], [46, 49], [49, 57], [57, 58], [58, 60], [60, 63], [63, 61], [61, 64], [64, 72], [72, 73], [73, 75], [75, 78], [78, 76], [76, 79], [79, 87], [87, 88]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [63,30,60,27,88,46,15,13,45,34,75], "edges": [{"from": 0, "to": 63, "label": 63},{"from": 0, "to": 30, "label": 30},{"from": 0, "to": 60, "label": 60},{"from": 0, "to": 27, "label": 27},{"from": 0, "to": 88, "label": 88},{"from": 0, "to": 46, "label": 46},{"from": 0, "to": 15, "label": 15},{"from": 0, "to": 13, "label": 13},{"from": 0, "to": 45, "label": 45},{"from": 0, "to": 34, "label": 34},{"from": 0, "to": 75, "label": 75}]},"Reachability":{"startNode":0,"finalNode":88}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpwncdgk6h
+DFA generation time: 0.018 seconds 
+DFA states: 26 
+DFA transitions: 738
+Problem file: /tmp/tmpwncdgk6h
+Switches to update: 24
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.013 seconds
+Subproblem verification time: 0.042 seconds
+Subproblem verification time: 0.012 seconds
+Subproblem verification time: 0.012 seconds
+Subproblem verification time: 0.012 seconds
+Subproblem verification time: 0.013 seconds
+Subproblem verification time: 0.014 seconds
+Minimum batches required: 3
+[[1, 4, 16, 19, 31, 34, 46, 49, 61, 64, 76, 79], [3, 18, 33, 48, 63, 78], [14, 29, 44, 59, 74, 89]]
+Total program runtime: 0.293 seconds
+
+Kaki stderr:  
+Time: 0.293
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Claranet.gml 5 --dir topzoo_res/SeparateWPk/kaki/kaki-0 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 2.04
+	System time (seconds): 1.41
+	Percent of CPU this job got: 346%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.99
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 95172
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 37486
+	Voluntary context switches: 3436
+	Involuntary context switches: 105
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

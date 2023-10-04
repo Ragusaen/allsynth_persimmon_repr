@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/GtsCzechRepublic.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-1', dump_bdd=False)
+Running 5GtsCzechRepublic.gml
+Policy: (Service([35, 87, 144, 171]-183) & (Reach 183))
+Initial path of nodes: [16, 15, 14, 25, 26, 11, 30, 22, 3, 23, 32, 35, 54, 62, 38, 36, 37, 41, 49, 48, 80, 79, 78, 89, 90, 75, 94, 86, 67, 87, 112, 111, 110, 121, 122, 107, 126, 118, 99, 119, 144, 143, 142, 153, 154, 139, 158, 150, 131, 151, 176, 175, 174, 185, 186, 171, 190, 182, 163, 183]
+Final path of nodes: [16, 17, 9, 5, 4, 6, 30, 11, 28, 27, 12, 2, 23, 32, 35, 55, 34, 44, 59, 60, 43, 58, 57, 46, 47, 48, 80, 81, 73, 69, 68, 70, 94, 75, 92, 91, 76, 66, 87, 112, 113, 105, 101, 100, 102, 126, 107, 124, 123, 108, 98, 119, 144, 145, 137, 133, 132, 134, 158, 139, 156, 155, 140, 130, 151, 176, 177, 169, 165, 164, 166, 190, 171, 188, 187, 172, 162, 183]
+Time: 0.1503291130065918
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/GtsCzechRepublic.gml 5 --dir topzoo_res/SC/reduce/BDD-1 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 0.98
+	System time (seconds): 1.34
+	Percent of CPU this job got: 324%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 90112
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14504
+	Voluntary context switches: 35
+	Involuntary context switches: 31
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

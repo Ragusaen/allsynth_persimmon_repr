@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Evolink.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/reduce/BDD-0', dump_bdd=False)
+Running 5Evolink.gml
+Policy: (Reach 213)
+Initial path of nodes: [10, 17, 8, 14, 11, 6, 0, 3, 2, 28, 47, 54, 45, 51, 48, 43, 37, 40, 39, 65, 84, 91, 82, 88, 85, 80, 74, 77, 76, 102, 121, 128, 119, 125, 122, 117, 111, 114, 113, 139, 158, 165, 156, 162, 159, 154, 148, 151, 150, 176, 195, 202, 193, 199, 196, 191, 185, 188, 187, 213]
+Final path of nodes: [10, 17, 12, 14, 33, 32, 34, 35, 22, 28, 47, 54, 49, 51, 70, 69, 71, 72, 59, 65, 84, 91, 86, 88, 107, 106, 108, 109, 96, 102, 121, 128, 123, 125, 144, 143, 145, 146, 133, 139, 158, 165, 160, 162, 181, 180, 182, 183, 170, 176, 195, 202, 197, 199, 218, 217, 219, 220, 207, 213]
+Time: 0.01752161979675293
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Evolink.gml 5 --dir topzoo_res/Reach/reduce/BDD-0 --e-prop Reach --repeat 1 --reduce"
+	User time (seconds): 0.80
+	System time (seconds): 1.26
+	Percent of CPU this job got: 447%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.46
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 89168
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14272
+	Voluntary context switches: 28
+	Involuntary context switches: 20
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

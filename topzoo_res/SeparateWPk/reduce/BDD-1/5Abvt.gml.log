@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Abvt.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/reduce/BDD-1', dump_bdd=False)
+Running 5Abvt.gml
+Policy: ((((((((((((((((WP(89-134) | WP(40-134)) | WP(136-134)) | WP(10-134)) | WP(77-134)) | WP(92-134)) | WP(48-134)) | WP(81-134)) | WP(114-134)) | WP(21-134)) | WP(87-134)) | WP(24-134)) | WP(25-134)) | WP(124-134)) | WP(125-134)) | WP(57-134)) & (Reach 134))
+Initial path of nodes: [9, 8, 1, 22, 11, 21, 18, 19, 30, 23, 25, 33, 43, 42, 41, 40, 55, 54, 47, 68, 57, 67, 64, 65, 78, 77, 70, 91, 80, 90, 87, 88, 101, 100, 93, 114, 103, 113, 110, 111, 124, 123, 116, 137, 126, 136, 133, 134]
+Final path of nodes: [9, 8, 5, 0, 2, 10, 20, 19, 30, 29, 24, 45, 34, 44, 41, 40, 55, 58, 51, 46, 48, 56, 66, 65, 78, 81, 74, 69, 71, 79, 89, 88, 101, 104, 97, 92, 94, 102, 112, 111, 124, 127, 120, 115, 117, 125, 135, 134]
+Time: 0.046129465103149414
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Abvt.gml 5 --dir topzoo_res/SeparateWPk/reduce/BDD-1 --e-prop SeparateWPk --repeat 1 --reduce"
+	User time (seconds): 0.88
+	System time (seconds): 1.35
+	Percent of CPU this job got: 346%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 87848
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14107
+	Voluntary context switches: 24
+	Involuntary context switches: 85
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

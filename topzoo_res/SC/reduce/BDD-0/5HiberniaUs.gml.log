@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/HiberniaUs.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-0', dump_bdd=False)
+Running 5HiberniaUs.gml
+Policy: (Service([3, 26, 33, 50, 71, 87, 95, 118, 113]-121) & (Reach 121))
+Initial path of nodes: [8, 5, 4, 7, 6, 3, 1, 9, 19, 18, 21, 11, 30, 27, 26, 29, 28, 25, 23, 31, 41, 40, 43, 33, 52, 49, 48, 51, 50, 47, 45, 53, 63, 62, 65, 55, 74, 71, 70, 73, 72, 69, 67, 75, 85, 84, 87, 77, 96, 93, 92, 95, 94, 91, 89, 97, 107, 106, 109, 99, 118, 115, 114, 117, 116, 113, 111, 119, 129, 128, 131, 121]
+Final path of nodes: [8, 5, 4, 7, 6, 3, 2, 12, 13, 20, 21, 11, 30, 27, 26, 29, 28, 25, 24, 34, 35, 42, 43, 33, 52, 49, 48, 51, 50, 47, 46, 56, 57, 64, 65, 55, 74, 71, 70, 73, 72, 69, 68, 78, 79, 86, 87, 77, 96, 93, 92, 95, 94, 91, 90, 100, 101, 108, 109, 99, 118, 115, 114, 117, 116, 113, 112, 122, 123, 130, 131, 121]
+Time: 0.029424667358398438
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/HiberniaUs.gml 5 --dir topzoo_res/SC/reduce/BDD-0 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 0.88
+	System time (seconds): 1.27
+	Percent of CPU this job got: 349%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.62
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 87892
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14126
+	Voluntary context switches: 25
+	Involuntary context switches: 125
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

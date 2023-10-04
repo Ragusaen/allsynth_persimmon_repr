@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Rediris.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-1', dump_bdd=False)
+Running 5Rediris.gml
+Policy: (Service([35, 57, 89]-108) & (Reach 108))
+Initial path of nodes: [0, 3, 16, 12, 13, 19, 22, 35, 31, 32, 38, 41, 54, 50, 51, 57, 60, 73, 69, 70, 76, 79, 92, 88, 89, 95, 98, 111, 107, 108]
+Final path of nodes: [0, 3, 16, 14, 13, 19, 25, 35, 33, 32, 38, 44, 54, 52, 51, 57, 63, 73, 71, 70, 76, 82, 92, 90, 89, 95, 101, 111, 109, 108]
+Time: 0.021905183792114258
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Rediris.gml 5 --dir topzoo_res/SC/reduce/BDD-1 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 0.95
+	System time (seconds): 1.22
+	Percent of CPU this job got: 381%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 89620
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14068
+	Voluntary context switches: 33
+	Involuntary context switches: 64
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

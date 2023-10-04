@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Janetbackbone.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-0', dump_bdd=False)
+Running 5Janetbackbone.gml
+Policy: (Service([51, 98, 146]-170) & (Reach 170))
+Initial path of nodes: [1, 18, 11, 13, 14, 25, 29, 40, 42, 41, 52, 51, 59, 76, 69, 71, 72, 83, 88, 105, 98, 100, 101, 112, 117, 134, 127, 129, 130, 141, 146, 163, 156, 158, 159, 170]
+Final path of nodes: [1, 18, 17, 12, 24, 25, 29, 33, 46, 41, 39, 43, 50, 51, 59, 61, 69, 65, 75, 70, 82, 83, 88, 90, 98, 94, 104, 99, 111, 112, 117, 119, 127, 123, 133, 128, 140, 141, 146, 148, 156, 152, 162, 157, 169, 170]
+Time: 0.028064489364624023
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Janetbackbone.gml 5 --dir topzoo_res/SC/reduce/BDD-0 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 0.93
+	System time (seconds): 1.30
+	Percent of CPU this job got: 351%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 88044
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14215
+	Voluntary context switches: 23
+	Involuntary context switches: 65
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

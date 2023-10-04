@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Getnet.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/kaki/kaki-2', dump_bdd=False)
+Running 5Getnet.gml
+Policy: (((((((((WP(37-41) | WP(38-41)) | WP(7-41)) | WP(8-41)) | WP(15-41)) | WP(16-41)) | WP(23-41)) | WP(27-41)) | WP(30-41)) & (Reach 41))
+Initial path of nodes: [3, 2, 1, 6, 7, 8, 11, 12, 17, 16, 15, 20, 24, 23, 22, 27, 31, 30, 29, 34, 38, 37, 36, 41]
+Final path of nodes: [3, 2, 4, 5, 6, 7, 8, 13, 12, 17, 16, 18, 19, 20, 24, 23, 25, 26, 27, 31, 30, 32, 33, 34, 38, 37, 39, 40, 41]
+{"Initial_routing":[[3, 2], [2, 1], [1, 6], [6, 7], [7, 8], [8, 11], [11, 12], [12, 17], [17, 16], [16, 15], [15, 20], [20, 24], [24, 23], [23, 22], [22, 27], [27, 31], [31, 30], [30, 29], [29, 34], [34, 38], [38, 37], [37, 36], [36, 41]],"Final_routing":[[3, 2], [2, 4], [4, 5], [5, 6], [6, 7], [7, 8], [8, 13], [13, 12], [12, 17], [17, 16], [16, 18], [18, 19], [19, 20], [20, 24], [24, 23], [23, 25], [25, 26], [26, 27], [27, 31], [31, 30], [30, 32], [32, 33], [33, 34], [34, 38], [38, 37], [37, 39], [39, 40], [40, 41]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [30,27,23,16,15,8,7,37,38], "edges": [{"from": 0, "to": 30, "label": 30},{"from": 0, "to": 27, "label": 27},{"from": 0, "to": 23, "label": 23},{"from": 0, "to": 16, "label": 16},{"from": 0, "to": 15, "label": 15},{"from": 0, "to": 8, "label": 8},{"from": 0, "to": 7, "label": 7},{"from": 0, "to": 37, "label": 37},{"from": 0, "to": 38, "label": 38}]},"Reachability":{"startNode":3,"finalNode":41}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmphy3avo08
+DFA generation time: 0.017 seconds 
+DFA states: 24 
+DFA transitions: 643
+Problem file: /tmp/tmphy3avo08
+Switches to update: 23
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.012 seconds
+Subproblem verification time: 0.044 seconds
+Subproblem verification time: 0.013 seconds
+Subproblem verification time: 0.012 seconds
+Subproblem verification time: 0.014 seconds
+Subproblem verification time: 0.013 seconds
+Subproblem verification time: 0.013 seconds
+Minimum batches required: 3
+[[4, 5, 13, 18, 19, 25, 26, 32, 33, 39, 40], [2, 8, 16, 23, 30, 37], [1, 11, 15, 22, 29, 36]]
+Total program runtime: 0.308 seconds
+
+Kaki stderr:  
+Time: 0.308
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Getnet.gml 5 --dir topzoo_res/SeparateWPk/kaki/kaki-2 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 1.99
+	System time (seconds): 1.44
+	Percent of CPU this job got: 331%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 99872
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 38868
+	Voluntary context switches: 3796
+	Involuntary context switches: 488
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Bics.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/PERS/PERS-0', dump_bdd=False)
+Running 5Bics.gml
+Policy: (Reach 193)
+Initial path of nodes: [6, 7, 5, 0, 1, 16, 30, 29, 28, 39, 40, 38, 33, 34, 49, 63, 62, 61, 72, 73, 71, 66, 67, 82, 96, 95, 94, 105, 106, 104, 99, 100, 115, 129, 128, 127, 138, 139, 137, 132, 133, 148, 162, 161, 160, 171, 172, 170, 165, 166, 181, 195, 194, 193]
+Final path of nodes: [6, 7, 5, 8, 25, 24, 19, 14, 22, 28, 39, 40, 38, 33, 35, 52, 47, 55, 61, 72, 73, 71, 74, 91, 90, 85, 80, 88, 94, 105, 106, 104, 99, 101, 118, 113, 121, 127, 138, 139, 137, 140, 157, 156, 151, 146, 154, 160, 171, 172, 170, 165, 167, 184, 179, 187, 193]
+Persimmon problem:  {"Initial_routing":[[6, 7], [7, 5], [5, 0], [0, 1], [1, 16], [16, 30], [30, 29], [29, 28], [28, 39], [39, 40], [40, 38], [38, 33], [33, 34], [34, 49], [49, 63], [63, 62], [62, 61], [61, 72], [72, 73], [73, 71], [71, 66], [66, 67], [67, 82], [82, 96], [96, 95], [95, 94], [94, 105], [105, 106], [106, 104], [104, 99], [99, 100], [100, 115], [115, 129], [129, 128], [128, 127], [127, 138], [138, 139], [139, 137], [137, 132], [132, 133], [133, 148], [148, 162], [162, 161], [161, 160], [160, 171], [171, 172], [172, 170], [170, 165], [165, 166], [166, 181], [181, 195], [195, 194], [194, 193]],"Final_routing":[[6, 7], [7, 5], [5, 8], [8, 25], [25, 24], [24, 19], [19, 14], [14, 22], [22, 28], [28, 39], [39, 40], [40, 38], [38, 33], [33, 35], [35, 52], [52, 47], [47, 55], [55, 61], [61, 72], [72, 73], [73, 71], [71, 74], [74, 91], [91, 90], [90, 85], [85, 80], [80, 88], [88, 94], [94, 105], [105, 106], [106, 104], [104, 99], [99, 101], [101, 118], [118, 113], [113, 121], [121, 127], [127, 138], [138, 139], [139, 137], [137, 140], [140, 157], [157, 156], [156, 151], [151, 146], [146, 154], [154, 160], [160, 171], [171, 172], [172, 170], [170, 165], [165, 167], [167, 184], [184, 179], [179, 187], [187, 193]],"Properties":{"Reachability":{"startNode":6,"finalNode":193}}}
+Persimmon stdout:  Chain equivalence reduction: 84 -> 25
+Constructing all update BDD
+Solution: Some([[74, 91, 90, 85, 80, 88, 101, 118, 113, 121, 35, 52, 47, 55, 167, 184, 179, 187, 8, 25, 24, 19, 14, 22, 140, 157, 156, 151, 146, 154], [5, 71, 33, 99, 137, 165], [0, 1, 16, 30, 29, 132, 133, 148, 162, 161, 34, 49, 63, 62, 66, 67, 82, 96, 95, 166, 181, 195, 194, 100, 115, 129, 128]])
+Time elapsed: 1.25ms
+Time elapsed(s): 0.001248s
+
+Persimmon stderr:  
+Time: 0.001248
+Solution: [[74, 91, 90, 85, 80, 88, 101, 118, 113, 121, 35, 52, 47, 55, 167, 184, 179, 187, 8, 25, 24, 19, 14, 22, 140, 157, 156, 151, 146, 154], [5, 71, 33, 99, 137, 165], [0, 1, 16, 30, 29, 132, 133, 148, 162, 161, 34, 49, 63, 62, 66, 67, 82, 96, 95, 166, 181, 195, 194, 100, 115, 129, 128]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Bics.gml 5 --dir topzoo_res/Reach/PERS/PERS-0 --e-prop Reach --repeat 1"
+	User time (seconds): 0.95
+	System time (seconds): 1.27
+	Percent of CPU this job got: 359%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 73648
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13267
+	Voluntary context switches: 48
+	Involuntary context switches: 96
+	Swaps: 0
+	File system inputs: 24
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

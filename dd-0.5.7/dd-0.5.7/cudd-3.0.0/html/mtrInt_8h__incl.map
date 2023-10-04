@@ -1,0 +1,9 @@
+<map id="mtr/mtrInt.h" name="mtr/mtrInt.h">
+<area shape="rect" id="Node000001" title="Internal data structures of the mtr package." alt="" coords="36,5,136,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,79,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,35,59,70,55,67,76,32"/>
+<area shape="rect" id="Node000003" href="$mtr_8h.html" title="Multiway&#45;branch tree manipulation." alt="" coords="103,81,160,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="96,32,118,67,113,70,92,35"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="99,157,164,184"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="134,109,134,142,129,142,129,109"/>
+</map>

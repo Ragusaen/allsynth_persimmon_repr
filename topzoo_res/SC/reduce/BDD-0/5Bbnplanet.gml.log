@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Bbnplanet.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/reduce/BDD-0', dump_bdd=False)
+Running 5Bbnplanet.gml
+Policy: (Service([45, 62, 94, 137]-148) & (Reach 148))
+Initial path of nodes: [2, 18, 1, 15, 11, 7, 8, 13, 29, 45, 28, 42, 38, 34, 35, 40, 56, 72, 55, 69, 65, 61, 62, 67, 83, 99, 82, 96, 92, 88, 89, 94, 110, 126, 109, 123, 119, 115, 116, 121, 137, 153, 136, 150, 146, 142, 143, 148]
+Final path of nodes: [2, 18, 24, 23, 20, 17, 8, 13, 29, 45, 51, 50, 47, 44, 35, 40, 56, 72, 78, 77, 74, 71, 62, 67, 83, 99, 105, 104, 101, 98, 89, 94, 110, 126, 132, 131, 128, 125, 116, 121, 137, 153, 159, 158, 155, 152, 143, 148]
+Time: 0.016132831573486328
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Bbnplanet.gml 5 --dir topzoo_res/SC/reduce/BDD-0 --e-prop SC --repeat 1 --reduce"
+	User time (seconds): 0.94
+	System time (seconds): 1.28
+	Percent of CPU this job got: 358%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.62
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 87860
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14079
+	Voluntary context switches: 29
+	Involuntary context switches: 56
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

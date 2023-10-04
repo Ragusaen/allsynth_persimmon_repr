@@ -1,0 +1,9 @@
+<map id="DdLocalCacheItem" name="DdLocalCacheItem">
+<area shape="rect" id="Node000001" title="Generic local cache item." alt="" coords="5,115,149,143"/>
+<area shape="rect" id="Node000002" href="$structDdNode.html" title="Decision diagram node." alt="" coords="140,5,214,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,44,134,59,88,116,83,113,130,55,146,40"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="230,8,237,12,240,20,232,29,215,32,214,27,230,25,235,19,233,16,228,13"/>
+<area shape="rect" id="Node000003" href="$structDdChildren.html" title="The two children of a non&#45;terminal node." alt="" coords="173,115,266,143"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="175,47,175,69,181,90,189,102,200,112,197,116,185,106,176,92,170,70,170,48"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="207,103,180,35,185,33,212,101"/>
+</map>

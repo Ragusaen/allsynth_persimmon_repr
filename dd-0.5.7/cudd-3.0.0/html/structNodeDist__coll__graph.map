@@ -1,0 +1,9 @@
+<map id="NodeDist" name="NodeDist">
+<area shape="rect" id="Node000001" title="structure created to store subset results for each node and distances with odd and even parity of the..." alt="" coords="5,115,87,143"/>
+<area shape="rect" id="Node000002" href="$structDdNode.html" title="Decision diagram node." alt="" coords="121,5,195,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,36,89,45,72,59,56,87,50,115,45,114,51,85,68,55,86,41,107,31"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="211,8,218,12,221,20,213,29,196,32,195,27,211,25,216,19,214,16,209,13"/>
+<area shape="rect" id="Node000003" href="$structDdChildren.html" title="The two children of a non&#45;terminal node." alt="" coords="133,115,226,143"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="158,47,162,90,173,114,168,116,157,92,153,48"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="175,100,169,58,161,34,166,33,174,56,180,100"/>
+</map>

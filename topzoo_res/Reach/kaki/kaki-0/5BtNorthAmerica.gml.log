@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/BtNorthAmerica.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/kaki/kaki-0', dump_bdd=False)
+Running 5BtNorthAmerica.gml
+Policy: (Reach 214)
+Initial path of nodes: [4, 8, 1, 2, 27, 35, 34, 40, 44, 37, 38, 63, 71, 70, 76, 80, 73, 74, 99, 107, 106, 112, 116, 109, 110, 135, 143, 142, 148, 152, 145, 146, 171, 179, 178, 184, 188, 181, 182, 207, 215, 214]
+Final path of nodes: [4, 8, 1, 22, 33, 32, 34, 40, 44, 61, 46, 63, 69, 68, 70, 76, 87, 79, 89, 94, 105, 104, 106, 112, 116, 133, 118, 135, 141, 140, 142, 148, 159, 151, 161, 166, 177, 176, 178, 184, 188, 205, 190, 207, 213, 212, 214]
+{"Initial_routing":[[4, 8], [8, 1], [1, 2], [2, 27], [27, 35], [35, 34], [34, 40], [40, 44], [44, 37], [37, 38], [38, 63], [63, 71], [71, 70], [70, 76], [76, 80], [80, 73], [73, 74], [74, 99], [99, 107], [107, 106], [106, 112], [112, 116], [116, 109], [109, 110], [110, 135], [135, 143], [143, 142], [142, 148], [148, 152], [152, 145], [145, 146], [146, 171], [171, 179], [179, 178], [178, 184], [184, 188], [188, 181], [181, 182], [182, 207], [207, 215], [215, 214]],"Final_routing":[[4, 8], [8, 1], [1, 22], [22, 33], [33, 32], [32, 34], [34, 40], [40, 44], [44, 61], [61, 46], [46, 63], [63, 69], [69, 68], [68, 70], [70, 76], [76, 87], [87, 79], [79, 89], [89, 94], [94, 105], [105, 104], [104, 106], [106, 112], [112, 116], [116, 133], [133, 118], [118, 135], [135, 141], [141, 140], [140, 142], [142, 148], [148, 159], [159, 151], [151, 161], [161, 166], [166, 177], [177, 176], [176, 178], [178, 184], [184, 188], [188, 205], [205, 190], [190, 207], [207, 213], [213, 212], [212, 214]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"Reachability":{"startNode":4,"finalNode":214}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpa7i3j2et
+DFA generation time: 0.008 seconds 
+DFA states: 3 
+DFA transitions: 70
+Problem file: /tmp/tmpa7i3j2et
+Switches to update: 58
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.008 seconds
+Subproblem verification time: 0.028 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Minimum batches required: 3
+[[22, 33, 32, 61, 69, 46, 68, 87, 79, 89, 94, 105, 104, 133, 141, 118, 140, 159, 151, 161, 166, 177, 176, 205, 213, 190, 212], [1, 63, 44, 76, 135, 116, 148, 207, 188], [2, 27, 35, 37, 38, 71, 80, 73, 74, 99, 107, 109, 110, 143, 152, 145, 146, 171, 179, 181, 182, 215]]
+Total program runtime: 0.197 seconds
+
+Kaki stderr:  
+Time: 0.197
+Solution: None
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/BtNorthAmerica.gml 5 --dir topzoo_res/Reach/kaki/kaki-0 --e-prop Reach --repeat 1"
+	User time (seconds): 1.45
+	System time (seconds): 1.37
+	Percent of CPU this job got: 380%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.74
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 93964
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 37474
+	Voluntary context switches: 4067
+	Involuntary context switches: 565
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/HiberniaIreland.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/kaki/kaki-2', dump_bdd=False)
+Running 5HiberniaIreland.gml
+Policy: (((((((((((WP(33-47) | WP(34-47)) | WP(7-47)) | WP(8-47)) | WP(9-47)) | WP(41-47)) | WP(47-47)) | WP(17-47)) | WP(20-47)) | WP(25-47)) | WP(27-47)) & (Reach 47))
+Initial path of nodes: [1, 2, 5, 0, 7, 9, 10, 13, 8, 15, 17, 18, 21, 16, 23, 25, 26, 29, 24, 31, 33, 34, 37, 32, 39, 41, 42, 45, 40, 47]
+Final path of nodes: [1, 2, 3, 4, 0, 7, 9, 10, 11, 12, 8, 15, 17, 18, 19, 20, 16, 23, 25, 26, 27, 28, 24, 31, 33, 34, 35, 36, 32, 39, 41, 42, 43, 44, 40, 47]
+{"Initial_routing":[[1, 2], [2, 5], [5, 0], [0, 7], [7, 9], [9, 10], [10, 13], [13, 8], [8, 15], [15, 17], [17, 18], [18, 21], [21, 16], [16, 23], [23, 25], [25, 26], [26, 29], [29, 24], [24, 31], [31, 33], [33, 34], [34, 37], [37, 32], [32, 39], [39, 41], [41, 42], [42, 45], [45, 40], [40, 47]],"Final_routing":[[1, 2], [2, 3], [3, 4], [4, 0], [0, 7], [7, 9], [9, 10], [10, 11], [11, 12], [12, 8], [8, 15], [15, 17], [17, 18], [18, 19], [19, 20], [20, 16], [16, 23], [23, 25], [25, 26], [26, 27], [27, 28], [28, 24], [24, 31], [31, 33], [33, 34], [34, 35], [35, 36], [36, 32], [32, 39], [39, 41], [41, 42], [42, 43], [43, 44], [44, 40], [40, 47]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [27,25,20,17,47,41,9,8,7,33,34], "edges": [{"from": 0, "to": 27, "label": 27},{"from": 0, "to": 25, "label": 25},{"from": 0, "to": 20, "label": 20},{"from": 0, "to": 17, "label": 17},{"from": 0, "to": 47, "label": 47},{"from": 0, "to": 41, "label": 41},{"from": 0, "to": 9, "label": 9},{"from": 0, "to": 8, "label": 8},{"from": 0, "to": 7, "label": 7},{"from": 0, "to": 33, "label": 33},{"from": 0, "to": 34, "label": 34}]},"Reachability":{"startNode":1,"finalNode":47}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpjboe6ylq
+DFA generation time: 0.019 seconds 
+DFA states: 26 
+DFA transitions: 738
+Problem file: /tmp/tmpjboe6ylq
+Switches to update: 24
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.019 seconds
+Subproblem verification time: 0.041 seconds
+Subproblem verification time: 0.012 seconds
+Subproblem verification time: 0.012 seconds
+Subproblem verification time: 0.011 seconds
+Subproblem verification time: 0.011 seconds
+Subproblem verification time: 0.011 seconds
+Minimum batches required: 3
+[[3, 4, 11, 12, 19, 20, 27, 28, 35, 36, 43, 44], [2, 10, 18, 26, 34, 42], [5, 13, 21, 29, 37, 45]]
+Total program runtime: 0.322 seconds
+
+Kaki stderr:  
+Time: 0.322
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/HiberniaIreland.gml 5 --dir topzoo_res/SeparateWPk/kaki/kaki-2 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 1.85
+	System time (seconds): 1.45
+	Percent of CPU this job got: 342%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.96
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 94076
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 36660
+	Voluntary context switches: 3775
+	Involuntary context switches: 366
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

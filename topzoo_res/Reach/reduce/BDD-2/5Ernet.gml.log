@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Ernet.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/reduce/BDD-2', dump_bdd=False)
+Running 5Ernet.gml
+Policy: (Reach 168)
+Initial path of nodes: [11, 28, 27, 22, 21, 2, 18, 41, 58, 57, 52, 51, 32, 48, 71, 88, 87, 82, 81, 62, 78, 101, 118, 117, 112, 111, 92, 108, 131, 148, 147, 142, 141, 122, 138, 161, 178, 177, 172, 171, 152, 168]
+Final path of nodes: [11, 28, 27, 29, 21, 2, 18, 41, 58, 57, 59, 51, 32, 48, 71, 88, 87, 89, 81, 62, 78, 101, 118, 117, 119, 111, 92, 108, 131, 148, 147, 149, 141, 122, 138, 161, 178, 177, 179, 171, 152, 168]
+Time: 0.0060040950775146484
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Ernet.gml 5 --dir topzoo_res/Reach/reduce/BDD-2 --e-prop Reach --repeat 1 --reduce"
+	User time (seconds): 0.74
+	System time (seconds): 1.30
+	Percent of CPU this job got: 468%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.43
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 88484
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14081
+	Voluntary context switches: 24
+	Involuntary context switches: 23
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

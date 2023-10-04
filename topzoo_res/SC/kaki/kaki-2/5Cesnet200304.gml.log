@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Cesnet200304.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/kaki/kaki-2', dump_bdd=False)
+Running 5Cesnet200304.gml
+Policy: (Service([23, 43, 82, 111, 141, 170]-168) & (Reach 168))
+Initial path of nodes: [13, 9, 0, 26, 25, 24, 23, 39, 56, 54, 32, 29, 38, 43, 71, 67, 58, 84, 83, 82, 81, 100, 96, 87, 113, 112, 111, 110, 129, 125, 116, 142, 141, 140, 139, 158, 154, 145, 171, 170, 169, 168]
+Final path of nodes: [13, 9, 0, 3, 25, 22, 24, 23, 39, 56, 54, 36, 35, 38, 43, 71, 67, 58, 61, 83, 80, 82, 81, 100, 96, 93, 94, 112, 111, 110, 129, 125, 116, 119, 141, 138, 140, 139, 158, 154, 151, 152, 170, 169, 168]
+{"Initial_routing":[[13, 9], [9, 0], [0, 26], [26, 25], [25, 24], [24, 23], [23, 39], [39, 56], [56, 54], [54, 32], [32, 29], [29, 38], [38, 43], [43, 71], [71, 67], [67, 58], [58, 84], [84, 83], [83, 82], [82, 81], [81, 100], [100, 96], [96, 87], [87, 113], [113, 112], [112, 111], [111, 110], [110, 129], [129, 125], [125, 116], [116, 142], [142, 141], [141, 140], [140, 139], [139, 158], [158, 154], [154, 145], [145, 171], [171, 170], [170, 169], [169, 168]],"Final_routing":[[13, 9], [9, 0], [0, 3], [3, 25], [25, 22], [22, 24], [24, 23], [23, 39], [39, 56], [56, 54], [54, 36], [36, 35], [35, 38], [38, 43], [43, 71], [71, 67], [67, 58], [58, 61], [61, 83], [83, 80], [80, 82], [82, 81], [81, 100], [100, 96], [96, 93], [93, 94], [94, 112], [112, 111], [111, 110], [110, 129], [129, 125], [125, 116], [116, 119], [119, 141], [141, 138], [138, 140], [140, 139], [139, 158], [158, 154], [154, 151], [151, 152], [152, 170], [170, 169], [169, 168]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [6], "edges": [{"from": 0, "to": 1, "label": 23},{"from": 1, "to": 2, "label": 43},{"from": 2, "to": 3, "label": 82},{"from": 3, "to": 4, "label": 111},{"from": 4, "to": 5, "label": 141},{"from": 5, "to": 6, "label": 170}]},"Reachability":{"startNode":13,"finalNode":168}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpt65px3gg
+DFA generation time: 0.011 seconds 
+DFA states: 30 
+DFA transitions: 469
+Problem file: /tmp/tmpt65px3gg
+Switches to update: 30
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.008 seconds
+Subproblem verification time: 0.038 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Minimum batches required: 3
+[[3, 22, 36, 35, 61, 80, 93, 94, 119, 138, 151, 152], [25, 0, 54, 83, 58, 96, 141, 116, 154], [26, 32, 29, 84, 87, 113, 142, 145, 171]]
+Total program runtime: 0.2 seconds
+
+Kaki stderr:  
+Time: 0.2
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Cesnet200304.gml 5 --dir topzoo_res/SC/kaki/kaki-2 --e-prop SC --repeat 1"
+	User time (seconds): 1.44
+	System time (seconds): 1.41
+	Percent of CPU this job got: 408%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 95808
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 39757
+	Voluntary context switches: 3697
+	Involuntary context switches: 186
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

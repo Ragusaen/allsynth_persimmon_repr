@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Geant2012.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/PERS/PERS-1', dump_bdd=False)
+Running 5Geant2012.gml
+Policy: (Reach 237)
+Initial path of nodes: [11, 13, 12, 15, 29, 4, 2, 36, 37, 51, 53, 52, 55, 69, 44, 42, 76, 77, 91, 93, 92, 95, 109, 84, 82, 116, 117, 131, 133, 132, 135, 149, 124, 122, 156, 157, 171, 173, 172, 175, 189, 164, 162, 196, 197, 211, 213, 212, 215, 229, 204, 202, 236, 237]
+Final path of nodes: [11, 13, 22, 23, 5, 4, 2, 35, 36, 37, 51, 53, 62, 63, 45, 44, 40, 42, 76, 77, 91, 93, 102, 103, 85, 84, 82, 115, 116, 117, 131, 133, 142, 143, 125, 124, 120, 122, 156, 157, 171, 173, 182, 183, 165, 164, 162, 195, 196, 197, 211, 213, 222, 223, 205, 204, 200, 202, 236, 237]
+Persimmon problem:  {"Initial_routing":[[11, 13], [13, 12], [12, 15], [15, 29], [29, 4], [4, 2], [2, 36], [36, 37], [37, 51], [51, 53], [53, 52], [52, 55], [55, 69], [69, 44], [44, 42], [42, 76], [76, 77], [77, 91], [91, 93], [93, 92], [92, 95], [95, 109], [109, 84], [84, 82], [82, 116], [116, 117], [117, 131], [131, 133], [133, 132], [132, 135], [135, 149], [149, 124], [124, 122], [122, 156], [156, 157], [157, 171], [171, 173], [173, 172], [172, 175], [175, 189], [189, 164], [164, 162], [162, 196], [196, 197], [197, 211], [211, 213], [213, 212], [212, 215], [215, 229], [229, 204], [204, 202], [202, 236], [236, 237]],"Final_routing":[[11, 13], [13, 22], [22, 23], [23, 5], [5, 4], [4, 2], [2, 35], [35, 36], [36, 37], [37, 51], [51, 53], [53, 62], [62, 63], [63, 45], [45, 44], [44, 40], [40, 42], [42, 76], [76, 77], [77, 91], [91, 93], [93, 102], [102, 103], [103, 85], [85, 84], [84, 82], [82, 115], [115, 116], [116, 117], [117, 131], [131, 133], [133, 142], [142, 143], [143, 125], [125, 124], [124, 120], [120, 122], [122, 156], [156, 157], [157, 171], [171, 173], [173, 182], [182, 183], [183, 165], [165, 164], [164, 162], [162, 195], [195, 196], [196, 197], [197, 211], [211, 213], [213, 222], [222, 223], [223, 205], [205, 204], [204, 200], [200, 202], [202, 236], [236, 237]],"Properties":{"Reachability":{"startNode":11,"finalNode":237}}}
+Persimmon stdout:  Chain equivalence reduction: 78 -> 41
+Constructing all update BDD
+Solution: Some([[102, 103, 85, 142, 143, 125, 222, 223, 205, 182, 183, 165, 22, 23, 5, 62, 63, 45], [35, 93, 120, 195, 115, 200, 53, 173, 40, 213, 13, 133], [92, 95, 109, 204, 44, 2, 124, 132, 135, 149, 162, 172, 175, 189, 82, 12, 15, 29, 212, 215, 229, 52, 55, 69]])
+Time elapsed: 2.47ms
+Time elapsed(s): 0.002473s
+
+Persimmon stderr:  
+Time: 0.002473
+Solution: [[102, 103, 85, 142, 143, 125, 222, 223, 205, 182, 183, 165, 22, 23, 5, 62, 63, 45], [35, 93, 120, 195, 115, 200, 53, 173, 40, 213, 13, 133], [92, 95, 109, 204, 44, 2, 124, 132, 135, 149, 162, 172, 175, 189, 82, 12, 15, 29, 212, 215, 229, 52, 55, 69]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Geant2012.gml 5 --dir topzoo_res/Reach/PERS/PERS-1 --e-prop Reach --repeat 1"
+	User time (seconds): 0.89
+	System time (seconds): 1.21
+	Percent of CPU this job got: 320%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71604
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13341
+	Voluntary context switches: 27
+	Involuntary context switches: 63794
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,48 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Dataxchange.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/kaki/kaki-2', dump_bdd=False)
+Running 5Dataxchange.gml
+Policy: (Service([9, 22, 33]-35) & (Reach 35))
+Initial path of nodes: [3, 4, 5, 6, 10, 9, 15, 16, 17, 21, 22, 23, 27, 28, 29, 33, 34, 35]
+Final path of nodes: [3, 4, 5, 6, 10, 9, 15, 16, 17, 21, 22, 18, 23, 27, 28, 29, 33, 34, 30, 35]
+{"Initial_routing":[[3, 4], [4, 5], [5, 6], [6, 10], [10, 9], [9, 15], [15, 16], [16, 17], [17, 21], [21, 22], [22, 23], [23, 27], [27, 28], [28, 29], [29, 33], [33, 34], [34, 35]],"Final_routing":[[3, 4], [4, 5], [5, 6], [6, 10], [10, 9], [9, 15], [15, 16], [16, 17], [17, 21], [21, 22], [22, 18], [18, 23], [23, 27], [27, 28], [28, 29], [29, 33], [33, 34], [34, 30], [30, 35]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [3], "edges": [{"from": 0, "to": 1, "label": 9},{"from": 1, "to": 2, "label": 22},{"from": 2, "to": 3, "label": 33}]},"Reachability":{"startNode":3,"finalNode":35}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpmh5qg_3g
+DFA generation time: 0.008 seconds 
+DFA states: 7 
+DFA transitions: 45
+Problem file: /tmp/tmpmh5qg_3g
+Switches to update: 4
+
+Decomposed topology into 2 subproblems
+Topological decomposition took 0.002 seconds
+Subproblem verification time: 0.028 seconds
+Subproblem verification time: 0.008 seconds
+Minimum batches required: 2
+[[18, 30], [22, 34]]
+Total program runtime: 0.121 seconds
+
+Kaki stderr:  
+Time: 0.121
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Dataxchange.gml 5 --dir topzoo_res/SC/kaki/kaki-2 --e-prop SC --repeat 1"
+	User time (seconds): 1.18
+	System time (seconds): 1.31
+	Percent of CPU this job got: 411%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 84184
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 28218
+	Voluntary context switches: 2622
+	Involuntary context switches: 185
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

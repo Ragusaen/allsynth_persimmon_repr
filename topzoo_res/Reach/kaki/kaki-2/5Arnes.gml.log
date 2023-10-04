@@ -1,0 +1,58 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Arnes.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/kaki/kaki-2', dump_bdd=False)
+Running 5Arnes.gml
+Policy: (Reach 197)
+Initial path of nodes: [10, 17, 23, 7, 30, 29, 28, 27, 44, 51, 57, 41, 64, 63, 62, 61, 78, 85, 91, 75, 98, 97, 96, 95, 112, 119, 125, 109, 132, 131, 130, 129, 146, 153, 159, 143, 166, 165, 164, 163, 180, 187, 193, 177, 200, 199, 198, 197]
+Final path of nodes: [10, 17, 14, 18, 7, 30, 11, 12, 26, 27, 44, 56, 57, 38, 41, 64, 45, 46, 60, 61, 78, 90, 91, 72, 75, 98, 79, 80, 94, 95, 112, 124, 125, 106, 109, 132, 113, 114, 128, 129, 146, 158, 159, 140, 143, 166, 147, 148, 162, 163, 180, 192, 193, 174, 177, 200, 181, 182, 196, 197]
+{"Initial_routing":[[10, 17], [17, 23], [23, 7], [7, 30], [30, 29], [29, 28], [28, 27], [27, 44], [44, 51], [51, 57], [57, 41], [41, 64], [64, 63], [63, 62], [62, 61], [61, 78], [78, 85], [85, 91], [91, 75], [75, 98], [98, 97], [97, 96], [96, 95], [95, 112], [112, 119], [119, 125], [125, 109], [109, 132], [132, 131], [131, 130], [130, 129], [129, 146], [146, 153], [153, 159], [159, 143], [143, 166], [166, 165], [165, 164], [164, 163], [163, 180], [180, 187], [187, 193], [193, 177], [177, 200], [200, 199], [199, 198], [198, 197]],"Final_routing":[[10, 17], [17, 14], [14, 18], [18, 7], [7, 30], [30, 11], [11, 12], [12, 26], [26, 27], [27, 44], [44, 56], [56, 57], [57, 38], [38, 41], [41, 64], [64, 45], [45, 46], [46, 60], [60, 61], [61, 78], [78, 90], [90, 91], [91, 72], [72, 75], [75, 98], [98, 79], [79, 80], [80, 94], [94, 95], [95, 112], [112, 124], [124, 125], [125, 106], [106, 109], [109, 132], [132, 113], [113, 114], [114, 128], [128, 129], [129, 146], [146, 158], [158, 159], [159, 140], [140, 143], [143, 166], [166, 147], [147, 148], [148, 162], [162, 163], [163, 180], [180, 192], [192, 193], [193, 174], [174, 177], [177, 200], [200, 181], [181, 182], [182, 196], [196, 197]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"Reachability":{"startNode":10,"finalNode":197}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpmenczg_c
+DFA generation time: 0.008 seconds 
+DFA states: 3 
+DFA transitions: 79
+Problem file: /tmp/tmpmenczg_c
+Switches to update: 65
+
+Decomposed topology into 12 subproblems
+Topological decomposition took 0.007 seconds
+Subproblem verification time: 0.037 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.008 seconds
+Minimum batches required: 3
+[[14, 18, 11, 12, 26, 56, 38, 45, 46, 60, 90, 72, 79, 80, 94, 124, 106, 113, 114, 128, 158, 140, 147, 148, 162, 192, 174, 181, 182, 196], [17, 30, 57, 44, 64, 91, 78, 98, 125, 112, 132, 159, 146, 166, 193, 180, 200], [23, 29, 28, 51, 63, 62, 85, 97, 96, 119, 131, 130, 153, 165, 164, 187, 199, 198]]
+Total program runtime: 0.282 seconds
+
+Kaki stderr:  
+Time: 0.282
+Solution: None
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Arnes.gml 5 --dir topzoo_res/Reach/kaki/kaki-2 --e-prop Reach --repeat 1"
+	User time (seconds): 1.59
+	System time (seconds): 1.43
+	Percent of CPU this job got: 372%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 101276
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 51480
+	Voluntary context switches: 4036
+	Involuntary context switches: 184
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

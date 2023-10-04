@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/HurricaneElectric.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/PERS/PERS-2', dump_bdd=False)
+Running 5HurricaneElectric.gml
+Policy: (Service([25, 61, 89, 126]-137) & (Reach 137))
+Initial path of nodes: [6, 1, 0, 12, 9, 13, 17, 30, 25, 24, 36, 33, 37, 41, 54, 49, 48, 60, 57, 61, 65, 78, 73, 72, 84, 81, 85, 89, 102, 97, 96, 108, 105, 109, 113, 126, 121, 120, 132, 129, 133, 137]
+Final path of nodes: [6, 1, 3, 23, 4, 13, 17, 30, 25, 27, 47, 28, 37, 41, 54, 49, 51, 71, 52, 61, 65, 78, 73, 75, 95, 76, 85, 89, 102, 97, 99, 119, 100, 109, 113, 126, 121, 123, 143, 124, 133, 137]
+Persimmon problem:  {"Initial_routing":[[6, 1], [1, 0], [0, 12], [12, 9], [9, 13], [13, 17], [17, 30], [30, 25], [25, 24], [24, 36], [36, 33], [33, 37], [37, 41], [41, 54], [54, 49], [49, 48], [48, 60], [60, 57], [57, 61], [61, 65], [65, 78], [78, 73], [73, 72], [72, 84], [84, 81], [81, 85], [85, 89], [89, 102], [102, 97], [97, 96], [96, 108], [108, 105], [105, 109], [109, 113], [113, 126], [126, 121], [121, 120], [120, 132], [132, 129], [129, 133], [133, 137]],"Final_routing":[[6, 1], [1, 3], [3, 23], [23, 4], [4, 13], [13, 17], [17, 30], [30, 25], [25, 27], [27, 47], [47, 28], [28, 37], [37, 41], [41, 54], [54, 49], [49, 51], [51, 71], [71, 52], [52, 61], [61, 65], [65, 78], [78, 73], [73, 75], [75, 95], [95, 76], [76, 85], [85, 89], [89, 102], [102, 97], [97, 99], [99, 119], [119, 100], [100, 109], [109, 113], [113, 126], [126, 121], [121, 123], [123, 143], [143, 124], [124, 133], [133, 137]],"Properties":{"ServiceChain": {"waypoint": [25,61,89,126]},"Reachability":{"startNode":6,"finalNode":137}}}
+Persimmon stdout:  Chain equivalence reduction: 60 -> 30
+Constructing all update BDD
+Solution: Some([[27, 47, 28, 123, 143, 124, 3, 23, 4, 51, 71, 52, 75, 95, 76, 99, 119, 100], [49, 121, 25, 97, 1, 73], [0, 12, 9, 24, 36, 33, 48, 60, 57, 72, 84, 81, 120, 132, 129, 96, 108, 105]])
+Time elapsed: 1.61ms
+Time elapsed(s): 0.001606s
+
+Persimmon stderr:  
+Time: 0.001606
+Solution: [[27, 47, 28, 123, 143, 124, 3, 23, 4, 51, 71, 52, 75, 95, 76, 99, 119, 100], [49, 121, 25, 97, 1, 73], [0, 12, 9, 24, 36, 33, 48, 60, 57, 72, 84, 81, 120, 132, 129, 96, 108, 105]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/HurricaneElectric.gml 5 --dir topzoo_res/SC/PERS/PERS-2 --e-prop SC --repeat 1"
+	User time (seconds): 0.87
+	System time (seconds): 1.32
+	Percent of CPU this job got: 369%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71316
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13141
+	Voluntary context switches: 29
+	Involuntary context switches: 97
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

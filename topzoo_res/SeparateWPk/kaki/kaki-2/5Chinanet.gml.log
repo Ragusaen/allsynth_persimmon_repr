@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Chinanet.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/kaki/kaki-2', dump_bdd=False)
+Running 5Chinanet.gml
+Policy: (((((((((((WP(128-247) | WP(37-247)) | WP(201-247)) | WP(170-247)) | WP(44-247)) | WP(80-247)) | WP(144-247)) | WP(212-247)) | WP(86-247)) | WP(247-247)) | WP(92-247)) & (Reach 247))
+Initial path of nodes: [2, 33, 39, 38, 37, 44, 75, 81, 80, 79, 86, 117, 123, 122, 121, 128, 159, 165, 164, 163, 170, 201, 207, 206, 205, 212, 243, 249, 248, 247]
+Final path of nodes: [2, 33, 18, 8, 38, 37, 44, 75, 60, 50, 80, 79, 86, 117, 102, 92, 122, 121, 128, 159, 144, 134, 164, 163, 170, 201, 186, 176, 206, 205, 212, 243, 228, 218, 248, 247]
+{"Initial_routing":[[2, 33], [33, 39], [39, 38], [38, 37], [37, 44], [44, 75], [75, 81], [81, 80], [80, 79], [79, 86], [86, 117], [117, 123], [123, 122], [122, 121], [121, 128], [128, 159], [159, 165], [165, 164], [164, 163], [163, 170], [170, 201], [201, 207], [207, 206], [206, 205], [205, 212], [212, 243], [243, 249], [249, 248], [248, 247]],"Final_routing":[[2, 33], [33, 18], [18, 8], [8, 38], [38, 37], [37, 44], [44, 75], [75, 60], [60, 50], [50, 80], [80, 79], [79, 86], [86, 117], [117, 102], [102, 92], [92, 122], [122, 121], [121, 128], [128, 159], [159, 144], [144, 134], [134, 164], [164, 163], [163, 170], [170, 201], [201, 186], [186, 176], [176, 206], [206, 205], [205, 212], [212, 243], [243, 228], [228, 218], [218, 248], [248, 247]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [92,247,86,212,144,80,44,170,201,128,37], "edges": [{"from": 0, "to": 92, "label": 92},{"from": 0, "to": 247, "label": 247},{"from": 0, "to": 86, "label": 86},{"from": 0, "to": 212, "label": 212},{"from": 0, "to": 144, "label": 144},{"from": 0, "to": 80, "label": 80},{"from": 0, "to": 44, "label": 44},{"from": 0, "to": 170, "label": 170},{"from": 0, "to": 201, "label": 201},{"from": 0, "to": 128, "label": 128},{"from": 0, "to": 37, "label": 37}]},"Reachability":{"startNode":2,"finalNode":247}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpb7eq0xf7
+DFA generation time: 0.019 seconds 
+DFA states: 26 
+DFA transitions: 738
+Problem file: /tmp/tmpb7eq0xf7
+Switches to update: 24
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.025 seconds
+Subproblem verification time: 0.045 seconds
+Subproblem verification time: 0.012 seconds
+Subproblem verification time: 0.012 seconds
+Subproblem verification time: 0.013 seconds
+Subproblem verification time: 0.011 seconds
+Subproblem verification time: 0.013 seconds
+Minimum batches required: 3
+[[18, 8, 60, 50, 102, 92, 144, 134, 186, 176, 228, 218], [33, 75, 117, 159, 201, 243], [39, 81, 123, 165, 207, 249]]
+Total program runtime: 0.319 seconds
+
+Kaki stderr:  
+Time: 0.319
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Chinanet.gml 5 --dir topzoo_res/SeparateWPk/kaki/kaki-2 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 2.14
+	System time (seconds): 1.36
+	Percent of CPU this job got: 312%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 96156
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 38052
+	Voluntary context switches: 4888
+	Involuntary context switches: 747
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

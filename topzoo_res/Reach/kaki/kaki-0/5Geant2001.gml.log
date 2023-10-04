@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Geant2001.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/kaki/kaki-0', dump_bdd=False)
+Running 5Geant2001.gml
+Policy: (Reach 149)
+Initial path of nodes: [10, 8, 9, 1, 2, 20, 14, 31, 34, 29, 28, 36, 35, 37, 64, 62, 63, 55, 56, 74, 68, 91, 89, 90, 82, 83, 101, 95, 118, 116, 117, 109, 110, 128, 122, 145, 143, 144, 136, 137, 155, 149]
+Final path of nodes: [10, 8, 9, 3, 16, 20, 14, 31, 34, 33, 30, 36, 35, 37, 64, 62, 63, 57, 70, 74, 68, 91, 89, 86, 81, 106, 102, 101, 95, 118, 116, 117, 111, 124, 128, 122, 145, 143, 140, 135, 160, 156, 155, 149]
+{"Initial_routing":[[10, 8], [8, 9], [9, 1], [1, 2], [2, 20], [20, 14], [14, 31], [31, 34], [34, 29], [29, 28], [28, 36], [36, 35], [35, 37], [37, 64], [64, 62], [62, 63], [63, 55], [55, 56], [56, 74], [74, 68], [68, 91], [91, 89], [89, 90], [90, 82], [82, 83], [83, 101], [101, 95], [95, 118], [118, 116], [116, 117], [117, 109], [109, 110], [110, 128], [128, 122], [122, 145], [145, 143], [143, 144], [144, 136], [136, 137], [137, 155], [155, 149]],"Final_routing":[[10, 8], [8, 9], [9, 3], [3, 16], [16, 20], [20, 14], [14, 31], [31, 34], [34, 33], [33, 30], [30, 36], [36, 35], [35, 37], [37, 64], [64, 62], [62, 63], [63, 57], [57, 70], [70, 74], [74, 68], [68, 91], [91, 89], [89, 86], [86, 81], [81, 106], [106, 102], [102, 101], [101, 95], [95, 118], [118, 116], [116, 117], [117, 111], [111, 124], [124, 128], [128, 122], [122, 145], [145, 143], [143, 140], [140, 135], [135, 160], [160, 156], [156, 155], [155, 149]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"Reachability":{"startNode":10,"finalNode":149}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpwelmcuy0
+DFA generation time: 0.007 seconds 
+DFA states: 3 
+DFA transitions: 59
+Problem file: /tmp/tmpwelmcuy0
+Switches to update: 36
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.004 seconds
+Subproblem verification time: 0.031 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Minimum batches required: 3
+[[3, 16, 33, 30, 57, 70, 86, 81, 106, 102, 111, 124, 140, 135, 160, 156], [9, 34, 63, 89, 117, 143], [1, 2, 29, 28, 55, 56, 90, 82, 83, 109, 110, 144, 136, 137]]
+Total program runtime: 0.186 seconds
+
+Kaki stderr:  
+Time: 0.186
+Solution: None
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Geant2001.gml 5 --dir topzoo_res/Reach/kaki/kaki-0 --e-prop Reach --repeat 1"
+	User time (seconds): 1.32
+	System time (seconds): 1.39
+	Percent of CPU this job got: 388%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 92708
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 37458
+	Voluntary context switches: 3320
+	Involuntary context switches: 458
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

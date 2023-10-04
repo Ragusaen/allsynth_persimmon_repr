@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Iinet.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/PERS/PERS-2', dump_bdd=False)
+Running 5Iinet.gml
+Policy: (Service([37, 78, 109, 140, 171]-178) & (Reach 178))
+Initial path of nodes: [16, 21, 28, 25, 24, 23, 37, 55, 56, 59, 52, 47, 78, 83, 90, 87, 86, 85, 109, 114, 121, 118, 117, 116, 140, 145, 152, 149, 148, 147, 171, 176, 183, 180, 179, 178]
+Final path of nodes: [16, 21, 28, 29, 24, 23, 37, 55, 60, 59, 52, 47, 78, 83, 90, 91, 86, 85, 109, 114, 121, 122, 117, 116, 140, 145, 152, 153, 148, 147, 171, 176, 183, 184, 179, 178]
+Persimmon problem:  {"Initial_routing":[[16, 21], [21, 28], [28, 25], [25, 24], [24, 23], [23, 37], [37, 55], [55, 56], [56, 59], [59, 52], [52, 47], [47, 78], [78, 83], [83, 90], [90, 87], [87, 86], [86, 85], [85, 109], [109, 114], [114, 121], [121, 118], [118, 117], [117, 116], [116, 140], [140, 145], [145, 152], [152, 149], [149, 148], [148, 147], [147, 171], [171, 176], [176, 183], [183, 180], [180, 179], [179, 178]],"Final_routing":[[16, 21], [21, 28], [28, 29], [29, 24], [24, 23], [23, 37], [37, 55], [55, 60], [60, 59], [59, 52], [52, 47], [47, 78], [78, 83], [83, 90], [90, 91], [91, 86], [86, 85], [85, 109], [109, 114], [114, 121], [121, 122], [122, 117], [117, 116], [116, 140], [140, 145], [145, 152], [152, 153], [153, 148], [148, 147], [147, 171], [171, 176], [176, 183], [183, 184], [184, 179], [179, 178]],"Properties":{"ServiceChain": {"waypoint": [37,78,109,140,171]},"Reachability":{"startNode":16,"finalNode":178}}}
+Persimmon stdout:  Chain equivalence reduction: 42 -> 35
+Constructing all update BDD
+Solution: Some([[29, 91, 60, 184, 153, 122], [121, 90, 55, 28, 183, 152], [118, 87, 25, 149, 180, 56]])
+Time elapsed: 2.00ms
+Time elapsed(s): 0.001999s
+
+Persimmon stderr:  
+Time: 0.001999
+Solution: [[29, 91, 60, 184, 153, 122], [121, 90, 55, 28, 183, 152], [118, 87, 25, 149, 180, 56]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Iinet.gml 5 --dir topzoo_res/SC/PERS/PERS-2 --e-prop SC --repeat 1"
+	User time (seconds): 0.88
+	System time (seconds): 1.32
+	Percent of CPU this job got: 368%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 75300
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13160
+	Voluntary context switches: 41
+	Involuntary context switches: 97
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

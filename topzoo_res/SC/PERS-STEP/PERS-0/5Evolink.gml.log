@@ -1,0 +1,40 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Evolink.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/PERS/PERS-0', dump_bdd=False)
+Running 5Evolink.gml
+Policy: (Service([54, 88, 139, 195]-213) & (Reach 213))
+Initial path of nodes: [10, 17, 8, 14, 11, 6, 0, 3, 2, 28, 47, 54, 45, 51, 48, 43, 37, 40, 39, 65, 84, 91, 82, 88, 85, 80, 74, 77, 76, 102, 121, 128, 119, 125, 122, 117, 111, 114, 113, 139, 158, 165, 156, 162, 159, 154, 148, 151, 150, 176, 195, 202, 193, 199, 196, 191, 185, 188, 187, 213]
+Final path of nodes: [10, 17, 12, 14, 33, 32, 34, 35, 22, 28, 47, 54, 49, 51, 70, 69, 71, 72, 59, 65, 84, 91, 86, 88, 107, 106, 108, 109, 96, 102, 121, 128, 123, 125, 144, 143, 145, 146, 133, 139, 158, 165, 160, 162, 181, 180, 182, 183, 170, 176, 195, 202, 197, 199, 218, 217, 219, 220, 207, 213]
+Persimmon problem:  {"Initial_routing":[[10, 17], [17, 8], [8, 14], [14, 11], [11, 6], [6, 0], [0, 3], [3, 2], [2, 28], [28, 47], [47, 54], [54, 45], [45, 51], [51, 48], [48, 43], [43, 37], [37, 40], [40, 39], [39, 65], [65, 84], [84, 91], [91, 82], [82, 88], [88, 85], [85, 80], [80, 74], [74, 77], [77, 76], [76, 102], [102, 121], [121, 128], [128, 119], [119, 125], [125, 122], [122, 117], [117, 111], [111, 114], [114, 113], [113, 139], [139, 158], [158, 165], [165, 156], [156, 162], [162, 159], [159, 154], [154, 148], [148, 151], [151, 150], [150, 176], [176, 195], [195, 202], [202, 193], [193, 199], [199, 196], [196, 191], [191, 185], [185, 188], [188, 187], [187, 213]],"Final_routing":[[10, 17], [17, 12], [12, 14], [14, 33], [33, 32], [32, 34], [34, 35], [35, 22], [22, 28], [28, 47], [47, 54], [54, 49], [49, 51], [51, 70], [70, 69], [69, 71], [71, 72], [72, 59], [59, 65], [65, 84], [84, 91], [91, 86], [86, 88], [88, 107], [107, 106], [106, 108], [108, 109], [109, 96], [96, 102], [102, 121], [121, 128], [128, 123], [123, 125], [125, 144], [144, 143], [143, 145], [145, 146], [146, 133], [133, 139], [139, 158], [158, 165], [165, 160], [160, 162], [162, 181], [181, 180], [180, 182], [182, 183], [183, 170], [170, 176], [176, 195], [195, 202], [202, 197], [197, 199], [199, 218], [218, 217], [217, 219], [219, 220], [220, 207], [207, 213]],"Properties":{"ServiceChain": {"waypoint": [54,88,139,195]},"Reachability":{"startNode":10,"finalNode":213}}}
+Persimmon stdout:  Chain equivalence reduction: 96 -> 45
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+<=== Starting iteration 2 ===>
+Solution: Some([[49, 33, 32, 34, 35, 22, 181, 180, 182, 183, 170, 160, 123, 197, 70, 69, 71, 72, 59, 12, 144, 143, 145, 146, 133, 107, 106, 108, 109, 96, 86, 218, 217, 219, 220, 207], [202, 162, 88, 54, 17, 51, 91, 128, 125, 199, 165, 14], [82, 11, 6, 0, 3, 2, 156, 45, 159, 154, 148, 151, 150, 119, 85, 80, 74, 77, 76, 48, 43, 37, 40, 39, 122, 117, 111, 114, 113, 8, 193, 196, 191, 185, 188, 187]])
+Time elapsed: 2.97ms
+Time elapsed(s): 0.002972s
+
+Persimmon stderr:  
+Time: 0.002972
+Solution: [[49, 33, 32, 34, 35, 22, 181, 180, 182, 183, 170, 160, 123, 197, 70, 69, 71, 72, 59, 12, 144, 143, 145, 146, 133, 107, 106, 108, 109, 96, 86, 218, 217, 219, 220, 207], [202, 162, 88, 54, 17, 51, 91, 128, 125, 199, 165, 14], [82, 11, 6, 0, 3, 2, 156, 45, 159, 154, 148, 151, 150, 119, 85, 80, 74, 77, 76, 48, 43, 37, 40, 39, 122, 117, 111, 114, 113, 8, 193, 196, 191, 185, 188, 187]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Evolink.gml 5 --dir topzoo_res/SC/PERS/PERS-0 --e-prop SC --repeat 1"
+	User time (seconds): 0.81
+	System time (seconds): 1.22
+	Percent of CPU this job got: 446%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.45
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71912
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13322
+	Voluntary context switches: 30
+	Involuntary context switches: 197
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

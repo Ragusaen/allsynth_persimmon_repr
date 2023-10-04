@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Digex.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/reduce/BDD-1', dump_bdd=False)
+Running 5Digex.gml
+Policy: ((((((((((((((((((((((((((WP(3-182) | WP(131-182)) | WP(136-182)) | WP(139-182)) | WP(14-182)) | WP(144-182)) | WP(26-182)) | WP(27-182)) | WP(158-182)) | WP(37-182)) | WP(169-182)) | WP(172-182)) | WP(44-182)) | WP(50-182)) | WP(181-182)) | WP(182-182)) | WP(59-182)) | WP(62-182)) | WP(72-182)) | WP(80-182)) | WP(89-182)) | WP(91-182)) | WP(95-182)) | WP(97-182)) | WP(104-182)) | WP(118-182)) & (Reach 182))
+Initial path of nodes: [17, 12, 11, 10, 19, 14, 15, 4, 29, 28, 27, 48, 43, 42, 41, 50, 45, 46, 35, 60, 59, 58, 79, 74, 73, 72, 81, 76, 77, 66, 91, 90, 89, 110, 105, 104, 103, 112, 107, 108, 97, 122, 121, 120, 141, 136, 135, 134, 143, 138, 139, 128, 153, 152, 151, 172, 167, 166, 165, 174, 169, 170, 159, 184, 183, 182]
+Final path of nodes: [17, 18, 20, 13, 2, 3, 0, 7, 6, 25, 26, 27, 48, 49, 51, 44, 33, 34, 31, 38, 37, 56, 57, 58, 79, 80, 82, 75, 64, 65, 62, 69, 68, 87, 88, 89, 110, 111, 113, 106, 95, 96, 93, 100, 99, 118, 119, 120, 141, 142, 144, 137, 126, 127, 124, 131, 130, 149, 150, 151, 172, 173, 175, 168, 157, 158, 155, 162, 161, 180, 181, 182]
+Time: 0.12249469757080078
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Digex.gml 5 --dir topzoo_res/SeparateWPk/reduce/BDD-1 --e-prop SeparateWPk --repeat 1 --reduce"
+	User time (seconds): 1.00
+	System time (seconds): 1.31
+	Percent of CPU this job got: 317%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.73
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 90348
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14267
+	Voluntary context switches: 33
+	Involuntary context switches: 108
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

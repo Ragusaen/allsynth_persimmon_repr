@@ -1,0 +1,50 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Ulaknet.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/kaki/kaki-1', dump_bdd=False)
+Running 5Ulaknet.gml
+Policy: (((((((((((WP(322-491) | WP(201-491)) | WP(459-491)) | WP(365-491)) | WP(238-491)) | WP(81-491)) | WP(82-491)) | WP(404-491)) | WP(283-491)) | WP(126-491)) | WP(447-491)) & (Reach 491))
+Initial path of nodes: [37, 49, 76, 75, 81, 82, 157, 158, 126, 122, 201, 213, 240, 239, 245, 283, 295, 322, 321, 327, 365, 377, 404, 403, 409, 447, 459, 486, 485, 491]
+Final path of nodes: [37, 49, 76, 74, 75, 81, 82, 157, 156, 158, 126, 122, 201, 213, 240, 238, 239, 245, 283, 295, 322, 321, 327, 365, 377, 404, 402, 403, 409, 447, 459, 486, 485, 491]
+{"Initial_routing":[[37, 49], [49, 76], [76, 75], [75, 81], [81, 82], [82, 157], [157, 158], [158, 126], [126, 122], [122, 201], [201, 213], [213, 240], [240, 239], [239, 245], [245, 283], [283, 295], [295, 322], [322, 321], [321, 327], [327, 365], [365, 377], [377, 404], [404, 403], [403, 409], [409, 447], [447, 459], [459, 486], [486, 485], [485, 491]],"Final_routing":[[37, 49], [49, 76], [76, 74], [74, 75], [75, 81], [81, 82], [82, 157], [157, 156], [156, 158], [158, 126], [126, 122], [122, 201], [201, 213], [213, 240], [240, 238], [238, 239], [239, 245], [245, 283], [283, 295], [295, 322], [322, 321], [321, 327], [327, 365], [365, 377], [377, 404], [404, 402], [402, 403], [403, 409], [409, 447], [447, 459], [459, 486], [486, 485], [485, 491]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [447,126,283,404,82,81,238,365,459,322,201], "edges": [{"from": 0, "to": 447, "label": 447},{"from": 0, "to": 126, "label": 126},{"from": 0, "to": 283, "label": 283},{"from": 0, "to": 404, "label": 404},{"from": 0, "to": 82, "label": 82},{"from": 0, "to": 81, "label": 81},{"from": 0, "to": 238, "label": 238},{"from": 0, "to": 365, "label": 365},{"from": 0, "to": 459, "label": 459},{"from": 0, "to": 322, "label": 322},{"from": 0, "to": 201, "label": 201}]},"Reachability":{"startNode":37,"finalNode":491}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmp8o8tousz
+DFA generation time: 0.017 seconds 
+DFA states: 26 
+DFA transitions: 449
+Problem file: /tmp/tmp8o8tousz
+Switches to update: 8
+
+Decomposed topology into 4 subproblems
+Topological decomposition took 0.008 seconds
+Subproblem verification time: 0.043 seconds
+Subproblem verification time: 0.012 seconds
+Subproblem verification time: 0.012 seconds
+Subproblem verification time: 0.011 seconds
+Minimum batches required: 2
+[[74, 156, 238, 402], [76, 157, 240, 404]]
+Total program runtime: 0.237 seconds
+
+Kaki stderr:  
+Time: 0.237
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Ulaknet.gml 5 --dir topzoo_res/SeparateWPk/kaki/kaki-1 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 1.87
+	System time (seconds): 1.34
+	Percent of CPU this job got: 278%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 89188
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 33660
+	Voluntary context switches: 3090
+	Involuntary context switches: 401
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

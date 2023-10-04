@@ -1,0 +1,10 @@
+<map id="LocalQueueItem" name="LocalQueueItem">
+<area shape="rect" id="Node000001" title="Type of the item of the local queue." alt="" coords="5,118,133,146"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="149,122,159,132,151,141,134,145,133,140,149,137,154,132,146,126"/>
+<area shape="rect" id="Node000002" href="$structDdNode.html" title="Decision diagram node." alt="" coords="188,5,262,33"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="196,44,89,120,86,115,193,40"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="278,8,285,12,288,20,280,29,263,32,262,27,278,25,283,19,281,16,276,13"/>
+<area shape="rect" id="Node000003" href="$structDdChildren.html" title="The two children of a non&#45;terminal node." alt="" coords="221,118,314,146"/>
+<area shape="poly" id="edge5_Node000003_Node000002" title=" " alt="" coords="223,48,224,69,229,90,238,104,250,116,246,119,234,107,224,92,218,70,218,48"/>
+<area shape="poly" id="edge4_Node000002_Node000003" title=" " alt="" coords="255,105,228,35,233,33,260,103"/>
+</map>

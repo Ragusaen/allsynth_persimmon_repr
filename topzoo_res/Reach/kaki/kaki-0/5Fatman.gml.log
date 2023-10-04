@@ -1,0 +1,52 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Fatman.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/kaki/kaki-0', dump_bdd=False)
+Running 5Fatman.gml
+Policy: (Reach 91)
+Initial path of nodes: [0, 2, 5, 11, 10, 6, 17, 19, 22, 28, 27, 23, 34, 36, 39, 45, 44, 40, 51, 53, 56, 62, 61, 57, 68, 70, 73, 79, 78, 74, 85, 87, 90, 96, 95, 91]
+Final path of nodes: [0, 2, 5, 12, 9, 10, 6, 17, 19, 22, 29, 26, 27, 23, 34, 36, 39, 46, 43, 44, 40, 51, 53, 56, 63, 60, 61, 57, 68, 70, 73, 80, 77, 78, 74, 85, 87, 90, 97, 94, 95, 91]
+{"Initial_routing":[[0, 2], [2, 5], [5, 11], [11, 10], [10, 6], [6, 17], [17, 19], [19, 22], [22, 28], [28, 27], [27, 23], [23, 34], [34, 36], [36, 39], [39, 45], [45, 44], [44, 40], [40, 51], [51, 53], [53, 56], [56, 62], [62, 61], [61, 57], [57, 68], [68, 70], [70, 73], [73, 79], [79, 78], [78, 74], [74, 85], [85, 87], [87, 90], [90, 96], [96, 95], [95, 91]],"Final_routing":[[0, 2], [2, 5], [5, 12], [12, 9], [9, 10], [10, 6], [6, 17], [17, 19], [19, 22], [22, 29], [29, 26], [26, 27], [27, 23], [23, 34], [34, 36], [36, 39], [39, 46], [46, 43], [43, 44], [44, 40], [40, 51], [51, 53], [53, 56], [56, 63], [63, 60], [60, 61], [61, 57], [57, 68], [68, 70], [70, 73], [73, 80], [80, 77], [77, 78], [78, 74], [74, 85], [85, 87], [87, 90], [90, 97], [97, 94], [94, 95], [95, 91]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"Reachability":{"startNode":0,"finalNode":91}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmp7tqkn7ad
+DFA generation time: 0.008 seconds 
+DFA states: 3 
+DFA transitions: 49
+Problem file: /tmp/tmp7tqkn7ad
+Switches to update: 24
+
+Decomposed topology into 6 subproblems
+Topological decomposition took 0.004 seconds
+Subproblem verification time: 0.038 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Minimum batches required: 3
+[[12, 9, 29, 26, 46, 43, 63, 60, 80, 77, 97, 94], [5, 22, 39, 56, 73, 90], [11, 28, 45, 62, 79, 96]]
+Total program runtime: 0.204 seconds
+
+Kaki stderr:  
+Time: 0.204
+Solution: None
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Fatman.gml 5 --dir topzoo_res/Reach/kaki/kaki-0 --e-prop Reach --repeat 1"
+	User time (seconds): 1.32
+	System time (seconds): 1.26
+	Percent of CPU this job got: 362%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 90076
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 37035
+	Voluntary context switches: 3543
+	Involuntary context switches: 558
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,48 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Napnet.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/kaki/kaki-2', dump_bdd=False)
+Running 5Napnet.gml
+Policy: (Reach 35)
+Initial path of nodes: [0, 3, 5, 6, 9, 11, 12, 15, 17, 18, 21, 23, 24, 27, 29, 30, 33, 35]
+Final path of nodes: [0, 3, 5, 6, 9, 11, 12, 13, 15, 17, 18, 21, 23, 24, 25, 27, 29, 30, 33, 35]
+{"Initial_routing":[[0, 3], [3, 5], [5, 6], [6, 9], [9, 11], [11, 12], [12, 15], [15, 17], [17, 18], [18, 21], [21, 23], [23, 24], [24, 27], [27, 29], [29, 30], [30, 33], [33, 35]],"Final_routing":[[0, 3], [3, 5], [5, 6], [6, 9], [9, 11], [11, 12], [12, 13], [13, 15], [15, 17], [17, 18], [18, 21], [21, 23], [23, 24], [24, 25], [25, 27], [27, 29], [29, 30], [30, 33], [33, 35]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"Reachability":{"startNode":0,"finalNode":35}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmp988uewau
+DFA generation time: 0.006 seconds 
+DFA states: 3 
+DFA transitions: 21
+Problem file: /tmp/tmp988uewau
+Switches to update: 4
+
+Decomposed topology into 2 subproblems
+Topological decomposition took 0.003 seconds
+Subproblem verification time: 0.033 seconds
+Subproblem verification time: 0.008 seconds
+Minimum batches required: 2
+[[13, 25], [12, 24]]
+Total program runtime: 0.129 seconds
+
+Kaki stderr:  
+Time: 0.129
+Solution: None
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Napnet.gml 5 --dir topzoo_res/Reach/kaki/kaki-2 --e-prop Reach --repeat 1"
+	User time (seconds): 1.12
+	System time (seconds): 1.34
+	Percent of CPU this job got: 398%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.62
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 78752
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 27260
+	Voluntary context switches: 2418
+	Involuntary context switches: 193
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

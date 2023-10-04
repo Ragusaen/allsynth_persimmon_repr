@@ -1,0 +1,63 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Globenet.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/kaki/kaki-2', dump_bdd=False)
+Running 5Globenet.gml
+Policy: (Reach 393)
+Initial path of nodes: [35, 36, 25, 24, 23, 16, 17, 38, 46, 39, 10, 64, 65, 66, 2, 58, 68, 70, 67, 132, 131, 77, 106, 113, 105, 84, 83, 90, 91, 92, 103, 102, 169, 170, 159, 158, 157, 150, 151, 172, 180, 173, 144, 198, 199, 200, 136, 192, 236, 237, 226, 225, 224, 217, 218, 239, 247, 240, 211, 265, 266, 267, 203, 259, 303, 304, 293, 292, 291, 284, 285, 306, 314, 307, 278, 332, 333, 334, 270, 326, 370, 371, 360, 359, 358, 351, 352, 373, 381, 374, 345, 399, 400, 401, 337, 393]
+Final path of nodes: [35, 36, 25, 24, 23, 16, 17, 34, 19, 46, 42, 39, 10, 59, 61, 62, 64, 65, 66, 57, 58, 68, 70, 67, 132, 131, 129, 128, 126, 77, 106, 109, 110, 96, 101, 84, 83, 90, 91, 92, 103, 102, 169, 170, 159, 158, 157, 150, 151, 168, 153, 180, 176, 173, 144, 193, 195, 196, 198, 199, 200, 191, 192, 236, 237, 226, 225, 224, 217, 218, 235, 220, 247, 243, 240, 211, 260, 262, 263, 265, 266, 267, 258, 259, 303, 304, 293, 292, 291, 284, 285, 302, 287, 314, 310, 307, 278, 327, 329, 330, 332, 333, 334, 325, 326, 370, 371, 360, 359, 358, 351, 352, 369, 354, 381, 377, 374, 345, 394, 396, 397, 399, 400, 401, 392, 393]
+{"Initial_routing":[[35, 36], [36, 25], [25, 24], [24, 23], [23, 16], [16, 17], [17, 38], [38, 46], [46, 39], [39, 10], [10, 64], [64, 65], [65, 66], [66, 2], [2, 58], [58, 68], [68, 70], [70, 67], [67, 132], [132, 131], [131, 77], [77, 106], [106, 113], [113, 105], [105, 84], [84, 83], [83, 90], [90, 91], [91, 92], [92, 103], [103, 102], [102, 169], [169, 170], [170, 159], [159, 158], [158, 157], [157, 150], [150, 151], [151, 172], [172, 180], [180, 173], [173, 144], [144, 198], [198, 199], [199, 200], [200, 136], [136, 192], [192, 236], [236, 237], [237, 226], [226, 225], [225, 224], [224, 217], [217, 218], [218, 239], [239, 247], [247, 240], [240, 211], [211, 265], [265, 266], [266, 267], [267, 203], [203, 259], [259, 303], [303, 304], [304, 293], [293, 292], [292, 291], [291, 284], [284, 285], [285, 306], [306, 314], [314, 307], [307, 278], [278, 332], [332, 333], [333, 334], [334, 270], [270, 326], [326, 370], [370, 371], [371, 360], [360, 359], [359, 358], [358, 351], [351, 352], [352, 373], [373, 381], [381, 374], [374, 345], [345, 399], [399, 400], [400, 401], [401, 337], [337, 393]],"Final_routing":[[35, 36], [36, 25], [25, 24], [24, 23], [23, 16], [16, 17], [17, 34], [34, 19], [19, 46], [46, 42], [42, 39], [39, 10], [10, 59], [59, 61], [61, 62], [62, 64], [64, 65], [65, 66], [66, 57], [57, 58], [58, 68], [68, 70], [70, 67], [67, 132], [132, 131], [131, 129], [129, 128], [128, 126], [126, 77], [77, 106], [106, 109], [109, 110], [110, 96], [96, 101], [101, 84], [84, 83], [83, 90], [90, 91], [91, 92], [92, 103], [103, 102], [102, 169], [169, 170], [170, 159], [159, 158], [158, 157], [157, 150], [150, 151], [151, 168], [168, 153], [153, 180], [180, 176], [176, 173], [173, 144], [144, 193], [193, 195], [195, 196], [196, 198], [198, 199], [199, 200], [200, 191], [191, 192], [192, 236], [236, 237], [237, 226], [226, 225], [225, 224], [224, 217], [217, 218], [218, 235], [235, 220], [220, 247], [247, 243], [243, 240], [240, 211], [211, 260], [260, 262], [262, 263], [263, 265], [265, 266], [266, 267], [267, 258], [258, 259], [259, 303], [303, 304], [304, 293], [293, 292], [292, 291], [291, 284], [284, 285], [285, 302], [302, 287], [287, 314], [314, 310], [310, 307], [307, 278], [278, 327], [327, 329], [329, 330], [330, 332], [332, 333], [333, 334], [334, 325], [325, 326], [326, 370], [370, 371], [371, 360], [360, 359], [359, 358], [358, 351], [351, 352], [352, 369], [369, 354], [354, 381], [381, 377], [377, 374], [374, 345], [345, 394], [394, 396], [396, 397], [397, 399], [399, 400], [400, 401], [401, 392], [392, 393]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"Reachability":{"startNode":35,"finalNode":393}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmpx2b1y56d
+DFA generation time: 0.012 seconds 
+DFA states: 3 
+DFA transitions: 139
+Problem file: /tmp/tmpx2b1y56d
+Switches to update: 76
+
+Decomposed topology into 17 subproblems
+Topological decomposition took 0.01 seconds
+Subproblem verification time: 0.045 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.008 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.01 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Subproblem verification time: 0.009 seconds
+Minimum batches required: 3
+[[34, 42, 19, 59, 61, 62, 57, 129, 128, 126, 109, 110, 96, 101, 168, 176, 153, 193, 195, 196, 191, 235, 243, 220, 260, 262, 263, 258, 302, 310, 287, 327, 329, 330, 325, 369, 377, 354, 394, 396, 397, 392], [46, 17, 10, 66, 131, 106, 180, 151, 144, 200, 247, 218, 211, 267, 314, 285, 278, 334, 381, 352, 345, 401], [38, 2, 113, 105, 172, 136, 239, 203, 306, 270, 373, 337]]
+Total program runtime: 0.334 seconds
+
+Kaki stderr:  
+Time: 0.334
+Solution: None
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Globenet.gml 5 --dir topzoo_res/Reach/kaki/kaki-2 --e-prop Reach --repeat 1"
+	User time (seconds): 2.03
+	System time (seconds): 1.45
+	Percent of CPU this job got: 367%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 117524
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 69329
+	Voluntary context switches: 6289
+	Involuntary context switches: 277
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

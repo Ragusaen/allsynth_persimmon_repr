@@ -1,0 +1,48 @@
+Namespace(tool='kaki', exper=None, gml=['topologies/topzoo/Napnet.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/kaki/kaki-1', dump_bdd=False)
+Running 5Napnet.gml
+Policy: (((((WP(11-35) | WP(18-35)) | WP(21-35)) | WP(27-35)) | WP(30-35)) & (Reach 35))
+Initial path of nodes: [0, 3, 5, 6, 9, 11, 12, 15, 17, 18, 21, 23, 24, 27, 29, 30, 33, 35]
+Final path of nodes: [0, 3, 5, 6, 9, 11, 12, 13, 15, 17, 18, 21, 23, 24, 25, 27, 29, 30, 33, 35]
+{"Initial_routing":[[0, 3], [3, 5], [5, 6], [6, 9], [9, 11], [11, 12], [12, 15], [15, 17], [17, 18], [18, 21], [21, 23], [23, 24], [24, 27], [27, 29], [29, 30], [30, 33], [33, 35]],"Final_routing":[[0, 3], [3, 5], [5, 6], [6, 9], [9, 11], [11, 12], [12, 13], [13, 15], [15, 17], [17, 18], [18, 21], [21, 23], [23, 24], [24, 25], [25, 27], [27, 29], [29, 30], [30, 33], [33, 35]],"Properties":{"Waypoint": { "startNode": -1, "finalNode": -1, "waypoint": []}, "LoopFreedom": { "startNode": -1},"DFA": {"initialState": 0, "finalStates": [30,27,21,11,18], "edges": [{"from": 0, "to": 30, "label": 30},{"from": 0, "to": 27, "label": 27},{"from": 0, "to": 21, "label": 21},{"from": 0, "to": 11, "label": 11},{"from": 0, "to": 18, "label": 18}]},"Reachability":{"startNode":0,"finalNode":35}}}
+Kaki stdout:  Version: 1.15 
+ kaki/verifypn-linux64 /tmp/tmp6xy7sekl
+DFA generation time: 0.013 seconds 
+DFA states: 8 
+DFA transitions: 61
+Problem file: /tmp/tmp6xy7sekl
+Switches to update: 4
+
+Decomposed topology into 2 subproblems
+Topological decomposition took 0.004 seconds
+Subproblem verification time: 0.041 seconds
+Subproblem verification time: 0.012 seconds
+Minimum batches required: 2
+[[13, 25], [12, 24]]
+Total program runtime: 0.183 seconds
+
+Kaki stderr:  
+Time: 0.183
+Solution: []
+	Command being timed: "python3 allsynth/run.py -t kaki --GML topologies/topzoo/Napnet.gml 5 --dir topzoo_res/SeparateWPk/kaki/kaki-1 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 1.43
+	System time (seconds): 1.42
+	Percent of CPU this job got: 327%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.87
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 80580
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 28761
+	Voluntary context switches: 2435
+	Involuntary context switches: 402
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

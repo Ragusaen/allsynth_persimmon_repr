@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Xeex.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/reduce/BDD-0', dump_bdd=False)
+Running 5Xeex.gml
+Policy: ((((((((((((((WP(129-134) | WP(43-134)) | WP(140-134)) | WP(142-134)) | WP(47-134)) | WP(113-134)) | WP(114-134)) | WP(20-134)) | WP(53-134)) | WP(22-134)) | WP(56-134)) | WP(93-134)) | WP(62-134)) | WP(95-134)) & (Reach 134))
+Initial path of nodes: [9, 5, 18, 4, 23, 22, 14, 29, 32, 41, 43, 45, 44, 37, 57, 53, 66, 52, 71, 70, 62, 81, 77, 90, 76, 95, 94, 86, 105, 101, 114, 100, 119, 118, 110, 129, 125, 138, 124, 143, 142, 134]
+Final path of nodes: [9, 8, 17, 19, 21, 20, 14, 29, 42, 28, 47, 46, 44, 37, 57, 56, 65, 67, 69, 68, 62, 81, 80, 89, 91, 93, 92, 86, 105, 104, 113, 115, 117, 116, 110, 129, 128, 137, 139, 141, 140, 134]
+Time: 0.039595603942871094
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Xeex.gml 5 --dir topzoo_res/SeparateWPk/reduce/BDD-0 --e-prop SeparateWPk --repeat 1 --reduce"
+	User time (seconds): 0.94
+	System time (seconds): 1.29
+	Percent of CPU this job got: 350%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 87772
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14144
+	Voluntary context switches: 23
+	Involuntary context switches: 375
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

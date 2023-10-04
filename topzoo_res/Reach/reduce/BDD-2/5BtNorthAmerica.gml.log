@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/BtNorthAmerica.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/reduce/BDD-2', dump_bdd=False)
+Running 5BtNorthAmerica.gml
+Policy: (Reach 214)
+Initial path of nodes: [4, 8, 1, 2, 27, 35, 34, 40, 44, 37, 38, 63, 71, 70, 76, 80, 73, 74, 99, 107, 106, 112, 116, 109, 110, 135, 143, 142, 148, 152, 145, 146, 171, 179, 178, 184, 188, 181, 182, 207, 215, 214]
+Final path of nodes: [4, 8, 1, 22, 33, 32, 34, 40, 44, 61, 46, 63, 69, 68, 70, 76, 87, 79, 89, 94, 105, 104, 106, 112, 116, 133, 118, 135, 141, 140, 142, 148, 159, 151, 161, 166, 177, 176, 178, 184, 188, 205, 190, 207, 213, 212, 214]
+Time: 0.012050390243530273
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/BtNorthAmerica.gml 5 --dir topzoo_res/Reach/reduce/BDD-2 --e-prop Reach --repeat 1 --reduce"
+	User time (seconds): 0.74
+	System time (seconds): 1.32
+	Percent of CPU this job got: 451%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.45
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 89600
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14382
+	Voluntary context switches: 29
+	Involuntary context switches: 61
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

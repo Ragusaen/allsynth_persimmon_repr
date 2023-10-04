@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Oxford.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/reduce/BDD-0', dump_bdd=False)
+Running 5Oxford.gml
+Policy: ((((((((((((((((((WP(64-113) | WP(33-113)) | WP(65-113)) | WP(71-113)) | WP(105-113)) | WP(74-113)) | WP(11-113)) | WP(45-113)) | WP(15-113)) | WP(80-113)) | WP(111-113)) | WP(51-113)) | WP(115-113)) | WP(85-113)) | WP(25-113)) | WP(26-113)) | WP(91-113)) | WP(31-113)) & (Reach 113))
+Initial path of nodes: [5, 4, 6, 0, 11, 15, 14, 13, 25, 24, 26, 20, 31, 35, 34, 33, 45, 44, 46, 40, 51, 55, 54, 53, 65, 64, 66, 60, 71, 75, 74, 73, 85, 84, 86, 80, 91, 95, 94, 93, 105, 104, 106, 100, 111, 115, 114, 113]
+Final path of nodes: [5, 8, 9, 7, 1, 11, 18, 17, 12, 13, 25, 28, 29, 27, 21, 31, 38, 37, 32, 33, 45, 48, 49, 47, 41, 51, 58, 57, 52, 53, 65, 68, 69, 67, 61, 71, 78, 77, 72, 73, 85, 88, 89, 87, 81, 91, 98, 97, 92, 93, 105, 108, 109, 107, 101, 111, 118, 117, 112, 113]
+Time: 0.25606346130371094
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Oxford.gml 5 --dir topzoo_res/SeparateWPk/reduce/BDD-0 --e-prop SeparateWPk --repeat 1 --reduce"
+	User time (seconds): 1.16
+	System time (seconds): 1.29
+	Percent of CPU this job got: 271%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.90
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 87548
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14315
+	Voluntary context switches: 23
+	Involuntary context switches: 295
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

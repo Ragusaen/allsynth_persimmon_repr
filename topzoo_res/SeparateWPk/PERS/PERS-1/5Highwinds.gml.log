@@ -1,0 +1,38 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Highwinds.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/PERS/PERS-1', dump_bdd=False)
+Running 5Highwinds.gml
+Policy: ((((((((((((WP(2-93) | WP(91-93)) | WP(45-93)) | WP(60-93)) | WP(50-93)) | WP(21-93)) | WP(22-93)) | WP(54-93)) | WP(89-93)) | WP(26-93)) | WP(59-93)) | WP(92-93)) & (Reach 93))
+Initial path of nodes: [1, 5, 4, 17, 9, 2, 0, 3, 19, 23, 22, 35, 27, 20, 18, 21, 37, 41, 40, 53, 45, 38, 36, 39, 55, 59, 58, 71, 63, 56, 54, 57, 73, 77, 76, 89, 81, 74, 72, 75, 91, 95, 94, 107, 99, 92, 90, 93]
+Final path of nodes: [1, 6, 8, 17, 14, 2, 0, 3, 19, 24, 26, 35, 32, 20, 18, 21, 37, 42, 44, 53, 50, 38, 36, 39, 55, 60, 62, 71, 68, 56, 54, 57, 73, 78, 80, 89, 86, 74, 72, 75, 91, 96, 98, 107, 104, 92, 90, 93]
+Persimmon problem:  {"Initial_routing":[[1, 5], [5, 4], [4, 17], [17, 9], [9, 2], [2, 0], [0, 3], [3, 19], [19, 23], [23, 22], [22, 35], [35, 27], [27, 20], [20, 18], [18, 21], [21, 37], [37, 41], [41, 40], [40, 53], [53, 45], [45, 38], [38, 36], [36, 39], [39, 55], [55, 59], [59, 58], [58, 71], [71, 63], [63, 56], [56, 54], [54, 57], [57, 73], [73, 77], [77, 76], [76, 89], [89, 81], [81, 74], [74, 72], [72, 75], [75, 91], [91, 95], [95, 94], [94, 107], [107, 99], [99, 92], [92, 90], [90, 93]],"Final_routing":[[1, 6], [6, 8], [8, 17], [17, 14], [14, 2], [2, 0], [0, 3], [3, 19], [19, 24], [24, 26], [26, 35], [35, 32], [32, 20], [20, 18], [18, 21], [21, 37], [37, 42], [42, 44], [44, 53], [53, 50], [50, 38], [38, 36], [36, 39], [39, 55], [55, 60], [60, 62], [62, 71], [71, 68], [68, 56], [56, 54], [54, 57], [57, 73], [73, 78], [78, 80], [80, 89], [89, 86], [86, 74], [74, 72], [72, 75], [75, 91], [91, 96], [96, 98], [98, 107], [107, 104], [104, 92], [92, 90], [90, 93]],"Properties":{"MultiAlternativeWaypoint": {"waypoint": [2,91,45,60,50,21,22,54,89,26,59,92]},"Reachability":{"startNode":1,"finalNode":93}}}
+Persimmon stdout:  Chain equivalence reduction: 66 -> 52
+Constructing all update BDD
+Solution: Some([[24, 50, 86, 104, 78, 80, 42, 44, 68, 26, 32, 6, 8, 60, 62, 96, 98, 14], [17, 53, 91, 1, 55, 107, 89, 19, 37, 71, 73, 35], [59, 27, 23, 95, 94, 81, 63, 45, 77, 76, 41, 40, 99, 9, 22, 5, 4, 58]])
+Time elapsed: 3.55ms
+Time elapsed(s): 0.003550s
+
+Persimmon stderr:  
+Time: 0.00355
+Solution: [[24, 50, 86, 104, 78, 80, 42, 44, 68, 26, 32, 6, 8, 60, 62, 96, 98, 14], [17, 53, 91, 1, 55, 107, 89, 19, 37, 71, 73, 35], [59, 27, 23, 95, 94, 81, 63, 45, 77, 76, 41, 40, 99, 9, 22, 5, 4, 58]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Highwinds.gml 5 --dir topzoo_res/SeparateWPk/PERS/PERS-1 --e-prop SeparateWPk --repeat 1"
+	User time (seconds): 0.89
+	System time (seconds): 1.26
+	Percent of CPU this job got: 358%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 70980
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13159
+	Voluntary context switches: 30
+	Involuntary context switches: 145
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

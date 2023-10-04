@@ -1,0 +1,40 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Xspedius.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/PERS/PERS-2', dump_bdd=False)
+Running 5Xspedius.gml
+Policy: (Service([60, 120, 179]-196) & (Reach 196))
+Initial path of nodes: [9, 18, 5, 24, 31, 30, 29, 26, 43, 52, 39, 58, 65, 64, 63, 60, 77, 86, 73, 92, 99, 98, 97, 94, 111, 120, 107, 126, 133, 132, 131, 128, 145, 154, 141, 160, 167, 166, 165, 162, 179, 188, 175, 194, 201, 200, 199, 196]
+Final path of nodes: [9, 18, 16, 23, 0, 3, 27, 26, 43, 52, 50, 57, 34, 37, 61, 60, 77, 86, 84, 91, 68, 71, 95, 94, 111, 120, 118, 125, 102, 105, 129, 128, 145, 154, 152, 159, 136, 139, 163, 162, 179, 188, 186, 193, 170, 173, 197, 196]
+Persimmon problem:  {"Initial_routing":[[9, 18], [18, 5], [5, 24], [24, 31], [31, 30], [30, 29], [29, 26], [26, 43], [43, 52], [52, 39], [39, 58], [58, 65], [65, 64], [64, 63], [63, 60], [60, 77], [77, 86], [86, 73], [73, 92], [92, 99], [99, 98], [98, 97], [97, 94], [94, 111], [111, 120], [120, 107], [107, 126], [126, 133], [133, 132], [132, 131], [131, 128], [128, 145], [145, 154], [154, 141], [141, 160], [160, 167], [167, 166], [166, 165], [165, 162], [162, 179], [179, 188], [188, 175], [175, 194], [194, 201], [201, 200], [200, 199], [199, 196]],"Final_routing":[[9, 18], [18, 16], [16, 23], [23, 0], [0, 3], [3, 27], [27, 26], [26, 43], [43, 52], [52, 50], [50, 57], [57, 34], [34, 37], [37, 61], [61, 60], [60, 77], [77, 86], [86, 84], [84, 91], [91, 68], [68, 71], [71, 95], [95, 94], [94, 111], [111, 120], [120, 118], [118, 125], [125, 102], [102, 105], [105, 129], [129, 128], [128, 145], [145, 154], [154, 152], [152, 159], [159, 136], [136, 139], [139, 163], [163, 162], [162, 179], [179, 188], [188, 186], [186, 193], [193, 170], [170, 173], [173, 197], [197, 196]],"Properties":{"ServiceChain": {"waypoint": [60,120,179]},"Reachability":{"startNode":9,"finalNode":196}}}
+Persimmon stdout:  Chain equivalence reduction: 78 -> 27
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+<=== Starting iteration 2 ===>
+Solution: Some([[186, 193, 170, 173, 197, 84, 91, 68, 71, 95, 16, 23, 0, 3, 27, 118, 125, 102, 105, 129, 152, 159, 136, 139, 163, 50, 57, 34, 37, 61], [154, 18, 188, 120, 86, 52], [107, 126, 133, 132, 131, 39, 58, 65, 64, 63, 141, 160, 167, 166, 165, 175, 194, 201, 200, 199, 5, 24, 31, 30, 29, 73, 92, 99, 98, 97]])
+Time elapsed: 1.31ms
+Time elapsed(s): 0.001310s
+
+Persimmon stderr:  
+Time: 0.00131
+Solution: [[186, 193, 170, 173, 197, 84, 91, 68, 71, 95, 16, 23, 0, 3, 27, 118, 125, 102, 105, 129, 152, 159, 136, 139, 163, 50, 57, 34, 37, 61], [154, 18, 188, 120, 86, 52], [107, 126, 133, 132, 131, 39, 58, 65, 64, 63, 141, 160, 167, 166, 165, 175, 194, 201, 200, 199, 5, 24, 31, 30, 29, 73, 92, 99, 98, 97]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Xspedius.gml 5 --dir topzoo_res/SC/PERS/PERS-2 --e-prop SC --repeat 1"
+	User time (seconds): 0.73
+	System time (seconds): 1.29
+	Percent of CPU this job got: 470%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.43
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 72052
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13286
+	Voluntary context switches: 33
+	Involuntary context switches: 194
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

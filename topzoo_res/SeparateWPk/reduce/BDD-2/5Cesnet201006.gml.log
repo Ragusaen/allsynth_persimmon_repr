@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Cesnet201006.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/reduce/BDD-2', dump_bdd=False)
+Running 5Cesnet201006.gml
+Policy: (((((((((((((((WP(226-306) | WP(100-306)) | WP(260-306)) | WP(140-306)) | WP(204-306)) | WP(47-306)) | WP(307-306)) | WP(52-306)) | WP(150-306)) | WP(278-306)) | WP(151-306)) | WP(217-306)) | WP(122-306)) | WP(156-306)) | WP(255-306)) & (Reach 306))
+Initial path of nodes: [18, 36, 9, 7, 48, 47, 46, 68, 99, 100, 52, 63, 88, 70, 122, 140, 113, 111, 152, 151, 150, 174, 192, 165, 163, 204, 203, 202, 226, 244, 217, 215, 256, 255, 254, 278, 296, 269, 267, 308, 307, 306]
+Final path of nodes: [18, 36, 11, 0, 49, 47, 46, 68, 96, 67, 100, 59, 61, 88, 70, 122, 140, 115, 104, 153, 151, 150, 174, 192, 167, 156, 204, 203, 172, 202, 226, 244, 219, 208, 257, 255, 254, 278, 296, 271, 260, 308, 307, 276, 306]
+Time: 0.05385589599609375
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Cesnet201006.gml 5 --dir topzoo_res/SeparateWPk/reduce/BDD-2 --e-prop SeparateWPk --repeat 1 --reduce"
+	User time (seconds): 1.03
+	System time (seconds): 1.28
+	Percent of CPU this job got: 329%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.70
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 89128
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14463
+	Voluntary context switches: 28
+	Involuntary context switches: 39
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Vinaren.gml', '5'], index=None, prop='SeparateWPk', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SeparateWPk/reduce/BDD-2', dump_bdd=False)
+Running 5Vinaren.gml
+Policy: (((((((((((((((((WP(66-148) | WP(102-148)) | WP(6-148)) | WP(73-148)) | WP(137-148)) | WP(74-148)) | WP(76-148)) | WP(105-148)) | WP(81-148)) | WP(49-148)) | WP(52-148)) | WP(149-148)) | WP(116-148)) | WP(24-148)) | WP(26-148)) | WP(27-148)) | WP(127-148)) & (Reach 148))
+Initial path of nodes: [12, 16, 2, 1, 6, 24, 23, 29, 49, 31, 26, 27, 41, 37, 62, 66, 52, 51, 56, 74, 73, 87, 91, 77, 76, 81, 99, 98, 112, 116, 102, 101, 106, 124, 123, 137, 141, 127, 126, 131, 149, 148]
+Final path of nodes: [12, 16, 2, 3, 1, 6, 5, 24, 23, 29, 49, 30, 31, 26, 28, 27, 41, 37, 62, 66, 52, 53, 51, 56, 55, 74, 73, 87, 91, 77, 76, 81, 99, 98, 112, 116, 102, 103, 101, 106, 105, 124, 123, 137, 141, 127, 126, 131, 149, 148]
+Time: 0.05596041679382324
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Vinaren.gml 5 --dir topzoo_res/SeparateWPk/reduce/BDD-2 --e-prop SeparateWPk --repeat 1 --reduce"
+	User time (seconds): 0.87
+	System time (seconds): 1.36
+	Percent of CPU this job got: 354%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 87912
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14193
+	Voluntary context switches: 24
+	Involuntary context switches: 43
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,30 @@
+Namespace(tool='BDD', exper=None, gml=['topologies/topzoo/Renater2001.gml', '5'], index=None, prop='Reach', prop_file=None, op_req=None, repeat=1, reduce=True, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/Reach/reduce/BDD-1', dump_bdd=False)
+Running 5Renater2001.gml
+Policy: (Reach 142)
+Initial path of nodes: [12, 9, 13, 10, 11, 21, 22, 27, 39, 35, 34, 37, 33, 36, 60, 57, 61, 58, 59, 69, 70, 84, 81, 85, 82, 83, 93, 94, 108, 105, 109, 106, 107, 117, 118, 132, 129, 133, 130, 131, 141, 142]
+Final path of nodes: [12, 9, 13, 6, 1, 10, 11, 21, 22, 27, 39, 24, 25, 30, 37, 33, 36, 60, 57, 61, 54, 49, 58, 59, 69, 70, 84, 81, 85, 78, 73, 72, 87, 83, 93, 94, 108, 105, 109, 102, 97, 106, 107, 117, 118, 132, 129, 133, 126, 121, 120, 135, 131, 141, 142]
+Time: 0.006615877151489258
+Solution: non-empty
+	Command being timed: "python3 allsynth/run.py -t BDD --GML topologies/topzoo/Renater2001.gml 5 --dir topzoo_res/Reach/reduce/BDD-1 --e-prop Reach --repeat 1 --reduce"
+	User time (seconds): 0.76
+	System time (seconds): 1.27
+	Percent of CPU this job got: 476%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 88408
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14075
+	Voluntary context switches: 36
+	Involuntary context switches: 27
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

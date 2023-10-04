@@ -1,0 +1,40 @@
+Namespace(tool='PERS', exper=None, gml=['topologies/topzoo/Restena.gml', '5'], index=None, prop='SC', prop_file=None, op_req=None, repeat=1, reduce=False, opt=False, u=False, some=False, count=False, weight_bound=None, savedir='topzoo_res/SC/PERS/PERS-2', dump_bdd=False)
+Running 5Restena.gml
+Policy: (Service([28, 52, 70, 97]-108) & (Reach 108))
+Initial path of nodes: [2, 10, 9, 17, 14, 13, 21, 29, 28, 36, 33, 32, 40, 48, 47, 55, 52, 51, 59, 67, 66, 74, 71, 70, 78, 86, 85, 93, 90, 89, 97, 105, 104, 112, 109, 108]
+Final path of nodes: [2, 10, 18, 12, 14, 13, 21, 22, 28, 35, 34, 33, 32, 40, 41, 47, 54, 53, 52, 51, 59, 60, 66, 73, 72, 71, 70, 78, 79, 85, 92, 91, 90, 89, 97, 98, 104, 111, 110, 109, 108]
+Persimmon problem:  {"Initial_routing":[[2, 10], [10, 9], [9, 17], [17, 14], [14, 13], [13, 21], [21, 29], [29, 28], [28, 36], [36, 33], [33, 32], [32, 40], [40, 48], [48, 47], [47, 55], [55, 52], [52, 51], [51, 59], [59, 67], [67, 66], [66, 74], [74, 71], [71, 70], [70, 78], [78, 86], [86, 85], [85, 93], [93, 90], [90, 89], [89, 97], [97, 105], [105, 104], [104, 112], [112, 109], [109, 108]],"Final_routing":[[2, 10], [10, 18], [18, 12], [12, 14], [14, 13], [13, 21], [21, 22], [22, 28], [28, 35], [35, 34], [34, 33], [33, 32], [32, 40], [40, 41], [41, 47], [47, 54], [54, 53], [53, 52], [52, 51], [51, 59], [59, 60], [60, 66], [66, 73], [73, 72], [72, 71], [71, 70], [70, 78], [78, 79], [79, 85], [85, 92], [92, 91], [91, 90], [90, 89], [89, 97], [97, 98], [98, 104], [104, 111], [111, 110], [110, 109], [109, 108]],"Properties":{"ServiceChain": {"waypoint": [28,52,70,97]},"Reachability":{"startNode":2,"finalNode":108}}}
+Persimmon stdout:  Chain equivalence reduction: 53 -> 43
+<=== Starting iteration 0 ===>
+<=== Starting iteration 1 ===>
+<=== Starting iteration 2 ===>
+Solution: Some([[41, 60, 98, 35, 34, 54, 53, 79, 73, 72, 18, 12, 111, 110, 22, 92, 91], [40, 10, 78, 85, 97, 104, 66, 28, 59, 21, 47], [48, 112, 9, 17, 29, 67, 74, 93, 36, 105, 86, 55]])
+Time elapsed: 2.70ms
+Time elapsed(s): 0.002704s
+
+Persimmon stderr:  
+Time: 0.002704
+Solution: [[41, 60, 98, 35, 34, 54, 53, 79, 73, 72, 18, 12, 111, 110, 22, 92, 91], [40, 10, 78, 85, 97, 104, 66, 28, 59, 21, 47], [48, 112, 9, 17, 29, 67, 74, 93, 36, 105, 86, 55]]
+	Command being timed: "python3 allsynth/run.py -t PERS --GML topologies/topzoo/Restena.gml 5 --dir topzoo_res/SC/PERS/PERS-2 --e-prop SC --repeat 1"
+	User time (seconds): 0.72
+	System time (seconds): 1.29
+	Percent of CPU this job got: 497%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71096
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13074
+	Voluntary context switches: 36
+	Involuntary context switches: 68
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
